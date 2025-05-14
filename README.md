@@ -791,3 +791,1636 @@ Requieren una plataforma que les permita conocer el recorrido del camión recole
 Desean contribuir activamente al cuidado del medio ambiente, conocer el estado de la recolección y estar informados sobre el proceso de gestión de residuos.
 
 ---
+
+## **Capítulo II: Requirements Elicitation & Analysis**
+
+### **2.1. Competidores**
+
+1. **Bigbelly**  
+   Bigbelly es un sistema inteligente de gestión de residuos urbanos que utiliza contenedores solares equipados con sensores IoT para monitorear el nivel de llenado y optimizar las rutas de recolección.
+
+   <p align="center">
+     <img src="../assets/img/chapter-II/bigbelly.jpg" alt="Bigbelly Logo" width="200">
+   </p>
+
+2. **Enevo**  
+   Enevo es una plataforma que utiliza sensores inteligentes y tecnología de análisis de datos para optimizar la gestión de residuos, monitoreando el nivel de llenado de los contenedores y mejorando la sostenibilidad.
+
+   <p align="center">
+     <img src="../assets/img/chapter-II/enevo.jpg" alt="Enevo Logo" width="200">
+   </p>
+
+3. **Sensoneo**  
+   Sensoneo ofrece una solución de gestión de residuos basada en sensores IoT que permite monitorear los contenedores de residuos en tiempo real, proporcionando datos valiosos para optimizar las rutas de recolección, reducir costos y mejorar la eficiencia de los servicios de recolección.
+
+   <p align="center">
+     <img src="../assets/img/chapter-II/senso.jpg" alt="Sensoneo Logo" width="150">
+   </p>
+
+### **2.1.1. Análisis Competitivo**
+
+### **WasteTrack**  
+**WasteTrack** se diferencia de los competidores internacionales como Bigbelly, Enevo y Sensoneo al estar **totalmente adaptado a las necesidades de las municipalidades peruanas**. A diferencia de otras plataformas, WasteTrack está diseñada específicamente para optimizar los procesos de recolección de residuos en Perú, donde las condiciones urbanas, el tráfico y la gestión de residuos tienen características únicas que requieren soluciones personalizadas.
+
+**Diferenciación y Valor Extra:**
+- **Adaptación Local**: WasteTrack está adaptado a las particularidades de Perú, considerando la infraestructura urbana y las necesidades de los municipios locales. Mientras que competidores como **Bigbelly** y **Sensoneo** ofrecen soluciones globales, **WasteTrack** está completamente alineada con la realidad operativa de las municipalidades peruanas, lo que lo convierte en una opción más accesible y eficaz para las autoridades locales.
+- **Interfaz de Participación Ciudadana**: A diferencia de otros competidores, **WasteTrack** permite a los ciudadanos seguir el recorrido de los camiones recolectores en tiempo real y participar activamente en la gestión de residuos. Esta interacción ciudadana es clave para mejorar la transparencia y la sostenibilidad del servicio.
+- **Costo Asequible y Escalable**: **WasteTrack** ofrece una solución más económica y escalable, ideal para las municipalidades con presupuestos ajustados, lo que lo hace accesible en un mercado que a menudo enfrenta limitaciones de recursos.
+- **Optimización Local de Rutas**: **WasteTrack** optimiza las rutas de recolección teniendo en cuenta factores locales como el tráfico, la disposición geográfica de los contenedores y las prioridades de las municipalidades, lo que mejora la eficiencia operativa de manera más precisa que los competidores globales.
+
+   <p align="center">
+     <img src="../assets/img/chapter-II/WasteTrackLogo.png" alt="WasteTrack Logo" width="200">
+   </p>
+
+<table>
+<tr><th colspan="16" valign="top"><b>Competitive Analysis Landscape</b></th></tr>
+<tr><td colspan="9" valign="top">¿Por qué llevar a cabo este análisis?</td><td colspan="7" valign="top">Este análisis se lleva a cabo para investigar, analizar y comparar el comportamiento de los competidores directos o indirectos en el mercado de gestión de residuos urbanos y optimización de rutas de recolección. Bigbelly destaca por su enfoque en la sostenibilidad mediante el uso de contenedores solares inteligentes.</td></tr>
+<tr><td colspan="6" valign="top"><b>Nombre</b></td><td colspan="3" valign="top"><b>Bigbelly</b></td><td colspan="3" valign="top"><b>Enevo</b></td><td colspan="3" valign="top"><b>Sensoneo</b></td><td valign="top"><b>WasteTrack</b></td></tr>
+<tr><td colspan="6" valign="top"><b>Logo</b></td><td colspan="3" valign="top"><img src="../assets/img/chapter-II/bigbelly.jpg" width="100"></td><td colspan="3" valign="top"><img src="../assets/img/chapter-II/enevo.jpg" width="100"></td><td colspan="3" valign="top"><img src="../assets/img/chapter-II/senso.jpg" width="100"></td><td valign="top"><img src="../assets/img/chapter-II/WasteTrackLogo.png" width="100"></td></tr>
+<tr><td colspan="3" rowspan="4" valign="top"><b>Perfil</b></td><td colspan="3" rowspan="2" valign="top"><b>Overview</b></td><td colspan="3" rowspan="2" valign="top">Plataforma inteligente de gestión de residuos urbanos que utiliza contenedores solares equipados con sensores IoT para monitorear el nivel de llenado y optimizar las rutas de recolección.</td><td colspan="3" rowspan="2" valign="top">Enevo utiliza sensores IoT para optimizar la gestión de residuos, generando rutas más eficientes y reduciendo costos mediante análisis de datos.</td><td colspan="3" rowspan="2" valign="top">Sensoneo ofrece una solución avanzada con sensores IoT, proporcionando monitoreo en tiempo real y análisis predictivo para optimizar las rutas de recolección.</td><td rowspan="2" valign="top">WasteTrack es la única plataforma adaptada a las necesidades de las municipalidades peruanas, optimizando las rutas de recolección y mejorando la participación ciudadana mediante una plataforma fácil de usar.</td></tr>
+<tr></tr>
+<tr><td colspan="3" rowspan="2" valign="top"><b>Ventaja competitiva ¿Qué valor ofrece a los clientes?</b></td><td colspan="3" rowspan="2" valign="top">Utiliza contenedores solares inteligentes para monitorear el nivel de llenado y optimizar rutas de recolección.</td><td colspan="3" rowspan="2" valign="top">Enfoque integral para optimización de rutas con análisis predictivos y monitoreo en tiempo real.</td><td colspan="3" rowspan="2" valign="top">Capacidad avanzada de análisis y monitoreo en tiempo real para mejorar la eficiencia operativa.</td><td rowspan="2" valign="top">WasteTrack ofrece la mejor solución para las municipalidades peruanas, con integración de sensores IoT adaptados a las necesidades locales y una interfaz ciudadana que mejora la participación y la transparencia.</td></tr>
+<tr></tr>
+<tr><td colspan="3" rowspan="2" valign="top"><b>Perfil de Marketing</b></td><td colspan="3" valign="top"><b>Mercado objetivo</b></td><td colspan="3" valign="top">Gobiernos locales y empresas de gestión de residuos que buscan una solución eficiente para la recolección.</td><td colspan="3" valign="top">Municipalidades y empresas interesadas en la optimización de rutas y gestión de residuos mediante IoT.</td><td colspan="3" valign="top">Gobiernos locales y empresas que buscan mejorar la eficiencia operativa y reducir costos en la recolección de residuos urbanos.</td><td valign="top">Municipalidades peruanas y ciudadanos interesados en mejorar la recolección de residuos, reduciendo costos y optimizando rutas de forma transparente.</td></tr>
+<tr><td colspan="3" valign="top"><b>Estrategias de Marketing</b></td><td colspan="3" valign="top"><p>Marketing digital, colaboraciones con gobiernos locales, presencia en eventos sostenibles.</p></td><td colspan="3" valign="top"><p>Alianzas estratégicas con municipalidades, marketing digital, y presencia en eventos de sostenibilidad.</p></td><td colspan="3" valign="top"><p>Marketing a través de asociaciones con gobiernos locales, demostraciones de eficiencia en la gestión de residuos.</p></td><td valign="top"><p>WasteTrack se enfoca en marketing digital local, colaboraciones con autoridades municipales y programas de concientización ciudadana.</p></td></tr>
+<tr><td colspan="3" rowspan="3" valign="top"><b>Perfil de producto</b></td><td colspan="3" valign="top"><b>Productos y Servicios</b></td><td colspan="3" valign="top">Contenedores solares con sensores IoT, plataforma de optimización de rutas, informes en tiempo real.</td><td colspan="3" valign="top">Plataforma de sensores IoT, software de optimización de rutas, herramientas de análisis de datos.</td><td colspan="3" valign="top">Plataforma de monitoreo IoT, optimización de rutas en tiempo real, análisis predictivo para la recolección de residuos.</td><td valign="top">WasteTrack ofrece una plataforma web con monitoreo en tiempo real, optimización avanzada de rutas y participación ciudadana activa.</td></tr>
+<tr><td colspan="3" valign="top"><b>Precios y Costos</b></td><td colspan="3" valign="top">Varía según el número de contenedores instalados y los servicios adicionales de monitoreo.</td><td colspan="3" valign="top">Precios según el número de sensores y la personalización de la plataforma.</td><td colspan="3" valign="top">Precios basados en los sensores IoT y la integración con otros sistemas de gestión de residuos.</td><td valign="top">WasteTrack es una opción más económica y accesible para las municipalidades peruanas, con un modelo escalable que permite reducir costos operativos de manera significativa.</td></tr>
+<tr><td colspan="3" valign="top"><b>Canales de distribución</b></td><td colspan="3" valign="top"><p>- Sucursales físicas, acuerdos con municipalidades.</p></td><td colspan="3" valign="top"><p>- Alianzas estratégicas, acuerdos gubernamentales.</p></td><td colspan="3" valign="top"><p>- Distribución a través de asociaciones gubernamentales, venta directa a través de la web.</p></td><td valign="top"><p>- Distribución a través de asociaciones municipales locales, acuerdos directos con gobiernos y plataformas web.</p></td></tr>
+<tr><td colspan="3" rowspan="4" valign="top"><b>Análisis FODA</b></td><td colspan="3" valign="top"><b>Fortalezas</b></td><td colspan="3" valign="top"><p>- Sensores solares inteligentes, optimización de rutas, datos en tiempo real.</p></td><td colspan="3" valign="top"><p>- Optimización de rutas, soluciones de análisis predictivo, monitoreo en tiempo real.</p></td><td colspan="3" valign="top"><p>- Monitoreo avanzado, optimización de rutas en tiempo real.</p></td><td valign="top"><p>- Solución completamente adaptada al contexto peruano, optimización avanzada de rutas, participación ciudadana activa.</p></td></tr>
+<tr><td colspan="3" valign="top"><b>Debilidades</b></td><td colspan="3" valign="top"><p>- Dependencia de infraestructura solar, costos iniciales elevados.</p></td><td colspan="3" valign="top"><p>- Necesidad de infraestructura adicional, dependencia de la conectividad.</p></td><td colspan="3" valign="top"><p>- Dependencia de la calidad de sensores, algunos costos adicionales de instalación.</p></td><td valign="top"><p>- Enfoque específico en el mercado peruano, con menor presencia internacional.</p></td></tr>
+<tr><td colspan="3" valign="top"><b>Oportunidades</b></td><td colspan="3" valign="top"><p>- Expansión global, alianzas con gobiernos locales.</p></td><td colspan="3" valign="top"><p>- Expansión en mercados emergentes, mejoras tecnológicas.</p></td><td colspan="3" valign="top"><p>- Expansión en nuevos mercados y ciudades, innovación tecnológica.</p></td><td valign="top"><p>- Expansión a nivel nacional en Perú, concientización y participación ciudadana.</p></td></tr>
+<tr><td colspan="3" valign="top"><b>Amenazas</b></td><td colspan="3" valign="top"><p>- Competencia en soluciones económicas, cambios regulatorios.</p></td><td colspan="3" valign="top"><p>- Competencia de soluciones más baratas, cambios regulatorios.</p></td><td colspan="3" valign="top"><p>- Competencia en plataformas similares, cambios en regulaciones públicas.</p></td><td valign="top"><p>- Competencia de soluciones internacionales, necesidad de educar al mercado local.</p></td></tr>
+</table>
+
+### **2.1.2. Estrategias y Tácticas Frente a Competidores**
+
+Hemos empleado un análisis FODA para identificar las oportunidades y desafíos en el mercado de gestión de residuos urbanos, así como para evaluar nuestras fortalezas y debilidades internas. Esta metodología nos ha permitido concebir estrategias y tácticas que se ajusten de manera coherente a nuestro entorno y a los recursos disponibles.
+
+**Estrategia de Distinción:**
+
+Para destacar en el mercado de gestión de residuos, hemos decidido implementar un enfoque centrado en la eficiencia operativa y la participación ciudadana. Esto incluye la optimización en tiempo real de las rutas de recolección de residuos a través de nuestra plataforma web, la integración de sensores IoT para monitorear el nivel de llenado de los contenedores y la oferta de información clara y accesible sobre el estado de la recolección. Además, ofreceremos una interfaz intuitiva que permita a los ciudadanos seguir el recorrido de los camiones recolectores en tiempo real, promoviendo la transparencia y la colaboración. Como parte de nuestra oferta diferenciada, **WasteTrack** permitirá a los municipios gestionar de manera más eficiente sus servicios de recolección, reducir costos operativos y mejorar la sostenibilidad de la ciudad. También planeamos implementar un sistema de notificaciones y alertas para mantener a los ciudadanos informados sobre el estado de la recolección.
+
+**Estrategia de Liderazgo en Costos:**
+
+Nos enfocaremos en optimizar nuestros costos operativos mediante la implementación de soluciones tecnológicas de vanguardia que permitan una gestión más eficiente de los contenedores y rutas. Esto implicará la adopción de sensores IoT asequibles, la optimización de la logística mediante algoritmos avanzados y la automatización de los procesos de recolección y seguimiento. Al reducir costos, **WasteTrack** podrá ofrecer tarifas competitivas y una plataforma accesible para los municipios, permitiendo que estos optimicen sus servicios sin sacrificar la calidad. Esto atraerá tanto a municipios con presupuestos ajustados como a aquellos que buscan mejorar sus servicios a un costo razonable.
+
+**Estrategia de Mercadotecnia:**
+
+Implementaremos una campaña de marketing digital enfocada en aumentar la visibilidad de nuestra plataforma entre los municipios y ciudadanos interesados en mejorar la gestión de residuos urbanos. Nuestras estrategias incluirán publicidad dirigida en plataformas como Google Ads, LinkedIn y Facebook, donde nos enfocaremos en captar la atención de autoridades locales, empresas de gestión de residuos y ciudadanos interesados en la sostenibilidad. Además, planeamos colaborar con asociaciones y organismos gubernamentales relacionados con el medio ambiente para promover **WasteTrack** como una solución innovadora y eficaz para la gestión de residuos. También lanzaremos promociones, como descuentos o servicios adicionales para municipios que adopten la plataforma en su primera implementación.
+
+**Tácticas:**
+
+Nuestras tácticas incluyen la realización de investigaciones de mercado continuas para identificar las necesidades no satisfechas en la gestión de residuos urbanos. Esta investigación nos permitirá ajustar nuestra plataforma para satisfacer de manera más efectiva las demandas de los municipios y ciudadanos, asegurando que **WasteTrack** se mantenga competitivo y relevante. Además, planeamos realizar pruebas A/B para optimizar nuestras campañas publicitarias y ajustar nuestras ofertas en función de la respuesta del mercado. Esto, junto con un enfoque continuo en la experiencia del usuario y la facilidad de uso de nuestra plataforma, nos permitirá diferenciar **WasteTrack** de otros competidores y brindar un servicio que supere las expectativas tanto de los municipios como de los ciudadanos.
+
+### **2.2. Entrevistas**
+
+### **2.2.1. Diseño de entrevistas**
+
+### **Segmento 1: Municipalidades**
+
+1. **¿Podrías contarnos un poco sobre cómo gestionan la recolección de residuos en su municipio?**
+2. **¿Qué tipo de tecnologías utilizan actualmente para gestionar la recolección de residuos?**
+3. **¿Cuáles son los principales desafíos que enfrentan en la planificación de las rutas de recolección de residuos?**
+4. **¿Cómo deciden la frecuencia de recolección en diferentes zonas de la ciudad?**
+5. **¿Cuáles son los factores más importantes que consideran al planificar las rutas de recolección?**
+6. **¿Tienen alguna herramienta para monitorear el nivel de llenado de los contenedores?**
+7. **¿Cómo gestionan los desbordamientos de residuos o retrasos en la recolección?**
+8. **¿Qué tan importante es para usted que los ciudadanos puedan seguir el recorrido de los camiones recolectores?**
+9. **¿Cómo gestionan las quejas y reclamos de los ciudadanos relacionados con la recolección de residuos?**
+10. **¿Consideran que una plataforma digital que permita la optimización de rutas y monitoreo de contenedores podría mejorar la eficiencia del servicio?**
+11. **¿Qué tipo de información necesitarían para optimizar el proceso de recolección de residuos?**
+12. **¿Están abiertos a implementar soluciones basadas en IoT para mejorar la gestión de residuos urbanos?**
+13. **¿Qué desafíos enfrentan en términos de la participación ciudadana en la gestión de residuos?**
+14. **¿Cuáles son los principales beneficios que esperan obtener al mejorar la gestión de residuos en su municipio?**
+15. **¿Cómo miden actualmente la eficiencia del servicio de recolección de residuos?**
+16. **¿Cómo coordinan la recolección de residuos en eventos especiales o días festivos?**
+17. **¿Qué tan importante es para ustedes la transparencia en el proceso de recolección de residuos?**
+18. **¿Qué características adicionales le gustaría ver en una plataforma para la gestión de residuos urbanos?**
+19. **¿Estaría dispuesto a adoptar una solución que permita integrar tanto la optimización de rutas como la participación ciudadana?**
+20. **¿Qué tipo de soporte al cliente esperaría recibir al implementar una plataforma de gestión de residuos urbanos?**
+
+---
+
+### **Segmento 2: Ciudadanos**
+
+1. **¿Cómo te informas actualmente sobre los horarios de recolección de residuos en tu zona?**
+2. **¿Qué problemas has experimentado al disponer de tus residuos?**
+3. **¿Con qué frecuencia tienes dificultades para encontrar un contenedor de residuos adecuado en tu área?**
+4. **¿Cómo te gustaría seguir el recorrido del camión recolector en tu zona?**
+5. **¿Qué tan importante sería para ti recibir notificaciones sobre el estado de los contenedores de residuos?**
+6. **¿Te gustaría saber en tiempo real si un contenedor está lleno antes de disponerte a dejar tu basura?**
+7. **¿Qué tan importante es para ti la posibilidad de seguir el camión recolector en tiempo real?**
+8. **¿Qué tan fácil es para ti disponer adecuadamente de los residuos según los horarios y zonas de recolección?**
+9. **¿Consideras útil recibir información sobre las rutas de recolección de residuos y horarios de paso del camión?**
+10. **¿Cómo prefieres recibir información sobre el servicio de recolección de residuos (por ejemplo, notificaciones en una app, mensajes de texto, etc.)?**
+11. **¿Qué tan satisfecho estás con el servicio de recolección de residuos en tu área?**
+12. **¿Qué sugerencias tienes para mejorar la experiencia de recolección de residuos en tu comunidad?**
+13. **¿Te gustaría participar más activamente en la gestión de residuos urbanos? ¿De qué forma?**
+14. **¿Te resultaría útil tener acceso a una plataforma que te permita ver el estado de los contenedores y la ruta del camión recolector?**
+15. **¿Qué tan probable sería que recomendaras un servicio como WasteTrack a otros ciudadanos para mejorar la recolección de residuos?**
+16. **¿Qué características adicionales te gustaría ver en una plataforma que ayude a gestionar los residuos urbanos?**
+17. **¿Qué tan importante es para ti la transparencia en el proceso de recolección de residuos en tu zona?**
+18. **¿Has tenido alguna mala experiencia al disponer de tus residuos o al no poder acceder al servicio de recolección?**
+19. **¿Qué tipo de asistencia al cliente esperas si tuvieses algún problema con la recolección de residuos?**
+20. **¿Qué función crees que mejoraría más tu experiencia como ciudadano en un sistema de gestión de residuos urbanos?**
+
+## 2.2.2. Registro de entrevistas
+
+### Municipalidades:
+
+Entrevistado #1: 
+![Entrevista1](../assets/img/chapter-II/nelson.jpg)
+Nelson Serrano
+
+●	Sexo: Masculino
+
+●	Edad: 21 años
+
+●	Distrito en el que vive: Surco
+
+●	Nivel socioeconómico: Clase B
+Entrevista:
+
+●	Link: https://drive.google.com/file/d/1xfp88xcLjj6Mrp3IOyHWl4fSg7WGsBDU/view?usp=sharing
+
+●	Momento en el que inicia: 0:00
+
+●	Duración: 5:03
+
+●	Entrevistador: Rivadeneyra Ramos, Joaquin David
+
+Resumen:
+<p align="justify">
+Nelson Serrano trabaja en la Municipalidad de San Isidro, donde gestiona la recolección de residuos urbanos. En su día a día, utiliza herramientas tecnológicas para mejorar la eficiencia en el servicio y está enfocado en la optimización de rutas y la reducción de costos operativos. Valora la implementación de plataformas que ofrezcan monitoreo en tiempo real de los contenedores mediante sensores IoT y optimización de rutas de recolección, lo que facilita la toma de decisiones informadas. Considera crucial la posibilidad de recibir alertas y notificaciones para mantener el control del proceso de recolección. Aunque ha enfrentado desafíos con la saturación de los contenedores y el desbordamiento de residuos, ve en WasteTrack una solución clave para mejorar la eficiencia, reducir costos y aumentar la transparencia en la gestión de residuos.
+</p>
+
+Entrevistado #2:
+![entrevista-lector4](../assets/img/chapter-II/Entrevista-Funcionario-Nicolas.jpeg)
+
+Nombre: Leonardo Soto Tagle
+
+●	Sexo: Masculino
+
+●	Edad: 22 años
+
+●	Distrito en el que vive: San Miguel
+
+
+Entrevista:
+
+●	Link: https://youtu.be/TDk6NwubPeU
+
+●	Momento en el que inicia: 0:00
+
+●	Duración: 7:08
+
+Resumen:
+<p align="justify">
+Leonardo trabaja en la municipalidad de San Miguel, se encarga del monitoreo de los camiones de basura y las operaciones que estos realizan durante las jornadas. Durante sus jornadas regulares, hace uso de herramientas de seguimiento y bases de datos para monitorear los camiones, los desperdicios que estos recogen, y otros parametros adicionales, para asi poder emitir reportes al final del dia con respecto al desempeño diario de cada una de las unidades. Nos indica que valoraria la implementacion de una tecnologia que permita hacer un seguimiento mucho mas detallado a los camiones, para asi determinar si alguno se esta llenando mas de lo debido, ademas, afirma que establecer rutas segun la disposicion del trafico en lugar de rutas predefinidas ayudaria considerablemente a la hora de optimizar los tiempos en los que los camiones opera de forma regular.
+</p>
+
+Entrevistado #3
+
+  ![Entrevista](../assets/img/chapter-II/JacquelineSamanez.png)
+
+●	Nombre: Jacqueline Samanez
+
+●	Edad: 53
+
+●	Sexo: Femenino
+
+●	Residencia: Lima - Pueblo Libre
+
+●	Entrevista:
+
+●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/ERge36l0G5lAgx48cxEK3cAB5E-irHI-V5akPQDUYP6NdA?e=babxer&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+●	Momento en el que inicia: 
+
+●	Duración: 4:30 min
+
+●	Entrevistador: Diaz Villacrez, Maria Alejandra
+
+Resumen:
+<p align="justify">
+La entrevistada nos comenta que la municipalidad opera con 5 camiones recolectores siguiendo rutas preestablecidas por zonas, con programación semanal fija. Utilizan tecnologías básicas como GPS en camiones y un software simple de programación de rutas. Ella expresó disposición para adoptar soluciones IoT, siempre que la inversión sea justificable con resultados concretos. Enfatizó la importancia de la transparencia en el servicio y la necesidad de herramientas analíticas predictivas que faciliten la toma de decisiones rápidas.
+</p>
+
+### Ciudadanos:
+Entrevistada #1: Sebastian Palacios
+
+<ul>
+    <li>
+        Sexo: Masculino
+    </li>
+    <li>
+        Edad: 27 años
+    </li>
+    <li>
+        Distrito en el que vive: San Borja
+    </li>
+    <li>
+        Nivel socioeconómico: Clase B
+    </li>
+</ul>
+Entrevista:
+<ul>
+    <li>
+        Link: <a href="https://youtu.be/6Al_sL4MM2g">Click para ver entrevista</a>
+    </li>
+    <li>
+        Momento en el que inicia: 0:00
+    </li>
+    <li>
+        Duración: 08:47
+    </li>
+      <li>
+        Entrevistador: Espinoza Saenz, Christian Renato
+    </li>
+</ul>
+<img src="https://i.postimg.cc/6qy3nqF1/sebastianpalacion.png" alt="Entrevista Autor 1">
+
+Resumen:
+<p align="justify">
+    Entrevistamos a Sebastian Palacios, de 27 años,administrador de un taller de autos que enfrenta diversos desafíos en la gestión de su flota. Sebastián se ocupa de mantener los vehículos en óptimas condiciones mientras maneja la demanda fluctuante y la distribución eficiente de la flota. Sebastian menciona que sus principales canales de adquisición de clientes incluyen el marketing digital y asociaciones locales.Además destaca la importancia de la reputación y ofrece programas de fidelidad para clientes habituales.También enfrenta desafíos al expandir su negocio a nuevas ubicaciones, incluyendo la adaptación a nuevos mercados y la gestión de la logística de expansión.
+</p>
+
+Entrevistado #2: 
+
+Diego Cantoral
+
+<img src="../assets/img/chapter-II/entrevista-ciudadano-diego.PNG" alt="Entrevista">
+ 
+●	Sexo: Masculino
+
+●	Edad: 22 años
+
+●	Distrito en el que vive: Pueblo Libre
+
+
+Entrevista:
+
+●	Link: 
+
+●	Momento en el que inicia: 
+
+●	Duración: 
+
+●	Entrevistador: Valverde Lopez, Josue Daniel
+
+Resumen:
+<p align="justify">
+Diego es un joven ciudadano del distrito de Pueblo Libre, quien nos comenta su experiencia con el servicio de recolección de residuos en su zona e indica que pocas veces falla el servicio de recolección. Sin embargo, ante esas situaciones no sabe como prevenir la acumulación de residuos. Se muestra de acuerdo con una plataforma la cual lo ayude con la visualización y alertas antes de que ocurra una acumulación de residuos.
+</p>
+
+Entrevistado #3:
+
+Leandro Medina
+
+![Entrevista-nelson.png](./images/Entrevista-nelson.png)
+
+●	Sexo: Masculino
+
+
+●	Edad: 22 años
+
+●	Distrito en el que vive: Lima
+
+●	Nivel socioeconómico: Clase A
+
+Entrevista:
+
+●	Link: [Click para ver entrevista](https://www.youtube.com/watch?v=_RbKISOL-Qo)
+
+●	Momento en el que inicia: 0:12
+
+●	Duración: 4:58 
+
+●	Entrevistador: Serrano Ircañaupa, Nelson Elías
+
+Resumen:
+<p align="justify">
+Leandro nos dio a conocer su opinion de algunas de las preguntas planteadas por su conocimiento de estar relacionado con este tipo de empresarios de alquiler. Nos contó que los principales desafíos al administrar una flota de vehículos incluyen el mantenimiento regular, la gestión de reparaciones, la optimización de la rotación para maximizar la rentabilidad, y la actualización de los vehículos para cumplir con normativas y preferencias del cliente. Además mencionó que la rentabilidad de un vehículo se determina según su tasa de utilización, costos de mantenimiento, ingresos generados, y depreciación.
+</p>
+
+### **2.2.3. Análisis de Entrevistas**
+
+Según las entrevistas realizadas y los resúmenes, hemos llevado a cabo un análisis de las entrevistas en el que destacamos las similitudes y hallazgos:
+
+### **Segmento Objetivo #1: Municipalidades**
+
+<p align="justify">
+    Durante las entrevistas con los representantes de las municipalidades, se identificó que buscan principalmente mejorar la eficiencia operativa en la gestión de residuos urbanos. Expresaron un fuerte deseo de contar con una plataforma que les permita optimizar las rutas de recolección de residuos en tiempo real, con la capacidad de monitorear el nivel de llenado de los contenedores mediante sensores IoT. Además, valoran la posibilidad de obtener datos precisos para la planificación y la toma de decisiones, así como mejorar la participación ciudadana al ofrecerles información sobre el recorrido de los camiones recolectores. La facilidad para gestionar los horarios, las rutas y la capacidad de adaptación a cambios imprevistos (por ejemplo, eventos o días festivos) son aspectos cruciales para ellos. En resumen, las municipalidades buscan una plataforma que facilite la gestión de residuos, optimice las rutas de recolección y brinde visibilidad tanto a los operadores como a los ciudadanos.
+</p>
+
+### **Segmento Objetivo #2: Ciudadanos**
+
+<p align="justify">
+    Las entrevistas con los ciudadanos revelaron que buscan principalmente un proceso de disposición de residuos más eficiente y transparente. Expresaron un fuerte interés en poder seguir el recorrido de los camiones recolectores en tiempo real a través de una plataforma móvil, y recibir notificaciones sobre los horarios y el estado de los contenedores en su zona. También valoran la posibilidad de disponer sus residuos de manera adecuada y oportuna, evitando la saturación de los contenedores. La participación activa en la gestión de residuos, a través de la notificación de contenedores llenos o la visualización de información relacionada con la recolección, es importante para ellos. En resumen, los ciudadanos buscan una plataforma que les brinde mayor control sobre el proceso de disposición de residuos, aumente la transparencia en el servicio y facilite la interacción con los servicios de recolección.
+</p>
+
+### 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+<p align="justify">
+   <strong>Segmento 1:</strong> Ciudadanos que desean conocer el recorrido del camión recolector y contribuir al orden urbano
+
+Luis Ramírez es un ingeniero ambiental de 45 años que trabaja en la Municipalidad de Trujillo, Perú. Está a cargo de la gestión del servicio de limpieza pública y se enfrenta constantemente a desafíos como la sobrecarga de contenedores, rutas ineficientes y quejas vecinales. Aunque tiene experiencia en planificación logística, sus decisiones suelen depender de reportes manuales y supervisiones presenciales. Está muy interesado en adoptar herramientas tecnológicas que automaticen la recolección de datos y optimicen las rutas de recolección de basura. Utiliza su laptop y smartphone para gestionar informes y coordinar con su equipo, y suele consultar LinkedIn para conocer tendencias sobre ciudades inteligentes y sostenibilidad urbana.
+</p>
+<br><img src="../assets/img/chapter-II/LuisRamirez.png"></img><br>  <br><br>
+
+<p align="justify">
+   <strong>Segmento 2:</strong> Funcionarios de municipalidades encargados de limpieza urbana
+
+Valeria Torres es una madre de familia de 29 años que vive en un barrio residencial de Arequipa, Perú. Se preocupa por la limpieza de su entorno y por educar a sus hijos en prácticas responsables con el medio ambiente. Suele organizar sus actividades del hogar y la disposición de residuos según el horario del camión recolector, pero frecuentemente se ve afectada por demoras o cambios inesperados. Utiliza su celular para comunicarse por WhatsApp, navegar en redes sociales y acceder a aplicaciones útiles. Está interesada en herramientas que le permitan saber exactamente cuándo pasarán a recoger la basura para evitar que se acumule en la vía pública. Sigue cuentas de sostenibilidad y orden urbano en Instagram y TikTok.
+</p>
+<br><img src="../assets/img/chapter-II/ValeriaTorres.png"></img><br>  <br>
+
+### 2.3.2. User Task Matrix.
+
+<p>El User Task Matrix presenta las tareas más comunes que realizan Luis Ramírez y Valeria Torres en relación con la gestión del sistema de recolección de residuos urbanos. Para Luis, destacan la supervisión del sistema, la planificación de rutas y la atención a incidencias. En el caso de Valeria, las tareas más frecuentes giran en torno a conocer el horario del camión recolector y disponer adecuadamente los residuos. Este análisis revela cómo ambas partes participan en el sistema desde roles complementarios.</p>
+<body>
+    <h2>User Task Matrix</h2>
+    <table border="0" cellspacing="0" cellpadding="8">
+        <tr>
+            <th rowspan="2">User Task</th>
+            <th colspan="2">Luis Ramírez</th>
+            <th colspan="2">Valeria Torres</th>
+        </tr>
+        <tr>
+            <th>Frecuencia</th>
+            <th>Importancia</th>
+            <th>Frecuencia</th>
+            <th>Importancia</th>
+        </tr>
+        <tr>
+            <td>Supervisar niveles de llenado de contenedores</td>
+            <td>SIEMPRE</td>
+            <td>ALTA</td>
+            <td>NUNCA</td>
+            <td>BAJA</td>
+        </tr>
+        <tr>
+            <td>Planificar rutas de recolección</td>
+            <td>USUALMENTE</td>
+            <td>ALTA</td>
+            <td>NUNCA</td>
+            <td>BAJA</td>
+        </tr>
+        <tr>
+            <td>Atender reportes e incidencias de vecinos</td>
+            <td>USUALMENTE</td>
+            <td>MEDIA</td>
+            <td>OCASIONALMENTE</td>
+            <td>ALTA</td>
+        </tr>
+        <tr>
+            <td>Visualizar el recorrido estimado del camión recolector</td>
+            <td>OCASIONALMENTE</td>
+            <td>MEDIA</td>
+            <td>SIEMPRE</td>
+            <td>ALTA</td>
+        </tr>
+        <tr>
+            <td>Disponer residuos según horario del camión recolector</td>
+            <td>RARAMENTE</td>
+            <td>MEDIA</td>
+            <td>SIEMPRE</td>
+            <td>ALTA</td>
+        </tr>
+        <tr>
+            <td>Consultar información sobre sostenibilidad y limpieza urbana</td>
+            <td>OCASIONALMENTE</td>
+            <td>MEDIA</td>
+            <td>USUALMENTE</td>
+            <td>MEDIA</td>
+        </tr>
+    </table>
+</body>
+
+
+
+### 2.3.3. User Journey Mapping.
+
+<p><strong>User Persona:</strong> Luis Ramirez</p>
+<p>El User Journey Mapping de Luis Ramírez resalta los desafíos operativos y estratégicos que enfrenta como encargado del servicio de limpieza pública en la municipalidad. A lo largo del proceso, Luis experimenta una carga significativa debido a la falta de información en tiempo real y herramientas inteligentes para optimizar rutas. Estas limitaciones generan retrasos, ineficiencias y constantes quejas vecinales. La incorporación de un sistema automatizado basado en sensores IoT representa una solución clave para mejorar su toma de decisiones, reducir costos y elevar la percepción ciudadana.</p>
+<br><img src="../assets/img/chapter-II/user_1.png"></img><br>  <br>
+
+<p><strong>User Persona:</strong> Valeria Torres</p>
+<p>El User Journey Mapping de Valeria Torres destaca las situaciones que enfrenta en su rutina diaria para disponer correctamente sus residuos. Valeria experimenta incertidumbre y frustración cuando no sabe con exactitud a qué hora pasará el camión recolector. Esto afecta su organización familiar y genera malestar por la acumulación de basura en la vía pública. La incorporación de una interfaz ciudadana que muestre en tiempo real el recorrido del camión y brinde alertas puede mejorar significativamente su experiencia y fomentar su compromiso con el cuidado del entorno urbano.</p>
+<br><img src="../assets/img/chapter-II/user_2.png"></img><br>  <br>
+
+### 2.3.4. As-is Scenario Mapping.
+
+<p><strong>User Persona:</strong> Luis Ramirez</p>
+<p>Este mapa describe el flujo actual del trabajo de Luis Ramírez como responsable del área de limpieza pública en una municipalidad. Desde la identificación de problemas hasta la entrega de informes, Luis debe revisar reportes, atender quejas vecinales, coordinar con su equipo operativo y tomar decisiones basadas en datos que muchas veces están incompletos o desactualizados. Sus pensamientos se centran en optimizar procesos y reducir quejas, mientras que sus emociones varían entre frustración por la ineficiencia del sistema actual y satisfacción cuando logra implementar mejoras tangibles.</p>
+<br><img src="../assets/img/chapter-II/asis_1.jpg"></img><br>  <br>
+
+
+<p><strong>User Persona:</strong> Valeria Torres</p>
+<p>Este mapa representa el flujo actual de actividades de Valeria Torres como ciudadana preocupada por el orden y la limpieza en su barrio. A lo largo del día, Valeria organiza la disposición de residuos en su hogar, consulta con vecinos sobre el horario del camión recolector, y enfrenta frustraciones cuando la información no es clara o los residuos no son recogidos a tiempo. Sus pensamientos giran en torno a mantener su hogar y vecindario limpio, mientras que sus emociones fluctúan entre satisfacción cuando todo está en orden y molestia cuando el camión no llega como esperaba.</p>
+<br><img src="../assets/img/chapter-II/asis_2.jpg"></img><br>  <br>
+
+## 2.4. Ubiquitous Language.
+
+
+<table border="0" cellspacing="0" cellpadding="8">
+    <thead>
+        <tr>
+            <th>Término</th>
+            <th>Definición</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Smart Bin</td>
+            <td>Contenedor de residuos equipado con sensores IoT que miden el nivel de llenado en tiempo real.</td>
+        </tr>
+        <tr>
+            <td>Fill Level</td>
+            <td>Porcentaje de capacidad ocupada en un contenedor de basura.</td>
+        </tr>
+        <tr>
+            <td>Collection Route</td>
+            <td>Ruta planificada que sigue el camión recolector para recoger los residuos urbanos.</td>
+        </tr>
+        <tr>
+            <td>Route Optimization</td>
+            <td>Proceso de cálculo automático de la mejor ruta según nivel de llenado, distancia, prioridad y horario.</td>
+        </tr>
+        <tr>
+            <td>Waste Type</td>
+            <td>Categoría del residuo depositado (orgánico, reciclable, no reciclable, peligroso).</td>
+        </tr>
+        <tr>
+            <td>Priority Zone</td>
+            <td>Zona geográfica que requiere atención inmediata por alto volumen de residuos o quejas ciudadanas.</td>
+        </tr>
+        <tr>
+            <td>Citizen Interface</td>
+            <td>Parte del sistema orientada a los ciudadanos, donde pueden consultar el estado del servicio.</td>
+        </tr>
+        <tr>
+            <td>Alert Notification</td>
+            <td>Mensaje enviado a funcionarios o ciudadanos cuando un contenedor supera el umbral de llenado.</td>
+        </tr>
+        <tr>
+            <td>IoT Monitoring</td>
+            <td>Supervisión en tiempo real del estado de los contenedores mediante sensores conectados.</td>
+        </tr>
+        <tr>
+            <td>Overflow Risk</td>
+            <td>Probabilidad de que un contenedor se desborde antes de ser recolectado.</td>
+        </tr>
+    </tbody>
+</table>
+
+# Capítulo III: Requirements Specification
+
+## 3.1. To-Be Scenario Mapping
+
+<p><strong>Segmento 1:</strong> Funcionarios de municipalidades (Luis Ramírez)</p>
+<p>Este mapa describe cómo sería el nuevo flujo de trabajo de Luis Ramírez tras la implementación del sistema inteligente de gestión de residuos. Gracias a los sensores IoT y la plataforma de visualización en tiempo real, Luis puede acceder a información actualizada sobre el estado de los contenedores, planificar rutas óptimas automáticamente y responder rápidamente a incidentes reportados. Su trabajo se vuelve más estratégico, menos reactivo y con una mayor percepción de control y eficiencia.</p>
+<br><img src="../assets/img/chapter-III/tobe_1.jpg"></img><br>  <br>
+
+
+<p><strong>Segmento 2:</strong>  Ciudadanos (Valeria Torres)</p>
+<p>Este mapa representa cómo sería la experiencia de Valeria Torres con la nueva plataforma de gestión inteligente de residuos. Con acceso a una interfaz ciudadana que le brinda información en tiempo real sobre el recorrido del camión recolector y alertas anticipadas, Valeria puede organizar mejor la disposición de sus residuos y participar activamente en el cuidado de su entorno. La tecnología reduce su incertidumbre y le permite actuar con mayor seguridad y responsabilidad.</p>
+<br><img src="../assets/img/chapter-III/tobe_2.jpg"></img><br>  <br>
+
+## 3.2. User Stories
+
+En esta sección se detallan las historias de usuario.
+
+### 3.2.1. User Story Mapping
+
+### 3.2.2. User Stories
+
+<h2>3.2. User Stories</h2>
+<table border="0" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Epic/Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con Epic ID</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EP001</td>
+      <td>Visualización del estado de los contenedores</td>
+      <td>Como Funcionario, quiero visualizar en un mapa el estado actual de los contenedores para tomar decisiones más eficientes.</td>
+      <td></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>US001</td>
+      <td>Ver nivel de llenado</td>
+      <td>Como Funcionario, quiero ver el porcentaje de llenado de cada contenedor para priorizar su recolección.</td>
+      <td>Dado que el usuario está en el mapa, cuando hace clic en un contenedor, entonces se muestra su nivel de llenado.</td>
+      <td>EP001</td>
+    </tr>
+    <tr>
+      <td>US002</td>
+      <td>Filtrar por tipo de residuo</td>
+      <td>Como Funcionario, quiero filtrar los contenedores por tipo de residuo para facilitar la planificación.</td>
+      <td>Dado que selecciona un filtro, cuando aplica el tipo "orgánico", entonces solo se muestran esos contenedores.</td>
+      <td>EP001</td>
+    </tr>
+    <tr>
+      <td>US003</td>
+      <td>Ver alertas por sobrellenado</td>
+      <td>Como Funcionario, quiero ver qué contenedores superaron el umbral de llenado para actuar rápidamente.</td>
+      <td>Dado que un contenedor se llena, cuando supera el 90%, entonces se muestra una alerta visual.</td>
+      <td>EP001</td>
+    </tr>
+    <tr>
+      <td>EP002</td>
+      <td>Rutas optimizadas</td>
+      <td>Como Funcionario, quiero que el sistema genere rutas automáticas según prioridades y llenado.</td>
+      <td></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>US004</td>
+      <td>Generar ruta automáticamente</td>
+      <td>Como Funcionario, quiero generar rutas automáticas para camiones recolectores.</td>
+      <td>Dado que hay contenedores por recoger, cuando selecciono "generar ruta", entonces se muestra el itinerario optimizado.</td>
+      <td>EP002</td>
+    </tr>
+    <tr>
+      <td>US005</td>
+      <td>Editar rutas manualmente</td>
+      <td>Como Funcionario, quiero poder editar rutas para hacer ajustes según necesidades reales.</td>
+      <td>Dado que hay una ruta generada, cuando hago clic en "editar", entonces puedo mover o eliminar paradas.</td>
+      <td>EP002</td>
+    </tr>
+    <tr>
+      <td>US006</td>
+      <td>Estimar duración de ruta</td>
+      <td>Como Funcionario, quiero ver el tiempo estimado por ruta para mejorar la asignación de turnos.</td>
+      <td>Dado que una ruta está generada, cuando visualizo detalles, entonces aparece su duración estimada.</td>
+      <td>EP002</td>
+    </tr>
+    <tr>
+      <td>EP003</td>
+      <td>Seguimiento ciudadano</td>
+      <td>Como Ciudadano, quiero ver cuándo pasará el camión recolector para disponer adecuadamente mis residuos.</td>
+      <td></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>US007</td>
+      <td>Ver recorrido del camión</td>
+      <td>Como Ciudadano, quiero ver en un mapa la ruta y hora estimada del camión.</td>
+      <td>Dado que ingreso al sistema, cuando selecciono mi zona, entonces veo el recorrido y hora estimada.</td>
+      <td>EP003</td>
+    </tr>
+    <tr>
+      <td>US008</td>
+      <td>Activar notificaciones</td>
+      <td>Como Ciudadano, quiero recibir alertas cuando el camión esté cerca.</td>
+      <td>Dado que activo las notificaciones, cuando el camión esté a 5 minutos, entonces recibo una alerta.</td>
+      <td>EP003</td>
+    </tr>
+    <tr>
+      <td>US009</td>
+      <td>Reportar contenedor desbordado</td>
+      <td>Como Ciudadano, quiero reportar contenedores desbordados para que la municipalidad actúe.</td>
+      <td>Dado que veo un contenedor lleno, cuando hago clic en "reportar", entonces se envía una alerta al sistema.</td>
+      <td>EP003</td>
+    </tr>
+    <tr>
+      <td>US010</td>
+      <td>Ver información de reciclaje</td>
+      <td>Como Ciudadano, quiero consultar qué tipo de residuos van en cada contenedor.</td>
+      <td>Dado que selecciono un contenedor, cuando abro sus detalles, entonces veo el tipo de residuo aceptado.</td>
+      <td>EP003</td>
+    </tr>
+    <tr>
+      <td>EP004</td>
+      <td>Monitoreo automatizado</td>
+      <td>Como Administrador, quiero que los sensores envíen datos automáticamente para monitorear el llenado.</td>
+      <td></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>US011</td>
+      <td>Registrar sensores</td>
+      <td>Como Técnico, quiero registrar nuevos sensores para que comiencen a enviar datos.</td>
+      <td>Dado que ingreso un nuevo sensor, cuando lo asigno a un contenedor, entonces aparece en el sistema.</td>
+      <td>EP004</td>
+    </tr>
+    <tr>
+      <td>US012</td>
+      <td>Ver último dato recibido</td>
+      <td>Como Funcionario, quiero ver la hora del último dato enviado para verificar el funcionamiento del sensor.</td>
+      <td>Dado que selecciono un contenedor, cuando veo detalles, entonces se muestra la última hora de actualización.</td>
+      <td>EP004</td>
+    </tr>
+    <tr>
+      <td>US013</td>
+      <td>Ver estado del sensor</td>
+      <td>Como Técnico, quiero saber si un sensor dejó de enviar datos para dar mantenimiento.</td>
+      <td>Dado que el sensor no envía datos por más de X tiempo, entonces se marca como "desconectado".</td>
+      <td>EP004</td>
+    </tr>
+    <tr>
+      <td>EP005</td>
+      <td>Sistema de alertas</td>
+      <td>Como Usuario, quiero recibir notificaciones sobre eventos críticos para actuar con rapidez.</td>
+      <td></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>US014</td>
+      <td>Alertas por zona prioritaria</td>
+      <td>Como Funcionario, quiero recibir alertas de zonas críticas.</td>
+      <td>Dado que una zona tiene varios contenedores llenos, entonces recibo una notificación para priorizarla.</td>
+      <td>EP005</td>
+    </tr>
+    <tr>
+      <td>US015</td>
+      <td>Alertas por retraso de camión</td>
+      <td>Como Ciudadano, quiero saber si hay demoras en la recolección.</td>
+      <td>Dado que el camión no ha pasado, cuando se excede el tiempo estimado, entonces se envía una alerta al usuario.</td>
+      <td>EP005</td>
+    </tr>
+    <tr>
+      <td>US016</td>
+      <td>Configurar preferencias de alerta</td>
+      <td>Como Ciudadano, quiero configurar qué tipo de alertas recibir.</td>
+      <td>Dado que ingreso a configuración, cuando selecciono mis preferencias, entonces solo recibo las que he activado.</td>
+      <td>EP005</td>
+    </tr>
+    <tr>
+      <td>EP006</td>
+      <td>Gestión de datos operativos</td>
+      <td>Como Administrador, quiero generar reportes sobre rutas, recolección y alertas para tomar decisiones.</td>
+      <td></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>US017</td>
+      <td>Ver histórico de rutas</td>
+      <td>Como Funcionario, quiero consultar rutas pasadas para analizar patrones.</td>
+      <td>Dado que selecciono un camión, cuando ingreso a su historial, entonces veo las rutas realizadas.</td>
+      <td>EP006</td>
+    </tr>
+    <tr>
+      <td>US018</td>
+      <td>Generar reporte semanal</td>
+      <td>Como Administrador, quiero exportar reportes en PDF para reuniones.</td>
+      <td>Dado que selecciono un rango de fechas, cuando hago clic en "exportar", entonces se descarga el archivo.</td>
+      <td>EP006</td>
+    </tr>
+    <tr>
+      <td>US019</td>
+      <td>Ver cantidad de residuos por tipo</td>
+      <td>Como Funcionario, quiero saber cuánto residuo recolectó cada camión según tipo.</td>
+      <td>Dado que reviso el reporte, cuando aplico el filtro, entonces se desglosa por tipo de residuo.</td>
+      <td>EP006</td>
+    </tr>
+    <tr>
+      <td>US020</td>
+      <td>Ver zonas con más alertas</td>
+      <td>Como Administrador, quiero identificar zonas con más problemas.</td>
+      <td>Dado que abro el dashboard, cuando selecciono "mapa de calor", entonces veo las zonas con más reportes.</td>
+      <td>EP006</td>
+    </tr>
+  </tbody>
+</table>
+
+## 3.3. Impact Mapping
+
+<p>Este Impact Mapping se desarrolló con el objetivo de alcanzar el business goal de lograr la adopción del sistema por 5 municipalidades y al menos 5,000 ciudadanos activos en 12 meses. Se identificaron como actores clave al Funcionario Municipal (Luis Ramírez) y a la Ciudadana Responsable (Valeria Torres). A partir de ellos se derivan los impactos deseados, los entregables necesarios y las User Stories que respaldan los objetivos de negocio.</p>
+<br><img src="../assets/img/chapter-III/map_1.png"></img><br>  <br>
+
+
+## 3.4. Product Backlog
+
+En esta sección se presenta el backlog del producto.
+
+
+<table border="0" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Orden</th>
+      <th>User Story Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Story Points (1 / 2 / 3 / 5 / 8)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>US001</td><td>Ver nivel de llenado</td><td>Como Funcionario, quiero ver el porcentaje de llenado de cada contenedor para priorizar su recolección.</td><td>2</td></tr>
+    <tr><td>2</td><td>US002</td><td>Filtrar por tipo de residuo</td><td>Como Funcionario, quiero filtrar los contenedores por tipo de residuo para facilitar la planificación.</td><td>3</td></tr>
+    <tr><td>3</td><td>US003</td><td>Ver alertas por sobrellenado</td><td>Como Funcionario, quiero ver qué contenedores superaron el umbral de llenado para actuar rápidamente.</td><td>2</td></tr>
+    <tr><td>4</td><td>US004</td><td>Generar ruta automáticamente</td><td>Como Funcionario, quiero generar rutas automáticas para camiones recolectores.</td><td>5</td></tr>
+    <tr><td>5</td><td>US005</td><td>Editar rutas manualmente</td><td>Como Funcionario, quiero poder editar rutas para hacer ajustes según necesidades reales.</td><td>3</td></tr>
+    <tr><td>6</td><td>US006</td><td>Estimar duración de ruta</td><td>Como Funcionario, quiero ver el tiempo estimado por ruta para mejorar la asignación de turnos.</td><td>2</td></tr>
+    <tr><td>7</td><td>US007</td><td>Ver recorrido del camión</td><td>Como Ciudadano, quiero ver en un mapa la ruta y hora estimada del camión.</td><td>3</td></tr>
+    <tr><td>8</td><td>US008</td><td>Activar notificaciones</td><td>Como Ciudadano, quiero recibir alertas cuando el camión esté cerca.</td><td>3</td></tr>
+    <tr><td>9</td><td>US009</td><td>Reportar contenedor desbordado</td><td>Como Ciudadano, quiero reportar contenedores desbordados para que la municipalidad actúe.</td><td>2</td></tr>
+    <tr><td>10</td><td>US010</td><td>Ver información de reciclaje</td><td>Como Ciudadano, quiero consultar qué tipo de residuos van en cada contenedor.</td><td>2</td></tr>
+    <tr><td>11</td><td>US011</td><td>Registrar sensores</td><td>Como Técnico, quiero registrar nuevos sensores para que comiencen a enviar datos.</td><td>3</td></tr>
+    <tr><td>12</td><td>US012</td><td>Ver último dato recibido</td><td>Como Funcionario, quiero ver la hora del último dato enviado para verificar el funcionamiento del sensor.</td><td>2</td></tr>
+    <tr><td>13</td><td>US013</td><td>Ver estado del sensor</td><td>Como Técnico, quiero saber si un sensor dejó de enviar datos para dar mantenimiento.</td><td>3</td></tr>
+    <tr><td>14</td><td>US014</td><td>Alertas por zona prioritaria</td><td>Como Funcionario, quiero recibir alertas de zonas críticas.</td><td>3</td></tr>
+    <tr><td>15</td><td>US015</td><td>Alertas por retraso de camión</td><td>Como Ciudadano, quiero saber si hay demoras en la recolección.</td><td>3</td></tr>
+    <tr><td>16</td><td>US016</td><td>Configurar preferencias de alerta</td><td>Como Ciudadano, quiero configurar qué tipo de alertas recibir.</td><td>2</td></tr>
+    <tr><td>17</td><td>US017</td><td>Ver histórico de rutas</td><td>Como Funcionario, quiero consultar rutas pasadas para analizar patrones.</td><td>5</td></tr>
+    <tr><td>18</td><td>US018</td><td>Generar reporte semanal</td><td>Como Administrador, quiero exportar reportes en PDF para reuniones.</td><td>3</td></tr>
+    <tr><td>19</td><td>US019</td><td>Ver cantidad de residuos por tipo</td><td>Como Funcionario, quiero saber cuánto residuo recolectó cada camión según tipo.</td><td>2</td></tr>
+    <tr><td>20</td><td>US020</td><td>Ver zonas con más alertas</td><td>Como Administrador, quiero identificar zonas con más problemas.</td><td>3</td></tr>
+  </tbody>
+</table>
+
+# Capítulo IV: Strategic-Level Software Design
+
+## 4.1. Strategic-Level Attribute-Driven Design
+
+### 4.1.1. Design Purpose
+
+El propósito de diseño de WasteTrack es desarrollar una plataforma interactiva de simulación de rutas de recolección de residuos urbanos que permita generar datos de operación, tales como nivel de llenado de contenedores, tiempos de viaje, condiciones ambientales y de tráfico, horarios y ubicaciones; para, a partir de ellos, entrenar modelos predictivos de algoritmos de optimización de rutas (Dijkstra o Prim), con el fin de mejorar la eficiencia operativa, reducir costos de combustible y emisiones, y garantizar la atención oportuna de los contenedores mas críticos en diversas ciudades o distritos.
+
+### 4.1.2. Attribute-Driven Design Inputs
+
+#### 4.1.2.1. Primary Functionality (Primary User Stories)
+
+En esta sección se identificarán las Epics y User Stories más relevantes en términos de requisitos funcionales que impacten en la arquitectura de la solucion propuesta para la identificación de rutas óptimas para la recolección de residuos urbanos. Las historias listadas a continuación aseguran que la visualizacion del estado de los contenedores, las rutas optimizadas, el seguimiento ciudadano, el monitoro automatizado, el sistema de alertas y la gestión de datos operativos funcionen de manera óptima:
+
+<table border="0" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Epic/User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EP01/US01</td>
+      <td>Ver nivel de llenado</td>
+      <td>Como Funcionario, quiero ver el procentaje de llenado de cada contenedor para priorizar su       recolección</td>
+      <td>Dado que el usuario está en el mapa, cuando hace clic en un contenedor, entonces se muestra su nivel de llenado.</td>
+      <td>Visualización del estado de los contenedores (EP01)</td>
+    </tr>
+    <tr>
+      <td>EP01/US03</td>
+      <td>Ver alertas por sobrellenado</td>
+      <td>Como Funcionario, quiero ver qué contenedores superaron el umbral de llenado para actuar rápidamente.</td>
+      <td>Dado que un contenedor se llena, cuando supera el 90%, entonces se muestra una alerta visual.</td>
+      <td>Visualización del estado de los contenedores (EP01)</td>
+    </tr>
+    <tr>
+      <td>EP02/US04</td>
+      <td>Generar ruta automáticamente</td>
+      <td>Como Funcionario, quiero generar rutas automáticas para camiones recolectores.</td>
+      <td>Dado que hay contenedores por recoger, cuando selecciono "generar ruta", entonces se muestra el itinerario optimizado.</td>
+      <td>Rutas optimizadas (EP02)</td>
+    </tr>
+    <tr>
+      <td>EP02/US06</td>
+      <td>Estimar duración de ruta</td>
+      <td>Como Funcionario, quiero ver el tiempo estimado por ruta para mejorar la asignación de turnos.</td>
+      <td>Dado que una ruta está generada, cuando visualizo detalles, entonces aparece su duración estimada.</td>
+      <td>Rutas optimizadas (EP02)</td>
+    </tr>
+    <tr>
+      <td>EP03/US07</td>
+      <td>Ver recorrido del camión</td>
+      <td>Como Ciudadano, quiero ver en un mapa la ruta y hora estimada del camión.</td>
+      <td>Dado que ingreso al sistema, cuando selecciono mi zona, entonces veo el recorrido y hora estimada.</td>
+      <td>Seguimiento ciudadano (EP03)</td>
+    </tr>
+    <tr>
+      <td>EP05/US14</td>
+      <td>Alertas por zona prioritaria</td>
+      <td>Como Funcionario, quiero recibir alertas de zonas críticas.</td>
+      <td>Dado que una zona tiene varios contenedores llenos, entonces recibo una notificación para priorizarla.</td>
+      <td>Sistema de alertas (EP05)</td>
+    </tr>
+    <tr>
+      <td>EP05/US15</td>
+      <td>Alertas por retraso de camión</td>
+      <td>Como Ciudadano, quiero saber si hay demoras en la recolección.</td>
+      <td>Dado que el camión no ha pasado, cuando se excede el tiempo estimado, entonces se envía una alerta al usuario.</td>
+      <td>Sistema de alertas (EP05)</td>
+    </tr>
+    <tr>
+      <td>EP06/US20</td>
+      <td>Ver zonas con más alertas</td>
+      <td>Como Administrador, quiero identificar zonas con más problemas.</td>
+      <td>Dado que abro el dashboard, cuando selecciono "mapa de calor", entonces veo las zonas con más reportes.</td>
+      <td>Gestión de datos operativos (EP06)</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 4.1.2.2. Quality attribute Scenarios
+
+<table border="0" cellspacing="0" cellpadding="8">
+  <tbody>
+    <tr>
+      <th>ID</th>
+      <th>Atributo de Calidad</th>
+      <th>Fuente</th>
+      <th>Estímulo</th>
+      <th>Artefacto</th>
+      <th>Entorno</th>
+      <th>Respuesta</th>
+      <th>Medida</th>
+    </tr>
+    <tr>
+      <td>AC-01</td>
+      <td>Disponibilidad</td>
+      <td>Ciudadano / Sistema</td>
+      <td>Intento de reporte de un contenedor desbordado en cualquier momento de operación.</td>
+      <td>Sistema de reportes de contenedores desbordados</td>
+      <td>Zona de recojo de desperdicios</td>
+      <td>El sistema debe permitir que los ciudadanos reporten, en cualquier momento del día, aquellos contenedores que se encuentren desbordados de desperdicios para que la municipalidad del distrito en la que estos se ecnuentran residiendo tome medidas.</td>
+      <td>El sistema debe garantizar que el ciudadano pueda reportar la existencia de contenedores desbordados a su municipalidad en cualquier momento del día.</td>
+    </tr>
+    <tr>
+      <td>AC-02</td>
+      <td>Usabilidad</td>
+      <td>Ciudadano</td>
+      <td>Seguimiento de la ruta del camión proximo a pasar por la residencia del ciudadano.</td>
+      <td>Interfaz del sistema</td>
+      <td>Residencia del ciudadano</td>
+      <td>El sistema debe poder actualizar la ubicación del camión que esta próximo a pasar por el hogar de un ciudadano en un tiempo no mayor a 5 segundos y debe enviar una notificación al dispositivo móvil de la persona cuando el camión se encuentre a, aproximadamente, 2 minutos de la residencia del mismo.</td>
+      <td>El tiempo de actualización de la ubicación del camión no debe exceder los 5 segundos</td>
+    </tr>
+    <tr>
+      <td>AC-03</td>
+      <td>Rendimiento</td>
+      <td>Funcionario / Sistema</td>
+      <td>Generación de la ruta óptima a seguir por el/los camión(es) en menos de 5 segundos.</td>
+      <td>Algortimo de generación de rutas.</td>
+      <td>Distrito con múltiples camiones en funcionamiento de forma simultánea y/o en horas punta.</td>
+      <td>El sistema debe poder generar la ruta óptima a recorrer por el camión en menos de 5 segundos.</td>
+      <td>El tiempo promedio de generación de la ruta no debe exceder los 5 segundos.</td>
+    </tr>
+    <tr>
+      <td>AC-04</td>
+      <td>Escalabilidad</td>
+      <td>Funcionario</td>
+      <td>Incremento en el número de residentes en el distrito y compra de camiones para cubrir la demanda.</td>
+      <td>Infraestructura del sistema</td>
+      <td>Distrito en proceso de crecimiento poblacional</td>
+      <td>El sistema debe ser capaz de escalar para manejar efectivamente un mayor número de residencias, lo cual, trae consigo una mayor cantidad de residuos a recoger y una clasificación mas detallada de los mismos.</td>
+      <td>El sistema debe mantener el rendimiento adecuado incluso con incremento poblacional que conlleve un aumento de hasta 35% de los residuos generados.</td>
+    </tr>
+    <tr>
+      <td>AC-05</td>
+      <td>Mantenibilidad</td>
+      <td>Funcionario</td>
+      <td>Realización de pruebas y mantenimientos periódicos.</td>
+      <td>Totalidad del sistema</td>
+      <td>Municipalidad</td>
+      <td>El sistema debe permitir realizar pruebas de mantenimiento asegurando un tiempo mínimo de inactividad, cuya duración no puede exceder las 24 horas.</td>
+      <td>El tiempo de inactividad del sistema y sus funciones no debe exceder las 24 horas.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 4.1.2.3. Constraints
+
+<table border="0" cellspacing="0" cellpadding="8">
+  <tbody>
+    <tr>
+      <th>Technical Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+    </tr>
+    <tr>
+      <td>CON-01</td>
+      <td>Arquitectura del sistema</td>
+      <td>Para asegurar un correcto despligue del sistema y mantenimiento del mismo, se seguirá un enfoque de arquitectura monolítica.</td>
+      <td>El sistema debe ser desarrollado y desplegado a partir de una arquiectura monolítica.</td>
+    </tr>
+    <tr>
+      <td>CON-02</td>
+      <td>Frontend y Backend</td>
+      <td>El sistema será desarrollado haciendo uso del framework Angular para el frontend, mientras que para el backend, se utilizará el lenguaje C#, bajo el framework .NET.</td>
+      <td>El frontend debe implementar el framework Angular, mientras que el backend, .NET.</td>
+    </tr>
+    <tr>
+      <td>CON-03</td>
+      <td>Herramientas de gestión</td>
+      <td>Para la gestión del proyecto, se hara uso de Trello, para la planificaión y seguimiento de las tareas a realizar; GitHub, para el control de versiones, y Discord para las reuniones del equipo.</td>
+      <td>Las herramientas de Trello, GitHub y Discord seran usadas para llevar un seguimiento del proyecto de forma óptima.</td>
+    </tr>
+    <tr>
+      <td>CON-04</td>
+      <td>Gestión de datos</td>
+      <td>Para el almacenamiento de los datos tales como estado de los camiones, filtro de residuos, entre otros; se hara uso de una base de datos relacional, la cual será MySQL, asegurando que los registros sean fáciles de manejar.</td>
+      <td>La base de datos a utilizar para el almacenamiento de datos sera MySQL.</td>
+    </tr>
+    <tr>
+      <td>CON-05</td>
+      <td>Plataforma en la nube</td>
+      <td>Para el despliegue de la solución, se hara uso de la plataforma Azurem asegurando asi escalabilidad y disponibilidad.</td>
+      <td>El sistema debe estar desplegado en Azure y debe funcionar correctamente, asegurando asi la escalabilidad y disponibilidad.</td>
+    </tr>
+  </tbody>
+</table>
+
+### 4.1.3. Architectural Drivers Backlog
+
+En esta sección, se detallan como la importancia y el impacto que tienen tanto los Quality Attribute Drivers como los Constraints seleccionados.
+
+<table border="0" cellspacing="0" cellpadding="8">
+  <tbody>
+    <tr>
+      <th>Driver ID</th>
+      <th>Título de Driver</th>
+      <th>Descripción</th>
+      <th>Importancia para los Stakeholders</th>
+      <th>Impacto en la Complejidad Técnica de la Arquitectura</th>
+    </tr>
+    <tr>
+      <td>CON-01</td>
+      <td>Arquitectura del sistema</td>
+      <td>Para asegurar un correcto despligue del sistema y mantenimiento del mismo, se seguirá un enfoque de arquitectura monolítica.</td>
+      <th>Alta</th>
+      <th>Alta</th>
+    </tr>
+    <tr>
+      <td>CON-02</td>
+      <td>Frontend y Backend</td>
+      <td>El sistema será desarrollado haciendo uso del framework Angular para el frontend, mientras que para el backend, se utilizará el lenguaje C#, bajo el framework .NET.</td>
+      <th>Alta</th>
+      <th>Alta</th>
+    </tr>
+    <tr>
+      <td>CON-03</td>
+      <td>Herramientas de Gestión</td>
+      <td>Para la gestión del proyecto, se hara uso de Trello, para la planificaión y seguimiento de las tareas a realizar; GitHub, para el control de versiones, y Discord para las reuniones del equipo.</td>
+      <th>Media</th>
+      <th>Baja</th>
+    </tr>
+    <tr>
+      <td>CON-04</td>
+      <td>Gestión de datos</td>
+      <td>Para el almacenamiento de los datos tales como estado de los camiones, filtro de residuos, entre otros; se hara uso de una base de datos relacional, la cual será MySQL, asegurando que los registros sean fáciles de manejar.</td>
+      <th>Alta</th>
+      <th>Media</th>
+    </tr>
+    <tr>
+      <td>CON-05</td>
+      <td>Plataforma en la nube</td>
+      <td>Para el despliegue de la solución, se hara uso de la plataforma Azurem asegurando asi escalabilidad y disponibilidad.</td>
+      <th>Alta</th>
+      <th>Media</th>
+    </tr>
+    <tr>
+      <td>AC-01</td>
+      <td>Disponibilidad</td>
+      <td>El sistema debe permitir que los ciudadanos reporten, en cualquier momento del día, aquellos contenedores que se encuentren desbordados de desperdicios para que la municipalidad del distrito en la que estos se ecnuentran residiendo tome medidas.</td>
+      <th>Alta</th>
+      <th>Media</th>
+    </tr>
+    <tr>
+      <td>AC-02</td>
+      <td>Usabilidad</td>
+      <td>El sistema debe poder actualizar la ubicación del camión que esta próximo a pasar por el hogar de un ciudadano en un tiempo no mayor a 5 segundos y debe enviar una notificación al dispositivo móvil de la persona cuando el camión se encuentre a, aproximadamente, 2 minutos de la residencia del mismo.</td>
+      <th>Alta</th>
+      <th>Media</th>
+    </tr>
+    <tr>
+      <td>AC-03</td>
+      <td>Rendimiento</td>
+      <td>El sistema debe poder generar la ruta óptima a recorrer por el camión en menos de 5 segundos.</td>
+      <th>Alta</th>
+      <th>Alta</th>
+    </tr>
+    <tr>
+      <td>AC-04</td>
+      <td>Escalabilidad</td>
+      <td>El sistema debe ser capaz de escalar para manejar efectivamente un mayor número de residencias, lo cual, trae consigo una mayor cantidad de residuos a recoger y una clasificación mas detallada de los mismos.</td>
+      <th>Media</th>
+      <th>Alta</th>
+    </tr>
+    <tr>
+      <td>AC-05</td>
+      <td>Mantenibilidad</td>
+      <td>El sistema debe permitir realizar pruebas de mantenimiento asegurando un tiempo mínimo de inactividad, cuya duración no puede exceder las 24 horas</td>
+      <th>Alta</th>
+      <th>Media</th>
+    </tr>
+  </tbody>
+</table>
+
+### 4.1.4. Architectural Design Decisions
+
+<table border="0" cellspacing="0" cellpadding="8">
+  <tbody>
+    <tr>
+      <th rowspan="2">Driver ID</th>
+      <th rowspan="2">Título de Driver</th>
+      <th>Patrón 1</th>
+      <th>Patrón 2</th>
+      <th>Patrón 3</th>
+    </tr>
+    <tr>
+      <th>Pro</th>
+      <th>Con</th>
+      <th>Pro</th>
+    </tr>
+    <tr>
+      <td>AC-01</td>
+      <td>Disponibilidad</td>
+      <td>Alta disponibilidad garantizada</td>
+      <td>Mayor complejidad en la gestión</td>
+      <td>Permite medir métricas de forma más precisa</td>
+    </tr>
+    <tr>
+      <td>AC-02</td>
+      <td>Usabilidad</td>
+      <td>Interfaz fácil de usar para el usuario</td>
+      <td>Requiere tiempo de diseño adicional</td>
+      <td>El usuario obtiene una mejor experiencia al usar el sistema</td>
+    </tr>
+    <tr>
+      <td>AC-03</td>
+      <td>Rendimiento</td>
+      <td>Cálculo de rutas rápido y preciso</td>
+      <td>Mayor carga en el sistema durante funcionamiento simultáneo de camiones</td>
+      <td>Rendimiento óptimo durante horas punta</td>
+    </tr>
+    <tr>
+      <td>AC-04</td>
+      <td>Escalabilidad</td>
+      <td>Capacidad de manejar incremento de cantidad de residuos</td>
+      <td>Complejidad en la infraestructura</td>
+      <td>El escalamiento se vuelve más sencillo según el crecimiento</td>
+    </tr>
+    <tr>
+      <td>AC-05</td>
+      <td>Mantenibilidad</td>
+      <td>Bajo tiempo de inactividad durante pruebas y mantenimientos</td>
+      <td>Requiere planificación detallada</td>
+      <td>Facilita las pruebas de mantenimiento regulares</td>
+    </tr>
+  </tbody>
+</table>
+
+### 4.1.5. Quality Attribute Scenario Refinements
+
+<table border="0" cellspacing="0" cellpadding="8">
+  <tbody>
+    <tr>
+      <th colspan = "4">Scenario Refinement for Scenario 1</th>
+    </tr>
+    <tr>
+      <th colspan = "2">Scenario</th>
+      <td>Disponibilidad</td>
+    </tr>
+    <tr>
+      <th colspan = "2">Business Goals</th>
+      <td>El sistema de encontrarse operativo durante el tiempo de operaciones sin ningún tipo de interrupción.</td>
+    </tr>
+    <tr>
+      <th colspan = "2">Relevant Quality Attributes</th>
+      <td>Disponibilidad</td>
+    </tr>
+    <tr>
+      <th rowspan = "6">Scenario Components</th>
+      <th>Stimulus</th>
+      <td>Intento de reporte de un contenedor desbordado por parte de un ciudadano.</td>
+    </tr>
+    <tr>
+      <th>Stimulus Source</th>
+      <td>Ciudadano / Sistema</td>
+    </tr>
+    <tr>
+      <th>Environment</th>
+      <td>Zona de recojo de desperdicios</td>
+    </tr>
+    <tr>
+      <th>Artifact</th>
+      <td>Sistema de reportes de contenedores desbordados</td>
+    </tr>
+    <tr>
+      <th>Response</th>
+      <td>El sistema debe permitir que los ciudadanos reporten, en cualquier momento del día, aquellos contenedores que se encuentren desbordados de desperdicios para que la municipalidad del distrito en la que estos se ecnuentran residiendo tome medidas.</td>
+    </tr>
+    <tr>
+      <th>Response Measure</th>
+      <td>El reporte generado por el ciudadano con respecto al contenedor desbordado no debe tardar mas de 1 minuto en llegar a la municipalidad.</td>
+    </tr>
+    <tr>
+      <th colspan = "2">Questions</th>
+      <td>¿Cómo se garantizará que los reportes lleguen de forma ininterrumpida en el rando de tiempo máximo?</td>
+    </tr>
+    <tr>
+      <th colspan = "2">Issues</th>
+      <td>Posibles retrasos a la hora del envío del reporte, ya sea ante el retraso de envío por parte del ciudadano en retraso de recibimiento por parte de la municipalidad.</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+<br>
+
+<table border="0" cellspacing="0" cellpadding="8">
+  <tbody>
+    <tr>
+      <th colspan = "4">Scenario Refinement for Scenario 2</th>
+    </tr>
+    <tr>
+      <th colspan = "2">Scenario</th>
+      <td>Usabilidad</td>
+    </tr>
+    <tr>
+      <th colspan = "2">Business Goals</th>
+      <td>Mejorar la eficiencia y experiencia de usuario para los residentes del distrito que hagan uso del sistema.</td>
+    </tr>
+    <tr>
+      <th colspan = "2">Relevant Quality Attributes</th>
+      <td>Usabilidad</td>
+    </tr>
+    <tr>
+      <th rowspan = "6">Scenario Components</th>
+      <th>Stimulus</th>
+      <td>El ciudadano desea saber la ubicación del próximo camión de basura que pasara por su hogar para la recogida de residuos.</td>
+    </tr>
+    <tr>
+      <th>Stimulus Source</th>
+      <td>Ciudadano</td>
+    </tr>
+    <tr>
+      <th>Environment</th>
+      <td>Residencia del ciudadano</td>
+    </tr>
+    <tr>
+      <th>Artifact</th>
+      <td>Interfaz del sistema</td>
+    </tr>
+    <tr>
+      <th>Response</th>
+      <td>El sistema debe permitir que un ciudadano pueda visualizar la ubicación actual del camión de basura que realizará la recogida de desechos en su zona de residencia, asi como enviar una notificación cuando este se encuentre cerca de la zona en cuestión</td>
+    </tr>
+    <tr>
+      <th>Response Measure</th>
+      <td>La ubicación actual del camión no debe tardar más de 5 segundos en actualizarse, y la notificación cuando este se encuentre cerca de la zona de recojo no deberá enviarse cuando este se encuentre a, como máximo, 2 minutos de la zona.</td>
+    </tr>
+    <tr>
+      <th colspan = "2">Questions</th>
+      <td>¿Cómo se lograra que la interfaz actualize constantemente la ubicación del camión de forma precisa?</td>
+    </tr>
+    <tr>
+      <th colspan = "2">Issues</th>
+      <td>Consideraciones con el tiempo de espera de la actualización del camión y el envío de la notificación</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+<br>
+
+<table border="0" cellspacing="0" cellpadding="8">
+  <tbody>
+    <tr>
+      <th colspan = "4">Scenario Refinement for Scenario 3</th>
+    </tr>
+    <tr>
+      <th colspan = "2">Scenario</th>
+      <td>Rendimiento</td>
+    </tr>
+    <tr>
+      <th colspan = "2">Business Goals</th>
+      <td>Asegurar un funcionamiento óptimo del sistema en horas punta y/o cuando múltiples camiones se encuentren en horario de operaciones.</td>
+    </tr>
+    <tr>
+      <th colspan = "2">Relevant Quality Attributes</th>
+      <td>Rendimiento</td>
+    </tr>
+    <tr>
+      <th rowspan = "6">Scenario Components</th>
+      <th>Stimulus</th>
+      <td>Generación de ruta a seguir para un camión en menos de 5 segundos.</td>
+    </tr>
+    <tr>
+      <th>Stimulus Source</th>
+      <td>Funcionario / Sistema</td>
+    </tr>
+    <tr>
+      <th>Environment</th>
+      <td>Distrito con múltiples camiones en funcionamiento de forma simultánea y/o en horas punta.</td>
+    </tr>
+    <tr>
+      <th>Artifact</th>
+      <td>Algoritmo de generación de rutas</td>
+    </tr>
+    <tr>
+      <th>Response</th>
+      <td>El algoritmo usado por el sistema debe ser capaz de emitir la ruta óptima a seguir por el camión en menos de 5 segundos.</td>
+    </tr>
+    <tr>
+      <th>Response Measure</th>
+      <td>El tiempo de generación de la ruta a seguir debe ser menor a 5 segundos.</td>
+    </tr>
+    <tr>
+      <th colspan = "2">Questions</th>
+      <td>¿Cómo se podra optimizar el rendimiento del sistema para poder calcular la ruta óptima a seguir por el/los camión(es) en horas punta y/o con múltiples camiones en funcionamiento?</td>
+    </tr>
+    <tr>
+      <th colspan = "2">Issues</th>
+      <td>Posibles retrasos de generación de rutas en caso de encontrarse en horas punta. Posibilidad de que el algoritmo no emita la ruta óptima.</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+<br>
+
+<table border="0" cellspacing="0" cellpadding="8">
+  <tbody>
+    <tr>
+      <th colspan = "4">Scenario Refinement for Scenario 4</th>
+    </tr>
+    <tr>
+      <th colspan = "2">Scenario</th>
+      <td>Escalabilidad</td>
+    </tr>
+    <tr>
+      <th colspan = "2">Business Goals</th>
+      <td>Asegurar que el sistema pueda escalar de forma contínua en caso de enfrentar crecimientos poblacionales que conlleven a una mayor cantidad de desperdicios a recoger.</td>
+    </tr>
+    <tr>
+      <th colspan = "2">Relevant Quality Attributes</th>
+      <td>Escalabilidad</td>
+    </tr>
+    <tr>
+      <th rowspan = "6">Scenario Components</th>
+      <th>Stimulus</th>
+      <td>Incremento poblacional que conlleve a un incremento en los residuos generados.</td>
+    </tr>
+    <tr>
+      <th>Stimulus Source</th>
+      <td>Funcionario</td>
+    </tr>
+    <tr>
+      <th>Environment</th>
+      <td>Distrito que esté pasando por un incremento en su población</td>
+    </tr>
+    <tr>
+      <th>Artifact</th>
+      <td>Infraestructura del sistema</td>
+    </tr>
+    <tr>
+      <th>Response</th>
+      <td>El sistema debe mantener el rendimiento adecuado aún cuando un incremento en la población conlleve a un incremento del 35% en los desperdicios a recoger.</td>
+    </tr>
+    <tr>
+      <th>Response Measure</th>
+      <td>El sistema debe mantener un rendimiento óptimo ante un incremento del 35% en la cantidad total de desperdicios generados.</td>
+    </tr>
+    <tr>
+      <th colspan = "2">Questions</th>
+      <td>¿Cómo se escalará la infraestructura para manejar el incremento en los usuarios y los desperdicios?</td>
+    </tr>
+    <tr>
+      <th colspan = "2">Issues</th>
+      <td>Problemas en la gestión de recursos y en la capacidad para manejar horarios donde múltiples camiones estén en funcionamiento.</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+<br>
+
+<table border="0" cellspacing="0" cellpadding="8">
+  <tbody>
+    <tr>
+      <th colspan = "4">Scenario Refinement for Scenario 5</th>
+    </tr>
+    <tr>
+      <th colspan = "2">Scenario</th>
+      <td>Mantenibilidad</td>
+    </tr>
+    <tr>
+      <th colspan = "2">Business Goals</th>
+      <td>Garantizar que el sistema pueda realizar periodos de mantenimiento y/o pruebas de desarrollo con el menor tiempo de inactividad posible.</td>
+    </tr>
+    <tr>
+      <th colspan = "2">Relevant Quality Attributes</th>
+      <td>Mantenibilidad</td>
+    </tr>
+    <tr>
+      <th rowspan = "6">Scenario Components</th>
+      <th>Stimulus</th>
+      <td>Realización de pruebas y/o mantenimientos de forma periódica.</td>
+    </tr>
+    <tr>
+      <th>Stimulus Source</th>
+      <td>Funcionario</td>
+    </tr>
+    <tr>
+      <th>Environment</th>
+      <td>Municipalidad</td>
+    </tr>
+    <tr>
+      <th>Artifact</th>
+      <td>Totalidad del Sistema</td>
+    </tr>
+    <tr>
+      <th>Response</th>
+      <td>El sistema debe permitir realizar pruebas y/o mantenimientos de forma periódica garantizando que el tiempo de inactividad del sistema no exceda las 24 horas.</td>
+    </tr>
+    <tr>
+      <th>Response Measure</th>
+      <td>El tiempo de inactividad del sistema durante periodos de mantenimiento debe ser menor a 24 horas.</td>
+    </tr>
+    <tr>
+      <th colspan = "2">Questions</th>
+      <td>¿Qué estrategias serán implementadas para minimizar el tiempo de inactividad durante el mantenimiento para garantizar que no exceda las 24 horas?</td>
+    </tr>
+    <tr>
+      <th colspan = "2">Issues</th>
+      <td>Consideraciones acerca de las operaciones en curso para evitar que el mantenimiento impacte significativamente en las mismas.</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+## 4.2. Strategic-Level Domain-Driven Design
+
+Dentro de esta sección se evidencia el proceso que usamos para descomponer nuestro software en bounded contexts. Utilizando las herramientas de EventStorming y Bounded Context Canvas. 
+
+### 4.2.1. EventStorming
+
+Para la elaboración del EventStorming, el equipo se organizó para encontrar una primera aproximación al modelado del dominio de nuestro proyecto. Durante este proceso seguimos una serie de 9 pasos.
+
+**Paso 1: Collect Domain Events**
+En este primer paso, identificamos todos los eventos relevantes del dominio que ocurren en nuestro sistema. Estos eventos representan hechos importantes que suceden durante el proceso de negocio y los capturamos con post-its de color naranja.
+
+<img src="../assets/img/chapter-IV/eventStorming1.png"> 
+
+**Paso 2: Timeline**
+Organizamos todos los eventos identificados en una línea temporal, colocándolos en orden cronológico para visualizar mejor el flujo del proceso y entender la secuencia natural de acciones en el sistema.
+
+<img src="../assets/img/chapter-IV/eventStorming2.jpg"> 
+
+**Paso 3: Pain and Pivotal points**
+Identificamos los puntos problemáticos (pain points) y los momentos clave (pivotal points) en nuestro proceso. Estos representan áreas que requieren atención especial o que son críticas para el funcionamiento del sistema.
+
+<img src="../assets/img/chapter-IV/eventStorming3.jpg"> 
+
+**Paso 4: Commands**
+Agregamos los comandos (representados con post-its azules) que desencadenan los eventos. Estos comandos son las acciones que los usuarios o sistemas externos realizan para provocar cambios en el sistema.
+
+<img src="../assets/img/chapter-IV/eventStorming4.jpg"> 
+
+**Paso 5: Policies**
+Definimos las políticas o reglas de negocio (con post-its morados) que reaccionan a ciertos eventos y generan nuevos eventos como resultado. Estas políticas automatizan decisiones basadas en eventos previos.
+
+<img src="../assets/img/chapter-IV/eventStorming5.jpg"> 
+
+**Paso 6: Read models**
+Identificamos los modelos de lectura o vistas que los usuarios necesitan para tomar decisiones. Estos representan la información que debe estar disponible en determinados puntos del proceso.
+
+<img src="../assets/img/chapter-IV/eventStorming6.jpg"> 
+
+**Paso 7: External System**
+Marcamos los sistemas externos (con post-its rosados) que interactúan con nuestra solución. Estos son componentes fuera de nuestro control directo pero que tienen influencia en el proceso.
+
+<img src="../assets/img/chapter-IV/eventStorming7.jpg"> 
+
+**Paso 8: Aggregates**
+Agrupamos los comandos y eventos relacionados en unidades lógicas llamadas agregados (representados con post-its amarillos). Cada agregado encapsula un conjunto coherente de funcionalidades.
+
+<img src="../assets/img/chapter-IV/eventStorming8.jpg"> 
+
+**Paso 9: Bounded Context**
+Finalmente, identificamos los contextos delimitados o bounded contexts, que son áreas de responsabilidad distintas dentro del sistema. 
+
+<img src="../assets/img/chapter-IV/eventStorming9.jpg"> 
+
+### 4.2.2. Candidate Context Discovery
+
+A partir del EventStorming realizado en Miro, nuestro equipo llevó a cabo una sesión de Candidate Context Discovery para identificar los bounded contexts de nuestra solución. Utilizamos principalmente la técnica look-for-pivotal-events durante la sesión.
+
+**Proceso de identificación**
+
+Comenzamos revisando el modelo completo que habíamos construido, prestando especial atención a los eventos pivote y agregados identificados.
+
+<img src="../assets/img/chapter-IV/eventStorming3.jpg"> 
+
+Detección de agrupaciones naturales: Identificamos patrones y agrupaciones naturales de comandos, eventos y políticas que trabajaban sobre las mismas entidades o procesos.
+
+<img src="../assets/img/chapter-IV/eventStorming7.jpg"> 
+
+Nos enfocamos en eventos clave como las configuraciones de notificaciones y alertas que marcan claramente transiciones entre diferentes contextos
+
+<img src="../assets/img/chapter-IV/contextDiscovery1.png"> 
+
+Definición de límites: Trazamos fronteras alrededor de los grupos identificados, estableciendo los límites iniciales de nuestros bounded contexts.
+
+<img src="../assets/img/chapter-IV/eventStorming9.jpg">
+
+Nomenclatura y validación: Nombramos cada bounded context identificado según su responsabilidad principal y validamos que tuvieran coherencia interna y límites claros.
+
+<img src="../assets/img/chapter-IV/contextDiscovery2.png"> 
+
+Como resultado de este proceso, identificamos los siguientes bounded contexts para nuestra solución:
+
+- Access: Responsable del acceso a los usuarios al sistema.
+- Monitoring: Permite a los usuarios visualizar los contenedores de basura cercanos a su ubicacion, marcar uno como favorito y recibir alertas/notificaciones personalizadas sobre ese contendor, el horario de los camiones recogedores, entre otras funcionalidades.
+- Simulation: Gestiona las simulaciones de las rutas optimizadas para el recojo de desechos de los contenedores inteligentes. Predicciones y configuraciones. 
+- IoT Device: Responsable de las alertas del dispositivo y configuraciones del dispositivo IoT para los contenedores inteligentes.
+
+Esta identificación nos proporcionó una base sólida para continuar con el modelado más detallado de cada contexto y sus interacciones.
+
+### 4.2.3. Domain Message Flows Modeling
+
+Los Domain Message Flows modelan las interacciones entre los diferentes bounded contexts, mostrando cómo se comunican entre sí mediante comandos, eventos y consultas. A continuación, presentamos los flujos de mensaje para cuatro escenarios clave de nuestra aplicación:
+
+**Scenario 1: Access platform as a new user**
+
+Este flujo de mensajes modela cómo un usuario nuevo accede a la plataforma WasteTrack, ilustrando las interacciones entre el usuario y el bounded context de Access, y cómo este se comunica con el contexto de Monitoring.
+
+<img src="../assets/img/chapter-IV/messageFlow1.jpg"> 
+
+Este flujo demuestra la relación Customer-Supplier entre Access y Monitoring, donde Access actúa como proveedor de información de autenticación y autorización.
+
+**Scenario 2: Select favorite container**
+
+Este flujo modela cómo un usuario selecciona un contenedor como favorito para recibir notificaciones específicas sobre su estado.
+
+<img src="../assets/img/chapter-IV/messageFlow2.jpg"> 
+
+Este flujo ilustra cómo la interacción del usuario con el sistema desencadena cambios en múltiples bounded contexts utilizando el patrón de comunicación basado en eventos.
+
+**Scenario 3: Generating route simulation**
+
+Este flujo muestra el proceso de generación de una simulación de ruta optimizada para la recolección de residuos.
+
+<img src="../assets/img/chapter-IV/messageFlow3.jpg"> 
+
+Este flujo demuestra la relación Partnership entre Simulation y Monitoring, así como la relación Customer-Supplier entre IoT Device y Simulation.
+
+**Scenario 4: Alert user when favorite container overflow**
+
+Este flujo ilustra cómo el sistema detecta y notifica a un usuario cuando su contenedor favorito está por desbordarse.
+
+<img src="../assets/img/chapter-IV/messageFlow4.jpg"> 
+
+Este flujo demuestra cómo se implementa el patrón Published Language entre IoT Device y Monitoring, permitiendo una comunicación estandarizada sobre el estado de los contenedores que beneficia directamente a los usuarios finales.
+
+Estos flujos de mensaje son fundamentales para entender cómo los diferentes componentes de nuestro sistema interactúan entre sí, permitiéndonos identificar posibles cuellos de botella, optimizar la comunicación y garantizar que la arquitectura responda adecuadamente a los casos de uso principales.
+
+### 4.2.4. Bounded Context Canvases
+
+Los Bounded Context Canvases son herramientas visuales que nos permiten documentar las características fundamentales de cada contexto delimitado, capturando su propósito estratégico, modelo de dominio, lenguaje ubicuo, políticas y relaciones con otros contextos. A continuación, presentamos los canvases para nuestros cuatro bounded contexts identificados, que nos ayudaron a definir claramente las responsabilidades y límites de cada uno.
+
+**Access Bounded Context:** Este canvas detalla nuestro contexto de acceso, responsable de la autenticación y autorización. Definimos sus principales modelos de dominio (Usuario, Rol, Permiso), las políticas de seguridad y los eventos clave como el registro de usuario y la autenticación. Su propósito estratégico es garantizar que solo los usuarios autorizados puedan acceder a funcionalidades específicas del sistema, actuando como proveedor upstream para otros contextos. El canvas ilustra claramente cómo este contexto encapsula toda la lógica relacionada con la identidad y seguridad.
+
+<img src="../assets/img/chapter-IV/boundedContext3.jpg">
+
+**Monitoring Bounded Context:** Este canvas muestra nuestro contexto de monitoreo, que representa el núcleo de la experiencia del usuario con la aplicación. Identificamos sus principales entidades (Contenedor, Favorito, Alerta) y las capacidades clave como visualización de contenedores en tiempo real, sistema de favoritos y notificaciones. Este contexto actúa como cliente downstream de Access e IoT Device, mientras mantiene una relación de partnership con Simulation. El canvas nos permitió visualizar la complejidad de este contexto y sus múltiples integraciones.
+
+<img src="../assets/img/chapter-IV/boundedContext1.jpg">
+
+**Simulation Bounded Context:** El canvas de simulación refleja la sofisticación técnica de este contexto, mostrando su responsabilidad en la optimización de rutas y predicciones. Documentamos sus modelos de dominio principales (Ruta, Simulación, Parámetro), sus algoritmos de optimización y su dependencia de los datos históricos proporcionados por IoT Device. Este contexto implementa un ACL para transformar los datos del IoT en formatos adecuados para sus algoritmos de optimización, lo que se refleja claramente en el canvas.
+
+<img src="../assets/img/chapter-IV/boundedContext4.jpg">
+
+**IoT Device Bounded Context:** Este canvas presenta nuestro contexto más cercano al hardware, responsable de gestionar los dispositivos físicos y sus sensores. Identificamos sus principales agregados (Dispositivo, Sensor, Medición), los eventos que genera (como cambios en el nivel de llenado) y su rol como publicador de datos para otros contextos. El canvas muestra claramente cómo este contexto implementa un patrón Published Language para estandarizar la comunicación con Monitoring y Simulation.
+
+<img src="../assets/img/chapter-IV/boundedContext2.jpg">
+
+Estos canvases fueron herramientas fundamentales para definir la arquitectura de nuestra solución, permitiéndonos visualizar cada contexto como una unidad coherente con responsabilidades claras y bien definidas. Además, nos ayudaron a identificar los puntos de integración entre contextos que luego refinamos en el Context Mapping.
+
+### 4.2.5. Context Mapping
+
+Después de identificar nuestros bounded contexts (Access, Monitoring, Simulation e IoT Device), procedimos a definir las relaciones entre ellos mediante la técnica de Context Mapping. Este proceso nos permitió visualizar cómo estos contextos se comunican y colaboran entre sí en nuestro sistema WasteTrack.
+
+**Proceso de elaboración**
+Para elaborar nuestro Context Map, analizamos varias alternativas evaluando diferentes escenarios y relaciones posibles entre los bounded contexts:
+
+- Alternativa 1: Modelo Inicial
+
+<img src="../assets/img/chapter-IV/contextMapping1.png"> 
+
+Donde: U/D: Upstream/Downstream (relación Cliente/Proveedor)
+
+En este modelo inicial, Access actúa como proveedor para Monitoring, proporcionando autenticación de usuarios. IoT Device suministra datos a Simulation y Monitoring para el seguimiento y optimización de rutas.
+
+- Alternativa 2: Con Anti-corruption Layer
+
+Consideramos la inclusión de Anti-corruption Layers para proteger los modelos de dominio:
+
+<img src="../assets/img/chapter-IV/contextMapping2.png"> 
+
+Donde: ACL: Anti-corruption Layer
+
+Esta alternativa añade capas de traducción para proteger los modelos de dominio cuando la comunicación cruzaba fronteras de contexto.
+
+- Alternativa 3: Con Shared Kernel
+
+Evaluamos si algunas funcionalidades compartidas podrían beneficiarse de un Shared Kernel:
+
+<img src="../assets/img/chapter-IV/contextMapping3.png"> 
+
+En esta alternativa, IoT Device y Simulation comparten un kernel común para el modelo de estado de los contenedores.
+
+**Evaluación de alternativas**
+Nos planteamos las siguientes preguntas clave para evaluar nuestras alternativas:
+
+1. ¿Qué pasaría si movemos la gestión de alertas del IoT Device al contexto de Monitoring?
+
+- Ventaja: Simplificaría la interfaz para el usuario final
+- Desventaja: Crearía una fuerte dependencia y acoplamientos indeseados
+
+2. ¿Qué pasaría si descomponemos el capability de optimización de rutas en Simulation y movemos parte a un nuevo contexto?
+
+- Ventaja: Mejor separación de responsabilidades
+- Desventaja: Aumentaría la complejidad de coordinación entre contextos
+
+3. ¿Qué pasaría si duplicamos la funcionalidad de consulta de estado en IoT Device y Monitoring para romper dependencias?
+
+- Ventaja: Mayor autonomía entre contextos
+- Desventaja: Posible inconsistencia de datos y mayor mantenimiento
+
+4. ¿Qué pasaría si creamos un shared service para gestionar notificaciones entre múltiples bounded contexts?
+
+- Ventaja: Evita duplicación de código y unifica la experiencia de notificaciones
+- Desventaja: Introduce una dependencia compartida que podría limitar la evolución independiente
+
+**Modelo de Context Map Final**
+
+Después de evaluar todas las alternativas, optamos por el siguiente Context Map:
+
+<img src="../assets/img/chapter-IV/contextMapping4.png"> 
+
+**Relaciones entre contextos:**
+
+1. Access ↔ Monitoring (Customer-Supplier):
+
+- Access actúa como proveedor (Upstream) proporcionando autenticación y autorización
+- Monitoring actúa como cliente (Downstream) consumiendo la información de usuarios autenticados
+- Se implementa un Anti-corruption Layer en Monitoring para traducir el modelo de usuario de Access
+
+2. IoT Device ↔ Monitoring (Published Language):
+
+- IoT Device publica datos de sensores en un formato estandarizado
+- Monitoring se suscribe a estos datos para mostrar información en tiempo real
+- Ambos contextos acuerdan un lenguaje común para la comunicación
+
+3. IoT Device ↔ Simulation (Customer-Supplier):
+
+- IoT Device proporciona datos históricos y en tiempo real (Upstream)
+- Simulation consume estos datos para generar predicciones y optimizar rutas (Downstream)
+- Simulation implementa un Anti-corruption Layer para transformar los datos del IoT
+
+4. Simulation ↔ Monitoring (Partnership):
+
+- Ambos contextos colaboran estrechamente para proporcionar una experiencia completa
+- Comparten algunos modelos y conceptos, pero mantienen su independencia
+- La comunicación es bidireccional y fluida
+
+**Justificación:**
+
+Elegimos este modelo porque:
+
+1. Mantiene una clara separación de responsabilidades entre contextos
+2. Usa Anti-corruption Layers donde es necesario proteger los modelos de dominio
+3. Establece un Published Language para estandarizar la comunicación entre IoT Device y otros contextos
+4. Crea una Partnership entre Simulation y Monitoring que refleja su estrecha colaboración
+5. Evita la creación de dependencias innecesarias que dificultarían la evolución del sistema
+6. Permite que cada equipo trabaje con autonomía en su bounded context
+
+Este Context Map proporciona una base sólida para el desarrollo de nuestro sistema WasteTrack, facilitando la comunicación entre equipos y estableciendo claramente las interacciones entre los diferentes dominios de la aplicación.
+
+### 4.3. Software Architecture
+En esta sección se presentan los diagramas de arquitectura de la solución, que ilustran la estructura y los componentes clave. Estos diagramas son fundamentales para comprender cómo se organizan y comunican los diferentes components del sistema.
+#### 4.3.1. Software Architecture System Landscape Diagram
+Diagrama de arquitectura Landscape, gráfica a un nivel general, sin detallar explicitamente los componentes del sistema. En este diagrama se puede observar la relación entre el sistema y los actores externos que interactúan con él.
+
+<img src="../assets/img/chapter-IV/c4-landscape.PNG">
+
+#### 4.3.2. Software Architecture Context Level Diagrams
+Diagrama de arquitectura de contexto de Waste Track. En el cual podemos identificar los principales usuarios y cómo estos se relacionan con el sistema. Además se grafica cuales son las relaciones entre el sistema y servicios externos que proveen funcionalidades adicionales a la solución. 
+
+<img src="../assets/img/chapter-IV/c4-context.PNG"> 
+
+#### 4.3.3. Software Architecture Container Level Diagrams
+Diagrama de arquitectura de contenedores, incluye aplicaciones web y móvil, bases de datos, APIs y servicios externos que conforman la solución.
+
+<img src="../assets/img/chapter-IV/c4-containers.PNG">
+
+#### 4.3.4. Software Architecture Deployment Diagrams
+Diagrama de arquitectura de despliegue, principalmente se describen las tecnologías y proveedores de nube que se utilizarán para implementar la solución.
+
+<img src="../assets/img/chapter-IV/c4-deployment.png">
