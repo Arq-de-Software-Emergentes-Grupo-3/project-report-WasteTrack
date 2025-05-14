@@ -941,7 +941,7 @@ Nelson Serrano
 ●	Nivel socioeconómico: Clase B
 Entrevista:
 
-●	Link: https://drive.google.com/file/d/1xfp88xcLjj6Mrp3IOyHWl4fSg7WGsBDU/view?usp=sharing
+●	Link: [Click para ver entrevista](https://drive.google.com/file/d/1xfp88xcLjj6Mrp3IOyHWl4fSg7WGsBDU/view?usp=sharing)
 
 ●	Momento en el que inicia: 0:00
 
@@ -968,7 +968,7 @@ Nombre: Leonardo Soto Tagle
 
 Entrevista:
 
-●	Link: https://youtu.be/TDk6NwubPeU
+●	Link: [Click para ver entrevista](https://youtu.be/TDk6NwubPeU)
 
 ●	Momento en el que inicia: 0:00
 
@@ -993,7 +993,7 @@ Entrevistado #3
 
 ●	Entrevista:
 
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/ERge36l0G5lAgx48cxEK3cAB5E-irHI-V5akPQDUYP6NdA?e=babxer&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+●	Link: [Click para ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/ERge36l0G5lAgx48cxEK3cAB5E-irHI-V5akPQDUYP6NdA?e=babxer&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ●	Momento en el que inicia: 
 
@@ -1007,45 +1007,8 @@ La entrevistada nos comenta que la municipalidad opera con 5 camiones recolector
 </p>
 
 ### Ciudadanos:
-Entrevistada #1: Sebastian Palacios
 
-<ul>
-    <li>
-        Sexo: Masculino
-    </li>
-    <li>
-        Edad: 27 años
-    </li>
-    <li>
-        Distrito en el que vive: San Borja
-    </li>
-    <li>
-        Nivel socioeconómico: Clase B
-    </li>
-</ul>
-Entrevista:
-<ul>
-    <li>
-        Link: <a href="https://youtu.be/6Al_sL4MM2g">Click para ver entrevista</a>
-    </li>
-    <li>
-        Momento en el que inicia: 0:00
-    </li>
-    <li>
-        Duración: 08:47
-    </li>
-      <li>
-        Entrevistador: Espinoza Saenz, Christian Renato
-    </li>
-</ul>
-<img src="https://i.postimg.cc/6qy3nqF1/sebastianpalacion.png" alt="Entrevista Autor 1">
-
-Resumen:
-<p align="justify">
-    Entrevistamos a Sebastian Palacios, de 27 años,administrador de un taller de autos que enfrenta diversos desafíos en la gestión de su flota. Sebastián se ocupa de mantener los vehículos en óptimas condiciones mientras maneja la demanda fluctuante y la distribución eficiente de la flota. Sebastian menciona que sus principales canales de adquisición de clientes incluyen el marketing digital y asociaciones locales.Además destaca la importancia de la reputación y ofrece programas de fidelidad para clientes habituales.También enfrenta desafíos al expandir su negocio a nuevas ubicaciones, incluyendo la adaptación a nuevos mercados y la gestión de la logística de expansión.
-</p>
-
-Entrevistado #2: 
+Entrevistado #1: 
 
 Diego Cantoral
 
@@ -1073,34 +1036,58 @@ Resumen:
 Diego es un joven ciudadano del distrito de Pueblo Libre, quien nos comenta su experiencia con el servicio de recolección de residuos en su zona e indica que pocas veces falla el servicio de recolección. Sin embargo, ante esas situaciones no sabe como prevenir la acumulación de residuos. Se muestra de acuerdo con una plataforma la cual lo ayude con la visualización y alertas antes de que ocurra una acumulación de residuos.
 </p>
 
-Entrevistado #3:
+Entrevistado #2
 
-Leandro Medina
+  ![Entrevista](/assets/img/chapter-II/entrevista_Lucero_Segmento1.png)
 
-![Entrevista-nelson.png](./images/Entrevista-nelson.png)
+●	Nombre: Lucero Smith
 
-●	Sexo: Masculino
+●	Edad: 33
 
+●	Sexo: Femenino
 
-●	Edad: 22 años
+●	Residencia: Lima - San Isidro
 
-●	Distrito en el que vive: Lima
+●	Entrevista:
 
-●	Nivel socioeconómico: Clase A
+●	Link: [Click para ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/Eczio0ychKFFnbnmkwUAzR8ByuNTUaSWBhrMmvAMPRdwGA?e=TUtLzw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-Entrevista:
+●	Momento en el que inicia: 00:00
 
-●	Link: [Click para ver entrevista](https://www.youtube.com/watch?v=_RbKISOL-Qo)
+●	Duración: 09:34 min
 
-●	Momento en el que inicia: 0:12
-
-●	Duración: 4:58 
-
-●	Entrevistador: Serrano Ircañaupa, Nelson Elías
+●	Entrevistador: Avalos Santos Anthony Piero
 
 Resumen:
 <p align="justify">
-Leandro nos dio a conocer su opinion de algunas de las preguntas planteadas por su conocimiento de estar relacionado con este tipo de empresarios de alquiler. Nos contó que los principales desafíos al administrar una flota de vehículos incluyen el mantenimiento regular, la gestión de reparaciones, la optimización de la rotación para maximizar la rentabilidad, y la actualización de los vehículos para cumplir con normativas y preferencias del cliente. Además mencionó que la rentabilidad de un vehículo se determina según su tasa de utilización, costos de mantenimiento, ingresos generados, y depreciación.
+Lucero nos comenta que ella tiene muchos problemas con el tema de la recoleccion de residuos, ya que en su zona no existe un horario definido para la recoleccion de sus residuos. Constantemente tiene que ver contenendores desbordados y la acumulacion de residuos en la calle. Ella nos indica que le gustaria tener una plataforma que le permita ver el recorrido del camión recolector, y que le avise cuando el contenedor de su zona se encuentre lleno, para asi poder evitar la acumulacion de residuos en la calle. Ella nos indica que no tiene problemas con el uso de tecnologias, ya que es una persona muy activa en redes sociales. Le gustaria una plataforma facil e intuitiva para poder usarlo con facilidad.
+</p>
+
+Entrevistado #3
+
+  ![Entrevista](/assets/img/chapter-II/entrevista_lucia_segmento1.png)
+
+●	Nombre: Lucia Aliaga
+
+●	Edad: 27
+
+●	Sexo: Femenino
+
+●	Residencia: Lima - Los Olivos
+
+●	Entrevista:
+
+●	Link: [Click para ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EbEgs3AlkHNHkcx8XZKSFtkBxIxvfz7RwxbPbRRER9GVlg?e=m5eIhg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+●	Momento en el que inicia: 00:00
+
+●	Duración: 09:30 min
+
+●	Entrevistador: Avalos Santos Anthony Piero
+
+Resumen:
+<p align="justify">
+Lucia nos comenta que ella vive en una zona donde constantemente tiene que ver contenedores desbordados por la acumulacion de residuos, especialmente en parques, donde la afluencia de personas es mayor. Nos comenta que tiene que estar en constante atencion para ver el camion recolector y poder sacar sus residuos, pero esto le esta generando muchos problemas en su dia a dia porque ella tiene que trabajar. Le gustria una aplicacion donde pueda ver el recorrido que tendra el camion y una hora estimada en la que llegara a su domicilio, asi ya no tendra que estar pendiente de la hora. Nos comenta tambien que le gustaria recibir informacion acerca de como separar correctamente los residuos, ya que no sabe si lo esta haciendo bien.
 </p>
 
 ### **2.2.3. Análisis de Entrevistas**
