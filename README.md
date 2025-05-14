@@ -494,7 +494,7 @@ ABET 3: Capacidad de comunicarse efectivamente con un rango de audiencias
 **WasteTrack** es una startup innovadora dedicada a transformar la gestión de residuos urbanos a través de la tecnología. Mediante el uso de sensores IoT, nuestra plataforma permite monitorear en tiempo real el nivel de llenado de los contenedores de residuos, optimizando las rutas de recolección de basura de manera eficiente. A través de una interfaz intuitiva, los usuarios municipales pueden configurar y gestionar de forma individualizada cada contenedor, ajustando parámetros como el umbral de llenado, el tipo de residuo, los horarios de recolección y la prioridad. Al mismo tiempo, los ciudadanos pueden acceder a una interfaz básica que les permite visualizar el recorrido estimado de los camiones recolectores en su zona, promoviendo la transparencia y la colaboración en la gestión de residuos. El objetivo de WasteTrack es mejorar la eficiencia del servicio de recolección, reducir los costos operativos, evitar el desbordamiento de residuos y contribuir a la sostenibilidad de las ciudades.
 
 <p align="center">
-<img src="../assets/img/chapter-I/wasteTrackLogo.png" width="400"> 
+<img src="assets/img/chapter-I/wasteTrackLogo.png" width="400"> 
 </p>
 
 **Misión:**  
@@ -517,7 +517,7 @@ Convertirnos en la plataforma líder de gestión de residuos urbanos, utilizando
         <tr>
             <!-- DATOS del integrante 1-->
             <td> 
-            <img src="../assets/img/chapter-I/AlejandraDiaz.jpg" height="120" width="100"> 
+            <img src="/assets/img/chapter-I/AlejandraDiaz.jpg" height="120" width="100"> 
             <br>María Alejandra Díaz Villacrez U202118315 
             </td>
             <!-- DESCRIPCIÓN del integrante 1-->
@@ -528,19 +528,19 @@ Convertirnos en la plataforma líder de gestión de residuos urbanos, utilizando
         <tr>
             <!-- DATOS del integrante 2-->
             <td>
-            <img src="../assets/img/chapter-I/yo-Joaquin.jpg"
+            <img src="/assets/img/chapter-I/yo-Joaquin.jpg"
             height="120" width="100">
             <br>Joaquin David Rivadeneyra Ramos - U202211846
             </td>
             <!-- DESCRIPCIÓN del integrante 2-->
-            <td>Soy Joaquin Rivadeneyra, tengo 20 años y actualmente estoy cursando el 7to ciclo de la carrera de Ingeniería de Software. Me considero una persona comunicativa y abierta a nuevas ideas, lo que me permite tener una buena relación con los demás miembros del equipo y fomentar un ambiente de trabajo colaborativo..</td>
+            <td>Soy Joaquin Rivadeneyra, tengo 20 años y actualmente estoy cursando el 7to ciclo de la carrera de Ingeniería de Software. Me considero una persona comunicativa y abierta a nuevas ideas, lo que me permite tener una buena relación con los demás miembros del equipo y fomentar un ambiente de trabajo colaborativo.</td>
             <!-- CONOCIMIENTOS del integrante 2-->
             <td>Poseo habilidades en las que puedo aportar en el grupo son dominio y práctica de lenguajes de programación como Vue y Angular, documentación de proyectos y metodologías ágiles y conocimientos básicos de base de datos.</td>
         </tr>
         <tr>
             <!-- DATOS del integrante 3-->
             <td>
-            <img src="../assets/img/chapter-I/daniel.jpeg" height="120" width="100">
+            <img src="/assets/img/chapter-I/daniel.jpeg" height="120" width="100">
             <br>Josue Daniel Valverde Lopez - U202121440
             </td>
             <td>Estudiante de la carrera de Ingeniería de Software en 8avo ciclo. Me gusta trabajar en equipo, aprender sobre nuevas tecnologías relacionadas a la inteligencia artificial y automatización de procesos.</td>
@@ -550,7 +550,7 @@ Convertirnos en la plataforma líder de gestión de residuos urbanos, utilizando
         <tr>
             <!-- DATOS del integrante 4-->
             <td>
-            <img src="../assets/img/chapter-I/Nicolas.png" height="120" width="100">
+            <img src="/assets/img/chapter-I/Nicolas.png" height="120" width="100">
             <br>Nicolás Andrés Cortés Hidalgo U202016311
             </td>
             <!-- DESCRIPCIÓN del integrante 2-->
@@ -561,7 +561,7 @@ Convertirnos en la plataforma líder de gestión de residuos urbanos, utilizando
         <tr>
             <!-- DATOS del integrante 5-->
             <td>
-            <img src="../assets/img/chapter-I/anthony.jpg" height="120" width="100">
+            <img src="/assets/img/chapter-I/anthony.jpg" height="120" width="100">
             <br>Anthony Piero Avalos Santos - U20211C596
             </td>
             <!-- DESCRIPCIÓN del integrante 2-->
@@ -761,7 +761,7 @@ Sabremos que hemos tenido éxito cuando observemos un aumento del 20% en la efic
 | **What's the least amount of <br> work we need to do to learn <br> the next most important thing?** | Realizar entrevistas con usuarios municipales y ciudadanos para entender sus necesidades y expectativas. <br> Probar prototipos de la plataforma para validar la utilidad de las notificaciones y la optimización de rutas. |
 
 <p align="center">
-  <img src="../assets/img/chapter-I/canva.jpg" alt="Lean UX Canvas">
+  <img src="/assets/img/chapter-I/canva.jpg" alt="Lean UX Canvas">
 </p>
 
 ### **1.3. Segmentos Objetivo**
@@ -800,21 +800,21 @@ Desean contribuir activamente al cuidado del medio ambiente, conocer el estado d
    Bigbelly es un sistema inteligente de gestión de residuos urbanos que utiliza contenedores solares equipados con sensores IoT para monitorear el nivel de llenado y optimizar las rutas de recolección.
 
    <p align="center">
-     <img src="../assets/img/chapter-II/bigbelly.jpg" alt="Bigbelly Logo" width="200">
+     <img src="/assets/img/chapter-II/bigbelly.jpg" alt="Bigbelly Logo" width="200">
    </p>
 
 2. **Enevo**  
    Enevo es una plataforma que utiliza sensores inteligentes y tecnología de análisis de datos para optimizar la gestión de residuos, monitoreando el nivel de llenado de los contenedores y mejorando la sostenibilidad.
 
    <p align="center">
-     <img src="../assets/img/chapter-II/enevo.jpg" alt="Enevo Logo" width="200">
+     <img src="/assets/img/chapter-II/enevo.jpg" alt="Enevo Logo" width="200">
    </p>
 
 3. **Sensoneo**  
    Sensoneo ofrece una solución de gestión de residuos basada en sensores IoT que permite monitorear los contenedores de residuos en tiempo real, proporcionando datos valiosos para optimizar las rutas de recolección, reducir costos y mejorar la eficiencia de los servicios de recolección.
 
    <p align="center">
-     <img src="../assets/img/chapter-II/senso.jpg" alt="Sensoneo Logo" width="150">
+     <img src="/assets/img/chapter-II/senso.jpg" alt="Sensoneo Logo" width="150">
    </p>
 
 ### **2.1.1. Análisis Competitivo**
@@ -829,14 +829,14 @@ Desean contribuir activamente al cuidado del medio ambiente, conocer el estado d
 - **Optimización Local de Rutas**: **WasteTrack** optimiza las rutas de recolección teniendo en cuenta factores locales como el tráfico, la disposición geográfica de los contenedores y las prioridades de las municipalidades, lo que mejora la eficiencia operativa de manera más precisa que los competidores globales.
 
    <p align="center">
-     <img src="../assets/img/chapter-II/WasteTrackLogo.png" alt="WasteTrack Logo" width="200">
+     <img src="/assets/img/chapter-II/WasteTrackLogo.png" alt="WasteTrack Logo" width="200">
    </p>
 
 <table>
 <tr><th colspan="16" valign="top"><b>Competitive Analysis Landscape</b></th></tr>
 <tr><td colspan="9" valign="top">¿Por qué llevar a cabo este análisis?</td><td colspan="7" valign="top">Este análisis se lleva a cabo para investigar, analizar y comparar el comportamiento de los competidores directos o indirectos en el mercado de gestión de residuos urbanos y optimización de rutas de recolección. Bigbelly destaca por su enfoque en la sostenibilidad mediante el uso de contenedores solares inteligentes.</td></tr>
 <tr><td colspan="6" valign="top"><b>Nombre</b></td><td colspan="3" valign="top"><b>Bigbelly</b></td><td colspan="3" valign="top"><b>Enevo</b></td><td colspan="3" valign="top"><b>Sensoneo</b></td><td valign="top"><b>WasteTrack</b></td></tr>
-<tr><td colspan="6" valign="top"><b>Logo</b></td><td colspan="3" valign="top"><img src="../assets/img/chapter-II/bigbelly.jpg" width="100"></td><td colspan="3" valign="top"><img src="../assets/img/chapter-II/enevo.jpg" width="100"></td><td colspan="3" valign="top"><img src="../assets/img/chapter-II/senso.jpg" width="100"></td><td valign="top"><img src="../assets/img/chapter-II/WasteTrackLogo.png" width="100"></td></tr>
+<tr><td colspan="6" valign="top"><b>Logo</b></td><td colspan="3" valign="top"><img src="/assets/img/chapter-II/bigbelly.jpg" width="100"></td><td colspan="3" valign="top"><img src="/assets/img/chapter-II/enevo.jpg" width="100"></td><td colspan="3" valign="top"><img src="/assets/img/chapter-II/senso.jpg" width="100"></td><td valign="top"><img src="/assets/img/chapter-II/WasteTrackLogo.png" width="100"></td></tr>
 <tr><td colspan="3" rowspan="4" valign="top"><b>Perfil</b></td><td colspan="3" rowspan="2" valign="top"><b>Overview</b></td><td colspan="3" rowspan="2" valign="top">Plataforma inteligente de gestión de residuos urbanos que utiliza contenedores solares equipados con sensores IoT para monitorear el nivel de llenado y optimizar las rutas de recolección.</td><td colspan="3" rowspan="2" valign="top">Enevo utiliza sensores IoT para optimizar la gestión de residuos, generando rutas más eficientes y reduciendo costos mediante análisis de datos.</td><td colspan="3" rowspan="2" valign="top">Sensoneo ofrece una solución avanzada con sensores IoT, proporcionando monitoreo en tiempo real y análisis predictivo para optimizar las rutas de recolección.</td><td rowspan="2" valign="top">WasteTrack es la única plataforma adaptada a las necesidades de las municipalidades peruanas, optimizando las rutas de recolección y mejorando la participación ciudadana mediante una plataforma fácil de usar.</td></tr>
 <tr></tr>
 <tr><td colspan="3" rowspan="2" valign="top"><b>Ventaja competitiva ¿Qué valor ofrece a los clientes?</b></td><td colspan="3" rowspan="2" valign="top">Utiliza contenedores solares inteligentes para monitorear el nivel de llenado y optimizar rutas de recolección.</td><td colspan="3" rowspan="2" valign="top">Enfoque integral para optimización de rutas con análisis predictivos y monitoreo en tiempo real.</td><td colspan="3" rowspan="2" valign="top">Capacidad avanzada de análisis y monitoreo en tiempo real para mejorar la eficiencia operativa.</td><td rowspan="2" valign="top">WasteTrack ofrece la mejor solución para las municipalidades peruanas, con integración de sensores IoT adaptados a las necesidades locales y una interfaz ciudadana que mejora la participación y la transparencia.</td></tr>
@@ -929,7 +929,7 @@ Nuestras tácticas incluyen la realización de investigaciones de mercado contin
 ### Municipalidades:
 
 Entrevistado #1: 
-![Entrevista1](../assets/img/chapter-II/nelson.jpg)
+![Entrevista1](/assets/img/chapter-II/nelson.jpg)
 Nelson Serrano
 
 ●	Sexo: Masculino
@@ -955,7 +955,7 @@ Nelson Serrano trabaja en la Municipalidad de San Isidro, donde gestiona la reco
 </p>
 
 Entrevistado #2:
-![entrevista-lector4](../assets/img/chapter-II/Entrevista-Funcionario-Nicolas.jpeg)
+![entrevista-lector4](/assets/img/chapter-II/Entrevista-Funcionario-Nicolas.jpeg)
 
 Nombre: Leonardo Soto Tagle
 
@@ -981,7 +981,7 @@ Leonardo trabaja en la municipalidad de San Miguel, se encarga del monitoreo de 
 
 Entrevistado #3
 
-  ![Entrevista](../assets/img/chapter-II/JacquelineSamanez.png)
+  ![Entrevista](/assets/img/chapter-II/JacquelineSamanez.png)
 
 ●	Nombre: Jacqueline Samanez
 
@@ -1049,7 +1049,7 @@ Entrevistado #2:
 
 Diego Cantoral
 
-<img src="../assets/img/chapter-II/entrevista-ciudadano-diego.PNG" alt="Entrevista">
+<img src="/assets/img/chapter-II/entrevista-ciudadano-diego.PNG" alt="Entrevista">
  
 ●	Sexo: Masculino
 
@@ -1128,14 +1128,14 @@ Según las entrevistas realizadas y los resúmenes, hemos llevado a cabo un aná
 
 Luis Ramírez es un ingeniero ambiental de 45 años que trabaja en la Municipalidad de Trujillo, Perú. Está a cargo de la gestión del servicio de limpieza pública y se enfrenta constantemente a desafíos como la sobrecarga de contenedores, rutas ineficientes y quejas vecinales. Aunque tiene experiencia en planificación logística, sus decisiones suelen depender de reportes manuales y supervisiones presenciales. Está muy interesado en adoptar herramientas tecnológicas que automaticen la recolección de datos y optimicen las rutas de recolección de basura. Utiliza su laptop y smartphone para gestionar informes y coordinar con su equipo, y suele consultar LinkedIn para conocer tendencias sobre ciudades inteligentes y sostenibilidad urbana.
 </p>
-<br><img src="../assets/img/chapter-II/LuisRamirez.png"></img><br>  <br><br>
+<br><img src="/assets/img/chapter-II/LuisRamirez.png"></img><br>  <br><br>
 
 <p align="justify">
    <strong>Segmento 2:</strong> Funcionarios de municipalidades encargados de limpieza urbana
 
 Valeria Torres es una madre de familia de 29 años que vive en un barrio residencial de Arequipa, Perú. Se preocupa por la limpieza de su entorno y por educar a sus hijos en prácticas responsables con el medio ambiente. Suele organizar sus actividades del hogar y la disposición de residuos según el horario del camión recolector, pero frecuentemente se ve afectada por demoras o cambios inesperados. Utiliza su celular para comunicarse por WhatsApp, navegar en redes sociales y acceder a aplicaciones útiles. Está interesada en herramientas que le permitan saber exactamente cuándo pasarán a recoger la basura para evitar que se acumule en la vía pública. Sigue cuentas de sostenibilidad y orden urbano en Instagram y TikTok.
 </p>
-<br><img src="../assets/img/chapter-II/ValeriaTorres.png"></img><br>  <br>
+<br><img src="/assets/img/chapter-II/ValeriaTorres.png"></img><br>  <br>
 
 ### 2.3.2. User Task Matrix.
 
@@ -1205,22 +1205,22 @@ Valeria Torres es una madre de familia de 29 años que vive en un barrio residen
 
 <p><strong>User Persona:</strong> Luis Ramirez</p>
 <p>El User Journey Mapping de Luis Ramírez resalta los desafíos operativos y estratégicos que enfrenta como encargado del servicio de limpieza pública en la municipalidad. A lo largo del proceso, Luis experimenta una carga significativa debido a la falta de información en tiempo real y herramientas inteligentes para optimizar rutas. Estas limitaciones generan retrasos, ineficiencias y constantes quejas vecinales. La incorporación de un sistema automatizado basado en sensores IoT representa una solución clave para mejorar su toma de decisiones, reducir costos y elevar la percepción ciudadana.</p>
-<br><img src="../assets/img/chapter-II/user_1.png"></img><br>  <br>
+<br><img src="/assets/img/chapter-II/user_1.png"></img><br>  <br>
 
 <p><strong>User Persona:</strong> Valeria Torres</p>
 <p>El User Journey Mapping de Valeria Torres destaca las situaciones que enfrenta en su rutina diaria para disponer correctamente sus residuos. Valeria experimenta incertidumbre y frustración cuando no sabe con exactitud a qué hora pasará el camión recolector. Esto afecta su organización familiar y genera malestar por la acumulación de basura en la vía pública. La incorporación de una interfaz ciudadana que muestre en tiempo real el recorrido del camión y brinde alertas puede mejorar significativamente su experiencia y fomentar su compromiso con el cuidado del entorno urbano.</p>
-<br><img src="../assets/img/chapter-II/user_2.png"></img><br>  <br>
+<br><img src="/assets/img/chapter-II/user_2.png"></img><br>  <br>
 
 ### 2.3.4. As-is Scenario Mapping.
 
 <p><strong>User Persona:</strong> Luis Ramirez</p>
 <p>Este mapa describe el flujo actual del trabajo de Luis Ramírez como responsable del área de limpieza pública en una municipalidad. Desde la identificación de problemas hasta la entrega de informes, Luis debe revisar reportes, atender quejas vecinales, coordinar con su equipo operativo y tomar decisiones basadas en datos que muchas veces están incompletos o desactualizados. Sus pensamientos se centran en optimizar procesos y reducir quejas, mientras que sus emociones varían entre frustración por la ineficiencia del sistema actual y satisfacción cuando logra implementar mejoras tangibles.</p>
-<br><img src="../assets/img/chapter-II/asis_1.jpg"></img><br>  <br>
+<br><img src="/assets/img/chapter-II/asis_1.jpg"></img><br>  <br>
 
 
 <p><strong>User Persona:</strong> Valeria Torres</p>
 <p>Este mapa representa el flujo actual de actividades de Valeria Torres como ciudadana preocupada por el orden y la limpieza en su barrio. A lo largo del día, Valeria organiza la disposición de residuos en su hogar, consulta con vecinos sobre el horario del camión recolector, y enfrenta frustraciones cuando la información no es clara o los residuos no son recogidos a tiempo. Sus pensamientos giran en torno a mantener su hogar y vecindario limpio, mientras que sus emociones fluctúan entre satisfacción cuando todo está en orden y molestia cuando el camión no llega como esperaba.</p>
-<br><img src="../assets/img/chapter-II/asis_2.jpg"></img><br>  <br>
+<br><img src="/assets/img/chapter-II/asis_2.jpg"></img><br>  <br>
 
 ## 2.4. Ubiquitous Language.
 
@@ -1282,12 +1282,12 @@ Valeria Torres es una madre de familia de 29 años que vive en un barrio residen
 
 <p><strong>Segmento 1:</strong> Funcionarios de municipalidades (Luis Ramírez)</p>
 <p>Este mapa describe cómo sería el nuevo flujo de trabajo de Luis Ramírez tras la implementación del sistema inteligente de gestión de residuos. Gracias a los sensores IoT y la plataforma de visualización en tiempo real, Luis puede acceder a información actualizada sobre el estado de los contenedores, planificar rutas óptimas automáticamente y responder rápidamente a incidentes reportados. Su trabajo se vuelve más estratégico, menos reactivo y con una mayor percepción de control y eficiencia.</p>
-<br><img src="../assets/img/chapter-III/tobe_1.jpg"></img><br>  <br>
+<br><img src="/assets/img/chapter-III/tobe_1.jpg"></img><br>  <br>
 
 
 <p><strong>Segmento 2:</strong>  Ciudadanos (Valeria Torres)</p>
 <p>Este mapa representa cómo sería la experiencia de Valeria Torres con la nueva plataforma de gestión inteligente de residuos. Con acceso a una interfaz ciudadana que le brinda información en tiempo real sobre el recorrido del camión recolector y alertas anticipadas, Valeria puede organizar mejor la disposición de sus residuos y participar activamente en el cuidado de su entorno. La tecnología reduce su incertidumbre y le permite actuar con mayor seguridad y responsabilidad.</p>
-<br><img src="../assets/img/chapter-III/tobe_2.jpg"></img><br>  <br>
+<br><img src="/assets/img/chapter-III/tobe_2.jpg"></img><br>  <br>
 
 ## 3.2. User Stories
 
@@ -1497,7 +1497,7 @@ En esta sección se detallan las historias de usuario.
 ## 3.3. Impact Mapping
 
 <p>Este Impact Mapping se desarrolló con el objetivo de alcanzar el business goal de lograr la adopción del sistema por 5 municipalidades y al menos 5,000 ciudadanos activos en 12 meses. Se identificaron como actores clave al Funcionario Municipal (Luis Ramírez) y a la Ciudadana Responsable (Valeria Torres). A partir de ellos se derivan los impactos deseados, los entregables necesarios y las User Stories que respaldan los objetivos de negocio.</p>
-<br><img src="../assets/img/chapter-III/map_1.png"></img><br>  <br>
+<br><img src="/assets/img/chapter-III/map_1.png"></img><br>  <br>
 
 
 ## 3.4. Product Backlog
@@ -2165,47 +2165,47 @@ Para la elaboración del EventStorming, el equipo se organizó para encontrar un
 **Paso 1: Collect Domain Events**
 En este primer paso, identificamos todos los eventos relevantes del dominio que ocurren en nuestro sistema. Estos eventos representan hechos importantes que suceden durante el proceso de negocio y los capturamos con post-its de color naranja.
 
-<img src="../assets/img/chapter-IV/eventStorming1.png"> 
+<img src="/assets/img/chapter-IV/eventStorming1.png"> 
 
 **Paso 2: Timeline**
 Organizamos todos los eventos identificados en una línea temporal, colocándolos en orden cronológico para visualizar mejor el flujo del proceso y entender la secuencia natural de acciones en el sistema.
 
-<img src="../assets/img/chapter-IV/eventStorming2.jpg"> 
+<img src="/assets/img/chapter-IV/eventStorming2.jpg"> 
 
 **Paso 3: Pain and Pivotal points**
 Identificamos los puntos problemáticos (pain points) y los momentos clave (pivotal points) en nuestro proceso. Estos representan áreas que requieren atención especial o que son críticas para el funcionamiento del sistema.
 
-<img src="../assets/img/chapter-IV/eventStorming3.jpg"> 
+<img src="/assets/img/chapter-IV/eventStorming3.jpg"> 
 
 **Paso 4: Commands**
 Agregamos los comandos (representados con post-its azules) que desencadenan los eventos. Estos comandos son las acciones que los usuarios o sistemas externos realizan para provocar cambios en el sistema.
 
-<img src="../assets/img/chapter-IV/eventStorming4.jpg"> 
+<img src="/assets/img/chapter-IV/eventStorming4.jpg"> 
 
 **Paso 5: Policies**
 Definimos las políticas o reglas de negocio (con post-its morados) que reaccionan a ciertos eventos y generan nuevos eventos como resultado. Estas políticas automatizan decisiones basadas en eventos previos.
 
-<img src="../assets/img/chapter-IV/eventStorming5.jpg"> 
+<img src="/assets/img/chapter-IV/eventStorming5.jpg"> 
 
 **Paso 6: Read models**
 Identificamos los modelos de lectura o vistas que los usuarios necesitan para tomar decisiones. Estos representan la información que debe estar disponible en determinados puntos del proceso.
 
-<img src="../assets/img/chapter-IV/eventStorming6.jpg"> 
+<img src="/assets/img/chapter-IV/eventStorming6.jpg"> 
 
 **Paso 7: External System**
 Marcamos los sistemas externos (con post-its rosados) que interactúan con nuestra solución. Estos son componentes fuera de nuestro control directo pero que tienen influencia en el proceso.
 
-<img src="../assets/img/chapter-IV/eventStorming7.jpg"> 
+<img src="/assets/img/chapter-IV/eventStorming7.jpg"> 
 
 **Paso 8: Aggregates**
 Agrupamos los comandos y eventos relacionados en unidades lógicas llamadas agregados (representados con post-its amarillos). Cada agregado encapsula un conjunto coherente de funcionalidades.
 
-<img src="../assets/img/chapter-IV/eventStorming8.jpg"> 
+<img src="/assets/img/chapter-IV/eventStorming8.jpg"> 
 
 **Paso 9: Bounded Context**
 Finalmente, identificamos los contextos delimitados o bounded contexts, que son áreas de responsabilidad distintas dentro del sistema. 
 
-<img src="../assets/img/chapter-IV/eventStorming9.jpg"> 
+<img src="/assets/img/chapter-IV/eventStorming9.jpg"> 
 
 ### 4.2.2. Candidate Context Discovery
 
@@ -2215,23 +2215,23 @@ A partir del EventStorming realizado en Miro, nuestro equipo llevó a cabo una s
 
 Comenzamos revisando el modelo completo que habíamos construido, prestando especial atención a los eventos pivote y agregados identificados.
 
-<img src="../assets/img/chapter-IV/eventStorming3.jpg"> 
+<img src="/assets/img/chapter-IV/eventStorming3.jpg"> 
 
 Detección de agrupaciones naturales: Identificamos patrones y agrupaciones naturales de comandos, eventos y políticas que trabajaban sobre las mismas entidades o procesos.
 
-<img src="../assets/img/chapter-IV/eventStorming7.jpg"> 
+<img src="/assets/img/chapter-IV/eventStorming7.jpg"> 
 
 Nos enfocamos en eventos clave como las configuraciones de notificaciones y alertas que marcan claramente transiciones entre diferentes contextos
 
-<img src="../assets/img/chapter-IV/contextDiscovery1.png"> 
+<img src="/assets/img/chapter-IV/contextDiscovery1.png"> 
 
 Definición de límites: Trazamos fronteras alrededor de los grupos identificados, estableciendo los límites iniciales de nuestros bounded contexts.
 
-<img src="../assets/img/chapter-IV/eventStorming9.jpg">
+<img src="/assets/img/chapter-IV/eventStorming9.jpg">
 
 Nomenclatura y validación: Nombramos cada bounded context identificado según su responsabilidad principal y validamos que tuvieran coherencia interna y límites claros.
 
-<img src="../assets/img/chapter-IV/contextDiscovery2.png"> 
+<img src="/assets/img/chapter-IV/contextDiscovery2.png"> 
 
 Como resultado de este proceso, identificamos los siguientes bounded contexts para nuestra solución:
 
@@ -2250,7 +2250,7 @@ Los Domain Message Flows modelan las interacciones entre los diferentes bounded 
 
 Este flujo de mensajes modela cómo un usuario nuevo accede a la plataforma WasteTrack, ilustrando las interacciones entre el usuario y el bounded context de Access, y cómo este se comunica con el contexto de Monitoring.
 
-<img src="../assets/img/chapter-IV/messageFlow1.jpg"> 
+<img src="/assets/img/chapter-IV/messageFlow1.jpg"> 
 
 Este flujo demuestra la relación Customer-Supplier entre Access y Monitoring, donde Access actúa como proveedor de información de autenticación y autorización.
 
@@ -2258,7 +2258,7 @@ Este flujo demuestra la relación Customer-Supplier entre Access y Monitoring, d
 
 Este flujo modela cómo un usuario selecciona un contenedor como favorito para recibir notificaciones específicas sobre su estado.
 
-<img src="../assets/img/chapter-IV/messageFlow2.jpg"> 
+<img src="/assets/img/chapter-IV/messageFlow2.jpg"> 
 
 Este flujo ilustra cómo la interacción del usuario con el sistema desencadena cambios en múltiples bounded contexts utilizando el patrón de comunicación basado en eventos.
 
@@ -2266,7 +2266,7 @@ Este flujo ilustra cómo la interacción del usuario con el sistema desencadena 
 
 Este flujo muestra el proceso de generación de una simulación de ruta optimizada para la recolección de residuos.
 
-<img src="../assets/img/chapter-IV/messageFlow3.jpg"> 
+<img src="/assets/img/chapter-IV/messageFlow3.jpg"> 
 
 Este flujo demuestra la relación Partnership entre Simulation y Monitoring, así como la relación Customer-Supplier entre IoT Device y Simulation.
 
@@ -2274,7 +2274,7 @@ Este flujo demuestra la relación Partnership entre Simulation y Monitoring, as�
 
 Este flujo ilustra cómo el sistema detecta y notifica a un usuario cuando su contenedor favorito está por desbordarse.
 
-<img src="../assets/img/chapter-IV/messageFlow4.jpg"> 
+<img src="/assets/img/chapter-IV/messageFlow4.jpg"> 
 
 Este flujo demuestra cómo se implementa el patrón Published Language entre IoT Device y Monitoring, permitiendo una comunicación estandarizada sobre el estado de los contenedores que beneficia directamente a los usuarios finales.
 
@@ -2286,19 +2286,19 @@ Los Bounded Context Canvases son herramientas visuales que nos permiten document
 
 **Access Bounded Context:** Este canvas detalla nuestro contexto de acceso, responsable de la autenticación y autorización. Definimos sus principales modelos de dominio (Usuario, Rol, Permiso), las políticas de seguridad y los eventos clave como el registro de usuario y la autenticación. Su propósito estratégico es garantizar que solo los usuarios autorizados puedan acceder a funcionalidades específicas del sistema, actuando como proveedor upstream para otros contextos. El canvas ilustra claramente cómo este contexto encapsula toda la lógica relacionada con la identidad y seguridad.
 
-<img src="../assets/img/chapter-IV/boundedContext3.jpg">
+<img src="/assets/img/chapter-IV/boundedContext3.jpg">
 
 **Monitoring Bounded Context:** Este canvas muestra nuestro contexto de monitoreo, que representa el núcleo de la experiencia del usuario con la aplicación. Identificamos sus principales entidades (Contenedor, Favorito, Alerta) y las capacidades clave como visualización de contenedores en tiempo real, sistema de favoritos y notificaciones. Este contexto actúa como cliente downstream de Access e IoT Device, mientras mantiene una relación de partnership con Simulation. El canvas nos permitió visualizar la complejidad de este contexto y sus múltiples integraciones.
 
-<img src="../assets/img/chapter-IV/boundedContext1.jpg">
+<img src="/assets/img/chapter-IV/boundedContext1.jpg">
 
 **Simulation Bounded Context:** El canvas de simulación refleja la sofisticación técnica de este contexto, mostrando su responsabilidad en la optimización de rutas y predicciones. Documentamos sus modelos de dominio principales (Ruta, Simulación, Parámetro), sus algoritmos de optimización y su dependencia de los datos históricos proporcionados por IoT Device. Este contexto implementa un ACL para transformar los datos del IoT en formatos adecuados para sus algoritmos de optimización, lo que se refleja claramente en el canvas.
 
-<img src="../assets/img/chapter-IV/boundedContext4.jpg">
+<img src="/assets/img/chapter-IV/boundedContext4.jpg">
 
 **IoT Device Bounded Context:** Este canvas presenta nuestro contexto más cercano al hardware, responsable de gestionar los dispositivos físicos y sus sensores. Identificamos sus principales agregados (Dispositivo, Sensor, Medición), los eventos que genera (como cambios en el nivel de llenado) y su rol como publicador de datos para otros contextos. El canvas muestra claramente cómo este contexto implementa un patrón Published Language para estandarizar la comunicación con Monitoring y Simulation.
 
-<img src="../assets/img/chapter-IV/boundedContext2.jpg">
+<img src="/assets/img/chapter-IV/boundedContext2.jpg">
 
 Estos canvases fueron herramientas fundamentales para definir la arquitectura de nuestra solución, permitiéndonos visualizar cada contexto como una unidad coherente con responsabilidades claras y bien definidas. Además, nos ayudaron a identificar los puntos de integración entre contextos que luego refinamos en el Context Mapping.
 
@@ -2311,7 +2311,7 @@ Para elaborar nuestro Context Map, analizamos varias alternativas evaluando dife
 
 - Alternativa 1: Modelo Inicial
 
-<img src="../assets/img/chapter-IV/contextMapping1.png"> 
+<img src="/assets/img/chapter-IV/contextMapping1.png"> 
 
 Donde: U/D: Upstream/Downstream (relación Cliente/Proveedor)
 
@@ -2321,7 +2321,7 @@ En este modelo inicial, Access actúa como proveedor para Monitoring, proporcion
 
 Consideramos la inclusión de Anti-corruption Layers para proteger los modelos de dominio:
 
-<img src="../assets/img/chapter-IV/contextMapping2.png"> 
+<img src="/assets/img/chapter-IV/contextMapping2.png"> 
 
 Donde: ACL: Anti-corruption Layer
 
@@ -2331,7 +2331,7 @@ Esta alternativa añade capas de traducción para proteger los modelos de domini
 
 Evaluamos si algunas funcionalidades compartidas podrían beneficiarse de un Shared Kernel:
 
-<img src="../assets/img/chapter-IV/contextMapping3.png"> 
+<img src="/assets/img/chapter-IV/contextMapping3.png"> 
 
 En esta alternativa, IoT Device y Simulation comparten un kernel común para el modelo de estado de los contenedores.
 
@@ -2362,7 +2362,7 @@ Nos planteamos las siguientes preguntas clave para evaluar nuestras alternativas
 
 Después de evaluar todas las alternativas, optamos por el siguiente Context Map:
 
-<img src="../assets/img/chapter-IV/contextMapping4.png"> 
+<img src="/assets/img/chapter-IV/contextMapping4.png"> 
 
 **Relaciones entre contextos:**
 
@@ -2408,19 +2408,19 @@ En esta sección se presentan los diagramas de arquitectura de la solución, que
 #### 4.3.1. Software Architecture System Landscape Diagram
 Diagrama de arquitectura Landscape, gráfica a un nivel general, sin detallar explicitamente los componentes del sistema. En este diagrama se puede observar la relación entre el sistema y los actores externos que interactúan con él.
 
-<img src="../assets/img/chapter-IV/c4-landscape.PNG">
+<img src="/assets/img/chapter-IV/c4-landscape.PNG">
 
 #### 4.3.2. Software Architecture Context Level Diagrams
 Diagrama de arquitectura de contexto de Waste Track. En el cual podemos identificar los principales usuarios y cómo estos se relacionan con el sistema. Además se grafica cuales son las relaciones entre el sistema y servicios externos que proveen funcionalidades adicionales a la solución. 
 
-<img src="../assets/img/chapter-IV/c4-context.PNG"> 
+<img src="/assets/img/chapter-IV/c4-context.PNG"> 
 
 #### 4.3.3. Software Architecture Container Level Diagrams
 Diagrama de arquitectura de contenedores, incluye aplicaciones web y móvil, bases de datos, APIs y servicios externos que conforman la solución.
 
-<img src="../assets/img/chapter-IV/c4-containers.PNG">
+<img src="/assets/img/chapter-IV/c4-containers.PNG">
 
 #### 4.3.4. Software Architecture Deployment Diagrams
 Diagrama de arquitectura de despliegue, principalmente se describen las tecnologías y proveedores de nube que se utilizarán para implementar la solución.
 
-<img src="../assets/img/chapter-IV/c4-deployment.png">
+<img src="/assets/img/chapter-IV/c4-deployment.png">
