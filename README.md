@@ -1038,7 +1038,7 @@ Diego es un joven ciudadano del distrito de Pueblo Libre, quien nos comenta su e
 
 Entrevistado #2
 
-  ![Entrevista](/assets/img/chapter-II/entrevista_Lucero_Segmento1.png)
+ ![Entrevista1](/assets/img/chapter-II/entrevista_Lucero_Segmento1.png)
 
 ●	Nombre: Lucero Smith
 
@@ -1065,7 +1065,7 @@ Lucero nos comenta que ella tiene muchos problemas con el tema de la recoleccion
 
 Entrevistado #3
 
-  ![Entrevista](/assets/img/chapter-II/entrevista_lucia_segmento1.png)
+  ![Entrevista1](/assets/img/chapter-II/entrevista_lucia_segmento1.png)
 
 ●	Nombre: Lucia Aliaga
 
