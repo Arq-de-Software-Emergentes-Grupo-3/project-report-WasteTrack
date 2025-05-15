@@ -2431,16 +2431,16 @@ Los tonos de verde seleccionados para la aplicación se asocian a nuestro objeti
 **Lista de colores**  
 
 Gama primaria  
-<img src="../assets/img/chapter-VI/gama-primaria.png"> 
+<img src="/assets/img/chapter-VI/gama-primaria.png"> 
 
 Gama secundaria  
-<img src="../assets/img/chapter-VI/gama-secundaria.png">  
+<img src="/assets/img/chapter-VI/gama-secundaria.png">  
 
 **Tipografía**  
-<img src="../assets/img/chapter-VI/tipografia.png">  
+<img src="/assets/img/chapter-VI/tipografia.png">  
 
 **Botones e íconos**  
-<img src="../assets/img/chapter-VI/botones.png">
+<img src="/assets/img/chapter-VI/botones.png">
 
 ## 6.2. Information Architecture
 
@@ -2503,63 +2503,63 @@ Para lograr aquello, empleamos un menú desplegable el cual muestra todas las fu
 
 En esta sección, se muestra un esquema básico del diseño de la Landing Page, donde se resaltan las principales áreas de contenido, como el encabezado y las secciones de beneficios para ciudadanos y municipalidades. Este wireframe representa la estructura fundamental de la página sin detalles visuales específicos.
 
-<img src="../assets/img/chapter-VI/landing-wireframe-1.png">  
-<img src="../assets/img/chapter-VI/landing-wireframe-2.png">  
-<img src="../assets/img/chapter-VI/landing-wireframe-3.png">  
-<img src="../assets/img/chapter-VI/landing-wireframe-4.png"> 
-<img src="../assets/img/chapter-VI/landing-wireframe-5.png"> 
+<img src="/assets/img/chapter-VI/landing-wireframe-1.png">  
+<img src="/assets/img/chapter-VI/landing-wireframe-2.png">  
+<img src="/assets/img/chapter-VI/landing-wireframe-3.png">  
+<img src="/assets/img/chapter-VI/landing-wireframe-4.png"> 
+<img src="/assets/img/chapter-VI/landing-wireframe-5.png"> 
 
 ### 6.3.2. Landing Page Mock-up
 
 El mock-up de la Landing Page ofrece una representación visual más avanzada del diseño final, incluyendo los colores, tipografía, imágenes y componentes interactivos. Este diseño está orientado a proporcionar una idea clara de cómo será la interfaz una vez implementada, reflejando la identidad visual de WasteTrack y su enfoque en la usabilidad.
 
-<img src="../assets/img/chapter-VI/landing-mockup-6.jpeg"> 
-<img src="../assets/img/chapter-VI/landing-mockup-5.jpeg"> 
-<img src="../assets/img/chapter-VI/landing-mockup-4.jpeg"> 
-<img src="../assets/img/chapter-VI/landing-mockup-3.jpeg"> 
-<img src="../assets/img/chapter-VI/landing-mockup-2.jpeg"> 
+<img src="/assets/img/chapter-VI/landing-mockup-6.jpeg"> 
+<img src="/assets/img/chapter-VI/landing-mockup-5.jpeg"> 
+<img src="/assets/img/chapter-VI/landing-mockup-4.jpeg"> 
+<img src="/assets/img/chapter-VI/landing-mockup-3.jpeg"> 
+<img src="/assets/img/chapter-VI/landing-mockup-2.jpeg"> 
 
 ## 6.4. Applications UX/UI Design
 
 ### 6.4.1. Applications Wireframes
 
 Inicio de Sesión
-<img src="../assets/img/chapter-VI/Wireframe-2.png" width="900"> 
+<img src="/assets/img/chapter-VI/Wireframe-2.png" width="900"> 
 
 Registro de Usuario
-<img src="../assets/img/chapter-VI/Wireframe-1.png" width="900"> 
+<img src="/assets/img/chapter-VI/Wireframe-1.png" width="900"> 
 
 Ajustes de Usuario - Configuración
-<img src="../assets/img/chapter-VI/Wireframe-3.png" width="900"> 
+<img src="/assets/img/chapter-VI/Wireframe-3.png" width="900"> 
 
 Registro de Desperdicios
-<img src="../assets/img/chapter-VI/Wireframe-4.png" width="900"> 
+<img src="/assets/img/chapter-VI/Wireframe-4.png" width="900"> 
 
 Mapeo de Rutas de Camiones
-<img src="../assets/img/chapter-VI/Wireframe-5.png" width="900"> 
+<img src="/assets/img/chapter-VI/Wireframe-5.png" width="900"> 
 
 Estado de Contenedor
-<img src="../assets/img/chapter-VI/Wireframe-6.png" width="900"> 
+<img src="/assets/img/chapter-VI/Wireframe-6.png" width="900"> 
 
 Reporte de Contenedor Desbordado
-<img src="../assets/img/chapter-VI/Wireframe-7.png" width="900"> 
+<img src="/assets/img/chapter-VI/Wireframe-7.png" width="900"> 
 
 ### 6.4.2. Applications Wireflow Diagrams
 
 Flujo 1: Inicio de Sesión - Registro de Usuario
-<img src="../assets/img/chapter-VI/Wireframe-Diagram-1.png" width="800"> 
+<img src="/assets/img/chapter-VI/Wireframe-Diagram-1.png" width="800"> 
 
 Flujo 2: Ajuste de Datos de Perfil
-<img src="../assets/img/chapter-VI/Wireframe-Diagram-2.png" width="800"> 
+<img src="/assets/img/chapter-VI/Wireframe-Diagram-2.png" width="800"> 
 
 Flujo 3: Datos y Ajuste del Contenedor Especificado
-<img src="../assets/img/chapter-VI/Wireframe-Diagram-3.png" width="800"> 
+<img src="/assets/img/chapter-VI/Wireframe-Diagram-3.png" width="800"> 
 
 Flujo 4: Visualización de Rutas de los Camiones Recolectores
-<img src="../assets/img/chapter-VI/Wireframe-Diagram-4.png" width="800"> 
+<img src="/assets/img/chapter-VI/Wireframe-Diagram-4.png" width="800"> 
 
 Flujo 5: Reporte de Contenedor Desbordado
-<img src="../assets/img/chapter-VI/Wireframe-Diagram-5.png" width="800"> 
+<img src="/assets/img/chapter-VI/Wireframe-Diagram-5.png" width="800"> 
 
 ### 6.4.3. Applications Mock-ups
 
