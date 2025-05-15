@@ -2738,3 +2738,54 @@ Flujo 5: Reporte de Contenedor Desbordado
 ### 6.4.4. Applications User Flow Diagrams
 
 ## 6.5. Applications Prototyping
+
+## Conclusiones
+
+### Conclusiones y recomendaciones
+
+Después de analizar el desarrollo de la plataforma **WasteTrack**, se han identificado varias conclusiones clave sobre su viabilidad y eficacia para mejorar la gestión de residuos urbanos en Perú:
+
+1. **Optimización de rutas**: WasteTrack demuestra ser una herramienta eficaz para optimizar las rutas de recolección de residuos, mejorando la eficiencia operativa y reduciendo costos en las municipalidades.
+2. **Participación ciudadana**: Una de las características destacadas de WasteTrack es la integración de una plataforma que permite a los ciudadanos seguir el recorrido de los camiones recolectores, lo cual fomenta la transparencia y la colaboración en la gestión de residuos.
+3. **Adaptación local**: A diferencia de los competidores internacionales, WasteTrack se adapta específicamente a las necesidades de las municipalidades peruanas, considerando factores como el tráfico y las características geográficas locales.
+4. **Costo accesible**: La solución es asequible y escalable, lo que la hace viable para municipalidades con presupuestos limitados, algo que otros competidores no logran en mercados emergentes.
+
+**Recomendaciones**:
+- **Expansión a más municipalidades**: Se recomienda ampliar la implementación de WasteTrack en otras ciudades de Perú, a medida que más municipios busquen soluciones sostenibles para la recolección de residuos.
+- **Mejoras continuas en la interfaz de usuario**: A medida que se reciba feedback de los usuarios, se recomienda seguir mejorando la interfaz para asegurar que sea aún más intuitiva y accesible.
+- **Fomentar la participación ciudadana**: Se debe promover aún más la participación activa de los ciudadanos en la gestión de residuos mediante nuevas funciones que les permitan reportar fácilmente problemas como contenedores llenos o mal ubicados.
+
+### Bibliografía
+
+- Koller, J., & García, M. (2022). *Gestión inteligente de residuos urbanos con IoT: Retos y oportunidades*. Editorial Innovación Urbana.
+- Times of India. (2025, mayo 11). Mangaluru civic body to install QR codes for all waste generators in city. Recuperado de https://timesofindia.indiatimes.com/city/mangaluru/mangaluru-civic-body-to-install-qr-codes-for-all-waste-generators-in-city/articleshow/121084103.cms
+- Pérez, L. (2023). *Tecnologías de optimización de rutas para la recolección de residuos urbanos*. Journal of Urban Sustainability.
+- Future Electronics. (2023, octubre 15). 3 smart cities using technology to tackle waste management. Recuperado de https://www.futureelectronics.com/blog/article/3-smart-cities-using-technology-to-tackle-waste-management/
+- Martínez, F., & López, R. (2021). *Participación ciudadana en la gestión de residuos urbanos: El caso de las plataformas tecnológicas*. Revista de Gestión y Tecnología Ambiental, 14(2), 89-105.
+- Laha, S. R., Pattanayak, B. K., Pattnaik, S., & Kumar, S. (2023). A Smart Waste Management System Framework Using IoT and LoRa for Green City Project. International Journal on Recent and Innovation Trends in Computing and Communication, 11(9), 342–357
+
+### Anexos
+
+<table>
+        <thead>
+            <tr>
+                <th>Sección</th>
+                <th>Características del video</th>
+                <th>Sobre el contenido</th>
+                <th>Integración y entrega</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Exposición</td>
+                <td>Cantidad de videos: 1 <br> 
+                  Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-video-tb1 <br>
+                  Formato: .mp4 <br>
+                  Duración: 20 minutos </td>
+                <td>Exposición de la entrega - TB1</td>
+                <td>Link: https://drive.google.com/file/d/1tRM-6WHxp1wa-8ooGUuBXDWPTSeqVhE6/view?usp=sharing
+                   <br>
+                  <img src="" alt="" width="350"/> </td>
+            </tr>
+        </tbody>
+</table>
