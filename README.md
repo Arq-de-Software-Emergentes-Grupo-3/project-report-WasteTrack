@@ -1023,7 +1023,7 @@ Diego Cantoral
 
 Entrevista:
 
-●	Link: 
+●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/EYaN1fHNU7RJm_THwfNQjaIBBaJFdH89zEybwct68Bf6cA?e=fAtIeU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ●	Momento en el que inicia: 
 
