@@ -2616,8 +2616,6 @@ Gama secundaria
 
 ## 6.2. Information Architecture
 
-### 6.2.1. Organization Systems
-
 **Jerarquía Visual**  
 WasteTrack ha sido diseñada con una jerarquía visual que facilita la interacción del usuario. Los elementos principales, como botones de acción e íconos, están ubicados de forma prominente, permitiendo a los usuarios ubicar rápidamente la funcionalidad deseada. El uso de tamaños diferenciadores para títulos y subtítulos, así como una jerarquía de colores según el tipo de botón y la funcionalidad a la que dirige, permite que estos se destaquen entre el resto del contenido de la aplicación.
 
@@ -2633,9 +2631,19 @@ La combinación de los colores principales, que están basados en tonos de blanc
 **Botones e Íconos**  
 Los botones e íconos, tales como el de iniciar sesión y el de reporte de contenedor en el caso de los ciudadanos, estan diseñados para ser fácilmente ubicables por el usuario, pues los botones siempre están presentes para ejecutar procesos fundamentales de la aplicación. Todos los botones tienen bordes suaves y colores brillantes, elementos escenciales para la modernidad del diseño y la fácil identificación por parte del usuario respectivamente. Entre los íconos principales destacan el de notificaciones y el de perfil de usuario, usando la campana y la persona respectivamente, permitiendo que el usuario sepa inmediatamente a que funcionalidad hacen referencia.
 
-### 6.2.2. Labeling Systems
+### 6.2.1. Labeling Systems
 
-### 6.2.3. SEO Tags and Meta Tags
+El sistema de etiquetado de WasteTrack sigue unas pautas claras para asegurar coherencia y accesibilidad en toda la interfaz:
+
+- **Convenciones de nomenclatura:** WasteTrack emplea un conjunto homogéneo de reglas de redacción para asegurar coherencia en cada elemento de la aplicación. Todo el texto visible se presenta en español (castellano) de manera uniforme: los títulos y encabezados principales usan mayúscula en la primera letra de cada palabra para resaltar la jerarquía y facilitar la lectura, mientras que las etiquetas de formularios, botones y menús siguen el formato de oración, con mayúscula solo en la primera letra de la frase. Las abreviaturas quedan restringidas a siglas de uso común y, cuando sea necesario introducir una nueva, ésta debe definirse explícitamente la primera vez que aparezca. Para mantener claridad, las etiquetas no superan los 30 caracteres y las descripciones o ayudas de formulario se limitan a 60 caracteres, de modo que el diseño no se vea saturado y el usuario pueda procesar la información de un vistazo.
+
+- **Accesibilidad:** Consciente de la diversidad de perfiles de usuario, WasteTrack incorpora principios de accesibilidad en todos sus componentes. Cada elemento interactivo define un atributo aria-label que describe su función con precisión, y se utilizan roles ARIA (role="alert", role="button", etc.) para señalar comportamientos especiales ante tecnologías de asistencia. Las combinaciones de colores cumplen con los estándares WCAG 2.1 nivel AA, garantizando contraste suficiente entre texto y fondo. Además, todos los controles (botones, campos de entrada, desplegables) funcionan de manera completa mediante teclado, con indicadores visibles de foco (outline o cambio sutil de color), y los íconos asociados cuentan con textos alternativos (atributo alt o aria-hidden) para no interferir con lectores de pantalla. Estos requisitos se validan de forma automatizada durante el proceso de integración continua utilizando axe-core y pruebas de usabilidad con usuarios reales.
+
+- **Categorías principales:** Están pensadas para reflejar de forma ordenada todas las áreas funcionales de la aplicación. En primer lugar, todo lo relativo a los contenedores se agrupa bajo “Datos de contenedor”, donde aparecen etiquetas que identifican cada unidad (ID del contenedor), su nivel de llenado, el tipo de residuo que recibe, el umbral de alerta configurado y el estado del sensor IoT. A continuación, la sección de “Configuración de recogida” engloba los parámetros que permiten programar la frecuencia y la prioridad de las rutas: desde los horarios y los días de recolección hasta la asignación de la ruta y su nivel de prioridad. Por otro lado, “Usuarios y roles” define con claridad los distintos perfiles que interactúan con la plataforma, distinguiendo entre autoridades municipales, administradores, operadores de ruta y ciudadanos. En el apartado de “Informes y notificaciones” se agrupan las etiquetas asociadas a las alertas automáticas de desbordamiento, los reportes manuales de incidencias, el historial de recogidas registradas y las métricas de uso. Por último, la “Interfaz ciudadana” recopila aquellas etiquetas diseñadas para el acceso público: desde la visualización en el mapa de la ruta estimada hasta la indicación de la próxima recogida, el estado del camión en tiempo real y el botón que permite al ciudadano informar problemas.
+
+Cada etiqueta tiene un nombre descriptivo, un componente UI asociado (campo de lectura, dropdown, botón, etc.) y un aria-label que refleje exactamente su función, de modo que tanto operarios municipales como ciudadanos disfruten de una experiencia clara, consistente y accesible.
+
+### 6.2.2. SEO Tags and Meta Tags
 ```<meta charset="UTF-8">```  
 
 ```<meta name="author" content="SmartWaste Team">```  
@@ -2657,13 +2665,13 @@ Además:
 - Incrementan el CTR (tasa de clics) al mostrar títulos y descripciones claras y atractivas.
 - Favorecen la difusión en redes sociales, mostrando una vista previa coherente y profesional.
 
-### 6.2.4. Searching Systems
+### 6.2.3. Searching Systems
 
 El sistema de búsqueda de WasteTrack esta diseñado para que el usuario, sea autoridad municipal o ciudadano, pueda encontrar todas las funcionalidades de forma rápida. Esto lo conseguimos a traves de un menú lateral, en el cual, el usuario puede elegir la funcionalidad a la cual este desea acceder, según su rol, y la aplicación, inmediatamente, lo llevará al apartado seleccionado.
 
 En el caso de las autoridades municipales, disponen de un mapa en tiempo real donde pueden localizar de forma rápida todos los contendores correspondientes al distrito bajo el cual se esta administrando. De esta forma conseguimos que el funcionario pueda localizar un contenedor en específico de forma rápida y accesible.
 
-### 6.2.5. Navigation Systems
+### 6.2.4. Navigation Systems
 
 El sistema de navegación de WasteTrack busca que el usuario pueda acceder de forma rápida a todas las funcionalidades de la aplicación, proporcionando una experiencia fluida, intuitiva y estructurada.
 
