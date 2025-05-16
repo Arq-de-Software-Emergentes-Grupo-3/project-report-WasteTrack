@@ -941,7 +941,7 @@ Nelson Serrano
 ●	Nivel socioeconómico: Clase B
 Entrevista:
 
-●	Link: [Click para ver entrevista](https://drive.google.com/file/d/1xfp88xcLjj6Mrp3IOyHWl4fSg7WGsBDU/view?usp=sharing)
+●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EUGufDzUcxlDiBBQxTBYkQoBKULSVQQHI-ChPnlY0AKyJQ?e=uYe5LY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ●	Momento en el que inicia: 0:00
 
@@ -2783,7 +2783,7 @@ Después de analizar el desarrollo de la plataforma **WasteTrack**, se han ident
                   Formato: .mp4 <br>
                   Duración: 20 minutos </td>
                 <td>Exposición de la entrega - TB1</td>
-                <td>Link: https://drive.google.com/file/d/1tRM-6WHxp1wa-8ooGUuBXDWPTSeqVhE6/view?usp=sharing
+                <td>Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EY7psYFkC-tFpXtQGlvfHJsB5bVgmsXcsvJihd6LzLfHQg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=j5ct3x
                    <br>
                   <img src="" alt="" width="350"/> </td>
             </tr>
