@@ -968,7 +968,7 @@ Nombre: Leonardo Soto Tagle
 
 Entrevista:
 
-●	Link: [Click para ver entrevista](https://youtu.be/TDk6NwubPeU)
+●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202016311_upc_edu_pe/EXGtYg9VFuhDn6UgFMzBMVsBKMgEt8Pd4quOlv_OlJV3cw?e=UKNA9M
 
 ●	Momento en el que inicia: 0:00
 
