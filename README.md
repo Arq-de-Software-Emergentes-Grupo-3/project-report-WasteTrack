@@ -2574,7 +2574,7 @@ Aquí se concentra todo lo relativo a la identidad, autenticación y autorizaci�
 
 #### 5.3.6.1 Bounded Context Domain Layer Class Diagrams
 
-<img src="/assets/img/chapter-V/BD3-Diagram2.png" width="700"> 
+<img src="/assets/img/chapter-V/BoundedContext3-Diagram2.png" width="700"> 
 
 #### 5.3.6.2 Bounded Context Database Design Diagrams
 
