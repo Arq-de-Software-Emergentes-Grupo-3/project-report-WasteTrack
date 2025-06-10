@@ -2788,9 +2788,6 @@ En esta sección se detallan las herramientas de software empleadas en WasteTrac
 - **PyCharm**: IDE para python.  
 <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/PyCharm_Icon.svg" width="200"/></p>
 
-- **Postman**: Pruebas manuales de endpoints y APIs.  
-<p align="center"><img src="https://seeklogo.com/images/P/postman-logo-0087CA0D15-seeklogo.com.png" width="200"/></p>
-
 - **Docker**: Contenerización para replicar ambientes local y de producción.  
 <p align="center"><img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" width="200"/></p>
 
