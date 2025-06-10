@@ -2747,76 +2747,74 @@ Flujo 5: Reporte de Contenedor Desbordado
 
 ## 6.5. Applications Prototyping
 
-# Capítulo V: Product Implementation, Validation & Deployment
+# Capítulo VII: Product Implementation, Validation & Deployment
 
-## 5.1. Software Configuration Management
+## 7.1. Software Configuration Management
 
-### 5.1.1. Software Development Environment Configuration
+### 7.1.1. Software Development Environment Configuration
 
 En esta sección se detallan las herramientas de software empleadas en WasteTrack para gestionar el ciclo completo de vida del proyecto, desde la planificación hasta la documentación y pruebas.
 
 **Project Management:**
 
 - **Discord**: Utilizamos Discord como herramienta principal de comunicación para la coordinación diaria del equipo.  
-  ![Discord](https://fbi.cults3d.com/uploaders/13940850/illustration-file/af3a9ca5-76dd-4f06-b86d-bd7d73495f40/1bcc0f0aefe71b2c8ce66ffe8645d365.png)
+<p align="center"><img src="https://fbi.cults3d.com/uploaders/13940850/illustration-file/af3a9ca5-76dd-4f06-b86d-bd7d73495f40/1bcc0f0aefe71b2c8ce66ffe8645d365.png" width="200"/></p>
 
 - **WhatsApp**: Sirve como canal rápido para notificaciones, recordatorios y coordinación informal.  
-  ![WhatsApp](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png)
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png" width="200"/></p>
 
 **Requirements Management:**
 
 - **Miro**: Empleado para mapear funcionalidades, eventos y procesos con diagramas colaborativos.
 - **Lucidchart**: Para modelar arquitecturas, flujos y relaciones.  
-  ![Lucidchart](https://play-lh.googleusercontent.com/o4vT3StM8rw3Hn15GMtLjuTA6VUWt6jxDvV4d5ahKj9E9nGaLut06tM83NESuTBr-t0)
+<p align="center"><img src="https://play-lh.googleusercontent.com/o4vT3StM8rw3Hn15GMtLjuTA6VUWt6jxDvV4d5ahKj9E9nGaLut06tM83NESuTBr-t0" width="200"/></p>
 
 **Product Design:**
 
 - **Figma**: Diseño de interfaz, flujos y prototipos interactivos.  
-  ![Figma](https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg)
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" width="200"/></p>
 
 - **UXPressia**: Desarrollo de perfiles de usuario y customer journey.  
-  ![UXPressia](https://static.crozdesk.com/web_app_library/providers/logos/000/007/389/original/uxpressia-1669210057-logo.png)
+<p align="center"><img src="https://static.crozdesk.com/web_app_library/providers/logos/000/007/389/original/uxpressia-1669210057-logo.png" width="200"/></p>
 
 - **Canva**: Recursos visuales complementarios (gráficos, banners).  
-  ![Canva](https://startupeable.com/directorio/wp-content/uploads/2021/03/canva.png)
+<p align="center"><img src="https://startupeable.com/directorio/wp-content/uploads/2021/03/canva.png" width="200"/></p>
 
 **Software Development:**
 
 - **Visual Studio Code**: IDE para frontend con Next.js.  
-  ![VSCode](https://techriders.tajamar.es/wp-content/uploads/2020/04/visual-studio-code-logo.png)
+<p align="center"><img src="https://techriders.tajamar.es/wp-content/uploads/2020/04/visual-studio-code-logo.png" width="200"/></p>
 
-- **PyCharm**: IDE para backend con Django.  
-  ![PyCharm](https://upload.wikimedia.org/wikipedia/commons/1/1d/PyCharm_Icon.svg)
+- **PyCharm**: IDE para python.  
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/PyCharm_Icon.svg" width="200"/></p>
 
 - **Postman**: Pruebas manuales de endpoints y APIs.  
-  ![Postman](https://seeklogo.com/images/P/postman-logo-0087CA0D15-seeklogo.com.png)
+<p align="center"><img src="https://seeklogo.com/images/P/postman-logo-0087CA0D15-seeklogo.com.png" width="200"/></p>
 
 - **Docker**: Contenerización para replicar ambientes local y de producción.  
-  ![Docker](https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png)
-
-- **Wokwi**: Simulación de sensores IoT con ESP32.  
-  ![Wokwi](https://wokwi.com/_next/static/media/logo.40b65c3e.svg)
+<p align="center"><img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" width="200"/></p>
 
 - **Python**: Lenguaje para backend y algoritmos como Dijkstra.  
-  ![Python](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="200"/></p>
 
 **Software Documentation y Landing Page:**
 
 - **GitHub**: Repositorio de código y documentación.  
-  ![GitHub](https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png)
+<p align="center"><img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png" width="200"/></p>
 
 - **HTML/CSS/JS**: Tecnologías empleadas en la creación de la landing page.
 
 ---
 
-### 5.1.2. Source Code Management
+### 7.1.2. Source Code Management
 
-Se utilizó GitHub como plataforma centralizada de control de versiones, alojando repositorios del frontend, backend, pruebas e infraestructura.
+Se utilizó GitHub como plataforma centralizada de control de versiones, alojando repositorios del frontend, backend, pruebas e infraestructura. Esta práctica facilita la colaboración en equipo, la trazabilidad de cambios y la automatización del flujo de trabajo.
 
 **Repositorios:**
 
-- Frontend: https://github.com/WasteTrack-Organization/wastetrack-frontend  
-- Backend: https://github.com/WasteTrack-Organization/wastetrack-backend
+- Frontend: https://github.com/Arq-de-Software-Emergentes-Grupo-3/wastetrack-frontend
+- Backend: https://github.com/Arq-de-Software-Emergentes-Grupo-3/wastetrack-api
+- Landing: https://github.com/Arq-de-Software-Emergentes-Grupo-3/landing-page
 
 **Modelo de ramas (GitFlow):**
 
@@ -2839,73 +2837,65 @@ Se utiliza la convención Conventional Commits con mensajes como:
 - `fix: correct IoT data parsing`  
 - `docs: update README`
 
-Este sistema permite trazabilidad, revisión ordenada de cambios y generación automática de versiones.
-
 ---
 
-### 5.2.3. Source Code Style Guide & Conventions
+### 7.1.3. Source Code Style Guide & Conventions
 
-Se define una guía estandarizada para mantener el código limpio, legible, coherente y mantenible a lo largo del ciclo de vida del proyecto.
+Esta guía define las convenciones que aseguran coherencia, legibilidad y mantenibilidad del código fuente durante todo el proyecto.
 
 **Convenciones de Nombres:**
 
-- **Clases e Interfaces**: PascalCase, sin abreviaturas poco comunes.  
-- **Métodos y Variables**: camelCase, descriptivos.  
-- **Constantes**: MAYÚSCULAS_CON_GUIONES.  
-- **Enums**: Nombre en PascalCase, valores en mayúsculas.
+- **Clases e Interfaces**: PascalCase (e.g., `WasteTracker`, `SensorHandler`)  
+- **Métodos y Variables**: camelCase (e.g., `generateReport()`, `iotStatus`)  
+- **Constantes**: MAYÚSCULAS_CON_GUIONES (e.g., `MAX_DISTANCE`)  
+- **Enums**: PascalCase para el nombre, valores en mayúsculas (e.g., `Status.ACTIVE`)
 
 **Diseño del Código:**
 
 - Indentación de 4 espacios  
-- Llaves estilo K&R (corchetes egipcios)  
-- Longitud de línea entre 80 y 120 caracteres  
-- Comentarios centrados en el "por qué", no el "qué"  
-- Comentarios `TODO:` para trabajo pendiente  
-- Docstrings en Python, JSDoc en frontend
+- Llaves con estilo egipcio (K&R)  
+- Longitud de línea: 80–120 caracteres  
+- Comentarios claros sobre el "por qué", no sobre el "qué"  
+- Docstrings en Python y JSDoc en frontend
 
 **Estructura de Archivos:**
 
 - Una clase por archivo  
-- Directorios organizados por dominio funcional, no por tipo (evitar `controllers/`, `models/`, etc.)
+- Carpetas organizadas por módulos o funcionalidades (no por tipo)
 
-**Buenas Prácticas:**
+**Prácticas Recomendadas:**
 
-- Uso racional de patrones de diseño  
-- Evitar optimización prematura sin métricas reales
+- Uso de patrones de diseño cuando sea apropiado  
+- No realizar optimización prematura sin evidencia de cuellos de botella
 
 ---
 
-### 5.1.4. Software Deployment Configuration
+### 7.1.4. Software Deployment Configuration
 
-Esta sección describe cómo se realiza el despliegue automatizado y seguro de la plataforma WasteTrack.
+El despliegue de WasteTrack se ejecuta de forma automatizada en entornos en la nube, utilizando herramientas modernas de integración continua (CI) y entrega continua (CD).
 
-**Plataformas y herramientas de despliegue:**
+**Herramientas de despliegue utilizadas:**
 
-- **Azure App Services**: Hospedaje del backend Django  
-  ![Azure](https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg)
+- **Azure App Services**: Hospedaje del backend  
+<p align="center"><img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" width="200"/></p>
 
-- **Vercel**: Despliegue del frontend Next.js con CDN global  
-  ![Vercel](https://assets.vercel.com/image/upload/front/favicon/vercel/180x180.png)
+- **Vercel**: Despliegue de frontend (Next.js) con CDN global  
+<p align="center"><img src="https://assets.vercel.com/image/upload/front/favicon/vercel/180x180.png" width="200"/></p>
 
-- **Supabase**: Motor PostgreSQL en la nube  
-  ![Supabase](https://supabase.com/images/logo-dark.png)
+- **Supabase**: Base de datos PostgreSQL escalable  
+<p align="center"><img src="https://supabase.com/images/logo-dark.png" width="400"/></p>
 
-- **GitHub Actions**: Automatización de CI/CD, validación de código y despliegue  
-  ![GitHub Actions](https://avatars.githubusercontent.com/u/44036562?s=280&v=4)
-
-- **Mosquitto MQTT**: Broker para sensores IoT simulados  
-  ![Mosquitto](https://mosquitto.org/images/mosquitto-text-side-200.png)
+- **GitHub Actions**: CI/CD para pruebas y despliegue  
+<p align="center"><img src="https://avatars.githubusercontent.com/u/44036562?s=280&v=4" width="200"/></p>
 
 **Pasos de despliegue:**
 
-1. Subida de cambios a `release/*`  
-2. Validación automática con GitHub Actions  
-3. Construcción de contenedores Docker para backend  
-4. Despliegue en Azure (backend), Vercel (frontend)  
-5. Activación de servicios IoT con conexión MQTT  
-6. Verificación final en entorno productivo
-
-Estas herramientas permiten un flujo ágil, reproducible y seguro de entrega continua en la nube.
+1. Cambios se suben a rama `release/*`  
+2. GitHub Actions ejecuta pruebas y linter  
+3. Se construyen contenedores con Docker  
+4. Backend se despliega en Azure, frontend en Vercel  
+5. Servicios IoT son conectados vía MQTT  
+6. Validación final en entorno productivo
 
 ---
 
