@@ -7,7 +7,7 @@
     <br>
     <strong>Profesor: Royer Edelwer Rojas Malasquez
 </strong><br>
-    <br> <strong>INFORME DE TRABAJO FINAL - TP1 </strong> 
+    <br> <strong>INFORME DE TRABAJO FINAL - TB2 </strong> 
 </p>
 <p align="center">
     <strong>Startup: CleanCity Team </strong><br>
@@ -2895,6 +2895,38 @@ El despliegue de WasteTrack se ejecuta de forma automatizada en entornos en la n
 6. Validación final en entorno productivo
 
 ---
+
+## 7.2. Solution Implementation
+
+### 7.2.1. Sprint 1
+
+#### 7.2.1.1. Sprint Planning 1
+
+#### 7.2.1.2. Sprint Backlog 1
+
+#### 7.2.1.3. Development Evidence for Sprint Review
+
+#### 7.2.1.4. Testing Suite Evidence for Sprint Review
+
+#### 7.2.1.5. Execution Evidence for Sprint Review
+
+#### 7.2.1.6. Services Documentation Evidence for Sprint Review
+
+#### 7.2.1.7. Software Deployment Evidence for Sprint Review
+
+#### 7.2.1.8. Team Collaboration Insights during Sprint
+
+## 7.3. Validation Interviews
+
+### 7.3.1. Diseño de Entrevistas
+
+### 7.3.2. Registro de Entrevistas
+
+### 7.3.3. Evaluaciones según heurísticas
+
+## 7.4. Video About-the-Product
+
+En el presente video about the product, hablaremos sobre WasteTrack, una solución innovadora para la gestión de residuos urbanos. Este sistema utiliza tecnologías como Internet de las Cosas (IoT) y algoritmos avanzados para optimizar la recolección de basura y hacerla más eficiente y sostenible. La finalidad de este video es mostrar cómo WasteTrack está revolucionando la manera en que gestionamos los residuos en las ciudades, reduciendo costos y mejorando el servicio
 
 ## Conclusiones
 
