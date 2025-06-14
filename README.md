@@ -62,6 +62,7 @@
 | 1.8     | 15/05/2025 | Nicolás Cortés      | Se finalizó la definición de los SEO Tags y Meta Tags en el capítulo 6.2.4                                          |
 | 1.9     | 15/05/2025 | Anthony Avalos      | Integración de los sistemas de navegación en el prototipo de la aplicación y validación de flujos                    |
 | 1.8     | 16/05/2025 | Nicolás Cortés      | Se concluyó el capítulo V & VI                                        |
+| 1.9     | 14/06/2025 | Alejandra Díaz      | Avance del capítulo 7                                        |
 
 ### Project Report Collaboration Insights
 
@@ -388,6 +389,8 @@ ABET 3: Capacidad de comunicarse efectivamente con un rango de audiencias
     </tr>
 </table>
 
+<!--TP1-->
+
 <table>
   <thead>
     <tr>
@@ -485,6 +488,97 @@ ABET 3: Capacidad de comunicarse efectivamente con un rango de audiencias
     </tr>
 </table>
 
+<!--TB2-->
+
+<table>
+  <thead>
+    <tr>
+      <th>Criterio especifico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+     <!--PRIMER CRITERIO DE STUDENT OUTCOME-->
+      <td rowspan="17">
+        3.c1. Comunica oralmente con efectividad a
+        diferentes rangos de audiencia
+      </td>
+       <!--ENTREGA TB2-->
+      <!-- Estudiante 1 TB2 -->    
+      <td>
+        <b>Díaz Villacrez, María Alejandra TB2:</b>Para la entrega de la TB2, colaboré en equipo en el desarrollo de los web services y el prototipo de wokwi de nuestro IoT device. Pude comunicar efectivamente las tareas a mis compañeros y los avances correspondientes. 
+        </td>
+        <td rowspan="5"> 
+         <b>CONCLUSIÓN DEL ENTREGABLE TB2</b><br> 
+      </td>   
+    </tr>
+    <!-- Estudiante 2 TB2 --> 
+    <tr> 
+      <td>
+      <b>Rivadeneyra Ramos, Joaquin TB2:</b> <br> 
+    </td>   
+    </tr>
+    <!-- Estudiante 3 TB2-->
+     <tr>   
+      <td>
+        <b>Valverde Lopez, Daniel TB2</b>:<br>
+      </td>    
+    </tr>
+    <!-- Estudiante 4 TB2-->
+     <tr>   
+      <td>
+      <b>Cortés Hidalgo, Nicolás TB2:</b><br>
+       </td>   
+    </tr>
+    <!-- Estudiante 5 TB2-->
+    <tr>   
+      <td>
+        <b>Avalos Santos, Anthony Piero TB2:</b><br>
+      </td>   
+    </tr>
+    <tbody>
+    <tr>
+     <!--SEGUNDO CRITERIO DE STUDENT OUTCOME-->
+      <td rowspan="17">
+        3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia 
+      </td>
+       <!--ENTREGA TB2-->
+      <!-- Estudiante 1 TB2 -->    
+      <td>
+        <b>Díaz Villacrez, María Alejandra TB2:</b>Para la entrega de la TB2, colaboré en equipo en el desarrollo de los web services y el prototipo de wokwi de nuestro IoT device. Pude documentar en nuestro reporte los pasos técnicos necesarios para completar todos los entregables. 
+        </td>
+        <td rowspan="5"> 
+         <b>CONCLUSIÓN DEL ENTREGABLE TB2</b><br>  
+      </td>   
+    </tr>
+    <!-- Estudiante 2 TB2 --> 
+    <tr> 
+      <td>
+      <b>Rivadeneyra Ramos, Joaquin TB2:</b> <br> 
+    </td>   
+    </tr>
+    <!-- Estudiante 3 TB2-->
+     <tr>   
+      <td>
+        <b>Valverde Lopez, Daniel TB2:</b><br>
+      </td>    
+    </tr>
+    <!-- Estudiante 4 TB2-->
+     <tr>   
+      <td>
+      <b>Cortés Hidalgo, Nicolás TB2:</b> <br>
+       </td>   
+    </tr>
+    <!-- Estudiante 5 TB2-->
+    <tr>   
+      <td>
+        <b>Avalos Santos, Anthony Piero TB2:</b><br>        
+      </td>   
+    </tr>
+</table>
+
 ## **Capítulo I: Presentación**
 
 ### **1.1. Startup Profile**
@@ -517,7 +611,7 @@ Convertirnos en la plataforma líder de gestión de residuos urbanos, utilizando
         <tr>
             <!-- DATOS del integrante 1-->
             <td> 
-            <img src="/assets/img/chapter-I/AlejandraDiaz.jpg" height="120" width="100"> 
+            <img src="./assets/img/chapter-I/AlejandraDiaz.jpg" height="120" width="100"> 
             <br>María Alejandra Díaz Villacrez U202118315 
             </td>
             <!-- DESCRIPCIÓN del integrante 1-->
@@ -528,7 +622,7 @@ Convertirnos en la plataforma líder de gestión de residuos urbanos, utilizando
         <tr>
             <!-- DATOS del integrante 2-->
             <td>
-            <img src="/assets/img/chapter-I/yo-Joaquin.jpg"
+            <img src="./assets/img/chapter-I/yo-Joaquin.jpg"
             height="120" width="100">
             <br>Joaquin David Rivadeneyra Ramos - U202211846
             </td>
@@ -540,7 +634,7 @@ Convertirnos en la plataforma líder de gestión de residuos urbanos, utilizando
         <tr>
             <!-- DATOS del integrante 3-->
             <td>
-            <img src="/assets/img/chapter-I/daniel.jpeg" height="120" width="100">
+            <img src="./assets/img/chapter-I/daniel.jpeg" height="120" width="100">
             <br>Josue Daniel Valverde Lopez - U202121440
             </td>
             <td>Estudiante de la carrera de Ingeniería de Software en 8avo ciclo. Me gusta trabajar en equipo, aprender sobre nuevas tecnologías relacionadas a la inteligencia artificial y automatización de procesos.</td>
@@ -550,7 +644,7 @@ Convertirnos en la plataforma líder de gestión de residuos urbanos, utilizando
         <tr>
             <!-- DATOS del integrante 4-->
             <td>
-            <img src="/assets/img/chapter-I/Nicolas.png" height="120" width="100">
+            <img src="./assets/img/chapter-I/Nicolas.png" height="120" width="100">
             <br>Nicolás Andrés Cortés Hidalgo U202016311
             </td>
             <!-- DESCRIPCIÓN del integrante 2-->
@@ -561,7 +655,7 @@ Convertirnos en la plataforma líder de gestión de residuos urbanos, utilizando
         <tr>
             <!-- DATOS del integrante 5-->
             <td>
-            <img src="/assets/img/chapter-I/anthony.jpg" height="120" width="100">
+            <img src="./assets/img/chapter-I/anthony.jpg" height="120" width="100">
             <br>Anthony Piero Avalos Santos - U20211C596
             </td>
             <!-- DESCRIPCIÓN del integrante 2-->
@@ -761,7 +855,7 @@ Sabremos que hemos tenido éxito cuando observemos un aumento del 20% en la efic
 | **What's the least amount of <br> work we need to do to learn <br> the next most important thing?** | Realizar entrevistas con usuarios municipales y ciudadanos para entender sus necesidades y expectativas. <br> Probar prototipos de la plataforma para validar la utilidad de las notificaciones y la optimización de rutas. |
 
 <p align="center">
-  <img src="/assets/img/chapter-I/canva.jpg" alt="Lean UX Canvas">
+  <img src="./assets/img/chapter-I/canva.jpg" alt="Lean UX Canvas">
 </p>
 
 ### **1.3. Segmentos Objetivo**
@@ -800,21 +894,21 @@ Desean contribuir activamente al cuidado del medio ambiente, conocer el estado d
    Bigbelly es un sistema inteligente de gestión de residuos urbanos que utiliza contenedores solares equipados con sensores IoT para monitorear el nivel de llenado y optimizar las rutas de recolección.
 
    <p align="center">
-     <img src="/assets/img/chapter-II/bigbelly.jpg" alt="Bigbelly Logo" width="200">
+     <img src="./assets/img/chapter-II/bigbelly.jpg" alt="Bigbelly Logo" width="200">
    </p>
 
 2. **Enevo**  
    Enevo es una plataforma que utiliza sensores inteligentes y tecnología de análisis de datos para optimizar la gestión de residuos, monitoreando el nivel de llenado de los contenedores y mejorando la sostenibilidad.
 
    <p align="center">
-     <img src="/assets/img/chapter-II/enevo.jpg" alt="Enevo Logo" width="200">
+     <img src="./assets/img/chapter-II/enevo.jpg" alt="Enevo Logo" width="200">
    </p>
 
 3. **Sensoneo**  
    Sensoneo ofrece una solución de gestión de residuos basada en sensores IoT que permite monitorear los contenedores de residuos en tiempo real, proporcionando datos valiosos para optimizar las rutas de recolección, reducir costos y mejorar la eficiencia de los servicios de recolección.
 
    <p align="center">
-     <img src="/assets/img/chapter-II/senso.jpg" alt="Sensoneo Logo" width="150">
+     <img src="./assets/img/chapter-II/senso.jpg" alt="Sensoneo Logo" width="150">
    </p>
 
 ### **2.1.1. Análisis Competitivo**
@@ -829,14 +923,14 @@ Desean contribuir activamente al cuidado del medio ambiente, conocer el estado d
 - **Optimización Local de Rutas**: **WasteTrack** optimiza las rutas de recolección teniendo en cuenta factores locales como el tráfico, la disposición geográfica de los contenedores y las prioridades de las municipalidades, lo que mejora la eficiencia operativa de manera más precisa que los competidores globales.
 
    <p align="center">
-     <img src="/assets/img/chapter-II/wasteTrackLogo.png" alt="WasteTrack Logo" width="200">
+     <img src="./assets/img/chapter-II/wasteTrackLogo.png" alt="WasteTrack Logo" width="200">
    </p>
 
 <table>
 <tr><th colspan="16" valign="top"><b>Competitive Analysis Landscape</b></th></tr>
 <tr><td colspan="9" valign="top">¿Por qué llevar a cabo este análisis?</td><td colspan="7" valign="top">Este análisis se lleva a cabo para investigar, analizar y comparar el comportamiento de los competidores directos o indirectos en el mercado de gestión de residuos urbanos y optimización de rutas de recolección. Bigbelly destaca por su enfoque en la sostenibilidad mediante el uso de contenedores solares inteligentes.</td></tr>
 <tr><td colspan="6" valign="top"><b>Nombre</b></td><td colspan="3" valign="top"><b>Bigbelly</b></td><td colspan="3" valign="top"><b>Enevo</b></td><td colspan="3" valign="top"><b>Sensoneo</b></td><td valign="top"><b>WasteTrack</b></td></tr>
-<tr><td colspan="6" valign="top"><b>Logo</b></td><td colspan="3" valign="top"><img src="/assets/img/chapter-II/bigbelly.jpg" width="100"></td><td colspan="3" valign="top"><img src="/assets/img/chapter-II/enevo.jpg" width="100"></td><td colspan="3" valign="top"><img src="/assets/img/chapter-II/senso.jpg" width="100"></td><td valign="top"><img src="/assets/img/chapter-II/wasteTrackLogo.png" width="100"></td></tr>
+<tr><td colspan="6" valign="top"><b>Logo</b></td><td colspan="3" valign="top"><img src="./assets/img/chapter-II/bigbelly.jpg" width="100"></td><td colspan="3" valign="top"><img src="./assets/img/chapter-II/enevo.jpg" width="100"></td><td colspan="3" valign="top"><img src="./assets/img/chapter-II/senso.jpg" width="100"></td><td valign="top"><img src="./assets/img/chapter-II/wasteTrackLogo.png" width="100"></td></tr>
 <tr><td colspan="3" rowspan="4" valign="top"><b>Perfil</b></td><td colspan="3" rowspan="2" valign="top"><b>Overview</b></td><td colspan="3" rowspan="2" valign="top">Plataforma inteligente de gestión de residuos urbanos que utiliza contenedores solares equipados con sensores IoT para monitorear el nivel de llenado y optimizar las rutas de recolección.</td><td colspan="3" rowspan="2" valign="top">Enevo utiliza sensores IoT para optimizar la gestión de residuos, generando rutas más eficientes y reduciendo costos mediante análisis de datos.</td><td colspan="3" rowspan="2" valign="top">Sensoneo ofrece una solución avanzada con sensores IoT, proporcionando monitoreo en tiempo real y análisis predictivo para optimizar las rutas de recolección.</td><td rowspan="2" valign="top">WasteTrack es la única plataforma adaptada a las necesidades de las municipalidades peruanas, optimizando las rutas de recolección y mejorando la participación ciudadana mediante una plataforma fácil de usar.</td></tr>
 <tr></tr>
 <tr><td colspan="3" rowspan="2" valign="top"><b>Ventaja competitiva ¿Qué valor ofrece a los clientes?</b></td><td colspan="3" rowspan="2" valign="top">Utiliza contenedores solares inteligentes para monitorear el nivel de llenado y optimizar rutas de recolección.</td><td colspan="3" rowspan="2" valign="top">Enfoque integral para optimización de rutas con análisis predictivos y monitoreo en tiempo real.</td><td colspan="3" rowspan="2" valign="top">Capacidad avanzada de análisis y monitoreo en tiempo real para mejorar la eficiencia operativa.</td><td rowspan="2" valign="top">WasteTrack ofrece la mejor solución para las municipalidades peruanas, con integración de sensores IoT adaptados a las necesidades locales y una interfaz ciudadana que mejora la participación y la transparencia.</td></tr>
@@ -993,7 +1087,7 @@ Entrevistado #3
 
 ●	Entrevista:
 
-●	Link: [Click para ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/ERge36l0G5lAgx48cxEK3cAB5E-irHI-V5akPQDUYP6NdA?e=babxer&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/ERge36l0G5lAgx48cxEK3cAB5E-irHI-V5akPQDUYP6NdA?e=babxer&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ●	Momento en el que inicia: 
 
@@ -1012,7 +1106,7 @@ Entrevistado #1:
 
 Diego Cantoral
 
-<img src="/assets/img/chapter-II/entrevista-ciudadano-diego.PNG" alt="Entrevista">
+<img src="./assets/img/chapter-II/entrevista-ciudadano-diego.PNG" alt="Entrevista">
  
 ●	Sexo: Masculino
 
@@ -1115,14 +1209,14 @@ Según las entrevistas realizadas y los resúmenes, hemos llevado a cabo un aná
 
 Luis Ramírez es un ingeniero ambiental de 45 años que trabaja en la Municipalidad de Trujillo, Perú. Está a cargo de la gestión del servicio de limpieza pública y se enfrenta constantemente a desafíos como la sobrecarga de contenedores, rutas ineficientes y quejas vecinales. Aunque tiene experiencia en planificación logística, sus decisiones suelen depender de reportes manuales y supervisiones presenciales. Está muy interesado en adoptar herramientas tecnológicas que automaticen la recolección de datos y optimicen las rutas de recolección de basura. Utiliza su laptop y smartphone para gestionar informes y coordinar con su equipo, y suele consultar LinkedIn para conocer tendencias sobre ciudades inteligentes y sostenibilidad urbana.
 </p>
-<br><img src="/assets/img/chapter-II/LuisRamirez.png"></img><br>  <br><br>
+<br><img src="./assets/img/chapter-II/LuisRamirez.png"></img><br>  <br><br>
 
 <p align="justify">
    <strong>Segmento 2:</strong> Funcionarios de municipalidades encargados de limpieza urbana
 
 Valeria Torres es una madre de familia de 29 años que vive en un barrio residencial de Arequipa, Perú. Se preocupa por la limpieza de su entorno y por educar a sus hijos en prácticas responsables con el medio ambiente. Suele organizar sus actividades del hogar y la disposición de residuos según el horario del camión recolector, pero frecuentemente se ve afectada por demoras o cambios inesperados. Utiliza su celular para comunicarse por WhatsApp, navegar en redes sociales y acceder a aplicaciones útiles. Está interesada en herramientas que le permitan saber exactamente cuándo pasarán a recoger la basura para evitar que se acumule en la vía pública. Sigue cuentas de sostenibilidad y orden urbano en Instagram y TikTok.
 </p>
-<br><img src="/assets/img/chapter-II/ValeriaTorres.png"></img><br>  <br>
+<br><img src="./assets/img/chapter-II/ValeriaTorres.png"></img><br>  <br>
 
 ### 2.3.2. User Task Matrix.
 
@@ -1192,22 +1286,22 @@ Valeria Torres es una madre de familia de 29 años que vive en un barrio residen
 
 <p><strong>User Persona:</strong> Luis Ramirez</p>
 <p>El User Journey Mapping de Luis Ramírez resalta los desafíos operativos y estratégicos que enfrenta como encargado del servicio de limpieza pública en la municipalidad. A lo largo del proceso, Luis experimenta una carga significativa debido a la falta de información en tiempo real y herramientas inteligentes para optimizar rutas. Estas limitaciones generan retrasos, ineficiencias y constantes quejas vecinales. La incorporación de un sistema automatizado basado en sensores IoT representa una solución clave para mejorar su toma de decisiones, reducir costos y elevar la percepción ciudadana.</p>
-<br><img src="/assets/img/chapter-II/user_1.png"></img><br>  <br>
+<br><img src="./assets/img/chapter-II/user_1.png"></img><br>  <br>
 
 <p><strong>User Persona:</strong> Valeria Torres</p>
 <p>El User Journey Mapping de Valeria Torres destaca las situaciones que enfrenta en su rutina diaria para disponer correctamente sus residuos. Valeria experimenta incertidumbre y frustración cuando no sabe con exactitud a qué hora pasará el camión recolector. Esto afecta su organización familiar y genera malestar por la acumulación de basura en la vía pública. La incorporación de una interfaz ciudadana que muestre en tiempo real el recorrido del camión y brinde alertas puede mejorar significativamente su experiencia y fomentar su compromiso con el cuidado del entorno urbano.</p>
-<br><img src="/assets/img/chapter-II/user_2.png"></img><br>  <br>
+<br><img src="./assets/img/chapter-II/user_2.png"></img><br>  <br>
 
 ### 2.3.4. As-is Scenario Mapping.
 
 <p><strong>User Persona:</strong> Luis Ramirez</p>
 <p>Este mapa describe el flujo actual del trabajo de Luis Ramírez como responsable del área de limpieza pública en una municipalidad. Desde la identificación de problemas hasta la entrega de informes, Luis debe revisar reportes, atender quejas vecinales, coordinar con su equipo operativo y tomar decisiones basadas en datos que muchas veces están incompletos o desactualizados. Sus pensamientos se centran en optimizar procesos y reducir quejas, mientras que sus emociones varían entre frustración por la ineficiencia del sistema actual y satisfacción cuando logra implementar mejoras tangibles.</p>
-<br><img src="/assets/img/chapter-II/asis_1.jpg"></img><br>  <br>
+<br><img src="./assets/img/chapter-II/asis_1.jpg"></img><br>  <br>
 
 
 <p><strong>User Persona:</strong> Valeria Torres</p>
 <p>Este mapa representa el flujo actual de actividades de Valeria Torres como ciudadana preocupada por el orden y la limpieza en su barrio. A lo largo del día, Valeria organiza la disposición de residuos en su hogar, consulta con vecinos sobre el horario del camión recolector, y enfrenta frustraciones cuando la información no es clara o los residuos no son recogidos a tiempo. Sus pensamientos giran en torno a mantener su hogar y vecindario limpio, mientras que sus emociones fluctúan entre satisfacción cuando todo está en orden y molestia cuando el camión no llega como esperaba.</p>
-<br><img src="/assets/img/chapter-II/asis_2.jpg"></img><br>  <br>
+<br><img src="./assets/img/chapter-II/asis_2.jpg"></img><br>  <br>
 
 ## 2.4. Ubiquitous Language.
 
@@ -1269,12 +1363,12 @@ Valeria Torres es una madre de familia de 29 años que vive en un barrio residen
 
 <p><strong>Segmento 1:</strong> Funcionarios de municipalidades (Luis Ramírez)</p>
 <p>Este mapa describe cómo sería el nuevo flujo de trabajo de Luis Ramírez tras la implementación del sistema inteligente de gestión de residuos. Gracias a los sensores IoT y la plataforma de visualización en tiempo real, Luis puede acceder a información actualizada sobre el estado de los contenedores, planificar rutas óptimas automáticamente y responder rápidamente a incidentes reportados. Su trabajo se vuelve más estratégico, menos reactivo y con una mayor percepción de control y eficiencia.</p>
-<br><img src="/assets/img/chapter-III/tobe_1.jpg"></img><br>  <br>
+<br><img src="./assets/img/chapter-III/tobe_1.jpg"></img><br>  <br>
 
 
 <p><strong>Segmento 2:</strong>  Ciudadanos (Valeria Torres)</p>
 <p>Este mapa representa cómo sería la experiencia de Valeria Torres con la nueva plataforma de gestión inteligente de residuos. Con acceso a una interfaz ciudadana que le brinda información en tiempo real sobre el recorrido del camión recolector y alertas anticipadas, Valeria puede organizar mejor la disposición de sus residuos y participar activamente en el cuidado de su entorno. La tecnología reduce su incertidumbre y le permite actuar con mayor seguridad y responsabilidad.</p>
-<br><img src="/assets/img/chapter-III/tobe_2.jpg"></img><br>  <br>
+<br><img src="./assets/img/chapter-III/tobe_2.jpg"></img><br>  <br>
 
 ## 3.2. User Stories
 
@@ -1480,7 +1574,7 @@ En esta sección se detallan las historias de usuario.
 ## 3.3. Impact Mapping
 
 <p>Este Impact Mapping se desarrolló con el objetivo de alcanzar el business goal de lograr la adopción del sistema por 5 municipalidades y al menos 5,000 ciudadanos activos en 12 meses. Se identificaron como actores clave al Funcionario Municipal (Luis Ramírez) y a la Ciudadana Responsable (Valeria Torres). A partir de ellos se derivan los impactos deseados, los entregables necesarios y las User Stories que respaldan los objetivos de negocio.</p>
-<br><img src="/assets/img/chapter-III/map_1.png"></img><br>  <br>
+<br><img src="./assets/img/chapter-III/map_1.png"></img><br>  <br>
 
 
 ## 3.4. Product Backlog
@@ -2148,47 +2242,47 @@ Para la elaboración del EventStorming, el equipo se organizó para encontrar un
 **Paso 1: Collect Domain Events**
 En este primer paso, identificamos todos los eventos relevantes del dominio que ocurren en nuestro sistema. Estos eventos representan hechos importantes que suceden durante el proceso de negocio y los capturamos con post-its de color naranja.
 
-<img src="/assets/img/chapter-IV/eventStorming1.png"> 
+<img src="./assets/img/chapter-IV/eventStorming1.png"> 
 
 **Paso 2: Timeline**
 Organizamos todos los eventos identificados en una línea temporal, colocándolos en orden cronológico para visualizar mejor el flujo del proceso y entender la secuencia natural de acciones en el sistema.
 
-<img src="/assets/img/chapter-IV/eventStorming2.jpg"> 
+<img src="./assets/img/chapter-IV/eventStorming2.jpg"> 
 
 **Paso 3: Pain and Pivotal points**
 Identificamos los puntos problemáticos (pain points) y los momentos clave (pivotal points) en nuestro proceso. Estos representan áreas que requieren atención especial o que son críticas para el funcionamiento del sistema.
 
-<img src="/assets/img/chapter-IV/eventStorming3.jpg"> 
+<img src="./assets/img/chapter-IV/eventStorming3.jpg"> 
 
 **Paso 4: Commands**
 Agregamos los comandos (representados con post-its azules) que desencadenan los eventos. Estos comandos son las acciones que los usuarios o sistemas externos realizan para provocar cambios en el sistema.
 
-<img src="/assets/img/chapter-IV/eventStorming4.jpg"> 
+<img src="./assets/img/chapter-IV/eventStorming4.jpg"> 
 
 **Paso 5: Policies**
 Definimos las políticas o reglas de negocio (con post-its morados) que reaccionan a ciertos eventos y generan nuevos eventos como resultado. Estas políticas automatizan decisiones basadas en eventos previos.
 
-<img src="/assets/img/chapter-IV/eventStorming5.jpg"> 
+<img src="./assets/img/chapter-IV/eventStorming5.jpg"> 
 
 **Paso 6: Read models**
 Identificamos los modelos de lectura o vistas que los usuarios necesitan para tomar decisiones. Estos representan la información que debe estar disponible en determinados puntos del proceso.
 
-<img src="/assets/img/chapter-IV/eventStorming6.jpg"> 
+<img src="./assets/img/chapter-IV/eventStorming6.jpg"> 
 
 **Paso 7: External System**
 Marcamos los sistemas externos (con post-its rosados) que interactúan con nuestra solución. Estos son componentes fuera de nuestro control directo pero que tienen influencia en el proceso.
 
-<img src="/assets/img/chapter-IV/eventStorming7.jpg"> 
+<img src="./assets/img/chapter-IV/eventStorming7.jpg"> 
 
 **Paso 8: Aggregates**
 Agrupamos los comandos y eventos relacionados en unidades lógicas llamadas agregados (representados con post-its amarillos). Cada agregado encapsula un conjunto coherente de funcionalidades.
 
-<img src="/assets/img/chapter-IV/eventStorming8.jpg"> 
+<img src="./assets/img/chapter-IV/eventStorming8.jpg"> 
 
 **Paso 9: Bounded Context**
 Finalmente, identificamos los contextos delimitados o bounded contexts, que son áreas de responsabilidad distintas dentro del sistema. 
 
-<img src="/assets/img/chapter-IV/eventStorming9.jpg"> 
+<img src="./assets/img/chapter-IV/eventStorming9.jpg"> 
 
 ### 4.2.2. Candidate Context Discovery
 
@@ -2198,23 +2292,23 @@ A partir del EventStorming realizado en Miro, nuestro equipo llevó a cabo una s
 
 Comenzamos revisando el modelo completo que habíamos construido, prestando especial atención a los eventos pivote y agregados identificados.
 
-<img src="/assets/img/chapter-IV/eventStorming3.jpg"> 
+<img src="./assets/img/chapter-IV/eventStorming3.jpg"> 
 
 Detección de agrupaciones naturales: Identificamos patrones y agrupaciones naturales de comandos, eventos y políticas que trabajaban sobre las mismas entidades o procesos.
 
-<img src="/assets/img/chapter-IV/eventStorming7.jpg"> 
+<img src="./assets/img/chapter-IV/eventStorming7.jpg"> 
 
 Nos enfocamos en eventos clave como las configuraciones de notificaciones y alertas que marcan claramente transiciones entre diferentes contextos
 
-<img src="/assets/img/chapter-IV/contextDiscovery1.png"> 
+<img src="./assets/img/chapter-IV/contextDiscovery1.png"> 
 
 Definición de límites: Trazamos fronteras alrededor de los grupos identificados, estableciendo los límites iniciales de nuestros bounded contexts.
 
-<img src="/assets/img/chapter-IV/eventStorming9.jpg">
+<img src="./assets/img/chapter-IV/eventStorming9.jpg">
 
 Nomenclatura y validación: Nombramos cada bounded context identificado según su responsabilidad principal y validamos que tuvieran coherencia interna y límites claros.
 
-<img src="/assets/img/chapter-IV/contextDiscovery2.png"> 
+<img src="./assets/img/chapter-IV/contextDiscovery2.png"> 
 
 Como resultado de este proceso, identificamos los siguientes bounded contexts para nuestra solución:
 
@@ -2233,7 +2327,7 @@ Los Domain Message Flows modelan las interacciones entre los diferentes bounded 
 
 Este flujo de mensajes modela cómo un usuario nuevo accede a la plataforma WasteTrack, ilustrando las interacciones entre el usuario y el bounded context de Access, y cómo este se comunica con el contexto de Monitoring.
 
-<img src="/assets/img/chapter-IV/messageFlow1.jpg"> 
+<img src="./assets/img/chapter-IV/messageFlow1.jpg"> 
 
 Este flujo demuestra la relación Customer-Supplier entre Access y Monitoring, donde Access actúa como proveedor de información de autenticación y autorización.
 
@@ -2241,7 +2335,7 @@ Este flujo demuestra la relación Customer-Supplier entre Access y Monitoring, d
 
 Este flujo modela cómo un usuario selecciona un contenedor como favorito para recibir notificaciones específicas sobre su estado.
 
-<img src="/assets/img/chapter-IV/messageFlow2.jpg"> 
+<img src="./assets/img/chapter-IV/messageFlow2.jpg"> 
 
 Este flujo ilustra cómo la interacción del usuario con el sistema desencadena cambios en múltiples bounded contexts utilizando el patrón de comunicación basado en eventos.
 
@@ -2249,7 +2343,7 @@ Este flujo ilustra cómo la interacción del usuario con el sistema desencadena 
 
 Este flujo muestra el proceso de generación de una simulación de ruta optimizada para la recolección de residuos.
 
-<img src="/assets/img/chapter-IV/messageFlow3.jpg"> 
+<img src="./assets/img/chapter-IV/messageFlow3.jpg"> 
 
 Este flujo demuestra la relación Partnership entre Simulation y Monitoring, así como la relación Customer-Supplier entre IoT Device y Simulation.
 
@@ -2257,7 +2351,7 @@ Este flujo demuestra la relación Partnership entre Simulation y Monitoring, as�
 
 Este flujo ilustra cómo el sistema detecta y notifica a un usuario cuando su contenedor favorito está por desbordarse.
 
-<img src="/assets/img/chapter-IV/messageFlow4.jpg"> 
+<img src="./assets/img/chapter-IV/messageFlow4.jpg"> 
 
 Este flujo demuestra cómo se implementa el patrón Published Language entre IoT Device y Monitoring, permitiendo una comunicación estandarizada sobre el estado de los contenedores que beneficia directamente a los usuarios finales.
 
@@ -2269,19 +2363,19 @@ Los Bounded Context Canvases son herramientas visuales que nos permiten document
 
 **Access Bounded Context:** Este canvas detalla nuestro contexto de acceso, responsable de la autenticación y autorización. Definimos sus principales modelos de dominio (Usuario, Rol, Permiso), las políticas de seguridad y los eventos clave como el registro de usuario y la autenticación. Su propósito estratégico es garantizar que solo los usuarios autorizados puedan acceder a funcionalidades específicas del sistema, actuando como proveedor upstream para otros contextos. El canvas ilustra claramente cómo este contexto encapsula toda la lógica relacionada con la identidad y seguridad.
 
-<img src="/assets/img/chapter-IV/boundedContext3.jpg">
+<img src="./assets/img/chapter-IV/boundedContext3.jpg">
 
 **Monitoring Bounded Context:** Este canvas muestra nuestro contexto de monitoreo, que representa el núcleo de la experiencia del usuario con la aplicación. Identificamos sus principales entidades (Contenedor, Favorito, Alerta) y las capacidades clave como visualización de contenedores en tiempo real, sistema de favoritos y notificaciones. Este contexto actúa como cliente downstream de Access e IoT Device, mientras mantiene una relación de partnership con Simulation. El canvas nos permitió visualizar la complejidad de este contexto y sus múltiples integraciones.
 
-<img src="/assets/img/chapter-IV/boundedContext1.jpg">
+<img src="./assets/img/chapter-IV/boundedContext1.jpg">
 
 **Simulation Bounded Context:** El canvas de simulación refleja la sofisticación técnica de este contexto, mostrando su responsabilidad en la optimización de rutas y predicciones. Documentamos sus modelos de dominio principales (Ruta, Simulación, Parámetro), sus algoritmos de optimización y su dependencia de los datos históricos proporcionados por IoT Device. Este contexto implementa un ACL para transformar los datos del IoT en formatos adecuados para sus algoritmos de optimización, lo que se refleja claramente en el canvas.
 
-<img src="/assets/img/chapter-IV/boundedContext4.jpg">
+<img src="./assets/img/chapter-IV/boundedContext4.jpg">
 
 **IoT Device Bounded Context:** Este canvas presenta nuestro contexto más cercano al hardware, responsable de gestionar los dispositivos físicos y sus sensores. Identificamos sus principales agregados (Dispositivo, Sensor, Medición), los eventos que genera (como cambios en el nivel de llenado) y su rol como publicador de datos para otros contextos. El canvas muestra claramente cómo este contexto implementa un patrón Published Language para estandarizar la comunicación con Monitoring y Simulation.
 
-<img src="/assets/img/chapter-IV/boundedContext2.jpg">
+<img src="./assets/img/chapter-IV/boundedContext2.jpg">
 
 Estos canvases fueron herramientas fundamentales para definir la arquitectura de nuestra solución, permitiéndonos visualizar cada contexto como una unidad coherente con responsabilidades claras y bien definidas. Además, nos ayudaron a identificar los puntos de integración entre contextos que luego refinamos en el Context Mapping.
 
@@ -2294,7 +2388,7 @@ Para elaborar nuestro Context Map, analizamos varias alternativas evaluando dife
 
 - Alternativa 1: Modelo Inicial
 
-<img src="/assets/img/chapter-IV/contextMapping1.png"> 
+<img src="./assets/img/chapter-IV/contextMapping1.png"> 
 
 Donde: U/D: Upstream/Downstream (relación Cliente/Proveedor)
 
@@ -2304,7 +2398,7 @@ En este modelo inicial, Access actúa como proveedor para Monitoring, proporcion
 
 Consideramos la inclusión de Anti-corruption Layers para proteger los modelos de dominio:
 
-<img src="/assets/img/chapter-IV/contextMapping2.png"> 
+<img src="./assets/img/chapter-IV/contextMapping2.png"> 
 
 Donde: ACL: Anti-corruption Layer
 
@@ -2314,7 +2408,7 @@ Esta alternativa añade capas de traducción para proteger los modelos de domini
 
 Evaluamos si algunas funcionalidades compartidas podrían beneficiarse de un Shared Kernel:
 
-<img src="/assets/img/chapter-IV/contextMapping3.png"> 
+<img src="./assets/img/chapter-IV/contextMapping3.png"> 
 
 En esta alternativa, IoT Device y Simulation comparten un kernel común para el modelo de estado de los contenedores.
 
@@ -2345,7 +2439,7 @@ Nos planteamos las siguientes preguntas clave para evaluar nuestras alternativas
 
 Después de evaluar todas las alternativas, optamos por el siguiente Context Map:
 
-<img src="/assets/img/chapter-IV/contextMapping4.png"> 
+<img src="./assets/img/chapter-IV/contextMapping4.png"> 
 
 **Relaciones entre contextos:**
 
@@ -2391,22 +2485,22 @@ En esta sección se presentan los diagramas de arquitectura de la solución, que
 #### 4.3.1. Software Architecture System Landscape Diagram
 Diagrama de arquitectura Landscape, gráfica a un nivel general, sin detallar explicitamente los componentes del sistema. En este diagrama se puede observar la relación entre el sistema y los actores externos que interactúan con él.
 
-<img src="/assets/img/chapter-IV/c4-landscape.PNG">
+<img src="./assets/img/chapter-IV/c4-landscape.PNG">
 
 #### 4.3.2. Software Architecture Context Level Diagrams
 Diagrama de arquitectura de contexto de Waste Track. En el cual podemos identificar los principales usuarios y cómo estos se relacionan con el sistema. Además se grafica cuales son las relaciones entre el sistema y servicios externos que proveen funcionalidades adicionales a la solución. 
 
-<img src="/assets/img/chapter-IV/c4-context.PNG"> 
+<img src="./assets/img/chapter-IV/c4-context.PNG"> 
 
 #### 4.3.3. Software Architecture Container Level Diagrams
 Diagrama de arquitectura de contenedores, incluye aplicaciones web y móvil, bases de datos, APIs y servicios externos que conforman la solución.
 
-<img src="/assets/img/chapter-IV/c4-containers.PNG">
+<img src="./assets/img/chapter-IV/c4-containers.PNG">
 
 #### 4.3.4. Software Architecture Deployment Diagrams
 Diagrama de arquitectura de despliegue, principalmente se describen las tecnologías y proveedores de nube que se utilizarán para implementar la solución.
 
-<img src="/assets/img/chapter-IV/c4-deployment.png">
+<img src="./assets/img/chapter-IV/c4-deployment.png">
 
 
 # Capítulo V: Tactical-Level Software Design
@@ -2456,17 +2550,17 @@ Este Bounded Context abarca todo lo relacionado con la representación, configur
 
 ### 5.1.5. Bounded Context Software Architecture Component Level Diagrams
 
-<img src="/assets/img/chapter-V/BC1-C4.png" width="700"> 
+<img src="./assets/img/chapter-V/BC1-C4.png" width="700"> 
 
 ### 5.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.1.6.1 Bounded Context Domain Layer Class Diagrams
 
-<img src="/assets/img/chapter-V/BoundedContext1-Diagram2.png" width="700"> 
+<img src="./assets/img/chapter-V/BoundedContext1-Diagram2.png" width="700"> 
 
 #### 5.1.6.2 Bounded Context Database Design Diagrams
 
-<img src="/assets/img/chapter-V/BoundedContext1-Diagram3.png" width="700"> 
+<img src="./assets/img/chapter-V/BoundedContext1-Diagram3.png" width="700"> 
 
 
 ## 5.2 Bounded Context: Optimización de Rutas
@@ -2512,17 +2606,17 @@ Este Bounded Context contiene el modelo y la lógica para planificar y recalcula
 
 ### 5.2.5. Bounded Context Software Architecture Component Level Diagrams
 
-<img src="/assets/img/chapter-V/BC2-C4.png" width="700"> 
+<img src="./assets/img/chapter-V/BC2-C4.png" width="700"> 
 
 ### 5.2.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.2.6.1 Bounded Context Domain Layer Class Diagrams
 
-<img src="/assets/img/chapter-V/BoundedContext2-Diagram2.png" width="700"> 
+<img src="./assets/img/chapter-V/BoundedContext2-Diagram2.png" width="700"> 
 
 #### 5.2.6.2 Bounded Context Database Design Diagrams
 
-<img src="/assets/img/chapter-V/BoundedContext2-Diagram3.png" width="700"> 
+<img src="./assets/img/chapter-V/BoundedContext2-Diagram3.png" width="700"> 
 
 ## 5.3 Bounded Context: Gestión de Usuarios
 
@@ -2568,17 +2662,17 @@ Aquí se concentra todo lo relativo a la identidad, autenticación y autorizaci�
 
 ### 5.3.5. Bounded Context Software Architecture Component Level Diagrams
 
-<img src="/assets/img/chapter-V/BC3-C4.png" width="700"> 
+<img src="./assets/img/chapter-V/BC3-C4.png" width="700"> 
 
 ### 5.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.3.6.1 Bounded Context Domain Layer Class Diagrams
 
-<img src="/assets/img/chapter-V/BoundedContext3-Diagram2.png" width="700"> 
+<img src="./assets/img/chapter-V/BoundedContext3-Diagram2.png" width="700"> 
 
 #### 5.3.6.2 Bounded Context Database Design Diagrams
 
-<img src="/assets/img/chapter-V/BoundedContext3-Diagram3.png" width="700"> 
+<img src="./assets/img/chapter-V/BoundedContext3-Diagram3.png" width="700"> 
 
 
 # Capítulo VI: Solution UI/UX Design
@@ -2603,16 +2697,16 @@ Los tonos de verde seleccionados para la aplicación se asocian a nuestro objeti
 **Lista de colores**  
 
 Gama primaria  
-<img src="/assets/img/chapter-VI/gama-primaria.png"> 
+<img src="./assets/img/chapter-VI/gama-primaria.png"> 
 
 Gama secundaria  
-<img src="/assets/img/chapter-VI/gama-secundaria.png">  
+<img src="./assets/img/chapter-VI/gama-secundaria.png">  
 
 **Tipografía**  
-<img src="/assets/img/chapter-VI/tipografia.png">  
+<img src="./assets/img/chapter-VI/tipografia.png">  
 
 **Botones e íconos**  
-<img src="/assets/img/chapter-VI/botones.png">
+<img src="./assets/img/chapter-VI/botones.png">
 
 ## 6.2. Information Architecture
 
@@ -2683,63 +2777,63 @@ Para lograr aquello, empleamos un menú desplegable el cual muestra todas las fu
 
 En esta sección, se muestra un esquema básico del diseño de la Landing Page, donde se resaltan las principales áreas de contenido, como el encabezado y las secciones de beneficios para ciudadanos y municipalidades. Este wireframe representa la estructura fundamental de la página sin detalles visuales específicos.
 
-<img src="/assets/img/chapter-VI/landing-wireframe-1.png">  
-<img src="/assets/img/chapter-VI/landing-wireframe-2.png">  
-<img src="/assets/img/chapter-VI/landing-wireframe-3.png">  
-<img src="/assets/img/chapter-VI/landing-wireframe-4.png"> 
-<img src="/assets/img/chapter-VI/landing-wireframe-5.png"> 
+<img src="./assets/img/chapter-VI/landing-wireframe-1.png">  
+<img src="./assets/img/chapter-VI/landing-wireframe-2.png">  
+<img src="./assets/img/chapter-VI/landing-wireframe-3.png">  
+<img src="./assets/img/chapter-VI/landing-wireframe-4.png"> 
+<img src="./assets/img/chapter-VI/landing-wireframe-5.png"> 
 
 ### 6.3.2. Landing Page Mock-up
 
 El mock-up de la Landing Page ofrece una representación visual más avanzada del diseño final, incluyendo los colores, tipografía, imágenes y componentes interactivos. Este diseño está orientado a proporcionar una idea clara de cómo será la interfaz una vez implementada, reflejando la identidad visual de WasteTrack y su enfoque en la usabilidad.
 
-<img src="/assets/img/chapter-VI/landing-mockup-6.jpeg"> 
-<img src="/assets/img/chapter-VI/landing-mockup-5.jpeg"> 
-<img src="/assets/img/chapter-VI/landing-mockup-4.jpeg"> 
-<img src="/assets/img/chapter-VI/landing-mockup-3.jpeg"> 
-<img src="/assets/img/chapter-VI/landing-mockup-2.jpeg"> 
+<img src="./assets/img/chapter-VI/landing-mockup-6.jpeg"> 
+<img src="./assets/img/chapter-VI/landing-mockup-5.jpeg"> 
+<img src="./assets/img/chapter-VI/landing-mockup-4.jpeg"> 
+<img src="./assets/img/chapter-VI/landing-mockup-3.jpeg"> 
+<img src="./assets/img/chapter-VI/landing-mockup-2.jpeg"> 
 
 ## 6.4. Applications UX/UI Design
 
 ### 6.4.1. Applications Wireframes
 
 Inicio de Sesión
-<img src="/assets/img/chapter-VI/Wireframe-2.png" width="900"> 
+<img src="./assets/img/chapter-VI/Wireframe-2.png" width="900"> 
 
 Registro de Usuario
-<img src="/assets/img/chapter-VI/Wireframe-1.png" width="900"> 
+<img src="./assets/img/chapter-VI/Wireframe-1.png" width="900"> 
 
 Ajustes de Usuario - Configuración
-<img src="/assets/img/chapter-VI/Wireframe-3.png" width="900"> 
+<img src="./assets/img/chapter-VI/Wireframe-3.png" width="900"> 
 
 Registro de Desperdicios
-<img src="/assets/img/chapter-VI/Wireframe-4.png" width="900"> 
+<img src="./assets/img/chapter-VI/Wireframe-4.png" width="900"> 
 
 Mapeo de Rutas de Camiones
-<img src="/assets/img/chapter-VI/Wireframe-5.png" width="900"> 
+<img src="./assets/img/chapter-VI/Wireframe-5.png" width="900"> 
 
 Estado de Contenedor
-<img src="/assets/img/chapter-VI/Wireframe-6.png" width="900"> 
+<img src="./assets/img/chapter-VI/Wireframe-6.png" width="900"> 
 
 Reporte de Contenedor Desbordado
-<img src="/assets/img/chapter-VI/Wireframe-7.png" width="900"> 
+<img src="./assets/img/chapter-VI/Wireframe-7.png" width="900"> 
 
 ### 6.4.2. Applications Wireflow Diagrams
 
 Flujo 1: Inicio de Sesión - Registro de Usuario
-<img src="/assets/img/chapter-VI/Wireframe-Diagram-1.png" width="800"> 
+<img src="./assets/img/chapter-VI/Wireframe-Diagram-1.png" width="800"> 
 
 Flujo 2: Ajuste de Datos de Perfil
-<img src="/assets/img/chapter-VI/Wireframe-Diagram-2.png" width="800"> 
+<img src="./assets/img/chapter-VI/Wireframe-Diagram-2.png" width="800"> 
 
 Flujo 3: Datos y Ajuste del Contenedor Especificado
-<img src="/assets/img/chapter-VI/Wireframe-Diagram-3.png" width="800"> 
+<img src="./assets/img/chapter-VI/Wireframe-Diagram-3.png" width="800"> 
 
 Flujo 4: Visualización de Rutas de los Camiones Recolectores
-<img src="/assets/img/chapter-VI/Wireframe-Diagram-4.png" width="800"> 
+<img src="./assets/img/chapter-VI/Wireframe-Diagram-4.png" width="800"> 
 
 Flujo 5: Reporte de Contenedor Desbordado
-<img src="/assets/img/chapter-VI/Wireframe-Diagram-5.png" width="800"> 
+<img src="./assets/img/chapter-VI/Wireframe-Diagram-5.png" width="800"> 
 
 ### 6.4.3. Applications Mock-ups
 
@@ -2906,21 +3000,952 @@ El despliegue de WasteTrack se ejecuta de forma automatizada en entornos en la n
 
 #### 7.2.1.3. Development Evidence for Sprint Review
 
+- Development Evidence Landing Page
+
+Link del repositorio: https://github.com/Arq-de-Software-Emergentes-Grupo-3/landing-page
+
+<!DOCTYPE html>
+<html>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Committed On (Date)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>landing-page</td>
+        <td>main</td>
+        <td>6fc844ed8edb9bc1af065d37f7117a29763ed8e0</td>
+        <td>Create project</td>
+        <td>N/A</td>
+        <td>2025-05-12</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
+
+- Development Evidence Frontend
+
+Link del repositorio: https://github.com/Arq-de-Software-Emergentes-Grupo-3/wastetrack-frontend
+
+<!DOCTYPE html>
+<html>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Committed On (Date)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>wastetrack-frontend</td>
+        <td>main</td>
+        <td>3f0341780f30c9f1b16cc2260eff2ecfa1366328</td>
+        <td>Create project</td>
+        <td>N/A</td>
+        <td>2025-05-15</td>
+      </tr>
+      <tr>
+        <td>wastetrack-frontend</td>
+        <td>main</td>
+        <td>eaeb164af2e21ed661b8a08320bc6599fe1339a4</td>
+        <td>Initial commit from Create Next App</td>
+        <td>N/A</td>
+        <td>2025-05-13</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
+
+- Development Evidence Backend
+
+Link del repositorio: https://github.com/Arq-de-Software-Emergentes-Grupo-3/wastetrack-api
+
+<!DOCTYPE html>
+<html>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Committed On (Date)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>wastetrack-api</td>
+        <td>main</td>
+        <td>12718d20d251d353a36d0f63751c69ee9c8086df</td>
+        <td>✨ Feat (app): Add main entry point to run the FastAPI application</td>
+        <td>N/A</td>
+        <td>2025-06-14</td>
+      </tr>
+      <tr>
+        <td>wastetrack-api</td>
+        <td>main</td>
+        <td>8e3156bab339d159bbd6ae2197a6133345ba88ac</td>
+        <td>⚙️ Chore (config): Add config for deployment</td>
+        <td>N/A</td>
+        <td>2025-06-14</td>
+      </tr>
+      <tr>
+        <td>wastetrack-api</td>
+        <td>main</td>
+        <td>dcc92bba235f47a62b3b60cc45e8b5a8e50efc82</td>
+        <td>♻️ Refactor (routes): Add user and auth routers</td>
+        <td>N/A</td>
+        <td>2025-05-14</td>
+      </tr>
+      <tr>
+        <td>wastetrack-api</td>
+        <td>main</td>
+        <td>f9f26031f2f3dad582893019e013e985aeb97b0c</td>
+        <td>✨ Feat (geolocation): Add geolocation to get coordinates from address</td>
+        <td>N/A</td>
+        <td>2025-05-14</td>
+      </tr>
+      <tr>
+        <td>wastetrack-api</td>
+        <td>main</td>
+        <td>7a7dcb0886e235cc693c48b266050d23a12bf4ec</td>
+        <td>✨ Feat (auth, user): Implement user authentication</td>
+        <td>N/A</td>
+        <td>2025-05-14</td>
+      </tr>
+      <tr>
+        <td>wastetrack-api</td>
+        <td>main</td>
+        <td>e1dfa95cc513a475338fd46ccf65b243b1e2ba5d</td>
+        <td>♻️ Refactor (config): Update db and app config</td>
+        <td>N/A</td>
+        <td>2025-05-13</td>
+      </tr>
+      <tr>
+        <td>wastetrack-api</td>
+        <td>main</td>
+        <td>a2d389ba50d7a7996c9ec1917ccf51ea1be764f2</td>
+        <td>first commit</td>
+        <td>N/A</td>
+        <td>2025-05-13</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
+
+- Development Evidence IoT
+
+Link del repositorio: https://github.com/Arq-de-Software-Emergentes-Grupo-3/wastetrack-iot
+
+<!DOCTYPE html>
+<html>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Committed On (Date)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>wastetrack-iot</td>
+        <td>main</td>
+        <td>404f9bb433fedba3c69bc48061f33f94f87dd28d</td>
+        <td>Initial commit of wastetrack iot</td>
+        <td>N/A</td>
+        <td>2025-06-14</td>
+      </tr>
+      <tr>
+        <td>wastetrack-iot</td>
+        <td>dev</td>
+        <td>8351db8aa4d762f54d82bc82a68a262ddb24c37b</td>
+        <td>Initial commit</td>
+        <td>N/A</td>
+        <td>2025-06-13</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
+
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review
 
 #### 7.2.1.5. Execution Evidence for Sprint Review
 
+- Landing Page:
+
+Link del proyecto desplegado: 
+
+- Frontend:
+
+Link del proyecto desplegado:
+
+- Backend:
+
+<img src="./assets/img/chapter-VI/sprint-1/backend-1.png"> 
+
+Link del proyecto desplegado: https://wastetrack-api.onrender.com/docs#/
+
+- IoT:
+
+<img src="./assets/img/chapter-VI/sprint-1/wokwi-1.png"> 
+
+Link del proyecto desplegado: https://wokwi.com/projects/433761407805975553
+
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review
+
+##### Auth Endpoints
+<table>
+  <thead>
+    <tr>
+      <th>Endpoint</th>
+      <th>Method</th>
+      <th>Description</th>
+      <th>Parameters</th>
+      <th>Request Body</th>
+      <th>Response Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/auth/signup</td>
+      <td>POST</td>
+      <td>Register a new user</td>
+      <td>None</td>
+      <td>
+        <pre><code>{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "password": "securepassword",
+  "role": "citizen",
+  "address": "123 Main St",
+  "phone": "+1234567890"
+}</code></pre>
+      </td>
+      <td>
+        <pre><code>// Status: 201 Created
+{
+  "message": "User created successfully",
+  "user_id": "550e8400-e29b-41d4-a716-446655440000"
+}</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/auth/signin</td>
+      <td>POST</td>
+      <td>User login and token generation</td>
+      <td>None</td>
+      <td>
+        <pre><code>{
+  "email": "john@example.com",
+  "password": "securepassword"
+}</code></pre>
+      </td>
+      <td>
+        <pre><code>// Status: 200 OK
+{
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+  "token_type": "bearer",
+  "user": {
+    "guid": "550e8400-e29b-41d4-a716-446655440000",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "role": "citizen"
+  }
+}</code></pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+##### User Endpoints
+
+<table>
+  <thead>
+    <tr>
+      <th>Endpoint</th>
+      <th>Method</th>
+      <th>Description</th>
+      <th>Parameters</th>
+      <th>Request Body</th>
+      <th>Response Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/user/{guid}</td>
+      <td>GET</td>
+      <td>Get user by GUID</td>
+      <td>Path parameter: guid (string, required)</td>
+      <td>None</td>
+      <td>
+        <pre><code>// Status: 200 OK
+{
+  "guid": "550e8400-e29b-41d4-a716-446655440000",
+  "name": "John Doe",
+  "email": "john@example.com",
+  "role": "citizen",
+  "address": "123 Main St",
+  "phone": "+1234567890",
+  "latitude": "37.7749",
+  "longitude": "-122.4194",
+  "created_at": "2023-06-01T10:00:00Z"
+}</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/user/</td>
+      <td>PUT</td>
+      <td>Update user information</td>
+      <td>None</td>
+      <td>
+        <pre><code>{
+  "name": "John Updated",
+  "phone": "+1987654321",
+  "role": "citizen"
+}</code></pre>
+      </td>
+      <td>
+        <pre><code>// Status: 200 OK
+{
+  "message": "User updated successfully",
+  "user": {
+    "guid": "550e8400-e29b-41d4-a716-446655440000",
+    "name": "John Updated"
+  }
+}</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/user/</td>
+      <td>DELETE</td>
+      <td>Delete current user</td>
+      <td>None</td>
+      <td>None</td>
+      <td>
+        <pre><code>// Status: 200 OK
+{
+  "message": "User deleted successfully"
+}</code></pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+##### Container Endpoints
+
+<table>
+  <thead>
+    <tr>
+      <th>Endpoint</th>
+      <th>Method</th>
+      <th>Description</th>
+      <th>Parameters</th>
+      <th>Request Body</th>
+      <th>Response Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/containers/</td>
+      <td>GET</td>
+      <td>Get a list of all containers</td>
+      <td>None</td>
+      <td>None</td>
+      <td>
+        <pre><code>// Status: 200 OK
+[
+  {
+    "guid": "550e8400-e29b-41d4-a716-446655440001",
+    "name": "Container A",
+    "latitude": "37.7749",
+    "longitude": "-122.4194",
+    "capacity": 75,
+    "status": "active",
+    "isFavorite": false
+  },
+  {
+    "guid": "550e8400-e29b-41d4-a716-446655440002",
+    "name": "Container B",
+    "latitude": "37.7848",
+    "longitude": "-122.4294",
+    "capacity": 30,
+    "status": "active",
+    "isFavorite": true
+  }
+]</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/containers/</td>
+      <td>POST</td>
+      <td>Create a new container</td>
+      <td>None</td>
+      <td>
+        <pre><code>{
+  "name": "Container C",
+  "latitude": "37.7849",
+  "longitude": "-122.4295",
+  "capacity": 100
+}</code></pre>
+      </td>
+      <td>
+        <pre><code>// Status: 201 Created
+{
+  "message": "Container created successfully",
+  "container_id": "550e8400-e29b-41d4-a716-446655440003"
+}</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/containers/{guid}</td>
+      <td>GET</td>
+      <td>Get a container by GUID</td>
+      <td>Path parameter: guid (string, required)</td>
+      <td>None</td>
+      <td>
+        <pre><code>// Status: 200 OK
+{
+  "guid": "550e8400-e29b-41d4-a716-446655440001",
+  "name": "Container A",
+  "latitude": "37.7749",
+  "longitude": "-122.4194",
+  "capacity": 75,
+  "status": "active",
+  "isFavorite": false
+}</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/containers/{guid}</td>
+      <td>PUT</td>
+      <td>Update a container by GUID</td>
+      <td>Path parameter: guid (string, required)</td>
+      <td>
+        <pre><code>{
+  "name": "Container A Updated",
+  "latitude": "37.7750",
+  "longitude": "-122.4195",
+  "capacity": 80,
+  "status": "active",
+  "isFavorite": true
+}</code></pre>
+      </td>
+      <td>
+        <pre><code>// Status: 200 OK
+{
+  "message": "Container updated successfully",
+  "container": {
+    "guid": "550e8400-e29b-41d4-a716-446655440001",
+    "name": "Container A Updated"
+  }
+}</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/containers/{guid}</td>
+      <td>DELETE</td>
+      <td>Delete a container by GUID</td>
+      <td>Path parameter: guid (string, required)</td>
+      <td>None</td>
+      <td><pre><code>// Status: 204 No Content</code></pre></td>
+    </tr>
+    <tr>
+      <td>/api/v1/containers/status/{status}</td>
+      <td>GET</td>
+      <td>Get containers by status</td>
+      <td>Path parameter: status (string, required)</td>
+      <td>None</td>
+      <td>
+        <pre><code>// Status: 200 OK
+[
+  {
+    "guid": "550e8400-e29b-41d4-a716-446655440001",
+    "name": "Container A",
+    "latitude": "37.7749",
+    "longitude": "-122.4194",
+    "capacity": 75,
+    "status": "active",
+    "isFavorite": false
+  },
+  {
+    "guid": "550e8400-e29b-41d4-a716-446655440002",
+    "name": "Container B",
+    "latitude": "37.7848",
+    "longitude": "-122.4294",
+    "capacity": 30,
+    "status": "active",
+    "isFavorite": true
+  }
+]</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/containers/{guid}/alert</td>
+      <td>POST</td>
+      <td>Send capacity alert for a container</td>
+      <td>Path parameter: guid (string, required)</td>
+      <td>None</td>
+      <td>
+        <pre><code>// Status: 200 OK
+{
+  "message": "Alert sent successfully",
+  "container_id": "550e8400-e29b-41d4-a716-446655440001"
+}</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/containers/{guid}/status</td>
+      <td>PUT</td>
+      <td>Update container status</td>
+      <td>
+        Path parameter: guid (string, required)<br>
+        Query parameter: new_status (string, required)
+      </td>
+      <td>None</td>
+      <td>
+        <pre><code>// Status: 200 OK
+{
+  "message": "Container status updated successfully",
+  "container": {
+    "guid": "550e8400-e29b-41d4-a716-446655440001",
+    "status": "inactive"
+  }
+}</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/containers/{guid}/favorite</td>
+      <td>PUT</td>
+      <td>Update isFavorite status</td>
+      <td>Path parameter: guid (string, required)</td>
+      <td>
+        <pre><code>{
+  "isFavorite": true
+}</code></pre>
+      </td>
+      <td>
+        <pre><code>// Status: 200 OK
+{
+  "message": "Favorite status updated successfully",
+  "container": {
+    "guid": "550e8400-e29b-41d4-a716-446655440001",
+    "isFavorite": true
+  }
+}</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/containers/{guid}/capacity</td>
+      <td>PUT</td>
+      <td>Update container capacity</td>
+      <td>Path parameter: guid (string, required)</td>
+      <td>
+        <pre><code>{
+  "capacity": 85
+}</code></pre>
+      </td>
+      <td>
+        <pre><code>// Status: 200 OK
+{
+  "message": "Container capacity updated successfully",
+  "container": {
+    "guid": "550e8400-e29b-41d4-a716-446655440001",
+    "capacity": 85
+  }
+}</code></pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+##### Capturas
+
+<img src="./assets/img/chapter-VI/sprint-1/backend-1.png"> 
+<img src="./assets/img/chapter-VI/sprint-1/backend-2.png"> 
+<img src="./assets/img/chapter-VI/sprint-1/backend-3.png"> 
+<img src="./assets/img/chapter-VI/sprint-1/backend-4.png"> 
+
+Link de los web services: https://wastetrack-api.onrender.com/docs#/
 
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review
 
+- Despliegue de Landing Page:
+
+
+
+- Despliegue de Frontend:
+
+
+
+- Despliegue de Backend:
+
+Pasos para desplegar una API de FastAPI en Render
+
+<img src="./assets/img/chapter-VI/sprint-1/render.png"> 
+
+  1. Preparación del repositorio (Un archivo requirements.txt con todas las dependencias)
+  2. Crear cuenta en Render
+  3. Crear un nuevo Web Service
+  4. Conectar el repositorio de GitHub
+  5. Configurar el servicio
+  ```
+  Nombre: Escoger un nombre para el servicio
+  Runtime: Seleccionar "Python 3"
+  Región: Eligir la ubicación del servidor más cercana
+  Branch: Seleccionar la rama principal (main/master)
+  Build Command: pip install -r requirements.txt
+  Start Command: uvicorn app:app --host 0.0.0.0 --port $PORT
+  ```
+  6. Configurar variables de entorno
+  ```
+  SECRET_KEY
+  ALGORITHM
+  ACCESS_TOKEN_EXPIRE_MINUTES
+  DATABASE_URL
+  ```
+  7. Desplegar la aplicación
+
+<img src="./assets/img/chapter-VI/sprint-1/deploy-backend.jpg"> 
+
 #### 7.2.1.8. Team Collaboration Insights during Sprint
+
+Insights del repositorio de Report:
+
+<img src="./assets/img/chapter-VI/sprint-1/report-insights.png"> 
+
+Insights del repositorio de Landing Page:
+
+<img src="./assets/img/chapter-VI/sprint-1/landing-insights.png"> 
+
+Insights del repositorio de Frontend:
+
+<img src="./assets/img/chapter-VI/sprint-1/frontend-insights.png"> 
+
+Insights del repositorio de Backend:
+
+<img src="./assets/img/chapter-VI/sprint-1/backend-insights.png"> 
+
+Insights del repositorio de IoT:
+
+<img src="./assets/img/chapter-VI/sprint-1/iot-insights.png"> 
 
 ## 7.3. Validation Interviews
 
 ### 7.3.1. Diseño de Entrevistas
 
+#### Información del Entrevistado:
+
+```
+1. ¿Cuál es tu nombre?
+
+2. ¿Cuáles son tus apellidos?
+
+3. ¿Cuál es tu edad?
+
+4. ¿Cuál es tu ocupación?
+
+5. ¿En qué distrito resides?
+```
+
+#### Segmento Objetivo #1: Funcionarios Municipales encargados de la gestión de residuos
+
+Objetivo: Validar la utilidad del sistema desde la perspectiva operativa de los municipios.
+
+```
+1. ¿Qué herramientas o sistemas utilizan actualmente para gestionar la recolección de residuos?
+
+2. ¿Qué tan efectiva considera que es la gestión actual de contenedores y rutas de recolección?
+
+3. ¿Cuáles son los principales retos que enfrenta en la supervisión del servicio de recolección?
+
+4. ¿Qué opinas sobre la propuesta de usar sensores IoT para monitorear el llenado de los contenedores?
+
+5. ¿Consideras útil la visualización en tiempo real del estado de los contenedores desde un panel web?
+
+6. ¿Qué tan relevante sería recibir notificaciones automáticas cuando un contenedor se encuentra al 90% de su capacidad?
+
+7. ¿El sistema propuesto con rutas optimizadas mediante inteligencia artificial o algoritmos como Dijkstra facilitaría su trabajo?
+
+8. ¿Qué tan importante es para tu área reducir el número de viajes de recolección innecesarios?
+
+9. ¿La propuesta de WasteTrack podría ayudar a reducir costos operativos en combustible, tiempo o personal?
+
+10. ¿La interfaz planteada para el sistema web te parece intuitiva y útil para el monitoreo?
+
+11. ¿Qué funcionalidades adicionales te gustaría ver en WasteTrack para los operadores municipales?
+
+12. ¿Consideras que el sistema propuesto podría integrarse con las herramientas que ya utilizan?
+
+13. ¿Recomendarías el uso de WasteTrack a otras municipalidades? ¿Por qué sí o por qué no?
+
+14. ¿Qué obstáculos identificas para implementar esta tecnología en tu jurisdicción?
+
+15. ¿Tienes alguna sugerencia o mejora que consideres importante para el éxito del sistema?
+```
+
+#### Segmento Objetivo #2: Ciudadanos que desean conocer el estado del servicio de recolección
+
+Objetivo: Validar la propuesta desde la perspectiva del ciudadano y su experiencia.
+
+```
+1. ¿Sueles encontrar los contenedores de basura en tu zona llenos o desbordados?
+
+2. ¿Qué impacto tiene eso en tu día a día o en tu percepción de los servicios públicos?
+
+3. ¿Te parecería útil poder consultar desde tu celular si el camión recolector pasará hoy por tu zona?
+
+4. ¿Consideras importante que los ciudadanos puedan acceder al estado de los contenedores en su barrio?
+
+5. ¿Te resultaría cómodo utilizar una app o una página web para revisar esa información?
+
+6. ¿Qué tan necesario crees que es recibir notificaciones cuando un contenedor esté desbordado cerca de tu casa?
+
+7. ¿La propuesta de un mapa en tiempo real con la ruta del camión te parecería útil y comprensible?
+
+8. ¿Te sentirías más involucrado o informado si pudieras reportar fallas o excesos de basura desde la app?
+
+9. ¿Qué tan importante es para ti la transparencia en los servicios de limpieza urbana?
+
+10. ¿Qué funcionalidades adicionales te gustaría que tenga WasteTrack desde el punto de vista ciudadano?
+
+11. ¿Consideras que esta tecnología puede mejorar la relación entre municipio y comunidad?
+
+12. ¿Recomendarías WasteTrack a tus vecinos si mejora el orden y limpieza de tu entorno?
+
+13. ¿Hay algo que no usarías o no te interesaría en este sistema?
+
+14. ¿Qué tan importante es que esta aplicación sea ligera y fácil de usar en cualquier teléfono?
+
+15. ¿Tienes alguna otra sugerencia para mejorar la experiencia del ciudadano?
+```
+
 ### 7.3.2. Registro de Entrevistas
+
+#### Segmento Objetivo #1: Funcionarios Municipales encargados de la gestión de residuos
+<table>
+        <!--Entrevistado 1-->
+        <thead>
+            <tr>
+                <th>Entrevistado 1</th>
+                <th>Jacqueline Samanez</th>
+            </tr>
+            <tr>
+                <th>Entrevistador </th>
+                <th>Alejandra Díaz</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td>53</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>Pueblo Libre</td>
+            </tr>
+            <tr>
+                <td><img src="" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br></td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td> min</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td></td>
+            </tr>
+            <!--Entrevistado 2-->
+        <thead>
+            <tr>
+                <th>Entrevistado 2</th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>Entrevistador </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><img src="" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br></td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td> min</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td></td>
+            </tr>
+            <!--Entrevistado 3-->
+        <thead>
+            <tr>
+                <th>Entrevistado 3</th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>Entrevistador </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><img src="" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br></td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td> min</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td></td>
+            </tr>
+</table>
+
+#### Segmento Objetivo #2: Ciudadanos que desean conocer el estado del servicio de recolección
+
+<table>
+        <!--Entrevistado 1-->
+        <thead>
+            <tr>
+                <th>Entrevistado 1</th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>Entrevistador </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><img src="" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br></td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td> min</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td></td>
+            </tr>
+            <!--Entrevistado 2-->
+        <thead>
+            <tr>
+                <th>Entrevistado 2</th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>Entrevistador </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><img src="" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br></td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td> min</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td></td>
+            </tr>
+            <!--Entrevistado 3-->
+        <thead>
+            <tr>
+                <th>Entrevistado 3</th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>Entrevistador </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><img src="" alt="Foto de entrevista"></td>
+                <td><strong>Resumen:</strong><br></td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td> min</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td></td>
+            </tr>            
+</table>
 
 ### 7.3.3. Evaluaciones según heurísticas
 
@@ -2973,6 +3998,17 @@ Después de analizar el desarrollo de la plataforma **WasteTrack**, se han ident
                   Duración: 20 minutos </td>
                 <td>Exposición de la entrega - TB1</td>
                 <td>Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EY7psYFkC-tFpXtQGlvfHJsB5bVgmsXcsvJihd6LzLfHQg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=j5ct3x
+                   <br>
+                  <img src="" alt="" width="350"/> </td>
+            </tr>
+            <tr>
+                <td>Validation interviews</td>
+                <td>Cantidad de videos: 1 <br> 
+                  Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-validation-interviews-tb2 <br>
+                  Formato: .mp4 <br>
+                  Duración:  minutos </td>
+                <td>Consolida las validation interviews de la TB2</td>
+                <td>Link: 
                    <br>
                   <img src="" alt="" width="350"/> </td>
             </tr>
