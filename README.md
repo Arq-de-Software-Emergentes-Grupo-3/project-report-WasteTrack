@@ -3656,7 +3656,11 @@ Insights del repositorio de IoT:
 
 ## 7.3. Validation Interviews
 
+Este apartado presenta el proceso de entrevistas de validación realizado con los principales actores involucrados en el sistema WasteTrack. El objetivo fue recopilar opiniones directas que nos permitan validar la propuesta desde una perspectiva técnica (municipal) y experiencial (ciudadana), asegurando que las funcionalidades planteadas respondan a necesidades reales.
+
 ### 7.3.1. Diseño de Entrevistas
+
+El diseño de entrevistas fue estructurado en función de dos segmentos clave: funcionarios municipales responsables de la gestión de residuos y ciudadanos afectados por el estado del servicio. Las preguntas fueron formuladas con enfoque exploratorio y de validación, buscando comprender los retos actuales, evaluar el valor percibido de nuestra solución tecnológica y recolectar recomendaciones de mejora.
 
 #### Información General del Entrevistado
 
@@ -3715,8 +3719,8 @@ Insights del repositorio de IoT:
 #### Segmento Objetivo #1: Funcionarios Municipales encargados de la gestión de residuos
 
 Entrevistado #1: 
-![Entrevista1](/assets/img/chapter-II/nelson.jpg)
-Nelson Serrano
+![Entrevista1](/assets/img/chapter-II/jeremy.jpg)
+Jeremy Quispe
 
 ●	Sexo: Masculino
 
@@ -3737,7 +3741,7 @@ Entrevista:
 
 Resumen:
 <p align="justify">
-Nelson Serrano trabaja en la Municipalidad de San Isidro, donde gestiona la recolección de residuos urbanos. En su día a día, utiliza herramientas tecnológicas para mejorar la eficiencia en el servicio y está enfocado en la optimización de rutas y la reducción de costos operativos. Valora la implementación de plataformas que ofrezcan monitoreo en tiempo real de los contenedores mediante sensores IoT y optimización de rutas de recolección, lo que facilita la toma de decisiones informadas. Considera crucial la posibilidad de recibir alertas y notificaciones para mantener el control del proceso de recolección. Aunque ha enfrentado desafíos con la saturación de los contenedores y el desbordamiento de residuos, ve en WasteTrack una solución clave para mejorar la eficiencia, reducir costos y aumentar la transparencia en la gestión de residuos.
+Jeremy Quispe, funcionario municipal de Santiago de Surco. Mostró gran interés en la implementación de sensores IoT y paneles de visualización en tiempo real, así como en recibir alertas automáticas cuando un contenedor esté cerca de llenarse. Afirmó que algoritmos como Dijkstra ayudarían a optimizar rutas y reducir costos operativos. Destacó que WasteTrack podría integrarse bien con las herramientas existentes si se diseña con APIs abiertas. También sugirió incluir alertas por fallas y módulos de reportes mensuales, recomendando el sistema a otras municipalidades y señalando como únicos obstáculos el presupuesto y la capacitación inicial.
 </p>
 
 Entrevistado #2:
