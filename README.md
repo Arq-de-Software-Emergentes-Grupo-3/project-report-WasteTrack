@@ -1594,7 +1594,7 @@ En esta sección se presenta el backlog del producto.
   </thead>
   <tbody>
     <tr><td>1</td><td>US001</td><td>Ver nivel de llenado</td><td>Como Funcionario, quiero ver el porcentaje de llenado de cada contenedor para priorizar su recolección.</td><td>2</td></tr>
-    <tr><td>2</td><td>US002</td><td>Filtrar por tipo de residuo</td><td>Como Funcionario, quiero filtrar los contenedores por tipo de residuo para facilitar la planificación.</td><td>3</td></tr>
+    <tr><td>2</td><td>US002</td><td>Filtrar por el estado del contenedor</td><td>Como Funcionario, quiero filtrar los contenedores por el estado del mismo para facilitar la planificación.</td><td>3</td></tr>
     <tr><td>3</td><td>US003</td><td>Ver alertas por sobrellenado</td><td>Como Funcionario, quiero ver qué contenedores superaron el umbral de llenado para actuar rápidamente.</td><td>2</td></tr>
     <tr><td>4</td><td>US004</td><td>Generar ruta automáticamente</td><td>Como Funcionario, quiero generar rutas automáticas para camiones recolectores.</td><td>5</td></tr>
     <tr><td>5</td><td>US005</td><td>Editar rutas manualmente</td><td>Como Funcionario, quiero poder editar rutas para hacer ajustes según necesidades reales.</td><td>3</td></tr>
@@ -3006,17 +3006,17 @@ El despliegue de WasteTrack se ejecuta de forma automatizada en entornos en la n
 | **Participantes**                | Anthony Avalos, Nicolas Cortes, Maria Diaz, Joaquin Rivadeneyra, Daniel Valverde |
 | **Resumen del Sprint anterior**  | Este es el primer Sprint, por lo que no se cuenta con un resumen previo. Sin embargo, se aplicaron los ajustes iniciales recomendados por el docente para mejorar el enfoque técnico del proyecto. |
 | **Resumen retrospectivo**        | Durante la planificación se identificaron oportunidades de mejora en el modelado de datos, estructuración por roles y claridad en las funcionalidades clave. Se adoptó el enfoque de Domain-Driven Design para separar correctamente las responsabilidades. |
-| **Sprint Goal & User Stories**   | Este sprint se enfocará en implementar funcionalidades esenciales de monitoreo y planificación. Se desarrollará la visualización del nivel de llenado de contenedores, alertas por sobrellenado, filtrado por tipo de residuo, registro y monitoreo de sensores IoT, generación automática de rutas de recolección y configuración de preferencias de alertas para los ciudadanos. Estas funciones permitirán tomar decisiones informadas sobre la recolección y mejorar la supervisión operativa. |
-| **Objetivo del Sprint**          | Se espera que los funcionarios puedan visualizar el nivel de llenado de los contenedores, aplicar filtros por tipo de residuo y recibir alertas de sobrellenado. Ellos también podrán registrar sensores y consultar el estado o último dato enviado. |
+| **Sprint Goal & User Stories**   | Este sprint se enfocará en implementar funcionalidades esenciales de monitoreo y planificación. Se desarrollará la visualización del nivel de llenado de contenedores, alertas por sobrellenado, filtrado por estado del contenedor, registro y monitoreo de sensores IoT, generación automática de rutas de recolección. Estas funciones permitirán tomar decisiones informadas sobre la recolección y mejorar la supervisión operativa. |
+| **Objetivo del Sprint**          | Se espera que los funcionarios puedan visualizar el nivel de llenado de los contenedores, aplicar filtros porel estado y recibir alertas de sobrellenado. Ellos también podrán registrar sensores y consultar el estado o último dato enviado. |
 | **Historias de Usuario Incluidas** ||
 | US001 – Ver nivel de llenado           | 2 puntos |
-| US002 – Filtrar por tipo de residuo    | 3 puntos |
+| US002 – Filtrar por estado       | 3 puntos |
 | US003 – Ver alertas por sobrellenado   | 2 puntos |
 | US004 – Generar ruta automáticamente   | 5 puntos |
 | US011 – Registrar sensores             | 3 puntos |
 | US012 – Ver último dato recibido       | 2 puntos |
 | US013 – Ver estado del sensor          | 3 puntos |
-| US016 – Configurar preferencias alerta | 2 puntos |
+
 | **Velocidad del Sprint (Sprint Velocity)** | 22 |
 | **Total de Story Points en el Sprint**     | 22 |
 
@@ -3027,13 +3027,12 @@ El despliegue de WasteTrack se ejecuta de forma automatizada en entornos en la n
 | Sprint | User Story | Work-Item / Task Id | Title                            | Description                                                                 | Estimation (Hours) | Assigned To               | Status (To-do/InProgress/ToReview/Done) |
 |--------|------------|---------------------|----------------------------------|-----------------------------------------------------------------------------|--------------------|---------------------------|------------------------------------------|
 | Sprint 1 | US001      | WT-001              | Mostrar nivel de llenado         | Visualizar el porcentaje de llenado actual de cada contenedor.              | 8                  | Maria Diaz                | Done                                    |
-| Sprint 1 | US002      | WT-002              | Filtro por tipo de residuo       | Permitir filtrar los contenedores según el tipo de residuo.                | 10                 | Joaquin Rivadeneyra       | Done                                    |
+| Sprint 1 | US002      | WT-002              | Filtro po el estado       | Permitir filtrar los contenedores según su estado actual (activo o inactivo).                | 10                 | Joaquin Rivadeneyra       | Done                                    |
 | Sprint 1 | US003      | WT-003              | Alertas por sobrellenado         | Detectar y notificar si un contenedor sobrepasa el umbral de llenado.      | 8                  | Daniel Valverde           | Done                                    |
 | Sprint 1 | US004      | WT-004              | Generar ruta automáticamente     | Generar rutas óptimas de recolección con base en los niveles de llenado.   | 12                 | Anthony Avalos            | Done                                    |
 | Sprint 1 | US011      | WT-005              | Registrar sensores               | Permitir registrar sensores IoT para que envíen datos al sistema.          | 8                  | Nicolas Cortes            | Done                                    |
 | Sprint 1 | US012      | WT-006              | Ver último dato de sensor        | Consultar la última fecha y hora en que un sensor envió datos.             | 6                  | Maria Diaz                | Done                                    |
 | Sprint 1 | US013      | WT-007              | Ver estado de sensor             | Visualizar si un sensor ha dejado de enviar información.                   | 8                  | Daniel Valverde           | Done                                    |
-| Sprint 1 | US016      | WT-008              | Configurar preferencias de alerta| Permitir al ciudadano configurar los tipos de alertas que desea recibir.   | 8                  | Anthony Avalos            | Done                                    |
 
 
 #### 7.2.1.3. Development Evidence for Sprint Review
