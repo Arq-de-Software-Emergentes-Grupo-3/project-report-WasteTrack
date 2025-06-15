@@ -42,7 +42,7 @@
     <td>U202121440</td>
 </tr>
     </table>
-  <h3 align="center" >Mayo 2025</h3>
+  <h3 align="center" >Junio 2025</h3>
 </div>
 <br>
 
@@ -3658,300 +3658,231 @@ Insights del repositorio de IoT:
 
 ### 7.3.1. Diseño de Entrevistas
 
-#### Información del Entrevistado:
+#### Información General del Entrevistado
 
-```
-1. ¿Cuál es tu nombre?
+1. **¿Cuál es tu nombre?**  
+2. **¿Cuáles son tus apellidos?**  
+3. **¿Cuál es tu edad?**  
+4. **¿Cuál es tu ocupación?**  
+5. **¿En qué distrito resides?**
 
-2. ¿Cuáles son tus apellidos?
-
-3. ¿Cuál es tu edad?
-
-4. ¿Cuál es tu ocupación?
-
-5. ¿En qué distrito resides?
-```
+---
 
 #### Segmento Objetivo #1: Funcionarios Municipales encargados de la gestión de residuos
 
-Objetivo: Validar la utilidad del sistema desde la perspectiva operativa de los municipios.
+**Objetivo:** Validar la utilidad del sistema desde la perspectiva operativa de los municipios.
 
-```
-1. ¿Qué herramientas o sistemas utilizan actualmente para gestionar la recolección de residuos?
+1. **¿Qué herramientas o sistemas utilizan actualmente para gestionar la recolección de residuos?**  
+2. **¿Qué tan efectiva considera que es la gestión actual de contenedores y rutas de recolección?**  
+3. **¿Cuáles son los principales retos que enfrenta en la supervisión del servicio de recolección?**  
+4. **¿Qué opinas sobre la propuesta de usar sensores IoT para monitorear el llenado de los contenedores?**  
+5. **¿Consideras útil la visualización en tiempo real del estado de los contenedores desde un panel web?**  
+6. **¿Qué tan relevante sería recibir notificaciones automáticas cuando un contenedor se encuentra al 90% de su capacidad?**  
+7. **¿El sistema propuesto con rutas optimizadas mediante inteligencia artificial o algoritmos como Dijkstra facilitaría su trabajo?**  
+8. **¿Qué tan importante es para tu área reducir el número de viajes de recolección innecesarios?**  
+9. **¿La propuesta de WasteTrack podría ayudar a reducir costos operativos en combustible, tiempo o personal?**  
+10. **¿La interfaz planteada para el sistema web te parece intuitiva y útil para el monitoreo?**  
+11. **¿Qué funcionalidades adicionales te gustaría ver en WasteTrack para los operadores municipales?**  
+12. **¿Consideras que el sistema propuesto podría integrarse con las herramientas que ya utilizan?**  
+13. **¿Recomendarías el uso de WasteTrack a otras municipalidades? ¿Por qué sí o por qué no?**  
+14. **¿Qué obstáculos identificas para implementar esta tecnología en tu jurisdicción?**  
+15. **¿Tienes alguna sugerencia o mejora que consideres importante para el éxito del sistema?**
 
-2. ¿Qué tan efectiva considera que es la gestión actual de contenedores y rutas de recolección?
-
-3. ¿Cuáles son los principales retos que enfrenta en la supervisión del servicio de recolección?
-
-4. ¿Qué opinas sobre la propuesta de usar sensores IoT para monitorear el llenado de los contenedores?
-
-5. ¿Consideras útil la visualización en tiempo real del estado de los contenedores desde un panel web?
-
-6. ¿Qué tan relevante sería recibir notificaciones automáticas cuando un contenedor se encuentra al 90% de su capacidad?
-
-7. ¿El sistema propuesto con rutas optimizadas mediante inteligencia artificial o algoritmos como Dijkstra facilitaría su trabajo?
-
-8. ¿Qué tan importante es para tu área reducir el número de viajes de recolección innecesarios?
-
-9. ¿La propuesta de WasteTrack podría ayudar a reducir costos operativos en combustible, tiempo o personal?
-
-10. ¿La interfaz planteada para el sistema web te parece intuitiva y útil para el monitoreo?
-
-11. ¿Qué funcionalidades adicionales te gustaría ver en WasteTrack para los operadores municipales?
-
-12. ¿Consideras que el sistema propuesto podría integrarse con las herramientas que ya utilizan?
-
-13. ¿Recomendarías el uso de WasteTrack a otras municipalidades? ¿Por qué sí o por qué no?
-
-14. ¿Qué obstáculos identificas para implementar esta tecnología en tu jurisdicción?
-
-15. ¿Tienes alguna sugerencia o mejora que consideres importante para el éxito del sistema?
-```
+---
 
 #### Segmento Objetivo #2: Ciudadanos que desean conocer el estado del servicio de recolección
 
-Objetivo: Validar la propuesta desde la perspectiva del ciudadano y su experiencia.
+**Objetivo:** Validar la propuesta desde la perspectiva del ciudadano y su experiencia.
 
-```
-1. ¿Sueles encontrar los contenedores de basura en tu zona llenos o desbordados?
-
-2. ¿Qué impacto tiene eso en tu día a día o en tu percepción de los servicios públicos?
-
-3. ¿Te parecería útil poder consultar desde tu celular si el camión recolector pasará hoy por tu zona?
-
-4. ¿Consideras importante que los ciudadanos puedan acceder al estado de los contenedores en su barrio?
-
-5. ¿Te resultaría cómodo utilizar una app o una página web para revisar esa información?
-
-6. ¿Qué tan necesario crees que es recibir notificaciones cuando un contenedor esté desbordado cerca de tu casa?
-
-7. ¿La propuesta de un mapa en tiempo real con la ruta del camión te parecería útil y comprensible?
-
-8. ¿Te sentirías más involucrado o informado si pudieras reportar fallas o excesos de basura desde la app?
-
-9. ¿Qué tan importante es para ti la transparencia en los servicios de limpieza urbana?
-
-10. ¿Qué funcionalidades adicionales te gustaría que tenga WasteTrack desde el punto de vista ciudadano?
-
-11. ¿Consideras que esta tecnología puede mejorar la relación entre municipio y comunidad?
-
-12. ¿Recomendarías WasteTrack a tus vecinos si mejora el orden y limpieza de tu entorno?
-
-13. ¿Hay algo que no usarías o no te interesaría en este sistema?
-
-14. ¿Qué tan importante es que esta aplicación sea ligera y fácil de usar en cualquier teléfono?
-
-15. ¿Tienes alguna otra sugerencia para mejorar la experiencia del ciudadano?
-```
+1. **¿Sueles encontrar los contenedores de basura en tu zona llenos o desbordados?**  
+2. **¿Qué impacto tiene eso en tu día a día o en tu percepción de los servicios públicos?**  
+3. **¿Te parecería útil poder consultar desde tu celular si el camión recolector pasará hoy por tu zona?**  
+4. **¿Consideras importante que los ciudadanos puedan acceder al estado de los contenedores en su barrio?**  
+5. **¿Te resultaría cómodo utilizar una app o una página web para revisar esa información?**  
+6. **¿Qué tan necesario crees que es recibir notificaciones cuando un contenedor esté desbordado cerca de tu casa?**  
+7. **¿La propuesta de un mapa en tiempo real con la ruta del camión te parecería útil y comprensible?**  
+8. **¿Te sentirías más involucrado o informado si pudieras reportar fallas o excesos de basura desde la app?**  
+9. **¿Qué tan importante es para ti la transparencia en los servicios de limpieza urbana?**  
+10. **¿Qué funcionalidades adicionales te gustaría que tenga WasteTrack desde el punto de vista ciudadano?**  
+11. **¿Consideras que esta tecnología puede mejorar la relación entre municipio y comunidad?**  
+12. **¿Recomendarías WasteTrack a tus vecinos si mejora el orden y limpieza de tu entorno?**  
+13. **¿Hay algo que no usarías o no te interesaría en este sistema?**  
+14. **¿Qué tan importante es que esta aplicación sea ligera y fácil de usar en cualquier teléfono?**  
+15. **¿Tienes alguna otra sugerencia para mejorar la experiencia del ciudadano?**
 
 ### 7.3.2. Registro de Entrevistas
 
 #### Segmento Objetivo #1: Funcionarios Municipales encargados de la gestión de residuos
-<table>
-        <!--Entrevistado 1-->
-        <thead>
-            <tr>
-                <th>Entrevistado 1</th>
-                <th>Jacqueline Samanez</th>
-            </tr>
-            <tr>
-                <th>Entrevistador </th>
-                <th>Alejandra Díaz</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Edad</td>
-                <td>53</td>
-            </tr>
-            <tr>
-                <td>Distrito</td>
-                <td>Pueblo Libre</td>
-            </tr>
-            <tr>
-                <td><img src="" alt="Foto de entrevista"></td>
-                <td><strong>Resumen:</strong><br></td>
-            </tr>
-            <tr>
-                <td>Timing de la entrevista</td>
-                <td> min</td>
-            </tr>
-            <tr>
-                <td>URL de la entrevista</td>
-                <td></td>
-            </tr>
-            <!--Entrevistado 2-->
-        <thead>
-            <tr>
-                <th>Entrevistado 2</th>
-                <th></th>
-            </tr>
-            <tr>
-                <th>Entrevistador </th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Edad</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Distrito</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><img src="" alt="Foto de entrevista"></td>
-                <td><strong>Resumen:</strong><br></td>
-            </tr>
-            <tr>
-                <td>Timing de la entrevista</td>
-                <td> min</td>
-            </tr>
-            <tr>
-                <td>URL de la entrevista</td>
-                <td></td>
-            </tr>
-            <!--Entrevistado 3-->
-        <thead>
-            <tr>
-                <th>Entrevistado 3</th>
-                <th></th>
-            </tr>
-            <tr>
-                <th>Entrevistador </th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Edad</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Distrito</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><img src="" alt="Foto de entrevista"></td>
-                <td><strong>Resumen:</strong><br></td>
-            </tr>
-            <tr>
-                <td>Timing de la entrevista</td>
-                <td> min</td>
-            </tr>
-            <tr>
-                <td>URL de la entrevista</td>
-                <td></td>
-            </tr>
-</table>
+
+Entrevistado #1: 
+![Entrevista1](/assets/img/chapter-II/nelson.jpg)
+Nelson Serrano
+
+●	Sexo: Masculino
+
+●	Edad: 21 años
+
+●	Distrito en el que vive: Surco
+
+●	Nivel socioeconómico: Clase B
+Entrevista:
+
+●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EYE-_a_19oBFlmSVv6szux0BlOyKmSC4EFiUo1AZ7vaJPA?e=uxGtB2
+
+●	Momento en el que inicia: 0:00
+
+●	Duración: 4:57
+
+●	Entrevistador: Rivadeneyra Ramos, Joaquin David
+
+Resumen:
+<p align="justify">
+Nelson Serrano trabaja en la Municipalidad de San Isidro, donde gestiona la recolección de residuos urbanos. En su día a día, utiliza herramientas tecnológicas para mejorar la eficiencia en el servicio y está enfocado en la optimización de rutas y la reducción de costos operativos. Valora la implementación de plataformas que ofrezcan monitoreo en tiempo real de los contenedores mediante sensores IoT y optimización de rutas de recolección, lo que facilita la toma de decisiones informadas. Considera crucial la posibilidad de recibir alertas y notificaciones para mantener el control del proceso de recolección. Aunque ha enfrentado desafíos con la saturación de los contenedores y el desbordamiento de residuos, ve en WasteTrack una solución clave para mejorar la eficiencia, reducir costos y aumentar la transparencia en la gestión de residuos.
+</p>
+
+Entrevistado #2:
+![entrevista-lector4](/assets/img/chapter-II/Entrevista-Funcionario-Nicolas.jpeg)
+
+Nombre: Leonardo Soto Tagle
+
+●	Sexo: Masculino
+
+●	Edad: 22 años
+
+●	Distrito en el que vive: San Miguel
+
+
+Entrevista:
+
+●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202016311_upc_edu_pe/EXGtYg9VFuhDn6UgFMzBMVsBKMgEt8Pd4quOlv_OlJV3cw?e=UKNA9M
+
+●	Momento en el que inicia: 0:00
+
+●	Duración: 7:08
+
+Resumen:
+<p align="justify">
+Leonardo trabaja en la municipalidad de San Miguel, se encarga del monitoreo de los camiones de basura y las operaciones que estos realizan durante las jornadas. Durante sus jornadas regulares, hace uso de herramientas de seguimiento y bases de datos para monitorear los camiones, los desperdicios que estos recogen, y otros parametros adicionales, para asi poder emitir reportes al final del dia con respecto al desempeño diario de cada una de las unidades. Nos indica que valoraria la implementacion de una tecnologia que permita hacer un seguimiento mucho mas detallado a los camiones, para asi determinar si alguno se esta llenando mas de lo debido, ademas, afirma que establecer rutas segun la disposicion del trafico en lugar de rutas predefinidas ayudaria considerablemente a la hora de optimizar los tiempos en los que los camiones opera de forma regular.
+</p>
+
+Entrevistado #3
+
+  ![Entrevista](/assets/img/chapter-II/JacquelineSamanez.png)
+
+●	Nombre: Jacqueline Samanez
+
+●	Edad: 53
+
+●	Sexo: Femenino
+
+●	Residencia: Lima - Pueblo Libre
+
+●	Entrevista:
+
+●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/ERge36l0G5lAgx48cxEK3cAB5E-irHI-V5akPQDUYP6NdA?e=babxer&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+●	Momento en el que inicia: 
+
+●	Duración: 4:30 min
+
+●	Entrevistador: Diaz Villacrez, Maria Alejandra
+
+Resumen:
+<p align="justify">
+La entrevistada nos comenta que la municipalidad opera con 5 camiones recolectores siguiendo rutas preestablecidas por zonas, con programación semanal fija. Utilizan tecnologías básicas como GPS en camiones y un software simple de programación de rutas. Ella expresó disposición para adoptar soluciones IoT, siempre que la inversión sea justificable con resultados concretos. Enfatizó la importancia de la transparencia en el servicio y la necesidad de herramientas analíticas predictivas que faciliten la toma de decisiones rápidas.
+</p>
 
 #### Segmento Objetivo #2: Ciudadanos que desean conocer el estado del servicio de recolección
 
-<table>
-        <!--Entrevistado 1-->
-        <thead>
-            <tr>
-                <th>Entrevistado 1</th>
-                <th></th>
-            </tr>
-            <tr>
-                <th>Entrevistador </th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Edad</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Distrito</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><img src="" alt="Foto de entrevista"></td>
-                <td><strong>Resumen:</strong><br></td>
-            </tr>
-            <tr>
-                <td>Timing de la entrevista</td>
-                <td> min</td>
-            </tr>
-            <tr>
-                <td>URL de la entrevista</td>
-                <td></td>
-            </tr>
-            <!--Entrevistado 2-->
-        <thead>
-            <tr>
-                <th>Entrevistado 2</th>
-                <th></th>
-            </tr>
-            <tr>
-                <th>Entrevistador </th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Edad</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Distrito</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><img src="" alt="Foto de entrevista"></td>
-                <td><strong>Resumen:</strong><br></td>
-            </tr>
-            <tr>
-                <td>Timing de la entrevista</td>
-                <td> min</td>
-            </tr>
-            <tr>
-                <td>URL de la entrevista</td>
-                <td></td>
-            </tr>
-            <!--Entrevistado 3-->
-        <thead>
-            <tr>
-                <th>Entrevistado 3</th>
-                <th></th>
-            </tr>
-            <tr>
-                <th>Entrevistador </th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Edad</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Distrito</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><img src="" alt="Foto de entrevista"></td>
-                <td><strong>Resumen:</strong><br></td>
-            </tr>
-            <tr>
-                <td>Timing de la entrevista</td>
-                <td> min</td>
-            </tr>
-            <tr>
-                <td>URL de la entrevista</td>
-                <td></td>
-            </tr>            
-</table>
+Entrevistado #1: 
+
+Diego Cantoral
+
+<img src="./assets/img/chapter-II/entrevista-ciudadano-diego.PNG" alt="Entrevista">
+ 
+●	Sexo: Masculino
+
+●	Edad: 22 años
+
+●	Distrito en el que vive: Pueblo Libre
+
+
+Entrevista:
+
+●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/EYaN1fHNU7RJm_THwfNQjaIBBaJFdH89zEybwct68Bf6cA?e=fAtIeU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+●	Momento en el que inicia: 
+
+●	Duración: 
+
+●	Entrevistador: Valverde Lopez, Josue Daniel
+
+Resumen:
+<p align="justify">
+Diego es un joven ciudadano del distrito de Pueblo Libre, quien nos comenta su experiencia con el servicio de recolección de residuos en su zona e indica que pocas veces falla el servicio de recolección. Sin embargo, ante esas situaciones no sabe como prevenir la acumulación de residuos. Se muestra de acuerdo con una plataforma la cual lo ayude con la visualización y alertas antes de que ocurra una acumulación de residuos.
+</p>
+
+Entrevistado #2
+
+ ![Entrevista1](assets/img/chapter-II/entrevista_lucero.jpeg)
+
+●	Nombre: Lucero Smith
+
+●	Edad: 33
+
+●	Sexo: Femenino
+
+●	Residencia: Lima - San Isidro
+
+●	Entrevista:
+
+●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/Eczio0ychKFFnbnmkwUAzR8ByuNTUaSWBhrMmvAMPRdwGA?e=TUtLzw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+●	Momento en el que inicia: 00:00
+
+●	Duración: 09:34 min
+
+●	Entrevistador: Avalos Santos Anthony Piero
+
+Resumen:
+<p align="justify">
+Lucero nos comenta que ella tiene muchos problemas con el tema de la recoleccion de residuos, ya que en su zona no existe un horario definido para la recoleccion de sus residuos. Constantemente tiene que ver contenendores desbordados y la acumulacion de residuos en la calle. Ella nos indica que le gustaria tener una plataforma que le permita ver el recorrido del camión recolector, y que le avise cuando el contenedor de su zona se encuentre lleno, para asi poder evitar la acumulacion de residuos en la calle. Ella nos indica que no tiene problemas con el uso de tecnologias, ya que es una persona muy activa en redes sociales. Le gustaria una plataforma facil e intuitiva para poder usarlo con facilidad.
+</p>
+
+Entrevistado #3
+
+  ![Entrevista1](assets/img/chapter-II/entrevista_lucia.jpeg)
+
+●	Nombre: Lucia Aliaga
+
+●	Edad: 27
+
+●	Sexo: Femenino
+
+●	Residencia: Lima - Los Olivos
+
+●	Entrevista:
+
+●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EbEgs3AlkHNHkcx8XZKSFtkBxIxvfz7RwxbPbRRER9GVlg?e=m5eIhg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+●	Momento en el que inicia: 00:00
+
+●	Duración: 09:30 min
+
+●	Entrevistador: Avalos Santos Anthony Piero
+
+Resumen:
+<p align="justify">
+Lucia nos comenta que ella vive en una zona donde constantemente tiene que ver contenedores desbordados por la acumulacion de residuos, especialmente en parques, donde la afluencia de personas es mayor. Nos comenta que tiene que estar en constante atencion para ver el camion recolector y poder sacar sus residuos, pero esto le esta generando muchos problemas en su dia a dia porque ella tiene que trabajar. Le gustria una aplicacion donde pueda ver el recorrido que tendra el camion y una hora estimada en la que llegara a su domicilio, asi ya no tendra que estar pendiente de la hora. Nos comenta tambien que le gustaria recibir informacion acerca de como separar correctamente los residuos, ya que no sabe si lo esta haciendo bien.
+</p>
 
 ### 7.3.3. Evaluaciones según heurísticas
 
 ## 7.4. Video About-the-Product
 
-En el presente video about the product, hablaremos sobre WasteTrack, una solución innovadora para la gestión de residuos urbanos. Este sistema utiliza tecnologías como Internet de las Cosas (IoT) y algoritmos avanzados para optimizar la recolección de basura y hacerla más eficiente y sostenible. La finalidad de este video es mostrar cómo WasteTrack está revolucionando la manera en que gestionamos los residuos en las ciudades, reduciendo costos y mejorando el servicio
+En el presente video about the product, hablaremos sobre WasteTrack, una solución innovadora para la gestión de residuos urbanos. Este sistema utiliza tecnologías como Internet de las Cosas (IoT) y algoritmos avanzados para optimizar la recolección de basura y hacerla más eficiente y sostenible. La finalidad de este video es mostrar cómo WasteTrack está revolucionando la manera en que gestionamos los residuos en las ciudades, reduciendo costos y mejorando el servicio.
+
+●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EZMl67_VgdNPksNf2JNz0KcBn1dUc6Gbpqc4OgwUMH5eZg?e=u8hU0d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ## Conclusiones
 
