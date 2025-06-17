@@ -63,6 +63,7 @@
 | 1.9     | 15/05/2025 | Anthony Avalos      | Integración de los sistemas de navegación en el prototipo de la aplicación y validación de flujos                    |
 | 1.8     | 16/05/2025 | Nicolás Cortés      | Se concluyó el capítulo V & VI                                        |
 | 1.9     | 14/06/2025 | Alejandra Díaz      | Avance del capítulo 7                                        |
+| 2.0     | 16/06/2025 | Nicolás Cortés      | Finalización del capítulo 7 y mejoras en el capítulo 6         |
 
 ### Project Report Collaboration Insights
 
@@ -529,7 +530,7 @@ ABET 3: Capacidad de comunicarse efectivamente con un rango de audiencias
     <!-- Estudiante 4 TB2-->
      <tr>   
       <td>
-      <b>Cortés Hidalgo, Nicolás TB2:</b><br>
+      <b>Cortés Hidalgo, Nicolás TB2:</b> Para la entrega de la TB2, me encargué de corregir errores en el diseño de mockups del Figma para poder mejorar la interfaz visual final que mostrará la aplicación. Pude finalizar la tarea sin problemas y avisando de mi estado constantemente.
        </td>   
     </tr>
     <!-- Estudiante 5 TB2-->
@@ -568,7 +569,7 @@ ABET 3: Capacidad de comunicarse efectivamente con un rango de audiencias
     <!-- Estudiante 4 TB2-->
      <tr>   
       <td>
-      <b>Cortés Hidalgo, Nicolás TB2:</b> <br>
+      <b>Cortés Hidalgo, Nicolás TB2:</b> Para la entrega de la TB2, corregí aquellas observaciones realizadas por el profesor en el capítulo 6, del mismo modo, me encargué de diseñar el prototipo final de la app y de evaluar la misma hacienso uso de las heurísticas de Nielsen. Realicé la docuentación respectiva para cada uno de los apartados asignados.
        </td>   
     </tr>
     <!-- Estudiante 5 TB2-->
