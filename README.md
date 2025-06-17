@@ -2688,24 +2688,24 @@ La tipografía utilizada en nuestro diseño es del tipo Roboto, que asegura un t
 
 ### 6.1.2. Web, Mobile and IoT Style Guidelines
 
-**Color primario**  
+**Gama primario**  
 La gama de colores principal corresponde a tonalidades de blanco, que se relacionan principalmente a limpieza y pulcritud, ambos términos alineados a nuestra visión y misión. La gama va transicionando a tonos grises claros, donde la tonalidad mas clara se asocia a la sofisticación, mientras que la más oscura va alineada con la formalidad y el profesionalismo. Esta gama nos permite mostrar un diseño limpio, pero procurando siempre formalidad, claridad y transparencia.
 
-**Color secundario**  
-Los tonos de verde seleccionados para la aplicación se asocian a nuestro objetivo principal tanto como startup como aplicación: Asegurar un futuro mas limpio a través del cuidado del medio ambiente. El color verde siempre esta asociado a la vida y a la naturaleza, por lo que es una elección ideal para combinarlo con el color blanco y realizar un contraste entre ambos, mostrando así un balance entre el cuidado de la naturaleza manteniendo siempre formalidad y profesionalismo.
-
-**Lista de colores**  
-
-Gama primaria  
 <img src="./assets/img/chapter-VI/gama-primaria.png"> 
 
-Gama secundaria  
+**Gama secundaria**  
+Los tonos de verde seleccionados para la aplicación se asocian a nuestro objetivo principal tanto como startup como aplicación: Asegurar un futuro mas limpio a través del cuidado del medio ambiente. El color verde siempre esta asociado a la vida y a la naturaleza, por lo que es una elección ideal para combinarlo con el color blanco y realizar un contraste entre ambos, mostrando así un balance entre el cuidado de la naturaleza manteniendo siempre formalidad y profesionalismo.
+
 <img src="./assets/img/chapter-VI/gama-secundaria.png">  
 
 **Tipografía**  
+Se ha seleccionado un estilo roboto para la tipografía utilizada en la aplicación la cual comprende una serie de tamaños seleccionados cuidadosamente para que el usuario pueda ver la información y apartados de mayor relevancia de la aplicación. En caso el texto este mostrado en secciones con un fondo con tonalidad oscura, el color de texto pasará a ser blanco, siguiendo la misma fuente, tamaño y peso según lo establecido.
+
 <img src="./assets/img/chapter-VI/tipografia.png">  
 
 **Botones e íconos**  
+Los botones siguen la misma estructura de tipografía establecida anteriormente, y los colores varían según el fondo en el cual se encuentren, sin embargo, todos están alineados a los colores establecidos en la gama primaria; con la única excepción siendo que el botón se encuentre en un fondo negro, donde siempre serán de color blanco con tipografía negra.
+
 <img src="./assets/img/chapter-VI/botones.png">
 
 ## 6.2. Information Architecture
@@ -2795,49 +2795,148 @@ El mock-up de la Landing Page ofrece una representación visual más avanzada de
 
 ## 6.4. Applications UX/UI Design
 
+En este apartado se detallarán todos los aspectos relacionados al diseño de interfaces y flujos relacionados a las pantallas generadas, a fin de tener una vista previa de cómo queremos que se visualize la aplicación una vez esta se encuentre finalizada. Se siguió un flujo que partió con el diseño de Wireframes de cada interfaz, los cuales fueron posteriormente elevados a la categoría de Mock-up, siguiendo todos los estilos de colores y tipografía establecidos.
+
 ### 6.4.1. Applications Wireframes
 
-Inicio de Sesión
+Se evidencian la serie de Wireframes principales, los cuales servirán principalmente como una piedra angular para el desarrollo de los Mock-ups.
+
+**Inicio de Sesión**  
+Representa un inicio de sesión simple, donde se pueden ingresar credenciales una vez registradas.
+
 <img src="./assets/img/chapter-VI/Wireframe-2.png" width="900"> 
 
-Registro de Usuario
+**Registro de Usuario**  
+Representa una interfaz de registro de usuario, donde estos podrán generar credenciales únicas de ingreso para acceder a la aplicación.
+
 <img src="./assets/img/chapter-VI/Wireframe-1.png" width="900"> 
 
-Ajustes de Usuario - Configuración
+**Ajustes de Usuario - Configuración**  
+Representa una pestaña de ajustes de usuario, donde el usuario puede editar sus datos personales.
+
 <img src="./assets/img/chapter-VI/Wireframe-3.png" width="900"> 
 
-Registro de Desperdicios
+**Registro de Desperdicios**  
+Muestra un overview de los contenedores creados, con datos sencillos de los mismos, en esta pestaña podrá accederse a cada uno de los contenedores.
+
 <img src="./assets/img/chapter-VI/Wireframe-4.png" width="900"> 
 
-Mapeo de Rutas de Camiones
+**Mapeo de Rutas de Camiones**  
+Muestra una vista en tiempo real de la ubicación de cada uno de los contenedores, rutas y camiones que siguen las rutas.
+
 <img src="./assets/img/chapter-VI/Wireframe-5.png" width="900"> 
 
-Estado de Contenedor
+**Estado de Contenedor**  
+Muestra a detalle el estado del contenedor, con datos personificables siempre y cuando el usuario sea administrador municipal.
+
 <img src="./assets/img/chapter-VI/Wireframe-6.png" width="900"> 
 
-Reporte de Contenedor Desbordado
+**Reporte de Contenedor Desbordado**  
+Muestra un formulario con el cual un ciudadano puede reportar el desborde de un contenedor, solo puede utilizarla un ciudadano.
+
 <img src="./assets/img/chapter-VI/Wireframe-7.png" width="900"> 
 
 ### 6.4.2. Applications Wireflow Diagrams
 
-Flujo 1: Inicio de Sesión - Registro de Usuario
+A partir de los Wireframe generados, se pueden generar la serie de diagramas que permiten mostrar los flujos base de cada uno de los procesos principales que la aplicación sigue.
+
+**Flujo: Inicio de Sesión - Registro de Usuario**  
+Representa un registro de usuario con generación de credenciales e inicio de sesión una vez las credenciales hayan sido generadas.
+
 <img src="./assets/img/chapter-VI/Wireframe-Diagram-1.png" width="800"> 
 
-Flujo 2: Ajuste de Datos de Perfil
+**Flujo: Ajuste de Datos de Perfil**  
+Representa un cambio en algún dato personal que el usuario desee modificar, siempre y cuando haya ingresado a la aplicación con sus credenciales.
+
 <img src="./assets/img/chapter-VI/Wireframe-Diagram-2.png" width="800"> 
 
-Flujo 3: Datos y Ajuste del Contenedor Especificado
+**Flujo: Datos y Ajuste del Contenedor Especificado**  
+Representa un flujo en el cual el usuario accede a ka aplicación usando sus credenciales para posteriormente visualizar datos a detalle de un contenedor seleccionado.
+
 <img src="./assets/img/chapter-VI/Wireframe-Diagram-3.png" width="800"> 
 
-Flujo 4: Visualización de Rutas de los Camiones Recolectores
+**Flujo: Visualización de Rutas de los Camiones Recolectores**  
+Representa un flujo en el que el usuario puede ver las rutas y ubicación de contenedores y camiones.
+
 <img src="./assets/img/chapter-VI/Wireframe-Diagram-4.png" width="800"> 
 
-Flujo 5: Reporte de Contenedor Desbordado
+**Flujo: Reporte de Contenedor Desbordado**
+Representa un flujo en el que un ciudadano puede reportar un contenedor desbordado, llenando un formulario.
+
 <img src="./assets/img/chapter-VI/Wireframe-Diagram-5.png" width="800"> 
 
 ### 6.4.3. Applications Mock-ups
 
+En esta sección, se mostrarán los Mock-ups generados utilizando la aplicación Figma, realizados en base a los Wireframes previamente diseñados. El desarrollo de los mismos servirá como una piedra angular para el diseño final de la aplicación.
+
+**Registro de usuario**  
+Diseño de la interfaz de registro de usuario, en la cual se podrán registrar tanto los ciudadanos como los administradores de las ciudades.
+
+<img src="./assets/img/chapter-VII/Mockup1.png" width="800"> 
+
+
+**Inicio de sesión**  
+Diseño de pantalla login, en la cual los usuarios ya registrados podrán acceder haciendo uso de sus credenciales.
+
+<img src="./assets/img/chapter-VII/Mockup2.png" width="800"> 
+
+
+**Pantalla de inicio**  
+Diseño de la interfaz home, la primera ventana que le aparece al usuario cuando ingresa a la aplicación, la cual muestra un overview de los contenedores (con detalle para los administradores municipales).
+
+<img src="./assets/img/chapter-VII/Mockup3.png" width="800"> 
+
+
+**Ajustes de usuario**  
+Diseño de la pantalla de ajustes, donde el usuario podrá editar sus datos personales y, en caso ser administrador, podrá realizar cambios en los datos guardados de los contenedores.
+
+<img src="./assets/img/chapter-VII/Mockup4.png" width="800"> 
+
+
+**Overview de contenedor único**  
+Diseño de la pantalla de datos del contenedor, donde se visualiza a detalle los datos del contenedor seleccionado.
+
+<img src="./assets/img/chapter-VII/Mockup5.png" width="800"> 
+
+
+**Localización de contenedor y rutas**  
+Diseño de interfaz del mapeo de contenedores y rutas, permite visualizar al agente municipal la ubicación de los distintos contenedores y las rutas de los camiones asignados que pasarán por la ruta seleccionada. Vista únicamente disponible para agentes municipales.
+
+<img src="./assets/img/chapter-VII/Mockup6.png" width="800"> 
+
+
+**Reporte de desborde**  
+Diseño de la interfaz de formulario de reporte. Permite a un ciudadano reportar un contenedor desbordado llenado un formulario. Vista únicamente disponible para ciudadanos.
+
+<img src="./assets/img/chapter-VII/Mockup7.png" width="800">
+
 ### 6.4.4. Applications User Flow Diagrams
+
+En esta sección, se mostrarán una serie de flujos base de cada uno de los procesos que seguirá la aplicación una vez desarrollada, los flujos fueron realizados usando los Mock-ups diseñados.
+
+**Flujo: Registro de usuario**  
+Se muestra el flujo de registro de un usuario, en el cual el usuario genera credenciales en la página de registro, para posteriormente utilizar dichas credenciales en la página de login, una vez ingresadas, el usuario es redirigido a la vista home, siempre y cuándo las credenciales hayan sido ingresadas correctamente.
+
+<img src="./assets/img/chapter-VII/Flujo1.png" width="800">
+
+**Flujo: Personalización de datos de usaurio**  
+Se muestra el flujo base de personalización, en el cual, un usuario ingresa a la aplicación haciendo uso de sus credenciales generadas, para posteriormente dirigirse al apartado de ajustes, donde podrá editar los datos que considere necesario.
+
+<img src="./assets/img/chapter-VII/Flujo2.png" width="800">
+
+**Flujo: Visualización de contenedores**  
+Se muestra el flujo de los contenedores, donde el usuario ingresa a la aplicación ingresando sus credenciales correctamente, y procede a irse a la pestaña del overview de contenedores, donde podrá visualizar datos generales del contenedor seleccionado, y editarlos en caso sea un administrador municipal.
+
+<img src="./assets/img/chapter-VII/Flujo3.png" width="800">
+
+**Flujo: Visualización de rutas**  
+Se muestra el flujo de visualización de rutas, donde el usaurio, siempre y cuando sea administrador municipal, podrá visualizar los datos de las rutas generadas para los camiones de basura que estos deberán de seguir; a la vez que podrán, en caso sea necesario, editarlas según las necesidades. También podrán visualizar la ubicación en tiempo real de los contenedores y los camiones.
+
+<img src="./assets/img/chapter-VII/Flujo4.png" width="800">
+
+**Flujo: Reporte de desborde**  
+Se muestra el flujo del reporte de desborde, en el cual, el usuario, siempre y cuando sea del tipo ciudadano, podrá reportar el desborde de un contenedor completando el formulario de desborde que se le muestra en pantalla.
+<img src="./assets/img/chapter-VII/Flujo5.png" width="800">
 
 ## 6.5. Applications Prototyping
 
