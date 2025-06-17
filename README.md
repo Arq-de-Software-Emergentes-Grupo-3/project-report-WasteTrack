@@ -2940,6 +2940,12 @@ Se muestra el flujo del reporte de desborde, en el cual, el usuario, siempre y c
 
 ## 6.5. Applications Prototyping
 
+Se muestra el prototipo web de la aplicación, generado a partir de los mock-ups diseñados gracias a Figma.
+
+<img src="./assets/img/chapter-VII/Prototype.png" width="800">
+
+<a href="https://www.figma.com/proto/HnvH9cAjfsn9gHIQVCMwSZ/WasteTrack?node-id=10-274&p=f&t=W0bklrR9rlt5KW0H-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=10%3A274" target="_blank">Web-App-Prototype</a>
+
 # Capítulo VII: Product Implementation, Validation & Deployment
 
 ## 7.1. Software Configuration Management
