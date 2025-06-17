@@ -537,6 +537,7 @@ ABET 3: Capacidad de comunicarse efectivamente con un rango de audiencias
     <tr>   
       <td>
         <b>Avalos Santos, Anthony Piero TB2:</b><br>
+        Me encargue del desarrollo de la aplicacion web, donde se puede ver todas las funcionalidades para los funcionarios de las municipalidades, como la configuracion de los contenedores, la visualizacion de los recorridos de los camiones recolectores, entre otros. Ademas, pude comunicarme con mis compañeros para coordinar las tareas y avances del proyecto.
       </td>   
     </tr>
     <tbody>
@@ -575,7 +576,8 @@ ABET 3: Capacidad de comunicarse efectivamente con un rango de audiencias
     <!-- Estudiante 5 TB2-->
     <tr>   
       <td>
-        <b>Avalos Santos, Anthony Piero TB2:</b><br>        
+        <b>Avalos Santos, Anthony Piero TB2:</b><br> 
+        Corregimos las observaciones en el TP1 y TB1, además de documentar los avances en el desarrollo de la aplicación web y com este se comunica con los dispositivos IoT para manejar los eventos en timepo real. También redacté la documentación técnica necesaria para que el equipo pueda entender los avances y las funcionalidades implementadas.       
       </td>   
     </tr>
 </table>
@@ -3984,7 +3986,7 @@ Diego es un joven ciudadano del distrito de Pueblo Libre, quien nos comenta su e
 
 Entrevistado #2
 
- ![Entrevista1](assets/img/chapter-II/entrevista_lucero.jpeg)
+ ![Entrevista1](assets/img/chapter-VII/lucer-interview-post.jpeg)
 
 ●	Nombre: Lucero Smith
 
@@ -3996,45 +3998,21 @@ Entrevistado #2
 
 ●	Entrevista:
 
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/Eczio0ychKFFnbnmkwUAzR8ByuNTUaSWBhrMmvAMPRdwGA?e=TUtLzw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/EcvKT_kLtnhPv6WqtEchfn8BYSvYjmox91E2ZXDrm2Tepw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=APxq2F
 
 ●	Momento en el que inicia: 00:00
 
-●	Duración: 09:34 min
+●	Duración: 13:08 min
 
 ●	Entrevistador: Avalos Santos Anthony Piero
 
 Resumen:
 <p align="justify">
-Lucero nos comenta que ella tiene muchos problemas con el tema de la recoleccion de residuos, ya que en su zona no existe un horario definido para la recoleccion de sus residuos. Constantemente tiene que ver contenendores desbordados y la acumulacion de residuos en la calle. Ella nos indica que le gustaria tener una plataforma que le permita ver el recorrido del camión recolector, y que le avise cuando el contenedor de su zona se encuentre lleno, para asi poder evitar la acumulacion de residuos en la calle. Ella nos indica que no tiene problemas con el uso de tecnologias, ya que es una persona muy activa en redes sociales. Le gustaria una plataforma facil e intuitiva para poder usarlo con facilidad.
+Lucero nos comenta que le parece muy atractiva la Landing Page de WasteTrack, ya que presenta de forma clara los beneficios de la plataforma y cómo esta puede conectar a dos actores muy importantes en la gestión de residuos.Menciona que en su zona no suele encontrar contenedores desbordados, pero que si llegara a haber alguno, eso afectaría negativamente su percepción sobre los servicios públicos. Ella se esfuerza como ciudadana en colaborar para que estos casos no ocurran, por lo que situaciones así le resultarían frustrantes.Le parecería muy útil poder visualizar en tiempo real el recorrido del camión recolector, especialmente para saber si pasará por su zona en un día específico, ya que muchas veces ella no se encuentra en casa por estar en el trabajo.
+Además, considera que sería de gran ayuda que los ciudadanos pudieran conocer si un contenedor específico está lleno o no, para poder utilizarlo adecuadamente. Las notificaciones sobre alertas de llenado le parecen una excelente idea, ya que permitirían informar a los ciudadanos y evitar recorridos innecesarios para verificar el estado de los contenedores.Finalmente, para fomentar la participación ciudadana, le parecería muy útil que los usuarios pudieran reportar fallas o exceso de basura directamente desde la app.
 </p>
 
-Entrevistado #3
 
-  ![Entrevista1](assets/img/chapter-II/entrevista_lucia.jpeg)
-
-●	Nombre: Lucia Aliaga
-
-●	Edad: 27
-
-●	Sexo: Femenino
-
-●	Residencia: Lima - Los Olivos
-
-●	Entrevista:
-
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EbEgs3AlkHNHkcx8XZKSFtkBxIxvfz7RwxbPbRRER9GVlg?e=m5eIhg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
-●	Momento en el que inicia: 00:00
-
-●	Duración: 09:30 min
-
-●	Entrevistador: Avalos Santos Anthony Piero
-
-Resumen:
-<p align="justify">
-Lucia nos comenta que ella vive en una zona donde constantemente tiene que ver contenedores desbordados por la acumulacion de residuos, especialmente en parques, donde la afluencia de personas es mayor. Nos comenta que tiene que estar en constante atencion para ver el camion recolector y poder sacar sus residuos, pero esto le esta generando muchos problemas en su dia a dia porque ella tiene que trabajar. Le gustria una aplicacion donde pueda ver el recorrido que tendra el camion y una hora estimada en la que llegara a su domicilio, asi ya no tendra que estar pendiente de la hora. Nos comenta tambien que le gustaria recibir informacion acerca de como separar correctamente los residuos, ya que no sabe si lo esta haciendo bien.
-</p>
 
 ### 7.3.3. Evaluaciones según heurísticas
 
