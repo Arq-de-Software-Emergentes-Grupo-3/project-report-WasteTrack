@@ -3343,7 +3343,9 @@ Link del repositorio: https://github.com/Arq-de-Software-Emergentes-Grupo-3/wast
 
 - Landing Page:
 
-Link del proyecto desplegado: 
+<img src="./assets/img/chapter-VI/sprint-1/landing-1.png"> 
+
+Link del proyecto desplegado: https://v0-wastetrack-landing-page.vercel.app/
 
 - Frontend:
 
@@ -3743,7 +3745,16 @@ Link de los web services: https://wastetrack-api.onrender.com/docs#/
 
 - Despliegue de Landing Page:
 
+Pasos para desplegar un landing page en Vercel
 
+<img src="./assets/img/chapter-VI/sprint-1/vercel.png"> 
+
+  1. Preparación del repositorio funcional en ambiente local
+  2. Crear una cuenta en Vercel
+  3. Desplegar desde GitHub
+    - Build command: `npm run build` o `yarn build`
+    - Publish directory: `build`
+  4. Desplegar la aplicación
 
 - Despliegue de Frontend:
 
