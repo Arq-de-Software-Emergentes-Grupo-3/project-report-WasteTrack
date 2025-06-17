@@ -3239,7 +3239,9 @@ Link del proyecto desplegado:
 
 - Frontend:
 
-Link del proyecto desplegado:
+<img src="./assets/img/chapter-VI/sprint-1/frontend-1.png"> 
+
+Link del proyecto desplegado: https://waste-track.netlify.app/
 
 - Backend:
 
@@ -3637,7 +3639,18 @@ Link de los web services: https://wastetrack-api.onrender.com/docs#/
 
 - Despliegue de Frontend:
 
+Pasos para desplegar un frontend React en Netlify
 
+<img src="./assets/img/chapter-VI/sprint-1/netlify.png"> 
+
+  1. Preparación del proyecto React (Verificar que el `package.json` incluya el script de build: `"build": "react-scripts build"`)
+  2. Crear una cuenta en Netlify
+  3. Desplegar desde GitHub
+    - Build command: `npm run build` o `yarn build`
+    - Publish directory: `build`
+  4. Desplegar la aplicación
+
+<img src="./assets/img/chapter-VI/sprint-1/deploy-frontend.png"> 
 
 - Despliegue de Backend:
 
@@ -3808,7 +3821,7 @@ Leonardo trabaja en la municipalidad de San Miguel, se encarga del monitoreo de 
 
 Entrevistado #3
 
-  ![Entrevista](/assets/img/chapter-II/JacquelineSamanez.png)
+  ![Entrevista](/assets/img/chapter-VI/interviews/alejandra-interview.png)
 
 ●	Nombre: Jacqueline Samanez
 
@@ -3820,17 +3833,17 @@ Entrevistado #3
 
 ●	Entrevista:
 
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/ERge36l0G5lAgx48cxEK3cAB5E-irHI-V5akPQDUYP6NdA?e=babxer&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EYO84fUvhIVNtcrn1Y3A87YBPwBlOhAhf6Du9E2-pKy7Ag?e=cU8OeB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ●	Momento en el que inicia: 
 
-●	Duración: 4:30 min
+●	Duración: 6:55 min
 
 ●	Entrevistador: Diaz Villacrez, Maria Alejandra
 
 Resumen:
 <p align="justify">
-La entrevistada nos comenta que la municipalidad opera con 5 camiones recolectores siguiendo rutas preestablecidas por zonas, con programación semanal fija. Utilizan tecnologías básicas como GPS en camiones y un software simple de programación de rutas. Ella expresó disposición para adoptar soluciones IoT, siempre que la inversión sea justificable con resultados concretos. Enfatizó la importancia de la transparencia en el servicio y la necesidad de herramientas analíticas predictivas que faciliten la toma de decisiones rápidas.
+La entrevistada nos comenta que la municipalidad opera con 5 camiones recolectores siguiendo rutas preestablecidas por zonas, con programación semanal fija. Utilizan tecnologías básicas como GPS en camiones y un software simple de programación de rutas. Ella expresó disposición para adoptar soluciones IoT, siempre que la inversión sea justificable con resultados concretos. Enfatizó la importancia de la transparencia en el servicio y la necesidad de herramientas analíticas predictivas que faciliten la toma de decisiones rápidas. Tambien comenta que la herramienta mostrada le parece útil para la mejora de rutas de recolección de basura. Espera que una siguiente versión se pueda integrar con los sistemas actuales de la municipalidad para poder capacitar a sus compañeros de trabajo.
 </p>
 
 #### Segmento Objetivo #2: Ciudadanos que desean conocer el estado del servicio de recolección
