@@ -90,6 +90,12 @@ Se han realizado todas las tareas asignadas para la entrega del **TB1** del proy
 
 Para la entrega del **TP1**, el equipo se centró en el diseño arquitectónico y de experiencia de usuario, alineado con los lineamientos establecidos en el Capítulo V y VI. En el ámbito de diseño táctico, se documentaron las capas de dominio, aplicación, infraestructura e interfaz, además de los diagramas de componentes y diseño de base de datos. En el área de experiencia de usuario, se definieron los lineamientos de estilo, arquitectura de información, sistemas de búsqueda y navegación, así como los wireframes, mock-ups y prototipos interactivos de la landing page y las aplicaciones móviles. Este proceso permitió fortalecer la estructura del sistema y validar la experiencia de usuario antes de la integración completa, asegurando un producto final alineado con los objetivos de WasteTrack.
 
+#### TB2
+
+Para la entrega del **TB2**, el equipo se enfocó en la implementación técnica del producto, así como en su validación con usuarios finales, conforme a lo establecido en el Capítulo VI: Product Implementation, Validation & Deployment. En el área de configuración del software, se detallaron los entornos de desarrollo utilizados, la gestión de versiones del código fuente, las convenciones de estilo adoptadas y el proceso de despliegue en producción. Durante la implementación, se evidenció el trabajo realizado en el Sprint 1, incluyendo la planificación, backlog, desarrollo colaborativo, pruebas funcionales, documentación de servicios, despliegue de la landing page y aplicaciones móviles, y reflexiones del equipo sobre la ejecución del sprint.  
+Asimismo, se desarrolló el proceso completo de validation interviews, abarcando desde el diseño y registro de entrevistas hasta su análisis basado en heurísticas de usabilidad. Finalmente, se elaboró el video About-the-Product, en el cual se presenta de manera integrada el funcionamiento y propuesta de valor del sistema WasteTrack.
+
+
 ## Contenido 
 
 1. [Capítulo I: Introducción](docs/chapter-I.md#capítulo-i-introducción)
@@ -509,16 +515,16 @@ ABET 3: Capacidad de comunicarse efectivamente con un rango de audiencias
        <!--ENTREGA TB2-->
       <!-- Estudiante 1 TB2 -->    
       <td>
-        <b>Díaz Villacrez, María Alejandra TB2:</b>Para la entrega de la TB2, colaboré en equipo en el desarrollo de los web services y el prototipo de wokwi de nuestro IoT device. Pude comunicar efectivamente las tareas a mis compañeros y los avances correspondientes. 
+        <b>Díaz Villacrez, María Alejandra TB2:</b> Para la entrega de la TB2, colaboré en equipo en el desarrollo de los web services y el prototipo de wokwi de nuestro IoT device. Pude comunicar efectivamente las tareas a mis compañeros y los avances correspondientes. 
         </td>
         <td rowspan="5"> 
-         <b>CONCLUSIÓN DEL ENTREGABLE TB2</b><br> 
+         <b>CONCLUSIÓN DEL ENTREGABLE TB2</b><br> Durante esta entrega, el equipo demostró una comunicación oral sólida y adaptativa al momento de socializar los avances técnicos del sistema WasteTrack. Las reuniones sincrónicas, entrevistas de validación y presentaciones permitieron que cada integrante transmita con claridad la lógica detrás de las decisiones tomadas, como la elección de tecnologías y configuraciones de entorno. En particular, la explicación oral de la arquitectura de despliegue, la estandarización del estilo de código y la integración de herramientas como Vercel, Azure y GitHub Actions fue clave para garantizar que tanto los usuarios técnicos como los actores no técnicos comprendieran el valor del sistema. Esta habilidad fortaleció la toma de decisiones conjunta y el alineamiento del equipo con los objetivos del producto
       </td>   
     </tr>
     <!-- Estudiante 2 TB2 --> 
     <tr> 
       <td>
-      <b>Rivadeneyra Ramos, Joaquin TB2:</b> <br> 
+      <b>Rivadeneyra Ramos, Joaquin TB2:</b> Durante la entrega, presenté la configuración del entorno de desarrollo y el enfoque utilizado para gestionar el código fuente de WasteTrack. Expliqué con claridad el uso de herramientas como Visual Studio Code, PyCharm, Docker y GitHub, adaptando el lenguaje técnico según el perfil del público, ya sean docentes, compañeros o stakeholders externos. <br> 
     </td>   
     </tr>
     <!-- Estudiante 3 TB2-->
@@ -552,13 +558,13 @@ ABET 3: Capacidad de comunicarse efectivamente con un rango de audiencias
         <b>Díaz Villacrez, María Alejandra TB2:</b>Para la entrega de la TB2, colaboré en equipo en el desarrollo de los web services y el prototipo de wokwi de nuestro IoT device. Pude documentar en nuestro reporte los pasos técnicos necesarios para completar todos los entregables. 
         </td>
         <td rowspan="5"> 
-         <b>CONCLUSIÓN DEL ENTREGABLE TB2</b><br>  
+         <b>CONCLUSIÓN DEL ENTREGABLE TB2</b><br> La documentación entregada en TB2 evidencia una comunicación escrita clara, estructurada y profesional, adecuada para distintos niveles de audiencia. Se elaboraron descripciones detalladas sobre la configuración del entorno de desarrollo, la gestión del código fuente, las convenciones de estilo y el pipeline de despliegue continuo. Estas secciones, elaboradas con un lenguaje técnico riguroso y acompañado de recursos visuales, permitieron plasmar con precisión la implementación práctica de WasteTrack. La correcta organización de la información, el uso consistente de convenciones de redacción y la presentación mediante Markdown facilitaron su comprensión tanto por el equipo docente como por posibles stakeholders externos interesados en replicar el modelo. 
       </td>   
     </tr>
     <!-- Estudiante 2 TB2 --> 
     <tr> 
       <td>
-      <b>Rivadeneyra Ramos, Joaquin TB2:</b> <br> 
+      <b>Rivadeneyra Ramos, Joaquin TB2:</b> Me encargué de documentar detalladamente toda la sección de Software Configuration Management del entregable TB2. Redacté descripciones estructuradas y comprensibles sobre las herramientas utilizadas, el flujo de trabajo con Git, las convenciones de estilo para frontend y backend, y los pasos de despliegue automatizado.<br> 
     </td>   
     </tr>
     <!-- Estudiante 3 TB2-->
@@ -4107,36 +4113,72 @@ Después de analizar el desarrollo de la plataforma **WasteTrack**, se han ident
 ### Anexos
 
 <table>
-        <thead>
-            <tr>
-                <th>Sección</th>
-                <th>Características del video</th>
-                <th>Sobre el contenido</th>
-                <th>Integración y entrega</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Exposición</td>
-                <td>Cantidad de videos: 1 <br> 
-                  Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-video-tb1 <br>
-                  Formato: .mp4 <br>
-                  Duración: 20 minutos </td>
-                <td>Exposición de la entrega - TB1</td>
-                <td>Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EY7psYFkC-tFpXtQGlvfHJsB5bVgmsXcsvJihd6LzLfHQg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=j5ct3x
-                   <br>
-                  <img src="" alt="" width="350"/> </td>
-            </tr>
-            <tr>
-                <td>Validation interviews</td>
-                <td>Cantidad de videos: 1 <br> 
-                  Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-validation-interviews-tb2 <br>
-                  Formato: .mp4 <br>
-                  Duración:  minutos </td>
-                <td>Consolida las validation interviews de la TB2</td>
-                <td>Link: 
-                   <br>
-                  <img src="" alt="" width="350"/> </td>
-            </tr>
-        </tbody>
+    <thead>
+        <tr>
+            <th>Sección</th>
+            <th>Características del video</th>
+            <th>Sobre el contenido</th>
+            <th>Integración y entrega</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>TB1</td>
+            <td>Cantidad de videos: 1 <br> 
+              Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-tb1 <br>
+              Formato: .mp4 <br>
+              Duración: 20 minutos </td>
+            <td>Video resumen de la TB1 </td>
+            <td>Link: https://shorturl.at/WI35Y <br>
+              <img src="" alt="" width="350"/> </td>
+        </tr>
+        <tr>
+            <td>Needfinding</td>
+            <td>Cantidad de videos: 1 <br> 
+              Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-needfinding-tb1 <br>
+              Formato: .mp4 <br>
+              Duración: 20 minutos </td>
+            <td>Consolida las entrevistas de needfinding</td>
+            <td>Link: https://shorturl.at/WI35Y <br>
+              <img src="" alt="" width="350"/> </td>
+        </tr>
+        <tr>
+            <td>Exposición TP1</td>
+            <td>Cantidad de videos: 1 <br> 
+              Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-expo-tp1 <br>
+              Formato: .mp4 <br>
+              Duración: 20 minutos </td>
+            <td>Exposición de la entrega - TP1</td>
+            <td>Link: https://shorturl.at/aNQUd <br>
+              <img src="" alt="" width="350"/> </td>
+        </tr>
+        <tr>
+            <td>Landing Page</td>
+            <td>Enlace Landing page</td>
+            <td>Demostración de la landing page</td>
+            <td>Link: https://v0-wastetrack-landing-page.vercel.app/ <br>
+              <img src="" alt="" width="350"/> </td>
+        </tr>
+        <tr>
+            <td>Validation interviews</td>
+            <td>Cantidad de videos: 1 <br> 
+              Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-validation-interviews-tb2 <br>
+              Formato: .mp4 <br>
+              Duración: minutos </td>
+            <td>Consolida las validation interviews de la TB2</td>
+            <td>Link: <br>
+              <img src="" alt="" width="350"/> </td>
+        </tr>
+        <tr>
+            <td>TB2</td>
+            <td>Cantidad de videos: 1 <br> 
+              Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-tb2 <br>
+              Formato: .mp4 <br>
+              Duración: minutos </td>
+            <td>Video resumen de la TB2 (iteraciones + validaciones finales)</td>
+            <td>Link: <br>
+              <img src="" alt="" width="350"/> </td>
+        </tr>
+    </tbody>
 </table>
+
