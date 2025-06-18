@@ -3952,7 +3952,7 @@ Jeremy Quispe, funcionario municipal de Santiago de Surco. Mostró gran interés
 </p>
 
 Entrevistado #2:
-![entrevista-lector4](/assets/img/chapter-VII/Entrevista-Funcionario-Nicolas.jpeg)
+![entrevista-lector4](/assets/img/chapter-VII/Entrevista-funcionario-Nicolas.jpeg)
 
 Nombre: Alessandra Alvarado Aragón
 
