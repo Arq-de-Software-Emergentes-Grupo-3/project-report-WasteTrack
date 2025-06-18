@@ -2559,15 +2559,21 @@ Este Bounded Context abarca todo lo relacionado con la representación, configur
 
 ### 5.1.5. Bounded Context Software Architecture Component Level Diagrams
 
+Se muestra el diagrama de componentes de la gestión de contenedores, a fin de evidenciar todos los actores involucrados dentro del proceso de mapeo de los contenedores registrados.
+
 <img src="./assets/img/chapter-V/BC1-C4.png" width="700"> 
 
 ### 5.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.1.6.1 Bounded Context Domain Layer Class Diagrams
 
+El siguiente diagrama representa el flujo simple que sigue el recorrido de datos registrados por los contenedores dentro de la base de datos.
+
 <img src="./assets/img/chapter-V/BoundedContext1-Diagram2.png" width="700"> 
 
 #### 5.1.6.2 Bounded Context Database Design Diagrams
+
+El siguiente diagrama de clases representa el apartado de la base de datos relacionado a la gestión de contenedores con las tablas y atributos respectivos.
 
 <img src="./assets/img/chapter-V/BoundedContext1-Diagram3.png" width="700"> 
 
@@ -2615,15 +2621,21 @@ Este Bounded Context contiene el modelo y la lógica para planificar y recalcula
 
 ### 5.2.5. Bounded Context Software Architecture Component Level Diagrams
 
+Se muestra el diagrama de componentes de la optimización de rutas, a fin de evidenciar todos los actores involucrados dentro del proceso de la optimización de las rutas que los camiones recolectores deberán seguir.
+
 <img src="./assets/img/chapter-V/BC2-C4.png" width="700"> 
 
 ### 5.2.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.2.6.1 Bounded Context Domain Layer Class Diagrams
 
+El siguiente diagrama representa el flujo simple que sigue el recorrido de datos que se generan a partie de la optimización de las rutas y los camiones dentro de la base de datos.
+
 <img src="./assets/img/chapter-V/BoundedContext2-Diagram2.png" width="700"> 
 
 #### 5.2.6.2 Bounded Context Database Design Diagrams
+
+El siguiente diagrama de clases representa el apartado de la base de datos relacionado a la optimización de rutas con las tablas y atributos respectivos.
 
 <img src="./assets/img/chapter-V/BoundedContext2-Diagram3.png" width="700"> 
 
@@ -2671,15 +2683,21 @@ Aquí se concentra todo lo relativo a la identidad, autenticación y autorizaci�
 
 ### 5.3.5. Bounded Context Software Architecture Component Level Diagrams
 
+Se muestra el diagrama de componentes de la gestión de usuarios, a fin de evidenciar todos los actores involucrados dentro del proceso de ingreso de nuevos usuarios a la aplicación a fin de poder diferenciarlos por roles (cuidadano y administrador municipal).
+
 <img src="./assets/img/chapter-V/BC3-C4.png" width="700"> 
 
 ### 5.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.3.6.1 Bounded Context Domain Layer Class Diagrams
 
+El siguiente diagrama representa el flujo simple que sigue el recorrido de datos registrados relacionados a los distintos tipos de usuarios según el rol de los mismos dentro de la base de datos.
+
 <img src="./assets/img/chapter-V/BoundedContext3-Diagram2.png" width="700"> 
 
 #### 5.3.6.2 Bounded Context Database Design Diagrams
+
+El siguiente diagrama de clases representa el apartado de la base de datos relacionado a la gestión de usuarios con las tablas y atributos respectivos.
 
 <img src="./assets/img/chapter-V/BoundedContext3-Diagram3.png" width="700"> 
 
@@ -2796,10 +2814,24 @@ En esta sección, se muestra un esquema básico del diseño de la Landing Page, 
 
 El mock-up de la Landing Page ofrece una representación visual más avanzada del diseño final, incluyendo los colores, tipografía, imágenes y componentes interactivos. Este diseño está orientado a proporcionar una idea clara de cómo será la interfaz una vez implementada, reflejando la identidad visual de WasteTrack y su enfoque en la usabilidad.
 
+La primera interfaz busca que el usuario tenga una primera impresión la platafomra a modo de que seap instantáneamente cuál es nuestra misión y visión.
+
 <img src="./assets/img/chapter-VI/landing-mockup-6.jpeg"> 
+
+La segunda interfaz muestra los beneficios que nuestra aplicación brinda a los usuarios.
+
 <img src="./assets/img/chapter-VI/landing-mockup-5.jpeg"> 
+
+En la tercera interfaz buscamos que los usuarios sepan lo que caracteríza a la aplicación de manera simple pero detallada.
+
 <img src="./assets/img/chapter-VI/landing-mockup-4.jpeg"> 
+
+En la carta interfaz colocamos reseñas de usuarios para que sepan que opinan nuestros usuarios, a fin de mostrar que la opinión de ellos es de suma importancia para nosotros.
+
 <img src="./assets/img/chapter-VI/landing-mockup-3.jpeg"> 
+
+Por último, colocamos el clásico formulario de contacto, presenta en todas las landing page para que el usuario sepa que puede contactarnos cuando lo necesite.
+
 <img src="./assets/img/chapter-VI/landing-mockup-2.jpeg"> 
 
 ## 6.4. Applications UX/UI Design
@@ -3920,11 +3952,11 @@ Jeremy Quispe, funcionario municipal de Santiago de Surco. Mostró gran interés
 </p>
 
 Entrevistado #2:
-![entrevista-lector4](/assets/img/chapter-II/Entrevista-Funcionario-Nicolas.jpeg)
+![entrevista-lector4](/assets/img/chapter-VII/Entrevista-Funcionario-Nicolas.jpeg)
 
-Nombre: Leonardo Soto Tagle
+Nombre: Alessandra Alvarado Aragón
 
-●	Sexo: Masculino
+●	Sexo: Femenino
 
 ●	Edad: 22 años
 
@@ -3933,15 +3965,15 @@ Nombre: Leonardo Soto Tagle
 
 Entrevista:
 
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202016311_upc_edu_pe/EXGtYg9VFuhDn6UgFMzBMVsBKMgEt8Pd4quOlv_OlJV3cw?e=UKNA9M
+●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202016311_upc_edu_pe/ESqIYgFYdLBGklDgKOCq5M8BTSMR9Yz1yod_BvApdQw8TA?e=9wlkL8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ●	Momento en el que inicia: 0:00
 
-●	Duración: 7:08
+●	Duración: 6:18
 
 Resumen:
 <p align="justify">
-Leonardo trabaja en la municipalidad de San Miguel, se encarga del monitoreo de los camiones de basura y las operaciones que estos realizan durante las jornadas. Durante sus jornadas regulares, hace uso de herramientas de seguimiento y bases de datos para monitorear los camiones, los desperdicios que estos recogen, y otros parametros adicionales, para asi poder emitir reportes al final del dia con respecto al desempeño diario de cada una de las unidades. Nos indica que valoraria la implementacion de una tecnologia que permita hacer un seguimiento mucho mas detallado a los camiones, para asi determinar si alguno se esta llenando mas de lo debido, ademas, afirma que establecer rutas segun la disposicion del trafico en lugar de rutas predefinidas ayudaria considerablemente a la hora de optimizar los tiempos en los que los camiones opera de forma regular.
+Alessandra trabaja cómo practicante de logística en la Municipalidad de San Miguel, comenta que la forma en la que trabajan es a través de hojas de calculo de Excel y plataformas de monitoreo simples en el caso de los camiones. Nos comenta que uno de los mayores problemas que enfrenta la institución es la carencia de datos en tiempo real de los contenedores de basura, los cuáales generan quejas de los vecinos cuando estos se ven desbordados, dañando el paisaje urbano. Muestra una impresión positiva de la aplicación, y afirma que la Municipalidad podría verse muy beneficiada si pudiesen juntar sus procesos base en un solo entorno de trabajo.
 </p>
 
 Entrevistado #3
