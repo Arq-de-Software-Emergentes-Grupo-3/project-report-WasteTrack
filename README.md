@@ -3904,11 +3904,11 @@ Jeremy Quispe
 ●	Nivel socioeconómico: Clase B
 Entrevista:
 
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EYE-_a_19oBFlmSVv6szux0BlOyKmSC4EFiUo1AZ7vaJPA?e=uxGtB2
+●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=wguhKw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D
 
 ●	Momento en el que inicia: 0:00
 
-●	Duración: 4:57
+●	Duración: 3:57
 
 ●	Entrevistador: Rivadeneyra Ramos, Joaquin David
 
@@ -3931,11 +3931,11 @@ Nombre: Leonardo Soto Tagle
 
 Entrevista:
 
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202016311_upc_edu_pe/EXGtYg9VFuhDn6UgFMzBMVsBKMgEt8Pd4quOlv_OlJV3cw?e=UKNA9M
+●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=7PN5py&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjM2LjA5fX0%3D
 
-●	Momento en el que inicia: 0:00
+●	Momento en el que inicia: 3:57
 
-●	Duración: 7:08
+●	Duración: 7:00
 
 Resumen:
 <p align="justify">
@@ -3956,9 +3956,9 @@ Entrevistado #3
 
 ●	Entrevista:
 
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EYO84fUvhIVNtcrn1Y3A87YBPwBlOhAhf6Du9E2-pKy7Ag?e=cU8OeB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=gvMaE2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NjY0LjM1fX0%3D
 
-●	Momento en el que inicia: 
+●	Momento en el que inicia: 11:05
 
 ●	Duración: 6:55 min
 
@@ -3986,17 +3986,17 @@ Diego Cantoral
 
 Entrevista:
 
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/EYaN1fHNU7RJm_THwfNQjaIBBaJFdH89zEybwct68Bf6cA?e=fAtIeU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=aKKBot&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTA4MC44M319
 
-●	Momento en el que inicia: 
+●	Momento en el que inicia: 31:00
 
-●	Duración: 
+●	Duración: 7:00 min
 
 ●	Entrevistador: Valverde Lopez, Josue Daniel
 
 Resumen:
 <p align="justify">
-Diego es un joven ciudadano del distrito de Pueblo Libre, quien nos comenta su experiencia con el servicio de recolección de residuos en su zona e indica que pocas veces falla el servicio de recolección. Sin embargo, ante esas situaciones no sabe como prevenir la acumulación de residuos. Se muestra de acuerdo con una plataforma la cual lo ayude con la visualización y alertas antes de que ocurra una acumulación de residuos.
+Diego es un joven ciudadano del distrito de Pueblo Libre, quien nos comenta que le agrada la idea propuesta sobre recoleccion de residuos. Además su perfil de ciudadano encaja perfectamente con las características que se ofrecen. Sugiere agregar funcionalidades como mostrar contenedores cercanos en caso el de uso recurrente se encuentre inhabilitado.
 </p>
 
 Entrevistado #2
@@ -4013,11 +4013,11 @@ Entrevistado #2
 
 ●	Entrevista:
 
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c596_upc_edu_pe/EcvKT_kLtnhPv6WqtEchfn8BYSvYjmox91E2ZXDrm2Tepw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=APxq2F
+●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=aKKBot&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTA4MC44M319
 
-●	Momento en el que inicia: 00:00
+●	Momento en el que inicia: 18:00
 
-●	Duración: 13:08 min
+●	Duración: 13:00 min
 
 ●	Entrevistador: Avalos Santos Anthony Piero
 
@@ -4158,9 +4158,9 @@ Después de analizar el desarrollo de la plataforma **WasteTrack**, se han ident
                 <td>Cantidad de videos: 1 <br> 
                   Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-validation-interviews-tb2 <br>
                   Formato: .mp4 <br>
-                  Duración:  31 minutos </td>
+                  Duración:  38 minutos </td>
                 <td>Consolida las validation interviews de la TB2</td>
-                <td>Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EWKbXhEw_BxMqlRIHyw7L-gBdGCD8UGqn06Ai9bVQdypew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=pAHFiz
+                <td>Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=YEMlYi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
                    <br>
                   <img src="./assets/img/anexes/validation.png" alt="" width="350"/> </td>
             </tr>
