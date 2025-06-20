@@ -90,12 +90,6 @@ Se han realizado todas las tareas asignadas para la entrega del **TB1** del proy
 
 Para la entrega del **TP1**, el equipo se centró en el diseño arquitectónico y de experiencia de usuario, alineado con los lineamientos establecidos en el Capítulo V y VI. En el ámbito de diseño táctico, se documentaron las capas de dominio, aplicación, infraestructura e interfaz, además de los diagramas de componentes y diseño de base de datos. En el área de experiencia de usuario, se definieron los lineamientos de estilo, arquitectura de información, sistemas de búsqueda y navegación, así como los wireframes, mock-ups y prototipos interactivos de la landing page y las aplicaciones móviles. Este proceso permitió fortalecer la estructura del sistema y validar la experiencia de usuario antes de la integración completa, asegurando un producto final alineado con los objetivos de WasteTrack.
 
-#### TB2
-
-Para la entrega del **TB2**, el equipo se enfocó en la implementación técnica del producto, así como en su validación con usuarios finales, conforme a lo establecido en el Capítulo VI: Product Implementation, Validation & Deployment. En el área de configuración del software, se detallaron los entornos de desarrollo utilizados, la gestión de versiones del código fuente, las convenciones de estilo adoptadas y el proceso de despliegue en producción. Durante la implementación, se evidenció el trabajo realizado en el Sprint 1, incluyendo la planificación, backlog, desarrollo colaborativo, pruebas funcionales, documentación de servicios, despliegue de la landing page y aplicaciones móviles, y reflexiones del equipo sobre la ejecución del sprint.  
-Asimismo, se desarrolló el proceso completo de validation interviews, abarcando desde el diseño y registro de entrevistas hasta su análisis basado en heurísticas de usabilidad. Finalmente, se elaboró el video About-the-Product, en el cual se presenta de manera integrada el funcionamiento y propuesta de valor del sistema WasteTrack.
-
-
 ## Contenido 
 
 1. [Capítulo I: Introducción](docs/chapter-I.md#capítulo-i-introducción)
@@ -515,16 +509,16 @@ ABET 3: Capacidad de comunicarse efectivamente con un rango de audiencias
        <!--ENTREGA TB2-->
       <!-- Estudiante 1 TB2 -->    
       <td>
-        <b>Díaz Villacrez, María Alejandra TB2:</b> Para la entrega de la TB2, colaboré en equipo en el desarrollo de los web services y el prototipo de wokwi de nuestro IoT device. Pude comunicar efectivamente las tareas a mis compañeros y los avances correspondientes. 
+        <b>Díaz Villacrez, María Alejandra TB2:</b>Para la entrega de la TB2, colaboré en equipo en el desarrollo de los web services y el prototipo de wokwi de nuestro IoT device. Pude comunicar efectivamente las tareas a mis compañeros y los avances correspondientes. 
         </td>
         <td rowspan="5"> 
-         <b>CONCLUSIÓN DEL ENTREGABLE TB2</b><br> Durante esta entrega, el equipo demostró una comunicación oral sólida y adaptativa al momento de socializar los avances técnicos del sistema WasteTrack. Las reuniones sincrónicas, entrevistas de validación y presentaciones permitieron que cada integrante transmita con claridad la lógica detrás de las decisiones tomadas, como la elección de tecnologías y configuraciones de entorno. En particular, la explicación oral de la arquitectura de despliegue, la estandarización del estilo de código y la integración de herramientas como Vercel, Azure y GitHub Actions fue clave para garantizar que tanto los usuarios técnicos como los actores no técnicos comprendieran el valor del sistema. Esta habilidad fortaleció la toma de decisiones conjunta y el alineamiento del equipo con los objetivos del producto
+         <b>CONCLUSIÓN DEL ENTREGABLE TB2</b><br> 
       </td>   
     </tr>
     <!-- Estudiante 2 TB2 --> 
     <tr> 
       <td>
-      <b>Rivadeneyra Ramos, Joaquin TB2:</b> Durante la entrega, presenté la configuración del entorno de desarrollo y el enfoque utilizado para gestionar el código fuente de WasteTrack. Expliqué con claridad el uso de herramientas como Visual Studio Code, PyCharm, Docker y GitHub, adaptando el lenguaje técnico según el perfil del público, ya sean docentes, compañeros o stakeholders externos. <br> 
+      <b>Rivadeneyra Ramos, Joaquin TB2:</b> <br> 
     </td>   
     </tr>
     <!-- Estudiante 3 TB2-->
@@ -558,13 +552,13 @@ ABET 3: Capacidad de comunicarse efectivamente con un rango de audiencias
         <b>Díaz Villacrez, María Alejandra TB2:</b>Para la entrega de la TB2, colaboré en equipo en el desarrollo de los web services y el prototipo de wokwi de nuestro IoT device. Pude documentar en nuestro reporte los pasos técnicos necesarios para completar todos los entregables. 
         </td>
         <td rowspan="5"> 
-         <b>CONCLUSIÓN DEL ENTREGABLE TB2</b><br> La documentación entregada en TB2 evidencia una comunicación escrita clara, estructurada y profesional, adecuada para distintos niveles de audiencia. Se elaboraron descripciones detalladas sobre la configuración del entorno de desarrollo, la gestión del código fuente, las convenciones de estilo y el pipeline de despliegue continuo. Estas secciones, elaboradas con un lenguaje técnico riguroso y acompañado de recursos visuales, permitieron plasmar con precisión la implementación práctica de WasteTrack. La correcta organización de la información, el uso consistente de convenciones de redacción y la presentación mediante Markdown facilitaron su comprensión tanto por el equipo docente como por posibles stakeholders externos interesados en replicar el modelo. 
+         <b>CONCLUSIÓN DEL ENTREGABLE TB2</b><br>  
       </td>   
     </tr>
     <!-- Estudiante 2 TB2 --> 
     <tr> 
       <td>
-      <b>Rivadeneyra Ramos, Joaquin TB2:</b> Me encargué de documentar detalladamente toda la sección de Software Configuration Management del entregable TB2. Redacté descripciones estructuradas y comprensibles sobre las herramientas utilizadas, el flujo de trabajo con Git, las convenciones de estilo para frontend y backend, y los pasos de despliegue automatizado.<br> 
+      <b>Rivadeneyra Ramos, Joaquin TB2:</b> <br> 
     </td>   
     </tr>
     <!-- Estudiante 3 TB2-->
@@ -2559,21 +2553,15 @@ Este Bounded Context abarca todo lo relacionado con la representación, configur
 
 ### 5.1.5. Bounded Context Software Architecture Component Level Diagrams
 
-Se muestra el diagrama de componentes de la gestión de contenedores, a fin de evidenciar todos los actores involucrados dentro del proceso de mapeo de los contenedores registrados.
-
 <img src="./assets/img/chapter-V/BC1-C4.png" width="700"> 
 
 ### 5.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.1.6.1 Bounded Context Domain Layer Class Diagrams
 
-El siguiente diagrama representa el flujo simple que sigue el recorrido de datos registrados por los contenedores dentro de la base de datos.
-
 <img src="./assets/img/chapter-V/BoundedContext1-Diagram2.png" width="700"> 
 
 #### 5.1.6.2 Bounded Context Database Design Diagrams
-
-El siguiente diagrama de clases representa el apartado de la base de datos relacionado a la gestión de contenedores con las tablas y atributos respectivos.
 
 <img src="./assets/img/chapter-V/BoundedContext1-Diagram3.png" width="700"> 
 
@@ -2621,21 +2609,15 @@ Este Bounded Context contiene el modelo y la lógica para planificar y recalcula
 
 ### 5.2.5. Bounded Context Software Architecture Component Level Diagrams
 
-Se muestra el diagrama de componentes de la optimización de rutas, a fin de evidenciar todos los actores involucrados dentro del proceso de la optimización de las rutas que los camiones recolectores deberán seguir.
-
 <img src="./assets/img/chapter-V/BC2-C4.png" width="700"> 
 
 ### 5.2.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.2.6.1 Bounded Context Domain Layer Class Diagrams
 
-El siguiente diagrama representa el flujo simple que sigue el recorrido de datos que se generan a partie de la optimización de las rutas y los camiones dentro de la base de datos.
-
 <img src="./assets/img/chapter-V/BoundedContext2-Diagram2.png" width="700"> 
 
 #### 5.2.6.2 Bounded Context Database Design Diagrams
-
-El siguiente diagrama de clases representa el apartado de la base de datos relacionado a la optimización de rutas con las tablas y atributos respectivos.
 
 <img src="./assets/img/chapter-V/BoundedContext2-Diagram3.png" width="700"> 
 
@@ -2683,21 +2665,15 @@ Aquí se concentra todo lo relativo a la identidad, autenticación y autorizaci�
 
 ### 5.3.5. Bounded Context Software Architecture Component Level Diagrams
 
-Se muestra el diagrama de componentes de la gestión de usuarios, a fin de evidenciar todos los actores involucrados dentro del proceso de ingreso de nuevos usuarios a la aplicación a fin de poder diferenciarlos por roles (cuidadano y administrador municipal).
-
 <img src="./assets/img/chapter-V/BC3-C4.png" width="700"> 
 
 ### 5.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.3.6.1 Bounded Context Domain Layer Class Diagrams
 
-El siguiente diagrama representa el flujo simple que sigue el recorrido de datos registrados relacionados a los distintos tipos de usuarios según el rol de los mismos dentro de la base de datos.
-
 <img src="./assets/img/chapter-V/BoundedContext3-Diagram2.png" width="700"> 
 
 #### 5.3.6.2 Bounded Context Database Design Diagrams
-
-El siguiente diagrama de clases representa el apartado de la base de datos relacionado a la gestión de usuarios con las tablas y atributos respectivos.
 
 <img src="./assets/img/chapter-V/BoundedContext3-Diagram3.png" width="700"> 
 
@@ -2814,24 +2790,10 @@ En esta sección, se muestra un esquema básico del diseño de la Landing Page, 
 
 El mock-up de la Landing Page ofrece una representación visual más avanzada del diseño final, incluyendo los colores, tipografía, imágenes y componentes interactivos. Este diseño está orientado a proporcionar una idea clara de cómo será la interfaz una vez implementada, reflejando la identidad visual de WasteTrack y su enfoque en la usabilidad.
 
-La primera interfaz busca que el usuario tenga una primera impresión la platafomra a modo de que seap instantáneamente cuál es nuestra misión y visión.
-
 <img src="./assets/img/chapter-VI/landing-mockup-6.jpeg"> 
-
-La segunda interfaz muestra los beneficios que nuestra aplicación brinda a los usuarios.
-
 <img src="./assets/img/chapter-VI/landing-mockup-5.jpeg"> 
-
-En la tercera interfaz buscamos que los usuarios sepan lo que caracteríza a la aplicación de manera simple pero detallada.
-
 <img src="./assets/img/chapter-VI/landing-mockup-4.jpeg"> 
-
-En la carta interfaz colocamos reseñas de usuarios para que sepan que opinan nuestros usuarios, a fin de mostrar que la opinión de ellos es de suma importancia para nosotros.
-
 <img src="./assets/img/chapter-VI/landing-mockup-3.jpeg"> 
-
-Por último, colocamos el clásico formulario de contacto, presenta en todas las landing page para que el usuario sepa que puede contactarnos cuando lo necesite.
-
 <img src="./assets/img/chapter-VI/landing-mockup-2.jpeg"> 
 
 ## 6.4. Applications UX/UI Design
@@ -3952,11 +3914,11 @@ Jeremy Quispe, funcionario municipal de Santiago de Surco. Mostró gran interés
 </p>
 
 Entrevistado #2:
-![entrevista-lector4](/assets/img/chapter-VII/Entrevista-funcionario-Nicolas.jpeg)
+![entrevista-lector4](/assets/img/chapter-II/Entrevista-Funcionario-Nicolas.jpeg)
 
-Nombre: Alessandra Alvarado Aragón
+Nombre: Leonardo Soto Tagle
 
-●	Sexo: Femenino
+●	Sexo: Masculino
 
 ●	Edad: 22 años
 
@@ -3965,15 +3927,15 @@ Nombre: Alessandra Alvarado Aragón
 
 Entrevista:
 
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202016311_upc_edu_pe/ESqIYgFYdLBGklDgKOCq5M8BTSMR9Yz1yod_BvApdQw8TA?e=9wlkL8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202016311_upc_edu_pe/EXGtYg9VFuhDn6UgFMzBMVsBKMgEt8Pd4quOlv_OlJV3cw?e=UKNA9M
 
 ●	Momento en el que inicia: 0:00
 
-●	Duración: 6:18
+●	Duración: 7:08
 
 Resumen:
 <p align="justify">
-Alessandra trabaja cómo practicante de logística en la Municipalidad de San Miguel, comenta que la forma en la que trabajan es a través de hojas de calculo de Excel y plataformas de monitoreo simples en el caso de los camiones. Nos comenta que uno de los mayores problemas que enfrenta la institución es la carencia de datos en tiempo real de los contenedores de basura, los cuáales generan quejas de los vecinos cuando estos se ven desbordados, dañando el paisaje urbano. Muestra una impresión positiva de la aplicación, y afirma que la Municipalidad podría verse muy beneficiada si pudiesen juntar sus procesos base en un solo entorno de trabajo.
+Leonardo trabaja en la municipalidad de San Miguel, se encarga del monitoreo de los camiones de basura y las operaciones que estos realizan durante las jornadas. Durante sus jornadas regulares, hace uso de herramientas de seguimiento y bases de datos para monitorear los camiones, los desperdicios que estos recogen, y otros parametros adicionales, para asi poder emitir reportes al final del dia con respecto al desempeño diario de cada una de las unidades. Nos indica que valoraria la implementacion de una tecnologia que permita hacer un seguimiento mucho mas detallado a los camiones, para asi determinar si alguno se esta llenando mas de lo debido, ademas, afirma que establecer rutas segun la disposicion del trafico en lugar de rutas predefinidas ayudaria considerablemente a la hora de optimizar los tiempos en los que los camiones opera de forma regular.
 </p>
 
 Entrevistado #3
@@ -4113,17 +4075,9 @@ Con la implementación de las recomendaciones, podremos optimizar la usabilidad 
 
 ## 7.4. Video About-the-Product
 
-En este video presentaremos **WasteTrack**, una solución tecnológica innovadora diseñada para transformar la gestión de residuos urbanos. A través del uso de **tecnologías IoT** y **algoritmos inteligentes de optimización**, WasteTrack mejora significativamente la eficiencia de los procesos de recolección de basura, reduciendo costos y promoviendo la sostenibilidad en las ciudades.
+En el presente video about the product, hablaremos sobre WasteTrack, una solución innovadora para la gestión de residuos urbanos. Este sistema utiliza tecnologías como Internet de las Cosas (IoT) y algoritmos avanzados para optimizar la recolección de basura y hacerla más eficiente y sostenible. La finalidad de este video es mostrar cómo WasteTrack está revolucionando la manera en que gestionamos los residuos en las ciudades, reduciendo costos y mejorando el servicio.
 
-El objetivo del video es demostrar cómo nuestra plataforma está **revolucionando la gestión urbana de residuos**, ofreciendo información en tiempo real, rutas optimizadas y una experiencia más eficaz tanto para los operadores municipales como para los ciudadanos.
-
-<p align="center">
-  <img src="./assets/img/chapter-II/product.jpg" width="400" height="450" alt="WasteTrack Product Preview">
-</p>
-
-
-🔗 **Video About-the-Product:** 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EZMl67_VgdNPksNf2JNz0KcBn1dUc6Gbpqc4OgwUMH5eZg?e=u8hU0d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EZMl67_VgdNPksNf2JNz0KcBn1dUc6Gbpqc4OgwUMH5eZg?e=u8hU0d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ## Conclusiones
 
@@ -4153,72 +4107,79 @@ Después de analizar el desarrollo de la plataforma **WasteTrack**, se han ident
 ### Anexos
 
 <table>
-    <thead>
-        <tr>
-            <th>Sección</th>
-            <th>Características del video</th>
-            <th>Sobre el contenido</th>
-            <th>Integración y entrega</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>TB1</td>
-            <td>Cantidad de videos: 1 <br> 
-              Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-tb1 <br>
-              Formato: .mp4 <br>
-              Duración: 20 minutos </td>
-            <td>Video resumen de la TB1 </td>
-            <td>Link: https://shorturl.at/WI35Y <br>
-              <img src="" alt="" width="350"/> </td>
-        </tr>
-        <tr>
-            <td>Needfinding</td>
-            <td>Cantidad de videos: 1 <br> 
-              Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-needfinding-tb1 <br>
-              Formato: .mp4 <br>
-              Duración: 20 minutos </td>
-            <td>Consolida las entrevistas de needfinding</td>
-            <td>Link: https://shorturl.at/WI35Y <br>
-              <img src="" alt="" width="350"/> </td>
-        </tr>
-        <tr>
-            <td>Exposición TP1</td>
-            <td>Cantidad de videos: 1 <br> 
-              Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-expo-tp1 <br>
-              Formato: .mp4 <br>
-              Duración: 20 minutos </td>
-            <td>Exposición de la entrega - TP1</td>
-            <td>Link: https://shorturl.at/aNQUd <br>
-              <img src="" alt="" width="350"/> </td>
-        </tr>
-        <tr>
-            <td>Landing Page</td>
-            <td>Enlace Landing page</td>
-            <td>Demostración de la landing page</td>
-            <td>Link: https://v0-wastetrack-landing-page.vercel.app/ <br>
-              <img src="" alt="" width="350"/> </td>
-        </tr>
-        <tr>
-            <td>Validation interviews</td>
-            <td>Cantidad de videos: 1 <br> 
-              Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-validation-interviews-tb2 <br>
-              Formato: .mp4 <br>
-              Duración: minutos </td>
-            <td>Consolida las validation interviews de la TB2</td>
-            <td>Link: <br>
-              <img src="" alt="" width="350"/> </td>
-        </tr>
-        <tr>
-            <td>TB2</td>
-            <td>Cantidad de videos: 1 <br> 
-              Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-tb2 <br>
-              Formato: .mp4 <br>
-              Duración: minutos </td>
-            <td>Video resumen de la TB2</td>
-            <td>Link: <br>
-              <img src="" alt="" width="350"/> </td>
-        </tr>
-    </tbody>
+        <thead>
+            <tr>
+                <th>Sección</th>
+                <th>Características del video</th>
+                <th>Sobre el contenido</th>
+                <th>Integración y entrega</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Exposición</td>
+                <td>Cantidad de videos: 1 <br> 
+                  Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-video-tb1 <br>
+                  Formato: .mp4 <br>
+                  Duración: 20 minutos </td>
+                <td>Exposición de la entrega - TB1</td>
+                <td>Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EY7psYFkC-tFpXtQGlvfHJsB5bVgmsXcsvJihd6LzLfHQg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=j5ct3x
+                   <br>
+                  <img src="./assets/img/anexes/expo-tb1.png" alt="" width="350"/> </td>
+            </tr>
+            <tr>
+                <td>Needfinding interviews</td>
+                <td>Cantidad de videos: 1 <br> 
+                  Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-needfinding-tb1 <br>
+                  Formato: .mp4 <br>
+                  Duración: 35 minutos </td>
+                <td>Consolida las needfinding interviews de la TB1</td>
+                <td>Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EUvOdFbfQcJMiKg6kzDlZ00B6Z6G2luRSraZTtiL_-StJg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=lfDKd1
+                   <br>
+                  <img src="./assets/img/anexes/needfinding.png" alt="" width="350"/> </td>
+            </tr>    
+            <tr>
+                <td>Exposición</td>
+                <td>Cantidad de videos: 1 <br> 
+                  Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-expo-tp1 <br>
+                  Formato: .mp4 <br>
+                  Duración:  minutos </td>
+                <td>Exposición de la entrega TP1</td>
+                <td>Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EVZou3gqxwxPrYCsd6vJuT0BV_LAXbcVkul1eoZJD1t2sg?e=iRFehP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+                   <br>
+                  <img src="./assets/img/anexes/expo-tp1.png" alt="" width="350"/> </td>
+            </tr>        
+            <tr>
+                <td>Validation interviews</td>
+                <td>Cantidad de videos: 1 <br> 
+                  Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-validation-interviews-tb2 <br>
+                  Formato: .mp4 <br>
+                  Duración:  31 minutos </td>
+                <td>Consolida las validation interviews de la TB2</td>
+                <td>Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EWKbXhEw_BxMqlRIHyw7L-gBdGCD8UGqn06Ai9bVQdypew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=pAHFiz
+                   <br>
+                  <img src="./assets/img/anexes/validation.png" alt="" width="350"/> </td>
+            </tr>
+            <tr>
+                <td>Exposición</td>
+                <td>Cantidad de videos: 1 <br> 
+                  Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-expo-tb2 <br>
+                  Formato: .mp4 <br>
+                  Duración:  minutos </td>
+                <td>Exposición de la entrega TB2</td>
+                <td>Link: 
+                   <br>
+                  <img src="./assets/img/anexes/expo-tb2.png" alt="" width="350"/> </td>
+            </tr>
+            <tr>
+                <td>Software desplegado</td>
+                <td>Cantidad de links: 4 <br> </td>
+                <td>Consolida los proyectos de software desplegados en la nube</td>
+                <td>
+                - Landing page: https://v0-wastetrack-landing-page.vercel.app/<br>
+                - Frontend: https://waste-track.netlify.app/ <br>
+                - Backend: https://wastetrack-api.onrender.com/docs# <br>  
+                - Wokwi: https://wokwi.com/projects/433761407805975553<br> 
+            </tr>
+        </tbody>
 </table>
-
