@@ -512,19 +512,21 @@ ABET 3: Capacidad de comunicarse efectivamente con un rango de audiencias
         <b>Díaz Villacrez, María Alejandra TB2:</b>Para la entrega de la TB2, colaboré en equipo en el desarrollo de los web services y el prototipo de wokwi de nuestro IoT device. Pude comunicar efectivamente las tareas a mis compañeros y los avances correspondientes. 
         </td>
         <td rowspan="5"> 
-         <b>CONCLUSIÓN DEL ENTREGABLE TB2</b><br> 
+         <b>CONCLUSIÓN DEL ENTREGABLE TB2</b>
+Durante esta entrega, el equipo demostró una comunicación oral sólida y adaptativa al momento de socializar los avances técnicos del sistema WasteTrack. Las reuniones sincrónicas, entrevistas de validación y presentaciones permitieron que cada integrante transmita con claridad la lógica detrás de las decisiones tomadas, como la elección de tecnologías y configuraciones de entorno. En particular, la explicación oral de la arquitectura de despliegue, la estandarización del estilo de código y la integración de herramientas como Vercel, Azure y GitHub Actions fue clave para garantizar que tanto los usuarios técnicos como los actores no técnicos comprendieran el valor del sistema. Esta habilidad fortaleció la toma de decisiones conjunta y el alineamiento del equipo con los objetivos del producto
+<br> 
       </td>   
     </tr>
     <!-- Estudiante 2 TB2 --> 
     <tr> 
       <td>
-      <b>Rivadeneyra Ramos, Joaquin TB2:</b> <br> 
+      <b>Rivadeneyra Ramos, Joaquin TB2:</b> Durante la entrega, presenté la configuración del entorno de desarrollo y el enfoque utilizado para gestionar el código fuente de WasteTrack. Expliqué con claridad el uso de herramientas como Visual Studio Code, PyCharm, Docker y GitHub, adaptando el lenguaje técnico según el perfil del público, ya sean docentes, compañeros o stakeholders externos.<br> 
     </td>   
     </tr>
     <!-- Estudiante 3 TB2-->
      <tr>   
       <td>
-        <b>Valverde Lopez, Daniel TB2</b>:<br>
+        <b>Valverde Lopez, Daniel TB2</b>: En este entregable, aporté con el desarrollo y documentación de los servicios backend en fase inicial. Se logró la implementación de la api de OpenAI para realizar la optimización de rutas con IA.<br>
       </td>    
     </tr>
     <!-- Estudiante 4 TB2-->
@@ -552,19 +554,21 @@ ABET 3: Capacidad de comunicarse efectivamente con un rango de audiencias
         <b>Díaz Villacrez, María Alejandra TB2:</b>Para la entrega de la TB2, colaboré en equipo en el desarrollo de los web services y el prototipo de wokwi de nuestro IoT device. Pude documentar en nuestro reporte los pasos técnicos necesarios para completar todos los entregables. 
         </td>
         <td rowspan="5"> 
-         <b>CONCLUSIÓN DEL ENTREGABLE TB2</b><br>  
+         <b>CONCLUSIÓN DEL ENTREGABLE TB2</b>La documentación entregada en TB2 evidencia una comunicación escrita clara, estructurada y profesional, adecuada para distintos niveles de audiencia. Se elaboraron descripciones detalladas sobre la configuración del entorno de desarrollo, la gestión del código fuente, las convenciones de estilo y el pipeline de despliegue continuo. Estas secciones, elaboradas con un lenguaje técnico riguroso y acompañado de recursos visuales, permitieron plasmar con precisión la implementación práctica de WasteTrack. La correcta organización de la información, el uso consistente de convenciones de redacción y la presentación mediante Markdown facilitaron su comprensión tanto por el equipo docente como por posibles stakeholders externos interesados en replicar el modelo. 
+
+<br>  
       </td>   
     </tr>
     <!-- Estudiante 2 TB2 --> 
     <tr> 
       <td>
-      <b>Rivadeneyra Ramos, Joaquin TB2:</b> <br> 
+      <b>Rivadeneyra Ramos, Joaquin TB2:</b>Me encargué de documentar detalladamente toda la sección de Software Configuration Management del entregable TB2. Redacté descripciones estructuradas y comprensibles sobre las herramientas utilizadas, el flujo de trabajo con Git, las convenciones de estilo para frontend y backend, y los pasos de despliegue automatizado. <br> 
     </td>   
     </tr>
     <!-- Estudiante 3 TB2-->
      <tr>   
       <td>
-        <b>Valverde Lopez, Daniel TB2:</b><br>
+        <b>Valverde Lopez, Daniel TB2:</b>Me encargué de realizar los testing con Gherkin, además de entrevistas de validación para el segmento ciudadanos, las cuales son importantes para analizar la percepcion y opiniones sobre el producto desarrollado.<br>
       </td>    
     </tr>
     <!-- Estudiante 4 TB2-->
