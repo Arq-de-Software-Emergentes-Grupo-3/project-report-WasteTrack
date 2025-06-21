@@ -3815,9 +3815,12 @@ Link del proyecto desplegado: https://wokwi.com/projects/433761407805975553
 
 ##### Capturas
 
-<img src="./assets/img/chapter-VI/sprint-1/backend-1.png"> 
-<img src="./assets/img/chapter-VI/sprint-1/backend-2.png"> 
+<img src="./assets/img/chapter-VI/sprint-1/backend-1.png">
+
+<img src="./assets/img/chapter-VI/sprint-1/backend-2.png">
+
 <img src="./assets/img/chapter-VI/sprint-1/backend-3.png"> 
+
 <img src="./assets/img/chapter-VI/sprint-1/backend-4.png"> 
 
 Link de los web services: https://wastetrack-api.onrender.com/docs#/
@@ -4103,8 +4106,6 @@ Resumen:
 Lucero nos comenta que le parece muy atractiva la Landing Page de WasteTrack, ya que presenta de forma clara los beneficios de la plataforma y cómo esta puede conectar a dos actores muy importantes en la gestión de residuos.Menciona que en su zona no suele encontrar contenedores desbordados, pero que si llegara a haber alguno, eso afectaría negativamente su percepción sobre los servicios públicos. Ella se esfuerza como ciudadana en colaborar para que estos casos no ocurran, por lo que situaciones así le resultarían frustrantes.Le parecería muy útil poder visualizar en tiempo real el recorrido del camión recolector, especialmente para saber si pasará por su zona en un día específico, ya que muchas veces ella no se encuentra en casa por estar en el trabajo.
 Además, considera que sería de gran ayuda que los ciudadanos pudieran conocer si un contenedor específico está lleno o no, para poder utilizarlo adecuadamente. Las notificaciones sobre alertas de llenado le parecen una excelente idea, ya que permitirían informar a los ciudadanos y evitar recorridos innecesarios para verificar el estado de los contenedores.Finalmente, para fomentar la participación ciudadana, le parecería muy útil que los usuarios pudieran reportar fallas o exceso de basura directamente desde la app.
 </p>
-
-
 
 ### 7.3.3. Evaluaciones según heurísticas
 
