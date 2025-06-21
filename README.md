@@ -2911,7 +2911,6 @@ Diseño de interfaz del mapeo de contenedores y rutas, permite visualizar al age
 
 <img src="./assets/img/chapter-VII/Mockup6.png" width="800"> 
 
-
 **Reporte de desborde**  
 Diseño de la interfaz de formulario de reporte. Permite a un ciudadano reportar un contenedor desbordado llenado un formulario. Vista únicamente disponible para ciudadanos.
 
@@ -3119,8 +3118,8 @@ El despliegue de WasteTrack se ejecuta de forma automatizada en entornos en la n
 | **Resumen del Sprint anterior**  | Este es el primer Sprint, por lo que no se cuenta con un resumen previo. Sin embargo, se aplicaron los ajustes iniciales recomendados por el docente para mejorar el enfoque técnico del proyecto. |
 | **Resumen retrospectivo**        | Durante la planificación se identificaron oportunidades de mejora en el modelado de datos, estructuración por roles y claridad en las funcionalidades clave. Se adoptó el enfoque de Domain-Driven Design para separar correctamente las responsabilidades. |
 | **Sprint Goal & User Stories**   | Este sprint se enfocará en implementar funcionalidades esenciales de monitoreo y planificación. Se desarrollará la visualización del nivel de llenado de contenedores, alertas por sobrellenado, filtrado por estado del contenedor, registro y monitoreo de sensores IoT, generación automática de rutas de recolección. Estas funciones permitirán tomar decisiones informadas sobre la recolección y mejorar la supervisión operativa. |
-| **Objetivo del Sprint**          | Se espera que los funcionarios puedan visualizar el nivel de llenado de los contenedores, aplicar filtros porel estado y recibir alertas de sobrellenado. Ellos también podrán registrar sensores y consultar el estado o último dato enviado. |
-| **Historias de Usuario Incluidas** ||
+| **Objetivo del Sprint**          | Se espera que los funcionarios puedan visualizar el nivel de llenado de los contenedores, aplicar filtros por el estado y recibir alertas de sobrellenado. Ellos también podrán registrar sensores y consultar el estado o último dato enviado. |
+| **Historias de Usuario Incluidas** | |
 | US001 – Ver nivel de llenado           | 2 puntos |
 | US002 – Filtrar por estado       | 3 puntos |
 | US003 – Ver alertas por sobrellenado   | 2 puntos |
@@ -3128,11 +3127,10 @@ El despliegue de WasteTrack se ejecuta de forma automatizada en entornos en la n
 | US011 – Registrar sensores             | 3 puntos |
 | US012 – Ver último dato recibido       | 2 puntos |
 | US013 – Ver estado del sensor          | 3 puntos |
-
 | **Velocidad del Sprint (Sprint Velocity)** | 22 |
 | **Total de Story Points en el Sprint**     | 22 |
 
-
+---
 
 #### 7.2.1.2. Sprint Backlog 1
 
@@ -3146,6 +3144,7 @@ El despliegue de WasteTrack se ejecuta de forma automatizada en entornos en la n
 | Sprint 1 | US012      | WT-006              | Ver último dato de sensor        | Consultar la última fecha y hora en que un sensor envió datos.             | 6                  | Maria Diaz                | Done                                    |
 | Sprint 1 | US013      | WT-007              | Ver estado de sensor             | Visualizar si un sensor ha dejado de enviar información.                   | 8                  | Daniel Valverde           | Done                                    |
 
+---
 
 #### 7.2.1.3. Development Evidence for Sprint Review
 
@@ -3343,66 +3342,83 @@ Link del repositorio: https://github.com/Arq-de-Software-Emergentes-Grupo-3/wast
 
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review
 
-Feature: Visualización del porcentaje de llenado del contenedor
+El objetivo de este conjunto de pruebas es validar las funcionalidades desarrolladas en el sprint 1 de WasteTrack, centradas en la gestión de contenedores, el monitoreo de sensores IoT y la optimización de rutas de recolección. Las pruebas abarcan la visualización de datos de llenado, la gestión de alertas, y la creación de rutas de recolección optimizadas, con el fin de garantizar que el sistema cumpla con los requerimientos operativos definidos por los usuarios.
 
-  Scenario: Mostrar porcentaje de llenado de un contenedor activo
-    Given que el usuario accede a la vista de contenedores
-    When el sistema carga los datos de llenado
-    Then se debe mostrar el porcentaje actual de llenado para cada contenedor
+---
+
+**Feature: Visualización del porcentaje de llenado del contenedor**
+
+  **Scenario: Mostrar porcentaje de llenado de un contenedor activo**  
+    Given que el usuario accede a la vista de contenedores  
+    When el sistema carga los datos de llenado  
+    Then se debe mostrar el porcentaje actual de llenado para cada contenedor  
     And el valor debe ser un número entre 0% y 100%
 
-Feature: Filtrar contenedores por estado
+---
 
-  Scenario: Filtrar solo contenedores activos
-    Given que el usuario selecciona el filtro "Activos"
-    When se aplica el filtro
-    Then solo deben mostrarse los contenedores con estado "activo"
+**Feature: Filtrar contenedores por estado**
 
-  Scenario: Filtrar solo contenedores inactivos
-    Given que el usuario selecciona el filtro "Inactivos"
-    When se aplica el filtro
+  **Scenario: Filtrar solo contenedores activos**  
+    Given que el usuario selecciona el filtro "Activos"  
+    When se aplica el filtro  
+    Then solo deben mostrarse los contenedores con estado "activo"  
+
+  **Scenario: Filtrar solo contenedores inactivos**  
+    Given que el usuario selecciona el filtro "Inactivos"  
+    When se aplica el filtro  
     Then solo deben mostrarse los contenedores con estado "inactivo"
 
-Feature: Generar alerta por sobrellenado de contenedor
+---
 
-  Scenario: Detectar sobrellenado de un contenedor
-    Given que un contenedor reporta un nivel de llenado mayor al 90%
-    When se actualizan los datos del sensor
-    Then el sistema debe mostrar una alerta visual de sobrellenado
+**Feature: Generar alerta por sobrellenado de contenedor**
+
+  **Scenario: Detectar sobrellenado de un contenedor**  
+    Given que un contenedor reporta un nivel de llenado mayor al 90%  
+    When se actualizan los datos del sensor  
+    Then el sistema debe mostrar una alerta visual de sobrellenado  
     And se debe registrar un evento de alerta en el sistema
 
-Feature: Generar rutas óptimas de recolección
+---
 
-  Scenario: Generar ruta considerando niveles de llenado
-    Given que el usuario solicita una nueva ruta
-    And hay contenedores con nivel de llenado mayor al 80%
-    When se genera la ruta
-    Then los contenedores más llenos deben tener prioridad
+**Feature: Generar rutas óptimas de recolección**
+
+  **Scenario: Generar ruta considerando niveles de llenado**  
+    Given que el usuario solicita una nueva ruta  
+    And hay contenedores con nivel de llenado mayor al 80%  
+    When se genera la ruta  
+    Then los contenedores más llenos deben tener prioridad  
     And se debe mostrar el orden sugerido de recolección
 
-Feature: Registro de sensores IoT
+---
 
-  Scenario: Registrar un nuevo sensor en el sistema
-    Given que el usuario accede al formulario de registro de sensores
-    When se ingresan los datos válidos del sensor
-    And se presiona el botón "Registrar"
+**Feature: Registro de sensores IoT**
+
+  **Scenario: Registrar un nuevo sensor en el sistema**  
+    Given que el usuario accede al formulario de registro de sensores  
+    When se ingresan los datos válidos del sensor  
+    And se presiona el botón "Registrar"  
     Then el sensor debe aparecer en la lista con estado "activo"
 
-Feature: Visualización de último dato del sensor
+---
 
-  Scenario: Consultar la última lectura recibida
-    Given que el usuario selecciona un sensor registrado
-    When visualiza los detalles del sensor
+**Feature: Visualización de último dato del sensor**
+
+  **Scenario: Consultar la última lectura recibida**  
+    Given que el usuario selecciona un sensor registrado  
+    When visualiza los detalles del sensor  
     Then se debe mostrar la fecha y hora de la última lectura válida
 
-Feature: Monitorear estado del sensor
+---
 
-  Scenario: Mostrar estado de sensor inactivo
-    Given que un sensor no ha enviado datos en las últimas 24 horas
-    When se consulta su estado
-    Then el sistema debe mostrar el estado como "inactivo"
-    And se debe generar una advertencia visual
+**Feature: Monitorear estado del sensor**
 
+  **Scenario: Mostrar estado de sensor inactivo**  
+    Given que un sensor no ha enviado datos en las últimas 24 horas  
+    When se consulta su estado  
+    Then el sistema debe mostrar el estado como "inactivo"  
+    And se debe generar una advertencia visual 
+
+---
 
 #### 7.2.1.5. Execution Evidence for Sprint Review
 
@@ -4338,5 +4354,3 @@ Después de analizar el desarrollo de la plataforma **WasteTrack**, se han ident
     https://wokwi.com/projects/433761407805975553
 
 ---
-
-
