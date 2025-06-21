@@ -3343,6 +3343,67 @@ Link del repositorio: https://github.com/Arq-de-Software-Emergentes-Grupo-3/wast
 
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review
 
+Feature: Visualización del porcentaje de llenado del contenedor
+
+  Scenario: Mostrar porcentaje de llenado de un contenedor activo
+    Given que el usuario accede a la vista de contenedores
+    When el sistema carga los datos de llenado
+    Then se debe mostrar el porcentaje actual de llenado para cada contenedor
+    And el valor debe ser un número entre 0% y 100%
+
+Feature: Filtrar contenedores por estado
+
+  Scenario: Filtrar solo contenedores activos
+    Given que el usuario selecciona el filtro "Activos"
+    When se aplica el filtro
+    Then solo deben mostrarse los contenedores con estado "activo"
+
+  Scenario: Filtrar solo contenedores inactivos
+    Given que el usuario selecciona el filtro "Inactivos"
+    When se aplica el filtro
+    Then solo deben mostrarse los contenedores con estado "inactivo"
+
+Feature: Generar alerta por sobrellenado de contenedor
+
+  Scenario: Detectar sobrellenado de un contenedor
+    Given que un contenedor reporta un nivel de llenado mayor al 90%
+    When se actualizan los datos del sensor
+    Then el sistema debe mostrar una alerta visual de sobrellenado
+    And se debe registrar un evento de alerta en el sistema
+
+Feature: Generar rutas óptimas de recolección
+
+  Scenario: Generar ruta considerando niveles de llenado
+    Given que el usuario solicita una nueva ruta
+    And hay contenedores con nivel de llenado mayor al 80%
+    When se genera la ruta
+    Then los contenedores más llenos deben tener prioridad
+    And se debe mostrar el orden sugerido de recolección
+
+Feature: Registro de sensores IoT
+
+  Scenario: Registrar un nuevo sensor en el sistema
+    Given que el usuario accede al formulario de registro de sensores
+    When se ingresan los datos válidos del sensor
+    And se presiona el botón "Registrar"
+    Then el sensor debe aparecer en la lista con estado "activo"
+
+Feature: Visualización de último dato del sensor
+
+  Scenario: Consultar la última lectura recibida
+    Given que el usuario selecciona un sensor registrado
+    When visualiza los detalles del sensor
+    Then se debe mostrar la fecha y hora de la última lectura válida
+
+Feature: Monitorear estado del sensor
+
+  Scenario: Mostrar estado de sensor inactivo
+    Given que un sensor no ha enviado datos en las últimas 24 horas
+    When se consulta su estado
+    Then el sistema debe mostrar el estado como "inactivo"
+    And se debe generar una advertencia visual
+
+
 #### 7.2.1.5. Execution Evidence for Sprint Review
 
 - Landing Page:
