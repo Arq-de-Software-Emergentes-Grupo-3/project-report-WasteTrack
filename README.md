@@ -4113,84 +4113,169 @@ Después de analizar el desarrollo de la plataforma **WasteTrack**, se han ident
 - Martínez, F., & López, R. (2021). *Participación ciudadana en la gestión de residuos urbanos: El caso de las plataformas tecnológicas*. Revista de Gestión y Tecnología Ambiental, 14(2), 89-105.
 - Laha, S. R., Pattanayak, B. K., Pattnaik, S., & Kumar, S. (2023). A Smart Waste Management System Framework Using IoT and LoRa for Green City Project. International Journal on Recent and Innovation Trends in Computing and Communication, 11(9), 342–357
 
+<!-- 
 ### Anexos
 
 <table>
-        <thead>
-            <tr>
-                <th>Sección</th>
-                <th>Características del video</th>
-                <th>Sobre el contenido</th>
-                <th>Integración y entrega</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Exposición</td>
-                <td>Cantidad de videos: 1 <br> 
-                  Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-video-tb1 <br>
-                  Formato: .mp4 <br>
-                  Duración: 20 minutos </td>
-                <td>Exposición de la entrega - TB1</td>
-                <td>Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EY7psYFkC-tFpXtQGlvfHJsB5bVgmsXcsvJihd6LzLfHQg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=j5ct3x
-                   <br>
-                  <img src="./assets/img/anexes/expo-tb1.png" alt="" width="350"/> </td>
-            </tr>
-            <tr>
-                <td>Needfinding interviews</td>
-                <td>Cantidad de videos: 1 <br> 
-                  Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-needfinding-tb1 <br>
-                  Formato: .mp4 <br>
-                  Duración: 35 minutos </td>
-                <td>Consolida las needfinding interviews de la TB1</td>
-                <td>Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EUvOdFbfQcJMiKg6kzDlZ00B6Z6G2luRSraZTtiL_-StJg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=lfDKd1
-                   <br>
-                  <img src="./assets/img/anexes/needfinding.png" alt="" width="350"/> </td>
-            </tr>    
-            <tr>
-                <td>Exposición</td>
-                <td>Cantidad de videos: 1 <br> 
-                  Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-expo-tp1 <br>
-                  Formato: .mp4 <br>
-                  Duración:  minutos </td>
-                <td>Exposición de la entrega TP1</td>
-                <td>Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EVZou3gqxwxPrYCsd6vJuT0BV_LAXbcVkul1eoZJD1t2sg?e=iRFehP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-                   <br>
-                  <img src="./assets/img/anexes/expo-tp1.png" alt="" width="350"/> </td>
-            </tr>        
-            <tr>
-                <td>Validation interviews</td>
-                <td>Cantidad de videos: 1 <br> 
-                  Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-validation-interviews-tb2 <br>
-                  Formato: .mp4 <br>
-                  Duración:  38 minutos </td>
-                <td>Consolida las validation interviews de la TB2</td>
-                <td>Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=YEMlYi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-                   <br>
-                  <img src="./assets/img/anexes/validation.png" alt="" width="350"/> </td>
-            </tr>
-            <tr>
-                <td>Exposición</td>
-                <td>Cantidad de videos: 1 <br> 
-                  Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-expo-tb2 <br>
-                  Formato: .mp4 <br>
-                  Duración:  minutos </td>
-                <td>Exposición de la entrega TB2</td>
-                <td>Link: 
-                   <br>
-                  <img src="./assets/img/anexes/expo-tb2.png" alt="" width="350"/> </td>
-            </tr>
-            <tr>
-                <td>Software desplegado</td>
-                <td>Cantidad de links: 4 <br> </td>
-                <td>Consolida los proyectos de software desplegados en la nube</td>
-                <td>
+    <thead>
+        <tr>
+            <th>Sección</th>
+            <th>Características del video</th>
+            <th>Sobre el contenido</th>
+            <th>Integración y entrega</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Exposición</td>
+            <td>Cantidad de videos: 1 <br> 
+                Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-video-tb1 <br>
+                Formato: .mp4 <br>
+                Duración: 20 minutos
+            </td>
+            <td>Exposición de la entrega - TB1</td>
+            <td>Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EY7psYFkC-tFpXtQGlvfHJsB5bVgmsXcsvJihd6LzLfHQg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=j5ct3x
+            </td>
+        </tr>
+        <tr>
+            <td>Needfinding interviews</td>
+            <td>Cantidad de videos: 1 <br> 
+                Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-needfinding-tb1 <br>
+                Formato: .mp4 <br>
+                Duración: 35 minutos
+            </td>
+            <td>Consolida las needfinding interviews de la TB1</td>
+            <td>Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EUvOdFbfQcJMiKg6kzDlZ00B6Z6G2luRSraZTtiL_-StJg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=lfDKd1
+            </td>
+        </tr>    
+        <tr>
+            <td>Exposición</td>
+            <td>Cantidad de videos: 1 <br> 
+                Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-expo-tp1 <br>
+                Formato: .mp4 <br>
+                Duración: minutos
+            </td>
+            <td>Exposición de la entrega TP1</td>
+            <td>Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EVZou3gqxwxPrYCsd6vJuT0BV_LAXbcVkul1eoZJD1t2sg?e=iRFehP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+            </td>
+        </tr>        
+        <tr>
+            <td>Validation interviews</td>
+            <td>Cantidad de videos: 1 <br> 
+                Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-validation-interviews-tb2 <br>
+                Formato: .mp4 <br>
+                Duración: 38 minutos
+            </td>
+            <td>Consolida las validation interviews de la TB2</td>
+            <td>Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=YEMlYi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+            </td>
+        </tr>
+        <tr>
+            <td>Exposición</td>
+            <td>Cantidad de videos: 1 <br> 
+                Nomenclatura: upc-pre-202501-1ASI0728-4283-CleanCityTeam-expo-tb2 <br>
+                Formato: .mp4 <br>
+                Duración: minutos
+            </td>
+            <td>Exposición de la entrega TB2</td>
+            <td>Link: (faltante)</td>
+        </tr>
+        <tr>
+            <td>Software desplegado</td>
+            <td>Cantidad de links: 4 <br> </td>
+            <td>Consolida los proyectos de software desplegados en la nube</td>
+            <td>
                 - Landing page: https://v0-wastetrack-landing-page.vercel.app/<br>
                 - Frontend: https://waste-track.netlify.app/ <br>
                 - Backend: https://wastetrack-api.onrender.com/docs# <br>  
-                - Wokwi: https://wokwi.com/projects/433761407805975553<br> 
-            </tr>
-        </tbody>
+                - Wokwi: https://wokwi.com/projects/433761407805975553
+            </td>
+        </tr>
+    </tbody>
 </table>
+-->
+
+### Anexos
 
 ---
+
+#### 📌 Exposición - TB1
+
+- **Cantidad de videos:** 1  
+- **Nomenclatura:** upc-pre-202501-1ASI0728-4283-CleanCityTeam-video-tb1  
+- **Formato:** .mp4  
+- **Duración:** 20 minutos  
+- **Descripción:** Exposición de la entrega - TB1  
+- **Link completo:**  
+  https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EY7psYFkC-tFpXtQGlvfHJsB5bVgmsXcsvJihd6LzLfHQg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=j5ct3x
+
+---
+
+#### 🧩 Needfinding Interviews - TB1
+
+- **Cantidad de videos:** 1  
+- **Nomenclatura:** upc-pre-202501-1ASI0728-4283-CleanCityTeam-needfinding-tb1  
+- **Formato:** .mp4  
+- **Duración:** 35 minutos  
+- **Descripción:** Consolida las needfinding interviews de la TB1  
+- **Link completo:**  
+  https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EUvOdFbfQcJMiKg6kzDlZ00B6Z6G2luRSraZTtiL_-StJg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=lfDKd1
+
+---
+
+#### 📌 Exposición - TP1
+
+- **Cantidad de videos:** 1  
+- **Nomenclatura:** upc-pre-202501-1ASI0728-4283-CleanCityTeam-expo-tp1  
+- **Formato:** .mp4  
+- **Duración:** 21 minutos
+- **Descripción:** Exposición de la entrega TP1  
+- **Link completo:**  
+  https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EVZou3gqxwxPrYCsd6vJuT0BV_LAXbcVkul1eoZJD1t2sg?e=iRFehP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+---
+
+#### 🧪 Validation Interviews - TB2
+
+- **Cantidad de videos:** 1  
+- **Nomenclatura:** upc-pre-202501-1ASI0728-4283-CleanCityTeam-validation-interviews-tb2  
+- **Formato:** .mp4  
+- **Duración:** 38 minutos  
+- **Descripción:** Consolida las validation interviews de la TB2  
+- **Link completo:**  
+  https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=YEMlYi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+---
+
+#### 📌 Exposición - TB2
+
+- **Cantidad de videos:** 1  
+- **Nomenclatura:** upc-pre-202501-1ASI0728-4283-CleanCityTeam-expo-tb2  
+- **Formato:** .mp4  
+- **Duración:** 24 minutos 
+- **Descripción:** Exposición de la entrega TB2  
+- **Link completo:** 
+  https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/ESH4AlTB92JOsS_qKq9LVuoBE6g4twT7xjPKDxfyno1xIQ?e=2FRfWF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+---
+
+#### 🌐 Software Desplegado
+
+- **Cantidad de enlaces:** 4  
+- **Descripción:** Consolida los proyectos de software desplegados en la nube  
+
+  - **Landing page:**  
+    https://v0-wastetrack-landing-page.vercel.app/
+
+  - **Frontend:**  
+    https://waste-track.netlify.app/
+
+  - **Backend (API Docs):**  
+    https://wastetrack-api.onrender.com/docs#
+
+  - **Simulación en Wokwi:**  
+    https://wokwi.com/projects/433761407805975553
+
+---
+
+
