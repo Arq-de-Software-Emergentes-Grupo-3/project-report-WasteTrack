@@ -42,7 +42,7 @@
     <td>U202121440</td>
 </tr>
     </table>
-  <h3 align="center" >Junio 2025</h3>
+  <h3 align="center" >Julio 2025</h3>
 </div>
 <br>
 
@@ -502,7 +502,7 @@ ABET 3: Capacidad de comunicarse efectivamente con un rango de audiencias
     <tr>   
       <td>
         <b>Avalos Santos, Anthony Piero TP1:</b><br>
-        Redacté la documentación de los User Flow Diagrams y el diseño de la Landing Page, detallando cada uno de los flujos y componentes que forman parte de la interfaz de usuario.
+        Redacté la documentación de los User Flow Diagrams y el diseño de la Landing Page, detallando cada uno de los flujos y componentes que forman parte de la interfaz de usuari0.
       </td>   
     </tr>
 </table>
@@ -557,8 +557,8 @@ ABET 3: Capacidad de comunicarse efectivamente con un rango de audiencias
       </td>
     </tr>
 
-    <!-- CRITERIO 3.c2: Comunicación escrita -->
-    <table>
+    
+    
   <thead>
     <tr>
       <th>Criterio específico</th>
