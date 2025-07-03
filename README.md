@@ -7,7 +7,7 @@
     <br>
     <strong>Profesor: Royer Edelwer Rojas Malasquez
 </strong><br>
-    <br> <strong>INFORME DE TRABAJO FINAL - TB2 </strong> 
+    <br> <strong>INFORME DE TRABAJO FINAL - TF </strong> 
 </p>
 <p align="center">
     <strong>Startup: CleanCity Team </strong><br>
@@ -61,9 +61,17 @@
 | 1.7     | 14/05/2025 | Daniel Valverde     | Se completó el diagrama de la arquitectura de componentes y la estructura de navegación                             |
 | 1.8     | 15/05/2025 | Nicolás Cortés      | Se finalizó la definición de los SEO Tags y Meta Tags en el capítulo 6.2.4                                          |
 | 1.9     | 15/05/2025 | Anthony Avalos      | Integración de los sistemas de navegación en el prototipo de la aplicación y validación de flujos                    |
-| 1.8     | 16/05/2025 | Nicolás Cortés      | Se concluyó el capítulo V & VI                                        |
-| 1.9     | 14/06/2025 | Alejandra Díaz      | Avance del capítulo 7                                        |
-| 2.0     | 16/06/2025 | Nicolás Cortés      | Finalización del capítulo 7 y mejoras en el capítulo 6         |
+| 1.8     | 16/05/2025 | Nicolás Cortés      | Se concluyó el capítulo V & VI                                                                                       |
+| 1.9     | 14/06/2025 | Alejandra Díaz      | Avance del capítulo 7                                                                                               |
+| 2.0     | 16/06/2025 | Nicolás Cortés      | Finalización del capítulo 7 y mejoras en el capítulo 6                                                              |
+| 2.1     | 02/07/2025 | Joaquin Rivadeneyra | Elaboración de la sección  Sprint Planning 2                                                                  |
+| 2.2     | 03/07/2025 | Anthony Avalos      | Desarrollo del Sprint Backlog 2                                                                             |
+| 2.3     | 04/07/2025 | Daniel Valverde     | Compilación de evidencias de desarrollo para el Sprint Review                                            |
+| 2.4     | 05/07/2025 | Nicolás Cortés      | Redacción de Testing Suite Evidence  y verificación de pruebas ejecutadas                                  |
+| 2.5     | 06/07/2025 | Maria Alejandra Díaz| Registro de la ejecución funcional del sistema                                                             |
+| 2.6     | 07/07/2025 | Joaquin Rivadeneyra | Documentación de servicios desarrollados                                                                    |
+| 2.7     | 08/07/2025 | Anthony Avalos      | Recolección de evidencias de despliegue del software                                                       |
+| 2.8     | 09/07/2025 | Todo el equipo      | Elaboración de la reflexión final sobre la colaboración del equipo durante el sprint 2                      |
 
 ### Project Report Collaboration Insights
 
@@ -89,6 +97,16 @@ Se han realizado todas las tareas asignadas para la entrega del **TB1** del proy
 #### TP1 
 
 Para la entrega del **TP1**, el equipo se centró en el diseño arquitectónico y de experiencia de usuario, alineado con los lineamientos establecidos en el Capítulo V y VI. En el ámbito de diseño táctico, se documentaron las capas de dominio, aplicación, infraestructura e interfaz, además de los diagramas de componentes y diseño de base de datos. En el área de experiencia de usuario, se definieron los lineamientos de estilo, arquitectura de información, sistemas de búsqueda y navegación, así como los wireframes, mock-ups y prototipos interactivos de la landing page y las aplicaciones móviles. Este proceso permitió fortalecer la estructura del sistema y validar la experiencia de usuario antes de la integración completa, asegurando un producto final alineado con los objetivos de WasteTrack.
+
+#### TB2
+
+Para la entrega del **TB2**, el equipo se centró en la implementación de las funcionalidades clave y su validación con los stakeholders. En esta fase, se desarrollaron las funcionalidades esenciales del sistema, como la visualización en tiempo real del nivel de llenado de los contenedores, la generación de rutas de recolección optimizadas, el registro de sensores IoT, y la creación de alertas por sobrellenado.
+
+#### TF1
+
+Para la entrega del **TF1**, el equipo se enfocó en el desarrollo e implementación de funcionalidades clave del sistema WasteTrack, correspondientes al Sprint 2. Esta fase incluyó la planificación detallada del sprint, la priorización del backlog y la ejecución técnica del software, junto con una validación funcional y colaborativa.En esta etapa se implementaron servicios backend esenciales para la gestión de contenedores inteligentes y su monitoreo en tiempo real mediante IoT. Asimismo, se documentaron los endpoints, se realizaron pruebas automatizadas y se desplegó una versión funcional del sistema en un entorno de staging. La evidencia de ejecución refleja flujos completos de interacción, desde el monitoreo del llenado de los contenedores hasta la visualización de rutas optimizadas para recolección. Este entregable evidencia un avance sólido hacia la consolidación técnica de WasteTrack, sentando las bases para siguientes sprints centrados en escalabilidad, refinamiento de la interfaz ciudadana y mejora continua del sistema inteligente de gestión de residuos.
+
+---
 
 ## Contenido 
 
@@ -494,97 +512,192 @@ ABET 3: Capacidad de comunicarse efectivamente con un rango de audiencias
 <table>
   <thead>
     <tr>
-      <th>Criterio especifico</th>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- CRITERIO 3.c1: Comunicación oral -->
+    <tr>
+      <td rowspan="5">
+        3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia
+      </td>
+      <td>
+        <b>Díaz Villacrez, María Alejandra TB2:</b> 
+        Para la entrega de la TB2, colaboré en equipo en el desarrollo de los web services y el prototipo en Wokwi de nuestro IoT device. Pude comunicar efectivamente las tareas a mis compañeros y los avances correspondientes.
+      </td>
+      <td rowspan="5">
+        <b>CONCLUSIÓN DEL ENTREGABLE TB2</b><br>
+        Durante esta entrega, el equipo demostró una comunicación oral sólida y adaptativa al momento de socializar los avances técnicos del sistema WasteTrack. Las reuniones sincrónicas, entrevistas de validación y presentaciones permitieron que cada integrante transmita con claridad la lógica detrás de las decisiones tomadas, como la elección de tecnologías y configuraciones de entorno. En particular, la explicación oral de la arquitectura de despliegue, la estandarización del estilo de código y la integración de herramientas como Vercel, Azure y GitHub Actions fue clave para garantizar que tanto los usuarios técnicos como los actores no técnicos comprendieran el valor del sistema. Esta habilidad fortaleció la toma de decisiones conjunta y el alineamiento del equipo con los objetivos del producto.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>Rivadeneyra Ramos, Joaquin TB2:</b><br>
+        Durante la entrega, presenté la configuración del entorno de desarrollo y el enfoque utilizado para gestionar el código fuente de WasteTrack. Expliqué con claridad el uso de herramientas como Visual Studio Code, PyCharm, Docker y GitHub, adaptando el lenguaje técnico según el perfil del público.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>Valverde Lopez, Daniel TB2:</b><br>
+        En este entregable, aporté con el desarrollo y documentación de los servicios backend en fase inicial. Se logró la implementación de la API de OpenAI para realizar la optimización de rutas con IA.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>Cortés Hidalgo, Nicolás TB2:</b><br>
+        Me encargué de corregir errores en el diseño de mockups en Figma para mejorar la interfaz visual final de la aplicación. Finalicé la tarea satisfactoriamente, comunicando mi estado constantemente al equipo.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>Avalos Santos, Anthony Piero TB2:</b><br>
+        Me encargué del desarrollo de la aplicación web, implementando funcionalidades clave para los funcionarios municipales como la configuración de contenedores y la visualización de recorridos. Coordiné las tareas con mis compañeros para asegurar el avance fluido del proyecto.
+      </td>
+    </tr>
+
+    <!-- CRITERIO 3.c2: Comunicación escrita -->
+    <table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
       <th>Acciones realizadas</th>
       <th>Conclusiones</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-     <!--PRIMER CRITERIO DE STUDENT OUTCOME-->
-      <td rowspan="17">
-        3.c1. Comunica oralmente con efectividad a
-        diferentes rangos de audiencia
+      <td rowspan="5">
+        3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia
       </td>
-       <!--ENTREGA TB2-->
-      <!-- Estudiante 1 TB2 -->    
       <td>
-        <b>Díaz Villacrez, María Alejandra TB2:</b>Para la entrega de la TB2, colaboré en equipo en el desarrollo de los web services y el prototipo de wokwi de nuestro IoT device. Pude comunicar efectivamente las tareas a mis compañeros y los avances correspondientes. 
-        </td>
-        <td rowspan="5"> 
-         <b>CONCLUSIÓN DEL ENTREGABLE TB2</b>
-Durante esta entrega, el equipo demostró una comunicación oral sólida y adaptativa al momento de socializar los avances técnicos del sistema WasteTrack. Las reuniones sincrónicas, entrevistas de validación y presentaciones permitieron que cada integrante transmita con claridad la lógica detrás de las decisiones tomadas, como la elección de tecnologías y configuraciones de entorno. En particular, la explicación oral de la arquitectura de despliegue, la estandarización del estilo de código y la integración de herramientas como Vercel, Azure y GitHub Actions fue clave para garantizar que tanto los usuarios técnicos como los actores no técnicos comprendieran el valor del sistema. Esta habilidad fortaleció la toma de decisiones conjunta y el alineamiento del equipo con los objetivos del producto
-<br> 
-      </td>   
+        <b>Díaz Villacrez, María Alejandra TB2:</b><br>
+        Documenté los web services y el prototipo en Wokwi del IoT device. Redacté los pasos técnicos necesarios para completar todos los entregables del informe, asegurando precisión y claridad para diferentes perfiles de audiencia.
+      </td>
+      <td rowspan="5">
+        <b>CONCLUSIÓN DEL ENTREGABLE TB2</b><br>
+        La documentación entregada en TB2 evidencia una comunicación escrita clara, estructurada y profesional, adecuada para distintos niveles de audiencia. Se elaboraron descripciones detalladas sobre la configuración del entorno de desarrollo, la gestión del código fuente, las convenciones de estilo y el pipeline de despliegue continuo. Estas secciones, elaboradas con un lenguaje técnico riguroso y acompañadas de recursos visuales, permitieron plasmar con precisión la implementación práctica de WasteTrack. La correcta organización de la información, el uso consistente de convenciones de redacción y la presentación mediante Markdown facilitaron su comprensión tanto por el equipo docente como por posibles stakeholders externos interesados en replicar el modelo.
+      </td>
     </tr>
-    <!-- Estudiante 2 TB2 --> 
-    <tr> 
+    <tr>
       <td>
-      <b>Rivadeneyra Ramos, Joaquin TB2:</b> Durante la entrega, presenté la configuración del entorno de desarrollo y el enfoque utilizado para gestionar el código fuente de WasteTrack. Expliqué con claridad el uso de herramientas como Visual Studio Code, PyCharm, Docker y GitHub, adaptando el lenguaje técnico según el perfil del público, ya sean docentes, compañeros o stakeholders externos.<br> 
-    </td>   
+        <b>Rivadeneyra Ramos, Joaquin TB2:</b><br>
+        Documenté detalladamente la sección de Software Configuration Management. Redacté descripciones comprensibles sobre las herramientas utilizadas, el flujo de trabajo con Git, las convenciones de estilo aplicadas y los pasos de despliegue automatizado.
+      </td>
     </tr>
-    <!-- Estudiante 3 TB2-->
-     <tr>   
+    <tr>
       <td>
-        <b>Valverde Lopez, Daniel TB2</b>: En este entregable, aporté con el desarrollo y documentación de los servicios backend en fase inicial. Se logró la implementación de la api de OpenAI para realizar la optimización de rutas con IA.<br>
-      </td>    
+        <b>Valverde Lopez, Daniel TB2:</b><br>
+        Elaboré documentación técnica sobre las pruebas realizadas con Gherkin. También redacté los hallazgos y resultados de entrevistas de validación con ciudadanos, aportando información valiosa sobre la percepción del producto.
+      </td>
     </tr>
-    <!-- Estudiante 4 TB2-->
-     <tr>   
+    <tr>
       <td>
-      <b>Cortés Hidalgo, Nicolás TB2:</b> Para la entrega de la TB2, me encargué de corregir errores en el diseño de mockups del Figma para poder mejorar la interfaz visual final que mostrará la aplicación. Pude finalizar la tarea sin problemas y avisando de mi estado constantemente.
-       </td>   
+        <b>Cortés Hidalgo, Nicolás TB2:</b><br>
+        Redacté la documentación correspondiente al diseño del prototipo final de la app. Incluí evaluaciones de usabilidad mediante las heurísticas de Nielsen y detallé las correcciones realizadas en el capítulo 6 del informe.
+      </td>
     </tr>
-    <!-- Estudiante 5 TB2-->
-    <tr>   
+    <tr>
       <td>
         <b>Avalos Santos, Anthony Piero TB2:</b><br>
-        Me encargue del desarrollo de la aplicacion web, donde se puede ver todas las funcionalidades para los funcionarios de las municipalidades, como la configuracion de los contenedores, la visualizacion de los recorridos de los camiones recolectores, entre otros. Ademas, pude comunicarme con mis compañeros para coordinar las tareas y avances del proyecto.
-      </td>   
-    </tr>
-    <tbody>
-    <tr>
-     <!--SEGUNDO CRITERIO DE STUDENT OUTCOME-->
-      <td rowspan="17">
-        3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia 
+        Documenté las observaciones corregidas de TP1 y TB1, así como el desarrollo e integración de funcionalidades web con dispositivos IoT. Redacté la documentación técnica necesaria para facilitar el entendimiento del sistema entre los miembros del equipo.
       </td>
-       <!--ENTREGA TB2-->
-      <!-- Estudiante 1 TB2 -->    
-      <td>
-        <b>Díaz Villacrez, María Alejandra TB2:</b>Para la entrega de la TB2, colaboré en equipo en el desarrollo de los web services y el prototipo de wokwi de nuestro IoT device. Pude documentar en nuestro reporte los pasos técnicos necesarios para completar todos los entregables. 
-        </td>
-        <td rowspan="5"> 
-         <b>CONCLUSIÓN DEL ENTREGABLE TB2</b>La documentación entregada en TB2 evidencia una comunicación escrita clara, estructurada y profesional, adecuada para distintos niveles de audiencia. Se elaboraron descripciones detalladas sobre la configuración del entorno de desarrollo, la gestión del código fuente, las convenciones de estilo y el pipeline de despliegue continuo. Estas secciones, elaboradas con un lenguaje técnico riguroso y acompañado de recursos visuales, permitieron plasmar con precisión la implementación práctica de WasteTrack. La correcta organización de la información, el uso consistente de convenciones de redacción y la presentación mediante Markdown facilitaron su comprensión tanto por el equipo docente como por posibles stakeholders externos interesados en replicar el modelo. 
-
-<br>  
-      </td>   
     </tr>
-    <!-- Estudiante 2 TB2 --> 
-    <tr> 
-      <td>
-      <b>Rivadeneyra Ramos, Joaquin TB2:</b>Me encargué de documentar detalladamente toda la sección de Software Configuration Management del entregable TB2. Redacté descripciones estructuradas y comprensibles sobre las herramientas utilizadas, el flujo de trabajo con Git, las convenciones de estilo para frontend y backend, y los pasos de despliegue automatizado. <br> 
-    </td>   
-    </tr>
-    <!-- Estudiante 3 TB2-->
-     <tr>   
-      <td>
-        <b>Valverde Lopez, Daniel TB2:</b>Me encargué de realizar los testing con Gherkin, además de entrevistas de validación para el segmento ciudadanos, las cuales son importantes para analizar la percepcion y opiniones sobre el producto desarrollado.<br>
-      </td>    
-    </tr>
-    <!-- Estudiante 4 TB2-->
-     <tr>   
-      <td>
-      <b>Cortés Hidalgo, Nicolás TB2:</b> Para la entrega de la TB2, corregí aquellas observaciones realizadas por el profesor en el capítulo 6, del mismo modo, me encargué de diseñar el prototipo final de la app y de evaluar la misma hacienso uso de las heurísticas de Nielsen. Realicé la docuentación respectiva para cada uno de los apartados asignados.
-       </td>   
-    </tr>
-    <!-- Estudiante 5 TB2-->
-    <tr>   
-      <td>
-        <b>Avalos Santos, Anthony Piero TB2:</b><br> 
-        Corregimos las observaciones en el TP1 y TB1, además de documentar los avances en el desarrollo de la aplicación web y com este se comunica con los dispositivos IoT para manejar los eventos en timepo real. También redacté la documentación técnica necesaria para que el equipo pueda entender los avances y las funcionalidades implementadas.       
-      </td>   
-    </tr>
+  </tbody>
 </table>
+
+<!--TF1-->
+
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- CRITERIO 3.c1: Comunicación oral -->
+    <tr>
+      <td rowspan="5">
+        3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia
+      </td>
+      <td>
+        <b>Díaz Villacrez, María Alejandra TF1:</b> 
+        Presenté la ejecución funcional del sistema y su comportamiento frente al monitoreo de llenado en tiempo real. Participé en la validación del prototipo funcional, explicando el flujo operativo a los stakeholders.
+      </td>
+      <td rowspan="5">
+        <b>CONCLUSIÓN DEL ENTREGABLE TF1</b><br>
+        Durante la entrega del TF1, el equipo demostró una sólida capacidad de comunicación oral para explicar los avances técnicos y funcionales del sistema WasteTrack. Se logró transmitir con claridad la lógica detrás de las funcionalidades implementadas, permitiendo a los stakeholders comprender la utilidad del sistema y brindar retroalimentación valiosa. Esta interacción reforzó la validación del producto y fortaleció la relación con las partes interesadas.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>Rivadeneyra Ramos, Joaquin TF1:</b><br>
+        Expliqué la documentación de los servicios backend desarrollados y cómo estos permiten gestionar contenedores y rutas inteligentes. También participé en la defensa técnica del diseño de la arquitectura implementada.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>Valverde Lopez, Daniel TF1:</b><br>
+        Presenté las funcionalidades implementadas y su integración con sensores IoT. Además, mostré los logs del sistema en ejecución y el flujo de interacción entre capas del sistema.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>Cortés Hidalgo, Nicolás TF1:</b><br>
+        Participé en la exposición de los resultados de testing del sistema, explicando los escenarios de prueba, errores detectados y mejoras implementadas a partir de los reportes de QA.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>Avalos Santos, Anthony Piero TF1:</b><br>
+        Defendí oralmente el Sprint Backlog y el proceso de priorización de tareas técnicas. Además, mostré evidencia del despliegue del sistema y justifiqué las decisiones relacionadas al entorno de staging.
+      </td>
+    </tr>
+     <!-- CRITERIO 3.c2: Comunicación escrita -->
+    <tr>
+      <td rowspan="5">
+        3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia
+      </td>
+      <td>
+        <b>Díaz Villacrez, María Alejandra TF1:</b><br>
+        Redacté la sección de evidencia de ejecución funcional del sistema, incluyendo capturas de pantalla y explicación de flujos. Aseguré la claridad del documento para que fuera comprensible por audiencias no técnicas.
+      </td>
+      <td rowspan="5">
+        <b>CONCLUSIÓN DEL ENTREGABLE TF1</b><br>
+        En la entrega del TF1, el equipo demostró habilidades sólidas de comunicación escrita, documentando cada sección con claridad y coherencia. Esto permitió que los entregables técnicos, como el Sprint Planning, Backlog, evidencia de desarrollo y despliegue, fueran fácilmente comprendidos tanto por el equipo como por evaluadores externos. La redacción precisa contribuyó a una mejor evaluación del proyecto y fortaleció la calidad del proceso de documentación ágil.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>Rivadeneyra Ramos, Joaquin TF1:</b><br>
+        Documenté los servicios desarrollados en backend, detallando cada endpoint, estructura de datos y lógica de negocio. También colaboré en el registro de versiones del repositorio.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>Valverde Lopez, Daniel TF1:</b><br>
+        Redacté la evidencia de desarrollo técnico, adjuntando commits, funcionalidades implementadas y referencias al código fuente. Además, participé en la documentación de logs de ejecución.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>Cortés Hidalgo, Nicolás TF1:</b><br>
+        Elaboré la sección de Testing Suite, documentando casos de prueba, resultados y métricas clave. Aseguré que el formato fuera compatible con los estándares de QA del proyecto.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>Avalos Santos, Anthony Piero TF1:</b><br>
+        Redacté el Sprint Backlog  y la evidencia del despliegue del software, explicando las tecnologías usadas, el flujo de despliegue continuo y las herramientas utilizadas para staging.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
 
 ## **Capítulo I: Presentación**
 
@@ -3107,26 +3220,27 @@ El despliegue de WasteTrack se ejecuta de forma automatizada en entornos en la n
 
 #### 7.2.1.1. Sprint Planning 1
 
-| **Número de Sprint**              | 1 |
-|----------------------------------|---|
-| **Contexto de la planificación** |   |
-| **Fecha**                        | 2025-06-14 |
-| **Hora**                         | 08:00 AM |
-| **Lugar**                        | Sesión virtual realizada durante la clase |
-| **Elaborado por**                | Anthony Avalos Santos |
-| **Participantes**                | Anthony Avalos, Nicolas Cortes, Maria Diaz, Joaquin Rivadeneyra, Daniel Valverde |
-| **Resumen del Sprint anterior**  | Este es el primer Sprint, por lo que no se cuenta con un resumen previo. Sin embargo, se aplicaron los ajustes iniciales recomendados por el docente para mejorar el enfoque técnico del proyecto. |
-| **Resumen retrospectivo**        | Durante la planificación se identificaron oportunidades de mejora en el modelado de datos, estructuración por roles y claridad en las funcionalidades clave. Se adoptó el enfoque de Domain-Driven Design para separar correctamente las responsabilidades. |
-| **Sprint Goal & User Stories**   | Este sprint se enfocará en implementar funcionalidades esenciales de monitoreo y planificación. Se desarrollará la visualización del nivel de llenado de contenedores, alertas por sobrellenado, filtrado por estado del contenedor, registro y monitoreo de sensores IoT, generación automática de rutas de recolección. Estas funciones permitirán tomar decisiones informadas sobre la recolección y mejorar la supervisión operativa. |
-| **Objetivo del Sprint**          | Se espera que los funcionarios puedan visualizar el nivel de llenado de los contenedores, aplicar filtros por el estado y recibir alertas de sobrellenado. Ellos también podrán registrar sensores y consultar el estado o último dato enviado. |
-| **Historias de Usuario Incluidas** | |
-| US001 – Ver nivel de llenado           | 2 puntos |
-| US002 – Filtrar por estado       | 3 puntos |
-| US003 – Ver alertas por sobrellenado   | 2 puntos |
-| US004 – Generar ruta automáticamente   | 5 puntos |
-| US011 – Registrar sensores             | 3 puntos |
-| US012 – Ver último dato recibido       | 2 puntos |
-| US013 – Ver estado del sensor          | 3 puntos |
+| **Elemento**                             | **Detalle** |
+|------------------------------------------|-------------|
+| **Número de Sprint**                     | Sprint 1 |
+| **Contexto de la planificación**         | Inicio del proyecto, se establecen las bases del desarrollo técnico. |
+| **Fecha**                                | 2025-06-14 |
+| **Hora**                                 | 08:00 AM |
+| **Lugar**                                | Sesión virtual realizada durante la clase |
+| **Elaborado por**                        | Anthony Avalos Santos |
+| **Participantes**                        | Anthony Avalos, Nicolás Cortés, María Alejandra Díaz, Joaquín Rivadeneyra, Daniel Valverde |
+| **Resumen del Sprint anterior**          | Este es el primer Sprint, por lo que no se cuenta con un resumen previo. Sin embargo, se aplicaron ajustes iniciales sugeridos por el docente para mejorar el enfoque técnico del proyecto. |
+| **Resumen retrospectivo**                | Se identificaron oportunidades de mejora en el modelado de datos, asignación por roles y definición de funcionalidades clave. Se adoptó Domain-Driven Design para separar correctamente las responsabilidades. |
+| **Objetivo del Sprint (Sprint Goal)**    | Implementar funcionalidades esenciales para el monitoreo del sistema. Los funcionarios podrán visualizar el nivel de llenado de los contenedores, aplicar filtros por estado, recibir alertas por sobrellenado, registrar sensores y monitorear datos en tiempo real. |
+| **Sprint Goal & User Stories**           | Este sprint se enfocará en las siguientes funcionalidades: visualización del nivel de llenado, generación automática de rutas de recolección, registro de sensores, alertas por sobrellenado y visualización de datos clave enviados por los dispositivos IoT. |
+| **Historias de Usuario Incluidas**       | **Puntos** |
+| US001 – Ver nivel de llenado            | 2 |
+| US002 – Filtrar por estado              | 3 |
+| US003 – Ver alertas por sobrellenado    | 2 |
+| US004 – Generar ruta automáticamente     | 5 |
+| US011 – Registrar sensores              | 3 |
+| US012 – Ver último dato recibido        | 2 |
+| US013 – Ver estado del sensor           | 3 |
 | **Velocidad del Sprint (Sprint Velocity)** | 22 |
 | **Total de Story Points en el Sprint**     | 22 |
 
@@ -3907,6 +4021,60 @@ Insights del repositorio de IoT:
 
 <img src="./assets/img/chapter-VI/sprint-1/iot-insights.png"> 
 
+## 7.2.2. Sprint 2
+
+### 7.2.2.1. Sprint Planning 2
+En esta sección se describe la planificación realizada al inicio del Sprint 2. Incluye los objetivos del sprint, las historias de usuario priorizadas, el criterio de selección de tareas y la estimación de tiempos del equipo.
+
+| **Sprint #** | Sprint 2 |
+| :- | :- |
+| **Sprint Planning Background** | |
+| Date | 2025-07-02 |
+| Time | 08:00 PM |
+| Location | Virtual |
+| Prepared by | Rivadeneyra Ramos, Joaquin David |
+| Attendees (to planning meeting) | <p>Rivadeneyra Ramos, Joaquin David</p><p>Avalos Santos, Anthony Piero</p><p>Cortés Hidalgo, Nicolás Andrés</p><p>Díaz Villacrez, Maria Alejandra</p><p>Valverde Lopez, Daniel</p> |
+| Sprint 1 Review Summary | Se logró la integración inicial del frontend para el nivel de llenado de los contenedores mediante el uso de Iot, además de avances en la estructura del backend. |
+| Sprint 1 Retrospective Summary | Se identificó una mejora en la comunicación del equipo y en la planificación semanal, aunque se sugirió mayor validación de tareas antes de cerrarlas. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | Completar la implementación del monitoreo del nivel de llenado de los contenedores, recibir alertas automáticas de sobrellenado, y desarrollar la funcionalidad de optimización de rutas más cortas para los camiones recolectores de basura, asegurando eficiencia y reducción de costos operativos. |
+| Sprint 2 Velocity | 26 |
+| Sum of Story Points | 26 |
+
+---
+
+### 7.2.2.2. Sprint Backlog 2
+Contiene el backlog específico del Sprint 2, con una lista detallada de historias de usuario, tareas técnicas, responsables asignados y su respectivo estado (To Do, In Progress, Done).
+
+| **Sprint** | **User Story** | **Work-Item / Task Id** | **Title**                           | **Description**                                                                                     | **Estimation (Hours)** | **Assigned To**            | **Status (To-do/InProgress/ToReview/Done)** |
+|------------|----------------|--------------------------|-------------------------------------|------------------------------------------------------------------------------------------------------|-------------------------|-----------------------------|---------------------------------------------|
+| Sprint 2   | US014          | WT-008                   | Visualizar llenado en tiempo real   | Conectar datos simulados desde Wokwi al backend y reflejar en la interfaz el nivel de llenado.      | 5                      | María Alejandra Díaz        | Done                                        |
+| Sprint 2   | US015          | WT-009                   | Alertas automáticas por sobrellenado| Implementar lógica backend para detectar sobrellenado y enviar alertas configurables.               | 4                       | Daniel Valverde              | Done                                        |
+| Sprint 2   | US016          | WT-010                   | Implementación de las rutas mas cortas         | Desarrollar algoritmo de optimización de rutas basado en nivel de llenado y distancia geográfica.   | 8                      | Joaquín Rivadeneyra          | Done                                        |
+| Sprint 2   | US017          | WT-011                   | Visualizar rutas optimizadas        | Mostrar en el mapa las rutas sugeridas para recolección, conectadas con la API de optimización.     | 3                       | Anthony Avalos               | Done                                        |
+| Sprint 2   | US018          | WT-012                   | Refactorizar lógica backend de rutas| Mejorar la estructura de controladores y endpoints para soportar lógica de priorización de rutas.   | 6                       | Joaquín Rivadeneyra          | Done                                        |
+| Sprint 2   | US019          | WT-013                   | Testing de rutas y alertas          | Diseñar y ejecutar pruebas para validar el correcto funcionamiento de alertas y rutas generadas.    | 5                       | Nicolás Cortés               | Done                                        |
+
+---
+
+### 7.2.2.3. Development Evidence for Sprint Review
+Se presenta evidencia del trabajo de desarrollo realizado durante el sprint, como capturas de pantalla del código, fragmentos de funcionalidades implementadas, commits, ramas y pull requests.
+
+### 7.2.2.4. Testing Suite Evidence for Sprint Review
+Incluye evidencia de pruebas realizadas al producto durante el Sprint 2. Esto puede abarcar pruebas unitarias, de integración, de aceptación, así como reportes de errores o resultados de herramientas de testing.
+
+### 7.2.2.5. Execution Evidence for Sprint Review
+Se muestran registros o capturas del sistema en funcionamiento, como demostraciones en video, capturas del flujo de navegación, interacciones entre usuario y sistema, o logs de ejecución.
+
+### 7.2.2.6. Services Documentation Evidence for Sprint Review
+Describe la documentación técnica generada sobre los servicios implementados en el sprint, como endpoints de API REST, estructuras de datos, contratos, diagramas, autenticación o configuración del backend.
+
+### 7.2.2.7. Software Deployment Evidence for Sprint Review
+Presenta evidencia del despliegue del software desarrollado durante el sprint. Esto puede incluir capturas de la plataforma de despliegue (Docker, Vercel, Heroku, etc.), URLs activas o comandos usados para el despliegue.
+
+### 7.2.2.8. Team Collaboration Insights during Sprint
+Reflexión sobre la colaboración del equipo durante el Sprint 2. Se detalla cómo se organizaron, qué herramientas usaron para comunicarse, coordinación de tareas, frecuencia de reuniones, retos enfrentados y lecciones aprendidas.
+
 ## 7.3. Validation Interviews
 
 Este apartado presenta el proceso de entrevistas de validación realizado con los principales actores involucrados en el sistema WasteTrack. El objetivo fue recopilar opiniones directas que nos permitan validar la propuesta desde una perspectiva técnica (municipal) y experiencial (ciudadana), asegurando que las funcionalidades planteadas respondan a necesidades reales.
@@ -4155,6 +4323,8 @@ Tras haber realizado la serie de evaluaciones a WasteTrack, se han revelado tant
 
 Con la implementación de las recomendaciones, podremos optimizar la usabilidad de WasteTrack y reforzar su misión de mejorar la sostenibilidad urbana.
 
+---
+
 ## 7.4. Video About-the-Product
 
 En el presente video about the product, hablaremos sobre WasteTrack, una solución innovadora para la gestión de residuos urbanos. Este sistema utiliza tecnologías como Internet de las Cosas (IoT) y algoritmos avanzados para optimizar la recolección de basura y hacerla más eficiente y sostenible. La finalidad de este video es mostrar cómo WasteTrack está revolucionando la manera en que gestionamos los residuos en las ciudades, reduciendo costos y mejorando el servicio.
@@ -4165,6 +4335,10 @@ En el presente video about the product, hablaremos sobre WasteTrack, una soluci�
 
 
 ●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EZMl67_VgdNPksNf2JNz0KcBn1dUc6Gbpqc4OgwUMH5eZg?e=u8hU0d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+---
+
+## 7.5. Video About-the-Team
 
 ## Conclusiones
 
