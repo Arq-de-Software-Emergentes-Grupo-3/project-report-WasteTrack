@@ -108,204 +108,133 @@ Para la entrega del **TF1**, el equipo se enfocó en el desarrollo e implementac
 
 ---
 
-## Contenido 
-
-1. [Capítulo I: Introducción](docs/chapter-I.md#capítulo-i-introducción)
-
-    1.1. [Startup Profile](docs/chapter-I.md#11-startup-profile)
-
-    1.1.1. [Descripción de la Startup](docs/chapter-I.md#111-descripción-de-la-startup)
-
-    1.1.2. [Perfiles de integrantes del equipo](docs/chapter-I.md#112-perfiles-de-integrantes-del-equipo)
-
-    1.2. [Solution Profile](docs/chapter-I.md#12-solution-profile)
-
-    1.2.1. [Antecedentes y problemática](docs/chapter-I.md#121-antecedentes-y-problemática)
-
-    1.2.2. [Lean UX Process](docs/chapter-I.md#122-lean-ux-process)
-
-    1.2.2.1. [Lean UX Problem Statements](docs/chapter-I.md#1221-lean-ux-problem-statements)
-     
-    1.2.2.2. [Lean UX Assumptions](docs/chapter-I.md#1222-lean-ux-assumptions)   
-
-    1.2.2.3. [Lean UX Hypothesis Statements](docs/chapter-I.md#1223-lean-ux-hypothesis-statements)
-
-    1.2.2.4. [Lean UX Canvas](docs/chapter-I.md#1224-lean-ux-canvas)
-
-    1.3. [Segmentos Objetivo](docs/chapter-I.md#13-segmentos-objetivos)
-
-2. [Capítulo II: Requirements Elicitation & Analysis](docs/chapter-II.md#capítulo-ii-requirements-elicitation--analysis)
-   
-    2.1. [Competidores](docs/chapter-II.md#21-competidores)
-    
-    2.1.1. [Análisis competitivo](docs/chapter-II.md#211-análisis-competitivo)
-   
-    2.1.2. [Estrategias y tácticas frente a competidores](docs/chapter-II.md#212-estrategias-y-tácticas-frente-a-competidores)
-   
-    2.2. [Entrevistas](docs/chapter-II.md#22-entrevistas)
-   
-    2.2.1. [Diseño de entrevistas](docs/chapter-II.md#221-diseño-de-entrevistas)
-   
-    2.2.2. [Registro de entrevistas](docs/chapter-II.md#222-registro-de-entrevistas)
-   
-    2.2.3. [Análisis de entrevistas](docs/chapter-II.md#223-análisis-de-entrevistas)
-    
-    2.3. [Needfinding](docs/chapter-II.md#23-needfinding)
-    
-    2.3.1. [User Personas](docs/chapter-II.md#231-user-personas)
-    
-    2.3.2. [User Task Matrix](docs/chapter-II.md#232-user-task-matrix)
-    
-    2.3.3. [User Journey Mapping](docs/chapter-II.md#233-user-journey-mapping)
-    
-    2.3.5. [As-is Scenario Mapping](docs/chapter-II.md#235-as-is-scenario-mapping)
-    
-    2.4. [Ubiquitous Language](docs/chapter-II.md#24-ubiquitous-language)
-
-3. [Capítulo III: Requirements Specification](docs/chapter-III.md#capítulo-iii-requirements-specification)
-
-    3.1. [To-Be Scenario Mapping](docs/chapter-III.md#31-to-be-scenario-mapping)
-
-    3.2. [User Stories](docs/chapter-III.md#32-user-stories)
-   
-    3.3. [Impact Mapping](docs/chapter-III.md#33-impact-mapping)
-   
-    3.4. [Product Backlog](docs/chapter-III.md#34-product-backlog)
-
-4. [Capítulo IV: Strategic-Level Software Design](docs/chapter-IV.md#capítulo-iv-strategic-level-software-design)
-
-    4.1. [Strategic-Level Attribute-Driven Design](docs/chapter-IV.md#41-strategic-level-attribute-driven-design)
-
-      4.1.1. [Design Purpose](docs/chapter-IV.md#411-design-purpose)
-
-      4.1.2. [Attribute-Driven Design Inputs](docs/chapter-IV.md#412-attribute-driven-design-inputs)
-
-      4.1.2.1. [Primary Functionality (Primary User Stories)](docs/chapter-IV.md#4121-primary-functionality-primary-user-stories)
-
-      4.1.2.2. [Quality attribute Scenarios](docs/chapter-IV.md#4122-quality-attribute-scenarios)
-
-      4.1.2.3. [Constraints](docs/chapter-IV.md#4123-constraints)
-
-      4.1.3. [Architectural Drivers Backlog](docs/chapter-IV.md#413-architectural-drivers-backlog)
-
-      4.1.4. [Architectural Design Decisions](docs/chapter-IV.md#414-architectural-design-decisions)
-
-      4.1.5. [Quality Attribute Scenario Refinements](docs/chapter-IV.md#415-quality-attribute-scenario-refinements)
-
-    4.2. [Strategic-Level Domain-Driven Design](docs/chapter-IV.md#42-strategic-level-domain-driven-design)
-
-      4.2.1. [EventStorming](docs/chapter-IV.md#421-eventstorming)
-
-      4.2.2. [Candidate Context Discovery](docs/chapter-IV.md#422-candidate-context-discovery)
-
-      4.2.3. [Domain Message Flows Modeling](docs/chapter-IV.md#423-domain-message-flows-modeling)
-
-      4.2.4. [Bounded Context Canvases](docs/chapter-IV.md#424-bounded-context-canvases)
-
-      4.2.5. [Context Mapping](docs/chapter-IV.md#425-context-mapping)
-
-    4.3. [Software Architecture](docs/chapter-IV.md#43-software-architecture)
-
-      4.3.1. [Software Architecture System Landscape Diagram](docs/chapter-IV.md#431-software-architecture-system-landscape-diagram)
-
-      4.3.2. [Software Architecture Context Level Diagrams](docs/chapter-IV.md#432-software-architecture-context-level-diagrams)
-
-      4.3.3. [Software Architecture Container Level Diagrams](docs/chapter-IV.md#433-software-architecture-container-level-diagrams)
-
-      4.3.4. [Software Architecture Deployment Diagrams](docs/chapter-IV.md#434-software-architecture-deployment-diagrams)
-
-5. [Capítulo V: Solution UI/UX Design](docs/chapter-V.md#capítulo-v-solution-uiux-design)
-
-    5.1. [Style Guidelines](docs/chapter-V.md#51-style-guidelines)
-    
-    5.1.1. [General Style Guidelines](docs/chapter-V.md#511-general-style-guidelines)
-    
-    5.1.2. [Web, Mobile and IoT Style Guidelines](docs/chapter-V.md#512-web-mobile-and-iot-style-guidelines)
-    
-    5.2. [Information Architecture](docs/chapter-V.md#52-information-architecture)
-    
-    5.2.1. [Organization Systems](docs/chapter-V.md#521-organization-systems)
-    
-    5.2.2. [Labeling Systems](docs/chapter-V.md#522-labeling-systems)
-    
-    5.2.3. [SEO Tags and Meta Tags](docs/chapter-V.md#523-seo-tags-and-meta-tags)
-    
-    5.2.4. [Searching Systems](docs/chapter-V.md#524-searching-systems)
-    
-    5.2.5. [Navigation Systems](docs/chapter-V.md#525-navigation-systems)
-    
-    5.3. [Landing Page UI Design](docs/chapter-V.md#53-landing-page-ui-design)
-    
-    5.3.1. [Landing Page Wireframe](docs/chapter-V.md#531-landing-page-wireframe)
-    
-    5.3.2. [Landing Page Mock-up](docs/chapter-V.md#532-landing-page-mock-up)
-    
-    5.4. [Applications UX/UI Design](docs/chapter-V.md#54-applications-uxui-design)
-    
-    5.4.1. [Applications Wireframes](docs/chapter-V.md#541-applications-wireframes)
-    
-    5.4.2. [Applications Wireflow Diagrams](docs/chapter-V.md#542-applications-wireflow-diagrams)
-    
-    5.4.3. [Applications Mock-ups](docs/chapter-V.md#543-applications-mock-ups)
-    
-    5.4.4. [Applications User Flow Diagrams](docs/chapter-V.md#544-applications-user-flow-diagrams)
-    
-    5.5. [Applications Prototyping](docs/chapter-V.md#55-applications-prototyping)
-
-6. [Capítulo VI: Product Implementation, Validation & Deployment](docs/chapter-VI.md#capítulo-vi-product-implementation-validation--deployment)
-
-    6.1. [Software Configuration Management](docs/chapter-VI.md#61-software-configuration-management)
-
-    6.1.1. [Software Development Environment Configuration](docs/chapter-VI.md#611-software-development-environment-configuration)
-
-    6.1.2. [Source Code Management](docs/chapter-VI.md#612-source-code-management)
-
-    6.1.3. [Source Code Style Guide & Conventions](docs/chapter-VI.md#613-source-code-style-guide--conventions)
-
-    6.1.4. [Software Deployment Configuration](docs/chapter-VI.md#614-software-deployment-configuration)
-
-    6.2. [Landing Page, Services & Applications Implementation](docs/chapter-VI.md#62-landing-page-services--applications-implementation)
-
-    6.2.1. [Sprint 1](docs/chapter-VI.md#621-sprint-1)
-
-    6.2.1.1. [Sprint Planning 1](docs/chapter-VI.md#6211-sprint-planning-1)
-
-    6.2.1.2. [Aspect Leaders and Collaborators](docs/chapter-VI.md#6212-aspect-leaders-and-collaborators)
-
-    6.2.1.3. [Sprint Backlog 1](docs/chapter-VI.md#6213-sprint-backlog-1)
-
-    6.2.1.4. [Development Evidence for Sprint Review](docs/chapter-VI.md#6214-development-evidence-for-sprint-review)
-
-    6.2.1.5. [Testing Suite Evidence for Sprint Review](docs/chapter-VI.md#6215-testing-suite-evidence-for-sprint-review)
-
-    6.2.1.6. [Execution Evidence for Sprint Review](docs/chapter-VI.md#6216-execution-evidence-for-sprint-review)
-
-    6.2.1.7. [Services Documentation Evidence for Sprint Review](docs/chapter-VI.md#6217-services-documentation-evidence-for-sprint-review)
-
-    6.2.1.8. [Software Deployment Evidence for Sprint Review](docs/chapter-VI.md#6218-software-deployment-evidence-for-sprint-review)
-
-    6.2.1.9. [Team Collaboration Insights during Sprint](docs/chapter-VI.md#6219-team-collaboration-insights-during-sprint)
-
-    6.3. [Validation Interviews](docs/chapter-VI.md#63-validation-interviews)
-
-    6.3.1. [Diseño de Entrevistas](docs/chapter-VI.md#631-diseño-de-entrevistas)
-
-    6.3.2. [Registro de Entrevistas](docs/chapter-VI.md#632-registro-de-entrevistas)
-
-    6.3.3. [Evaluaciones según heurísticas](docs/chapter-VI.md#633-evaluaciones-según-heurísticas)
-
-    6.4. [Video About-the-Product](docs/chapter-VI.md#64-video-about-the-product)
-
-7. [Conclusiones](docs/chapter-VI.md#7-conclusiones)
-
-    7.1. [Conclusiones y recomendaciones](docs/chapter-VI.md#71-conclusiones-y-recomendaciones)
-
-    7.2. [Video About-the-Team](docs/chapter-VI.md#72-video-about-the-team)
-
-8. [Bibliografía](docs/chapter-VI.md#8-bibliografía)
-
-9. [Anexos](docs/chapter-VI.md#9-anexos)
-<br>
+## Contenido
+
+### Capítulo I: Introducción
+- 1.1. Startup Profile
+  - 1.1.1. Descripción de la Startup
+  - 1.1.2. Perfiles de integrantes del equipo
+- 1.2. Solution Profile
+  - 1.2.1. Antecedentes y problemática
+  - 1.2.2. Lean UX Process
+    - 1.2.2.1. Lean UX Problem Statements
+    - 1.2.2.2. Lean UX Assumptions
+    - 1.2.2.3. Lean UX Hypothesis Statements
+    - 1.2.2.4. Lean UX Canvas
+- 1.3. Segmentos objetivo
+
+### Capítulo II: Requirements Elicitation & Analysis
+- 2.1. Competidores
+  - 2.1.1. Análisis competitivo
+  - 2.1.2. Estrategias y tácticas frente a competidores
+- 2.2. Entrevistas
+  - 2.2.1. Diseño de entrevistas
+  - 2.2.2. Registro de entrevistas
+  - 2.2.3. Análisis de entrevistas
+- 2.3. Needfinding
+  - 2.3.1. User Personas
+  - 2.3.2. User Task Matrix
+  - 2.3.3. Empathy Mapping
+  - 2.3.4. As-is Scenario Mapping
+- 2.4. Ubiquitous Language
+
+### Capítulo III: Requirements Specification
+- 3.1. To-Be Scenario Mapping
+- 3.2. User Stories
+- 3.3. Impact Mapping
+- 3.4. Product Backlog
+
+### Capítulo IV: Strategic-Level Software Design
+- 4.1. Strategic-Level Attribute-Driven Design
+  - 4.1.1. Design Purpose
+  - 4.1.2. Attribute-Driven Design Inputs
+    - 4.1.2.1. Primary Functionality (Primary User Stories)
+    - 4.1.2.2. Quality Attribute Scenarios
+    - 4.1.2.3. Constraints
+  - 4.1.3. Architectural Drivers Backlog
+  - 4.1.4. Architectural Design Decisions
+  - 4.1.5. Quality Attribute Scenario Refinements
+- 4.2. Strategic-Level Domain-Driven Design
+  - 4.2.1. EventStorming
+  - 4.2.2. Candidate Context Discovery
+  - 4.2.3. Domain Message Flows Modeling
+  - 4.2.4. Bounded Context Canvases
+  - 4.2.5. Context Mapping
+- 4.3. Software Architecture
+  - 4.3.1. Software Architecture System Landscape Diagram
+  - 4.3.2. Software Architecture Context Level Diagrams
+  - 4.3.3. Software Architecture Container Level Diagrams
+  - 4.3.4. Software Architecture Deployment Diagrams
+
+### Capítulo V: Tactical-Level Software Design
+- 5.1. Bounded Context: Nombre del Bounded Context
+  - 5.1.1. Domain Layer
+  - 5.1.2. Interface Layer
+  - 5.1.3. Application Layer
+  - 5.1.4. Infrastructure Layer
+  - 5.1.5. Bounded Context Software Architecture Component Level Diagrams
+  - 5.1.6. Bounded Context Software Architecture Code Level Diagrams
+    - 5.1.6.1. Bounded Context Domain Layer Class Diagrams
+    - 5.1.6.2. Bounded Context Database Design Diagram
+
+### Capítulo VI: Solution UX Design
+- 6.1. Style Guidelines
+  - 6.1.1. General Style Guidelines
+  - 6.1.2. Web, Mobile & Devices Style Guidelines
+- 6.2. Information Architecture
+  - 6.2.1. Organization Systems *(agregar si aplica)*
+  - 6.2.2. Labeling Systems
+  - 6.2.3. Searching Systems
+  - 6.2.4. SEO Tags and Meta Tags
+  - 6.2.5. Navigation Systems
+- 6.3. Landing Page UI Design
+  - 6.3.1. Landing Page Wireframe
+  - 6.3.2. Landing Page Mock-up
+- 6.4. Applications UX/UI Design
+  - 6.4.1. Applications Wireframes
+  - 6.4.2. Applications Wireflow Diagrams
+  - 6.4.3. Applications Mock-ups
+  - 6.4.4. Applications User Flow Diagrams
+- 6.5. Applications Prototyping
+
+### Capítulo VII: Product Implementation, Validation & Deployment
+- 7.1. Software Configuration Management
+  - 7.1.1. Software Development Environment Configuration
+  - 7.1.2. Source Code Management
+  - 7.1.3. Source Code Style Guide & Conventions
+  - 7.1.4. Software Deployment Configuration
+- 7.2. Solution Implementation
+  - 7.2.1. Sprint 1
+    - 7.2.1.1. Sprint Planning 1
+    - 7.2.1.2. Sprint Backlog 1
+    - 7.2.1.3. Development Evidence for Sprint Review
+    - 7.2.1.4. Testing Suite Evidence for Sprint Review
+    - 7.2.1.5. Execution Evidence for Sprint Review
+    - 7.2.1.6. Services Documentation Evidence for Sprint Review
+    - 7.2.1.7. Software Deployment Evidence for Sprint Review
+    - 7.2.1.8. Team Collaboration Insights during Sprint
+  - 7.2.2. Sprint 2
+    - 7.2.2.1. Sprint Planning 2
+    - 7.2.2.2. Sprint Backlog 2
+    - 7.2.2.3. Development Evidence for Sprint Review
+    - 7.2.2.4. Testing Suite Evidence for Sprint Review
+    - 7.2.2.5. Execution Evidence for Sprint Review
+    - 7.2.2.6. Services Documentation Evidence for Sprint Review
+    - 7.2.2.7. Software Deployment Evidence for Sprint Review
+    - 7.2.2.8. Team Collaboration Insights during Sprint
+- 7.3. Validation Interviews
+  - 7.3.1. Diseño de Entrevistas
+  - 7.3.2. Registro de Entrevistas
+  - 7.3.3. Evaluaciones según heurísticas
+- 7.4. Video About-the-Product
+
+### Conclusiones
+- Conclusiones y recomendaciones
+- Video About-the-Team
+
+### Bibliografía
+
+### Anexos
 
 ## Student Outcome
 
