@@ -3993,10 +3993,473 @@ Se presenta evidencia del trabajo de desarrollo realizado durante el sprint, com
 Incluye evidencia de pruebas realizadas al producto durante el Sprint 2. Esto puede abarcar pruebas unitarias, de integración, de aceptación, así como reportes de errores o resultados de herramientas de testing.
 
 ### 7.2.2.5. Execution Evidence for Sprint Review
-Se muestran registros o capturas del sistema en funcionamiento, como demostraciones en video, capturas del flujo de navegación, interacciones entre usuario y sistema, o logs de ejecución.
+A continuacion, se muestran capturas de los entregables en funcionamiento:
+
+- Landing Page:
+
+<img src="./assets/img/chapter-VI/sprint-1/landing-1.png"> 
+<img src="./assets/img/chapter-VII/execution/landing1.png"> 
+
+Link del proyecto desplegado: https://v0-wastetrack-landing-page.vercel.app/
+
+- Frontend:
+
+<img src="./assets/img/chapter-VII/execution/front1.png"> 
+<img src="./assets/img/chapter-VII/execution/front2.png"> 
+<img src="./assets/img/chapter-VII/execution/front3.png"> 
+<img src="./assets/img/chapter-VII/execution/front4.png"> 
+<img src="./assets/img/chapter-VII/execution/front5.png"> 
+<img src="./assets/img/chapter-VII/execution/front6.png"> 
+
+Link del proyecto desplegado: https://waste-track.netlify.app/
+
+- Backend:
+
+<img src="./assets/img/chapter-VI/sprint-1/backend-1.png"> 
+<img src="./assets/img/chapter-VII/execution/backend1.png"> 
+
+Link del proyecto desplegado: https://wastetrack-api.onrender.com/docs#/
+
+- IoT:
+
+<img src="./assets/img/chapter-VI/sprint-1/wokwi-1.png"> 
+
+Link del proyecto desplegado: https://wokwi.com/projects/433761407805975553
 
 ### 7.2.2.6. Services Documentation Evidence for Sprint Review
-Describe la documentación técnica generada sobre los servicios implementados en el sprint, como endpoints de API REST, estructuras de datos, contratos, diagramas, autenticación o configuración del backend.
+
+Para el segundo sprint, agregamos los endpoints de Simulation que se conectan a la IA de OpenAI para las rutas simuladas.
+
+##### Auth Endpoints
+<table>
+  <thead>
+    <tr>
+      <th>Endpoint</th>
+      <th>Method</th>
+      <th>Description</th>
+      <th>Parameters</th>
+      <th>Request Body</th>
+      <th>Response Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/auth/signup</td>
+      <td>POST</td>
+      <td>Register a new user</td>
+      <td>None</td>
+      <td>
+        <pre><code>{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "password": "securepassword",
+  "role": "citizen",
+  "address": "123 Main St",
+  "phone": "+1234567890"
+}</code></pre>
+      </td>
+      <td>
+        <pre><code>// Status: 201 Created
+{
+  "message": "User created successfully",
+  "user_id": "550e8400-e29b-41d4-a716-446655440000"
+}</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/auth/signin</td>
+      <td>POST</td>
+      <td>User login and token generation</td>
+      <td>None</td>
+      <td>
+        <pre><code>{
+  "email": "john@example.com",
+  "password": "securepassword"
+}</code></pre>
+      </td>
+      <td>
+        <pre><code>// Status: 200 OK
+{
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+  "token_type": "bearer",
+  "user": {
+    "guid": "550e8400-e29b-41d4-a716-446655440000",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "role": "citizen"
+  }
+}</code></pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+##### User Endpoints
+
+<table>
+  <thead>
+    <tr>
+      <th>Endpoint</th>
+      <th>Method</th>
+      <th>Description</th>
+      <th>Parameters</th>
+      <th>Request Body</th>
+      <th>Response Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/user/{guid}</td>
+      <td>GET</td>
+      <td>Get user by GUID</td>
+      <td>Path parameter: guid (string, required)</td>
+      <td>None</td>
+      <td>
+        <pre><code>// Status: 200 OK
+{
+  "guid": "550e8400-e29b-41d4-a716-446655440000",
+  "name": "John Doe",
+  "email": "john@example.com",
+  "role": "citizen",
+  "address": "123 Main St",
+  "phone": "+1234567890",
+  "latitude": "37.7749",
+  "longitude": "-122.4194",
+  "created_at": "2023-06-01T10:00:00Z"
+}</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/user/</td>
+      <td>PUT</td>
+      <td>Update user information</td>
+      <td>None</td>
+      <td>
+        <pre><code>{
+  "name": "John Updated",
+  "phone": "+1987654321",
+  "role": "citizen"
+}</code></pre>
+      </td>
+      <td>
+        <pre><code>// Status: 200 OK
+{
+  "message": "User updated successfully",
+  "user": {
+    "guid": "550e8400-e29b-41d4-a716-446655440000",
+    "name": "John Updated"
+  }
+}</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/user/</td>
+      <td>DELETE</td>
+      <td>Delete current user</td>
+      <td>None</td>
+      <td>None</td>
+      <td>
+        <pre><code>// Status: 200 OK
+{
+  "message": "User deleted successfully"
+}</code></pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+##### Container Endpoints
+<table>
+  <thead>
+    <tr>
+      <th>Endpoint</th>
+      <th>Method</th>
+      <th>Description</th>
+      <th>Parameters</th>
+      <th>Request Body</th>
+      <th>Response Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/containers/</td>
+      <td>GET</td>
+      <td>Get a list of all containers</td>
+      <td>None</td>
+      <td>None</td>
+      <td>
+        <pre><code>// Status: 200 OK
+[
+  {
+    "guid": "550e8400-e29b-41d4-a716-446655440001",
+    "name": "Container A",
+    "latitude": "37.7749",
+    "longitude": "-122.4194",
+    "capacity": 75,
+    "status": "active",
+    "isFavorite": false
+  },
+  {
+    "guid": "550e8400-e29b-41d4-a716-446655440002",
+    "name": "Container B",
+    "latitude": "37.7848",
+    "longitude": "-122.4294",
+    "capacity": 30,
+    "status": "active",
+    "isFavorite": true
+  }
+]</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/containers/</td>
+      <td>POST</td>
+      <td>Create a new container</td>
+      <td>None</td>
+      <td>
+        <pre><code>{
+  "name": "Container C",
+  "latitude": "37.7849",
+  "longitude": "-122.4295",
+  "capacity": 100
+}</code></pre>
+      </td>
+      <td>
+        <pre><code>// Status: 201 Created
+{
+  "message": "Container created successfully",
+  "container_id": "550e8400-e29b-41d4-a716-446655440003"
+}</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/containers/{guid}</td>
+      <td>GET</td>
+      <td>Get a container by GUID</td>
+      <td>Path parameter: guid (string, required)</td>
+      <td>None</td>
+      <td>
+        <pre><code>// Status: 200 OK
+{
+  "guid": "550e8400-e29b-41d4-a716-446655440001",
+  "name": "Container A",
+  "latitude": "37.7749",
+  "longitude": "-122.4194",
+  "capacity": 75,
+  "status": "active",
+  "isFavorite": false
+}</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/containers/{guid}</td>
+      <td>PUT</td>
+      <td>Update a container by GUID</td>
+      <td>Path parameter: guid (string, required)</td>
+      <td>
+        <pre><code>{
+  "name": "Container A Updated",
+  "latitude": "37.7750",
+  "longitude": "-122.4195",
+  "capacity": 80,
+  "status": "active",
+  "isFavorite": true
+}</code></pre>
+      </td>
+      <td>
+        <pre><code>// Status: 200 OK
+{
+  "message": "Container updated successfully",
+  "container": {
+    "guid": "550e8400-e29b-41d4-a716-446655440001",
+    "name": "Container A Updated"
+  }
+}</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/containers/{guid}</td>
+      <td>DELETE</td>
+      <td>Delete a container by GUID</td>
+      <td>Path parameter: guid (string, required)</td>
+      <td>None</td>
+      <td><pre><code>// Status: 204 No Content</code></pre></td>
+    </tr>
+    <tr>
+      <td>/api/v1/containers/status/{status}</td>
+      <td>GET</td>
+      <td>Get containers by status</td>
+      <td>Path parameter: status (string, required)</td>
+      <td>None</td>
+      <td>
+        <pre><code>// Status: 200 OK
+[
+  {
+    "guid": "550e8400-e29b-41d4-a716-446655440001",
+    "name": "Container A",
+    "latitude": "37.7749",
+    "longitude": "-122.4194",
+    "capacity": 75,
+    "status": "active",
+    "isFavorite": false
+  },
+  {
+    "guid": "550e8400-e29b-41d4-a716-446655440002",
+    "name": "Container B",
+    "latitude": "37.7848",
+    "longitude": "-122.4294",
+    "capacity": 30,
+    "status": "active",
+    "isFavorite": true
+  }
+]</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/containers/{guid}/alert</td>
+      <td>POST</td>
+      <td>Send capacity alert for a container</td>
+      <td>Path parameter: guid (string, required)</td>
+      <td>None</td>
+      <td>
+        <pre><code>// Status: 200 OK
+{
+  "message": "Alert sent successfully",
+  "container_id": "550e8400-e29b-41d4-a716-446655440001"
+}</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/containers/{guid}/status</td>
+      <td>PUT</td>
+      <td>Update container status</td>
+      <td>
+        Path parameter: guid (string, required)<br>
+        Query parameter: new_status (string, required)
+      </td>
+      <td>None</td>
+      <td>
+        <pre><code>// Status: 200 OK
+{
+  "message": "Container status updated successfully",
+  "container": {
+    "guid": "550e8400-e29b-41d4-a716-446655440001",
+    "status": "inactive"
+  }
+}</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/containers/{guid}/favorite</td>
+      <td>PUT</td>
+      <td>Update isFavorite status</td>
+      <td>Path parameter: guid (string, required)</td>
+      <td>
+        <pre><code>{
+  "isFavorite": true
+}</code></pre>
+      </td>
+      <td>
+        <pre><code>// Status: 200 OK
+{
+  "message": "Favorite status updated successfully",
+  "container": {
+    "guid": "550e8400-e29b-41d4-a716-446655440001",
+    "isFavorite": true
+  }
+}</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/containers/{guid}/capacity</td>
+      <td>PUT</td>
+      <td>Update container capacity</td>
+      <td>Path parameter: guid (string, required)</td>
+      <td>
+        <pre><code>{
+  "capacity": 85
+}</code></pre>
+      </td>
+      <td>
+        <pre><code>// Status: 200 OK
+{
+  "message": "Container capacity updated successfully",
+  "container": {
+    "guid": "550e8400-e29b-41d4-a716-446655440001",
+    "capacity": 85
+  }
+}</code></pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+##### Simulation Endpoints
+<table>
+  <thead>
+    <tr>
+      <th>Endpoint</th>
+      <th>Method</th>
+      <th>Description</th>
+      <th>Parameters</th>
+      <th>Request Body</th>
+      <th>Response Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/simulation/get-all-simulations</td>
+      <td>GET</td>
+      <td>Get simulations from Open AI</td>
+      <td>None</td>
+      <td>
+        None
+      </td>
+      <td>
+        <pre><code>// Status: 200 OK
+[
+  {
+    "id": 0,
+    "created_at": "2025-07-10T21:47:10.035Z",
+    "total_distance_km": 0,
+    "duration_min": 0,
+    "route": [
+      "string"
+    ],
+    "distances": "string"
+  }
+]</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td>/api/v1/simulation/generate-simulation</td>
+      <td>POST</td>
+      <td>Generate a simulation from the containers</td>
+      <td>None</td>
+      <td>
+        <pre><code>{
+  "container_guids": [
+    "string"
+  ]
+}</code></pre>
+      </td>
+      <td>
+        <pre><code>// Status: 201 Created
+{
+  "id": 0,
+  "created_at": "2025-07-10T22:18:46.833Z",
+  "total_distance_km": 0,
+  "duration_min": 0,
+  "route": [
+    "string"
+  ],
+  "distances": "string"
+}</code></pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 ### 7.2.2.7. Software Deployment Evidence for Sprint Review
 Presenta evidencia del despliegue del software desarrollado durante el sprint. Esto puede incluir capturas de la plataforma de despliegue (Docker, Vercel, Heroku, etc.), URLs activas o comandos usados para el despliegue.
@@ -4069,7 +4532,9 @@ El diseño de entrevistas fue estructurado en función de dos segmentos clave: f
 #### Segmento Objetivo #1: Funcionarios Municipales encargados de la gestión de residuos
 
 Entrevistado #1: 
-![Entrevista1](/assets/img/chapter-II/jeremy.jpg)
+
+<img src="./assets/img/chapter-II/jeremy.jpg" alt="Entrevista">
+
 Jeremy Quispe
 
 ●	Sexo: Masculino
@@ -4081,7 +4546,7 @@ Jeremy Quispe
 ●	Nivel socioeconómico: Clase B
 Entrevista:
 
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=wguhKw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D
+●	Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=wguhKw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=wguhKw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D)
 
 ●	Momento en el que inicia: 0:00
 
@@ -4095,7 +4560,8 @@ Jeremy Quispe, funcionario municipal de Santiago de Surco. Mostró gran interés
 </p>
 
 Entrevistado #2:
-![entrevista-lector4](/assets/img/chapter-II/Entrevista-Funcionario-Nicolas.jpeg)
+
+<img src="./assets/img/chapter-II/Entrevista-Funcionario-Nicolas.jpeg" alt="Entrevista">
 
 Nombre: Leonardo Soto Tagle
 
@@ -4108,7 +4574,7 @@ Nombre: Leonardo Soto Tagle
 
 Entrevista:
 
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=7PN5py&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjM2LjA5fX0%3D
+●	Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=7PN5py&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjM2LjA5fX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=7PN5py&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjM2LjA5fX0%3D)
 
 ●	Momento en el que inicia: 3:57
 
@@ -4121,7 +4587,7 @@ Leonardo trabaja en la municipalidad de San Miguel, se encarga del monitoreo de 
 
 Entrevistado #3
 
-  ![Entrevista](/assets/img/chapter-VI/interviews/alejandra-interview.png)
+<img src="./assets/img/chapter-VI/interviews/alejandra-interview.png" alt="Entrevista">
 
 ●	Nombre: Jacqueline Samanez
 
@@ -4133,7 +4599,7 @@ Entrevistado #3
 
 ●	Entrevista:
 
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=gvMaE2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NjY0LjM1fX0%3D
+●	Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=gvMaE2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NjY0LjM1fX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=gvMaE2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NjY0LjM1fX0%3D)
 
 ●	Momento en el que inicia: 11:05
 
@@ -4163,7 +4629,7 @@ Diego Cantoral
 
 Entrevista:
 
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=aKKBot&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTA4MC44M319
+●	Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=aKKBot&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTA4MC44M319](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=aKKBot&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTA4MC44M319)
 
 ●	Momento en el que inicia: 31:00
 
@@ -4178,7 +4644,7 @@ Diego es un joven ciudadano del distrito de Pueblo Libre, quien nos comenta que 
 
 Entrevistado #2
 
- ![Entrevista1](assets/img/chapter-VII/lucer-interview-post.jpeg)
+ <img src="./assets/img/chapter-VII/lucer-interview-post.jpeg" alt="Entrevista">
 
 ●	Nombre: Lucero Smith
 
@@ -4190,7 +4656,7 @@ Entrevistado #2
 
 ●	Entrevista:
 
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=aKKBot&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTA4MC44M319
+●	Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=aKKBot&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTA4MC44M319](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=aKKBot&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTA4MC44M319)
 
 ●	Momento en el que inicia: 18:00
 
@@ -4263,11 +4729,21 @@ En el presente video about the product, hablaremos sobre WasteTrack, una soluci�
 </p>
 
 
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EZMl67_VgdNPksNf2JNz0KcBn1dUc6Gbpqc4OgwUMH5eZg?e=u8hU0d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+●	Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EZMl67_VgdNPksNf2JNz0KcBn1dUc6Gbpqc4OgwUMH5eZg?e=u8hU0d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EZMl67_VgdNPksNf2JNz0KcBn1dUc6Gbpqc4OgwUMH5eZg?e=u8hU0d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+●	Link acortado: [https://shorturl.at/AsyHp](https://shorturl.at/AsyHp)
 
 ---
 
 ## 7.5. Video About-the-Team
+
+<p align="center">
+  <img src="./assets/img/chapter-VII/about-the-team.png" height="400" alt="About the team">
+</p>
+
+●	Link: []()
+
+●	Link acortado: []()
 
 ## Conclusiones
 
@@ -4388,7 +4864,7 @@ Después de analizar el desarrollo de la plataforma **WasteTrack**, se han ident
 - **Duración:** 20 minutos  
 - **Descripción:** Exposición de la entrega - TB1  
 - **Link completo:**  
-  https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EY7psYFkC-tFpXtQGlvfHJsB5bVgmsXcsvJihd6LzLfHQg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=j5ct3x
+  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EY7psYFkC-tFpXtQGlvfHJsB5bVgmsXcsvJihd6LzLfHQg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=j5ct3x](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EY7psYFkC-tFpXtQGlvfHJsB5bVgmsXcsvJihd6LzLfHQg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=j5ct3x)
 
 ---
 
@@ -4400,7 +4876,7 @@ Después de analizar el desarrollo de la plataforma **WasteTrack**, se han ident
 - **Duración:** 35 minutos  
 - **Descripción:** Consolida las needfinding interviews de la TB1  
 - **Link completo:**  
-  https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EUvOdFbfQcJMiKg6kzDlZ00B6Z6G2luRSraZTtiL_-StJg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=lfDKd1
+  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EUvOdFbfQcJMiKg6kzDlZ00B6Z6G2luRSraZTtiL_-StJg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=lfDKd1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EUvOdFbfQcJMiKg6kzDlZ00B6Z6G2luRSraZTtiL_-StJg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=lfDKd1)
 
 ---
 
@@ -4412,7 +4888,7 @@ Después de analizar el desarrollo de la plataforma **WasteTrack**, se han ident
 - **Duración:** 21 minutos
 - **Descripción:** Exposición de la entrega TP1  
 - **Link completo:**  
-  https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EVZou3gqxwxPrYCsd6vJuT0BV_LAXbcVkul1eoZJD1t2sg?e=iRFehP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EVZou3gqxwxPrYCsd6vJuT0BV_LAXbcVkul1eoZJD1t2sg?e=iRFehP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EVZou3gqxwxPrYCsd6vJuT0BV_LAXbcVkul1eoZJD1t2sg?e=iRFehP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ---
 
@@ -4424,7 +4900,7 @@ Después de analizar el desarrollo de la plataforma **WasteTrack**, se han ident
 - **Duración:** 38 minutos  
 - **Descripción:** Consolida las validation interviews de la TB2  
 - **Link completo:**  
-  https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=YEMlYi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=YEMlYi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/ERsdL0ie8xdMnvE75gjro4sBIqJz1caGOx8z5GW3AKcgcw?e=YEMlYi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ---
 
@@ -4436,7 +4912,19 @@ Después de analizar el desarrollo de la plataforma **WasteTrack**, se han ident
 - **Duración:** 24 minutos 
 - **Descripción:** Exposición de la entrega TB2  
 - **Link completo:** 
-  https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/ESH4AlTB92JOsS_qKq9LVuoBE6g4twT7xjPKDxfyno1xIQ?e=2FRfWF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/ESH4AlTB92JOsS_qKq9LVuoBE6g4twT7xjPKDxfyno1xIQ?e=2FRfWF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/ESH4AlTB92JOsS_qKq9LVuoBE6g4twT7xjPKDxfyno1xIQ?e=2FRfWF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+---
+
+#### 📌 Exposición - TF
+
+- **Cantidad de videos:** 1  
+- **Nomenclatura:** upc-pre-202501-1ASI0728-4283-CleanCityTeam-expo-tf  
+- **Formato:** .mp4  
+- **Duración:**  minutos 
+- **Descripción:** Exposición de la entrega TF  
+- **Link completo:** 
+  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EXDdgm17YudGo743R5ON8J0BVgfNn_KY2YII0PchWi1h-A?e=GK8Acu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EXDdgm17YudGo743R5ON8J0BVgfNn_KY2YII0PchWi1h-A?e=GK8Acu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ---
 
@@ -4446,15 +4934,15 @@ Después de analizar el desarrollo de la plataforma **WasteTrack**, se han ident
 - **Descripción:** Consolida los proyectos de software desplegados en la nube  
 
   - **Landing page:**  
-    https://v0-wastetrack-landing-page.vercel.app/
+    [https://v0-wastetrack-landing-page.vercel.app/](https://v0-wastetrack-landing-page.vercel.app/)
 
   - **Frontend:**  
-    https://waste-track.netlify.app/
+    [https://waste-track.netlify.app/](https://waste-track.netlify.app/)
 
   - **Backend (API Docs):**  
-    https://wastetrack-api.onrender.com/docs#
+    [https://wastetrack-api.onrender.com/docs#](https://wastetrack-api.onrender.com/docs#)
 
   - **Simulación en Wokwi:**  
-    https://wokwi.com/projects/433761407805975553
+    [https://wokwi.com/projects/433761407805975553](https://wokwi.com/projects/433761407805975553)
 
 ---
