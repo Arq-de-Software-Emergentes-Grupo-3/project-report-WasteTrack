@@ -1061,7 +1061,7 @@ Nuestras tácticas incluyen la realización de investigaciones de mercado contin
 ### Municipalidades:
 
 Entrevistado #1: 
-![Entrevista1](./assets/img/chapter-II/nelson.jgp)
+![Entrevista1](assets/img/chapter-II/nelson.jgp)
 Nelson Serrano
 
 ●	Sexo: Masculino
