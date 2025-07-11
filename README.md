@@ -4185,6 +4185,58 @@ Link del repositorio: https://github.com/Arq-de-Software-Emergentes-Grupo-3/wast
 ### 7.2.2.4. Testing Suite Evidence for Sprint Review
 Incluye evidencia de pruebas realizadas al producto durante el Sprint 2. Esto puede abarcar pruebas unitarias, de integración, de aceptación, así como reportes de errores o resultados de herramientas de testing.
 
+---
+**Feature: Alertas por zona prioritaria**
+
+  **Scenario: Notificación por acumulación en zona crítica**  
+  Given que una zona tiene múltiples contenedores llenos  
+  When el sistema detecta que se ha superado el umbral de capacidad  
+  Then se envía una notificación al funcionario para priorizar dicha zona
+
+---
+**Feature: Alertas por retraso de camión**
+
+  **Scenario: Alerta ante demora en recolección**  
+  Given que el camión no ha pasado por una zona en el tiempo estimado  
+  When se supera el límite de tiempo previsto para la recolección  
+  Then se envía una alerta al ciudadano indicando la demora
+
+---
+**Feature: Configurar preferencias de alerta**
+
+  **Scenario: Selección personalizada de notificaciones**  
+  Given que el ciudadano accede a la sección de configuración  
+  When selecciona las alertas que desea recibir  
+  Then el sistema guarda las preferencias  
+  And solo envía las alertas seleccionadas
+
+---
+**Feature: Ver histórico de rutas**
+
+  **Scenario: Consultar rutas anteriores de un camión**  
+  Given que el funcionario selecciona un camión en el sistema  
+  When accede a la sección de historial  
+  Then el sistema muestra las rutas realizadas por ese camión
+
+---
+**Feature: Generar reporte semanal**
+
+  **Scenario: Exportar reporte en PDF según rango de fechas**  
+  Given que el administrador define un rango de fechas  
+  When hace clic en el botón "exportar"  
+  Then el sistema genera y descarga el archivo PDF con el reporte
+
+---
+**Feature: Ver cantidad de residuos por tipo**
+
+  **Scenario: Desglose de residuos recolectados por categoría**  
+  Given que el funcionario accede al reporte de recolección  
+  When aplica un filtro por tipo de residuo  
+  Then el sistema muestra el total recolectado desglosado por tipo
+
+---
+
+
 ### 7.2.2.5. Execution Evidence for Sprint Review
 A continuacion, se muestran capturas de los entregables en funcionamiento:
 
