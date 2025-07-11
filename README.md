@@ -485,17 +485,6 @@ ABET 3: Capacidad de comunicarse efectivamente con un rango de audiencias
         Me encargué del desarrollo de la aplicación web, implementando funcionalidades clave para los funcionarios municipales como la configuración de contenedores y la visualización de recorridos. Coordiné las tareas con mis compañeros para asegurar el avance fluido del proyecto.
       </td>
     </tr>
-
-    
-    
-  <thead>
-    <tr>
-      <th>Criterio específico</th>
-      <th>Acciones realizadas</th>
-      <th>Conclusiones</th>
-    </tr>
-  </thead>
-  <tbody>
     <tr>
       <td rowspan="5">
         3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia
