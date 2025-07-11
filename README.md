@@ -3989,6 +3989,199 @@ Contiene el backlog específico del Sprint 2, con una lista detallada de histori
 ### 7.2.2.3. Development Evidence for Sprint Review
 Se presenta evidencia del trabajo de desarrollo realizado durante el sprint, como capturas de pantalla del código, fragmentos de funcionalidades implementadas, commits, ramas y pull requests.
 
+- Development Evidence Frontend
+
+Link del repositorio: https://github.com/Arq-de-Software-Emergentes-Grupo-3/frontend-application-wastetrack
+
+<!DOCTYPE html>
+<html>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Committed On (Date)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>wastetrack-frontend</td>
+        <td>main</td>
+        <td>a5dad629831a0c08200b1393d6d0c9ec807c45f4</td>
+        <td>Create project</td>
+        <td>N/A</td>
+        <td>2025-05-15</td>
+      </tr>
+      <tr>
+        <td>wastetrack-frontend</td>
+        <td>main</td>
+        <td>31c1c50d8c9df87a3b5912d7043ce9f58b5fc523</td>
+        <td>feat: maps views and containers status</td>
+        <td>N/A</td>
+        <td>2025-05-15</td>
+      </tr>
+      <tr>
+        <td>wastetrack-frontend</td>
+        <td>main</td>
+        <td>ad3924af26d0bbbfda90b1b26e3286c46d8f4f06</td>
+        <td>Delete pnpm-lock.yaml</td>
+        <td>N/A</td>
+        <td>2025-05-15</td>
+      </tr>
+      <tr>
+        <td>wastetrack-frontend</td>
+        <td>main</td>
+        <td>97bb200db61f3d8c28e80c98512f86d87d140529</td>
+        <td>add: route optimize with IA</td>
+        <td>N/A</td>
+        <td>2025-07-08</td>
+      </tr>
+      <tr>
+        <td>wastetrack-frontend</td>
+        <td>main</td>
+        <td>88acbb0f7ec64fd9612562046f0f8eb18b98496a</td>
+        <td>add maps config</td>
+        <td>N/A</td>
+        <td>2025-07-08</td>
+      </tr>
+      <tr>
+        <td>wastetrack-frontend</td>
+        <td>main</td>
+        <td>19b65e165659f7537652db0a34e304ed92ae2c7e</td>
+        <td>add design</td>
+        <td>N/A</td>
+        <td>2025-07-08</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
+
+- Development Evidence Backend
+
+Link del repositorio: https://github.com/Arq-de-Software-Emergentes-Grupo-3/wastetrack-api
+
+<!DOCTYPE html>
+<html>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Committed On (Date)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>wastetrack-api</td>
+        <td>main</td>
+        <td>1dbdd7c6a7b6554235d64e9c196ea8ba728c381d</td>
+        <td>chore(requirements): Update dependencies for improved compatibility</td>
+        <td>N/A</td>
+        <td>2025-06-14</td>
+      </tr>
+      <tr>
+        <td>wastetrack-api</td>
+        <td>main</td>
+        <td>fb91d92e0095023a2820ddb4678259b75f01ab08</td>
+        <td>✨ Feat (Container): Add endpoint to get nearby containers by GUID</td>
+        <td>N/A</td>
+        <td>2025-06-16</td>
+      </tr>
+      <tr>
+        <td>wastetrack-api</td>
+        <td>main</td>
+        <td>0c7fd1b70d3da912bf91116a6d83aaf882c181db</td>
+        <td>fix: CORS config</td>
+        <td>N/A</td>
+        <td>2025-06-16</td>
+      </tr>
+      <tr>
+        <td>wastetrack-api</td>
+        <td>main</td>
+        <td>3edf261f762500939fe21d093ba97b53a34a2d84</td>
+        <td>♻️ Refactor (config): Add cors config</td>
+        <td>N/A</td>
+        <td>2025-06-16</td>
+      </tr>
+      <tr>
+        <td>wastetrack-api</td>
+        <td>main</td>
+        <td>d27a72b7e4fbde634e8cb0f911d16004e1d752da</td>
+        <td>♻️ Refactor (CORS): Update allowed origins in CORS middleware</td>
+        <td>N/A</td>
+        <td>2025-06-16</td>
+      </tr>
+      <tr>
+        <td>wastetrack-api</td>
+        <td>main</td>
+        <td>ffaac0fe1be805409c8d2c3963bc320541ba58dc</td>
+        <td>✨ Feat (Simulation): Add model and schemas for handling simulation data</td>
+        <td>N/A</td>
+        <td>2025-06-16</td>
+      </tr>
+      <tr>
+        <td>wastetrack-api</td>
+        <td>main</td>
+        <td>7881fd8556bb4e8d30332fdd61f34316fdcf14c3</td>
+        <td>✨ Feat (Simulation): Add provisional route generation logic</td>
+        <td>N/A</td>
+        <td>2025-06-16</td>
+      </tr>
+      <tr>
+        <td>wastetrack-api</td>
+        <td>main</td>
+        <td>6c1e2e49e850495a59e860cd31d14231b5932b53</td>
+        <td>✨ Feat (Simulation): Add simulation endpoint</td>
+        <td>N/A</td>
+        <td>2025-06-16</td>
+      </tr>
+      <tr>
+        <td>wastetrack-api</td>
+        <td>main</td>
+        <td>be744a8d7ed2e2648e3ce66edeef464e16b1b15c</td>
+        <td>✨ Feat (Simulation): Integrate OpenAI for route optimization</td>
+        <td>N/A</td>
+        <td>2025-06-16</td>
+      </tr>
+      <tr>
+        <td>wastetrack-api</td>
+        <td>main</td>
+        <td>4002e6badada562464aa5ef307f890fcd73cd592</td>
+        <td>⚙️ Chore (config): add openai to requirements</td>
+        <td>N/A</td>
+        <td>2025-06-16</td>
+      </tr>
+      <tr>
+        <td>wastetrack-api</td>
+        <td>main</td>
+        <td>ed52baa84b1c7a11368633b9ebc2fe86174f3f5b</td>
+        <td>✨ Feat (Container/Simulation): Add limit field and update limit endpoint. Add distances and update simulation endpoint</td>
+        <td>N/A</td>
+        <td>2025-06-16</td>
+      </tr>
+      <tr>
+        <td>wastetrack-api</td>
+        <td>main</td>
+        <td>ffe9a04685bc72b59483e68c6eb0fdc47caf3091</td>
+        <td>fix(auth): remove auth for generate simulation</td>
+        <td>N/A</td>
+        <td>2025-06-16</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
+
+
 ### 7.2.2.4. Testing Suite Evidence for Sprint Review
 Incluye evidencia de pruebas realizadas al producto durante el Sprint 2. Esto puede abarcar pruebas unitarias, de integración, de aceptación, así como reportes de errores o resultados de herramientas de testing.
 
