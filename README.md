@@ -7,7 +7,7 @@
     <br>
     <strong>Profesor: Royer Edelwer Rojas Malasquez
 </strong><br>
-    <br> <strong>INFORME DE TRABAJO FINAL - TF </strong> 
+    <br> <strong>INFORME DE TRABAJO FINAL - TF1 </strong> 
 </p>
 <p align="center">
     <strong>Startup: CleanCity Team </strong><br>
@@ -1061,7 +1061,7 @@ Nuestras tácticas incluyen la realización de investigaciones de mercado contin
 ### Municipalidades:
 
 Entrevistado #1: 
-![Entrevista1](/assets/img/chapter-II/nelson.jpg)
+![Entrevista1](./assets/img/chapter-II/nelson.jgp)
 Nelson Serrano
 
 ●	Sexo: Masculino
@@ -1073,7 +1073,7 @@ Nelson Serrano
 ●	Nivel socioeconómico: Clase B
 Entrevista:
 
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EUGufDzUcxlDiBBQxTBYkQoBKULSVQQHI-ChPnlY0AKyJQ?e=uYe5LY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+●	Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EUGufDzUcxlDiBBQxTBYkQoBKULSVQQHI-ChPnlY0AKyJQ?e=uYe5LY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/EUGufDzUcxlDiBBQxTBYkQoBKULSVQQHI-ChPnlY0AKyJQ?e=uYe5LY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ●	Momento en el que inicia: 0:00
 
@@ -1087,7 +1087,8 @@ Nelson Serrano trabaja en la Municipalidad de San Isidro, donde gestiona la reco
 </p>
 
 Entrevistado #2:
-![entrevista-lector4](/assets/img/chapter-II/Entrevista-Funcionario-Nicolas.jpeg)
+
+![Entrevista](./assets/img/chapter-II/Entrevista-Funcionario-Nicolas.jpeg)
 
 Nombre: Leonardo Soto Tagle
 
@@ -1100,7 +1101,7 @@ Nombre: Leonardo Soto Tagle
 
 Entrevista:
 
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202016311_upc_edu_pe/EXGtYg9VFuhDn6UgFMzBMVsBKMgEt8Pd4quOlv_OlJV3cw?e=UKNA9M
+●	Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202016311_upc_edu_pe/EXGtYg9VFuhDn6UgFMzBMVsBKMgEt8Pd4quOlv_OlJV3cw?e=UKNA9M](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202016311_upc_edu_pe/EXGtYg9VFuhDn6UgFMzBMVsBKMgEt8Pd4quOlv_OlJV3cw?e=UKNA9M)
 
 ●	Momento en el que inicia: 0:00
 
@@ -1113,7 +1114,7 @@ Leonardo trabaja en la municipalidad de San Miguel, se encarga del monitoreo de 
 
 Entrevistado #3
 
-  ![Entrevista](/assets/img/chapter-II/JacquelineSamanez.png)
+  ![Entrevista](./assets/img/chapter-II/JacquelineSamanez.png)
 
 ●	Nombre: Jacqueline Samanez
 
@@ -1125,9 +1126,9 @@ Entrevistado #3
 
 ●	Entrevista:
 
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/ERge36l0G5lAgx48cxEK3cAB5E-irHI-V5akPQDUYP6NdA?e=babxer&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+●	Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/ERge36l0G5lAgx48cxEK3cAB5E-irHI-V5akPQDUYP6NdA?e=babxer&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/ERge36l0G5lAgx48cxEK3cAB5E-irHI-V5akPQDUYP6NdA?e=babxer&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-●	Momento en el que inicia: 
+●	Momento en el que inicia: 0:00
 
 ●	Duración: 4:30 min
 
@@ -1155,11 +1156,11 @@ Diego Cantoral
 
 Entrevista:
 
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/EYaN1fHNU7RJm_THwfNQjaIBBaJFdH89zEybwct68Bf6cA?e=fAtIeU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+●	Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/EYaN1fHNU7RJm_THwfNQjaIBBaJFdH89zEybwct68Bf6cA?e=fAtIeU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121440_upc_edu_pe/EYaN1fHNU7RJm_THwfNQjaIBBaJFdH89zEybwct68Bf6cA?e=fAtIeU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-●	Momento en el que inicia: 
+●	Momento en el que inicia: 0:00
 
-●	Duración: 
+●	Duración: 5:43
 
 ●	Entrevistador: Valverde Lopez, Josue Daniel
 
@@ -1182,7 +1183,7 @@ Entrevistado #2
 
 ●	Entrevista:
 
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/Eczio0ychKFFnbnmkwUAzR8ByuNTUaSWBhrMmvAMPRdwGA?e=TUtLzw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+●	Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/Eczio0ychKFFnbnmkwUAzR8ByuNTUaSWBhrMmvAMPRdwGA?e=TUtLzw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/Eczio0ychKFFnbnmkwUAzR8ByuNTUaSWBhrMmvAMPRdwGA?e=TUtLzw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ●	Momento en el que inicia: 00:00
 
@@ -1209,7 +1210,7 @@ Entrevistado #3
 
 ●	Entrevista:
 
-●	Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EbEgs3AlkHNHkcx8XZKSFtkBxIxvfz7RwxbPbRRER9GVlg?e=m5eIhg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+●	Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EbEgs3AlkHNHkcx8XZKSFtkBxIxvfz7RwxbPbRRER9GVlg?e=m5eIhg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EbEgs3AlkHNHkcx8XZKSFtkBxIxvfz7RwxbPbRRER9GVlg?e=m5eIhg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ●	Momento en el que inicia: 00:00
 
@@ -2981,7 +2982,7 @@ Se muestra el prototipo web de la aplicación, generado a partir de los mock-ups
 
 <img src="./assets/img/chapter-VII/Prototype.png" width="800">
 
-<a href="https://www.figma.com/proto/HnvH9cAjfsn9gHIQVCMwSZ/WasteTrack?node-id=10-274&p=f&t=W0bklrR9rlt5KW0H-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=10%3A274" target="_blank">Web-App-Prototype</a>
+<a href="https://www.figma.com/proto/HnvH9cAjfsn9gHIQVCMwSZ/WasteTrack?node-id=10-274&p=f&t=W0bklrR9rlt5KW0H-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=10%3A274" target="_blank">Link del Web-App-Prototype en figma</a>
 
 # Capítulo VII: Product Implementation, Validation & Deployment
 
@@ -3045,9 +3046,14 @@ Se utilizó GitHub como plataforma centralizada de control de versiones, alojand
 
 **Repositorios:**
 
-- Frontend: https://github.com/Arq-de-Software-Emergentes-Grupo-3/wastetrack-frontend
-- Backend: https://github.com/Arq-de-Software-Emergentes-Grupo-3/wastetrack-api
-- Landing: https://github.com/Arq-de-Software-Emergentes-Grupo-3/landing-page
+- **Frontend:**  
+[https://github.com/Arq-de-Software-Emergentes-Grupo-3/wastetrack-frontend](https://github.com/Arq-de-Software-Emergentes-Grupo-3/wastetrack-frontend)
+
+- **Backend:**  
+[https://github.com/Arq-de-Software-Emergentes-Grupo-3/wastetrack-api](https://github.com/Arq-de-Software-Emergentes-Grupo-3/wastetrack-api)
+
+- **Landing:**  
+[https://github.com/Arq-de-Software-Emergentes-Grupo-3/landing-page](https://github.com/Arq-de-Software-Emergentes-Grupo-3/landing-page)
 
 **Modelo de ramas (GitFlow):**
 
@@ -3180,9 +3186,10 @@ El despliegue de WasteTrack se ejecuta de forma automatizada en entornos en la n
 
 #### 7.2.1.3. Development Evidence for Sprint Review
 
-- Development Evidence Landing Page
+- **Development Evidence Landing Page**
 
-Link del repositorio: https://github.com/Arq-de-Software-Emergentes-Grupo-3/landing-page
+**Link del repositorio:**  
+[https://github.com/Arq-de-Software-Emergentes-Grupo-3/landing-page](https://github.com/Arq-de-Software-Emergentes-Grupo-3/landing-page)
 
 <!DOCTYPE html>
 <html>
@@ -3212,9 +3219,10 @@ Link del repositorio: https://github.com/Arq-de-Software-Emergentes-Grupo-3/land
 </body>
 </html>
 
-- Development Evidence Frontend
+- **Development Evidence Frontend**
 
-Link del repositorio: https://github.com/Arq-de-Software-Emergentes-Grupo-3/wastetrack-frontend
+**Link del repositorio:**  
+[https://github.com/Arq-de-Software-Emergentes-Grupo-3/frontend-application-wastetrack](https://github.com/Arq-de-Software-Emergentes-Grupo-3/frontend-application-wastetrack)
 
 <!DOCTYPE html>
 <html>
@@ -3252,9 +3260,11 @@ Link del repositorio: https://github.com/Arq-de-Software-Emergentes-Grupo-3/wast
 </body>
 </html>
 
-- Development Evidence Backend
+- **Development Evidence Backend**
 
-Link del repositorio: https://github.com/Arq-de-Software-Emergentes-Grupo-3/wastetrack-api
+**Link del repositorio:**  
+[https://github.com/Arq-de-Software-Emergentes-Grupo-3/wastetrack-api](https://github.com/Arq-de-Software-Emergentes-Grupo-3/wastetrack-api)
+
 
 <!DOCTYPE html>
 <html>
@@ -3332,9 +3342,10 @@ Link del repositorio: https://github.com/Arq-de-Software-Emergentes-Grupo-3/wast
 </body>
 </html>
 
-- Development Evidence IoT
+- **Development Evidence IoT**
 
-Link del repositorio: https://github.com/Arq-de-Software-Emergentes-Grupo-3/wastetrack-iot
+**Link del repositorio:**  
+[https://github.com/Arq-de-Software-Emergentes-Grupo-3/wastetrack-iot](https://github.com/Arq-de-Software-Emergentes-Grupo-3/wastetrack-iot)
 
 <!DOCTYPE html>
 <html>
@@ -3454,29 +3465,29 @@ El objetivo de este conjunto de pruebas es validar las funcionalidades desarroll
 
 #### 7.2.1.5. Execution Evidence for Sprint Review
 
-- Landing Page:
+- **Landing Page:**
 
-<img src="./assets/img/chapter-VI/sprint-1/landing-1.png"> 
+<img src="./assets/img/chapter-VI/sprint-1/landing-1.png">
 
-Link del proyecto desplegado: https://v0-wastetrack-landing-page.vercel.app/
+[Link del proyecto desplegado: https://v0-wastetrack-landing-page.vercel.app/](https://v0-wastetrack-landing-page.vercel.app/)
 
-- Frontend:
+- **Frontend:**
 
-<img src="./assets/img/chapter-VI/sprint-1/frontend-1.png"> 
+<img src="./assets/img/chapter-VI/sprint-1/frontend-1.png">
 
-Link del proyecto desplegado: https://waste-track.netlify.app/
+[Link del proyecto desplegado: https://waste-track.netlify.app/](https://waste-track.netlify.app/)
 
-- Backend:
+- **Backend:**
 
-<img src="./assets/img/chapter-VI/sprint-1/backend-1.png"> 
+<img src="./assets/img/chapter-VI/sprint-1/backend-1.png">
 
-Link del proyecto desplegado: https://wastetrack-api.onrender.com/docs#/
+[Link del proyecto desplegado: https://wastetrack-api.onrender.com/docs#/](https://wastetrack-api.onrender.com/docs#/)
 
-- IoT:
+- **IoT:**
 
-<img src="./assets/img/chapter-VI/sprint-1/wokwi-1.png"> 
+<img src="./assets/img/chapter-VI/sprint-1/wokwi-1.png">
 
-Link del proyecto desplegado: https://wokwi.com/projects/433761407805975553
+[Link del proyecto desplegado: https://wokwi.com/projects/433761407805975553](https://wokwi.com/projects/433761407805975553)
 
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -3855,7 +3866,8 @@ Link del proyecto desplegado: https://wokwi.com/projects/433761407805975553
 
 <img src="./assets/img/chapter-VI/sprint-1/backend-4.png"> 
 
-Link de los web services: https://wastetrack-api.onrender.com/docs#/
+**Link de los web services:**  
+[https://wastetrack-api.onrender.com/docs#/](https://wastetrack-api.onrender.com/docs#/)
 
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review
 
@@ -3978,9 +3990,10 @@ Contiene el backlog específico del Sprint 2, con una lista detallada de histori
 ### 7.2.2.3. Development Evidence for Sprint Review
 Se presenta evidencia del trabajo de desarrollo realizado durante el sprint, como capturas de pantalla del código, fragmentos de funcionalidades implementadas, commits, ramas y pull requests.
 
-- Development Evidence Frontend
+- **Development Evidence Frontend**
 
-Link del repositorio: https://github.com/Arq-de-Software-Emergentes-Grupo-3/frontend-application-wastetrack
+**Link del repositorio:**  
+[https://github.com/Arq-de-Software-Emergentes-Grupo-3/frontend-application-wastetrack](https://github.com/Arq-de-Software-Emergentes-Grupo-3/frontend-application-wastetrack)
 
 <!DOCTYPE html>
 <html>
@@ -4052,7 +4065,8 @@ Link del repositorio: https://github.com/Arq-de-Software-Emergentes-Grupo-3/fron
 
 - Development Evidence Backend
 
-Link del repositorio: https://github.com/Arq-de-Software-Emergentes-Grupo-3/wastetrack-api
+**Link del repositorio:**  
+[https://github.com/Arq-de-Software-Emergentes-Grupo-3/wastetrack-api](https://github.com/Arq-de-Software-Emergentes-Grupo-3/wastetrack-api)
 
 <!DOCTYPE html>
 <html>
@@ -4231,34 +4245,60 @@ A continuacion, se muestran capturas de los entregables en funcionamiento:
 
 - Landing Page:
 
+Home page
+
 <img src="./assets/img/chapter-VI/sprint-1/landing-1.png"> 
+
+Caracteristicas
+
 <img src="./assets/img/chapter-VII/execution/landing1.png"> 
 
-Link del proyecto desplegado: https://v0-wastetrack-landing-page.vercel.app/
+**Link del Landing Page desplegado:**  
+[https://v0-wastetrack-landing-page.vercel.app/](https://v0-wastetrack-landing-page.vercel.app/)
 
 - Frontend:
 
+Llenado de contenedores
+
 <img src="./assets/img/chapter-VII/execution/front1.png"> 
+
+Ajustes para el usuario
+
 <img src="./assets/img/chapter-VII/execution/front2.png"> 
+
+Sobre nosotros
+
 <img src="./assets/img/chapter-VII/execution/front3.png"> 
+
+Inicio de la app, en donde aparecen las alertas para el usuario, actividad reciente, residuos recolectados y el panel de los contenedores
+
 <img src="./assets/img/chapter-VII/execution/front4.png"> 
+
+Mapa de los contenedores
+
 <img src="./assets/img/chapter-VII/execution/front5.png"> 
+
+Rutas optimizadas en el mapa mediante la api de OpenIA
+
 <img src="./assets/img/chapter-VII/execution/front6.png"> 
 
-Link del proyecto desplegado: https://waste-track.netlify.app/
+**Link del proyecto desplegado:**  
+[https://waste-track.netlify.app/](https://waste-track.netlify.app/)
 
 - Backend:
 
 <img src="./assets/img/chapter-VI/sprint-1/backend-1.png"> 
 <img src="./assets/img/chapter-VII/execution/backend1.png"> 
 
-Link del proyecto desplegado: https://wastetrack-api.onrender.com/docs#/
+**Link del proyecto desplegado:**  
+[https://wastetrack-api.onrender.com/docs#/](https://wastetrack-api.onrender.com/docs#/)
 
 - IoT:
 
 <img src="./assets/img/chapter-VI/sprint-1/wokwi-1.png"> 
 
-Link del proyecto desplegado: https://wokwi.com/projects/433761407805975553
+**Link del proyecto desplegado:**  
+[https://wokwi.com/projects/433761407805975553](https://wokwi.com/projects/433761407805975553)
 
 ### 7.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -5271,5 +5311,3 @@ Después de analizar el desarrollo de la plataforma **WasteTrack**, se han ident
 
   - **Simulación en Wokwi:**  
     [https://wokwi.com/projects/433761407805975553](https://wokwi.com/projects/433761407805975553)
-
----
