@@ -4724,9 +4724,6 @@ Para el despliegue de la u;ltima version de la Landing Page, se utilizo Vercel. 
 
 - Despliegue de Frontend:
 
-
-
-
 Para el despliegue de ultima version del Frontend, se utilizo Netlify. A continuacion, se detallan los pasos realizados:
 
 <img src="./assets/img/chapter-VI/sprint-1/netlify.png"> 
@@ -5069,9 +5066,9 @@ En el presente video about the product, hablaremos sobre WasteTrack, una soluci�
   <img src="./assets/img/chapter-VII/about-the-team.png" height="400" alt="About the team">
 </p>
 
-●	Link: []()
+●	Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/ESNDGNMr6NdGmSk82nD63_0B0ym-hcNpyc6OaB0CtmldDA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=anbjhu](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/ESNDGNMr6NdGmSk82nD63_0B0ym-hcNpyc6OaB0CtmldDA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=anbjhu)
 
-●	Link acortado: []()
+●	Link acortado: [https://shorturl.at/ICu3P](https://shorturl.at/ICu3P)
 
 ## Conclusiones
 
@@ -5249,10 +5246,23 @@ Después de analizar el desarrollo de la plataforma **WasteTrack**, se han ident
 - **Cantidad de videos:** 1  
 - **Nomenclatura:** upc-pre-202501-1ASI0728-4283-CleanCityTeam-expo-tf  
 - **Formato:** .mp4  
-- **Duración:**  minutos 
+- **Duración:**  15 minutos 
 - **Descripción:** Exposición de la entrega TF  
 - **Link completo:** 
   [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EXDdgm17YudGo743R5ON8J0BVgfNn_KY2YII0PchWi1h-A?e=GK8Acu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118315_upc_edu_pe/EXDdgm17YudGo743R5ON8J0BVgfNn_KY2YII0PchWi1h-A?e=GK8Acu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+---
+
+#### 🎥 About the Team 
+
+- **Cantidad de videos:** 1  
+- **Nomenclatura:** upc-pre-202501-1ASI0728-4283-CleanCityTeam-about-the-team  
+- **Formato:** .mp4  
+- **Duración:** 9 minutos  
+- **Descripción:** Video de presentación del equipo y aprendido a lo largo del proyecto WasteTrack.
+
+- **Link completo:**  
+  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/ESNDGNMr6NdGmSk82nD63_0B0ym-hcNpyc6OaB0CtmldDA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=anbjhu](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211846_upc_edu_pe/ESNDGNMr6NdGmSk82nD63_0B0ym-hcNpyc6OaB0CtmldDA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=anbjhu)
 
 ---
 
