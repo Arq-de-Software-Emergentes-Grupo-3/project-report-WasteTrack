@@ -4707,10 +4707,93 @@ Para el segundo sprint, agregamos los endpoints de Simulation que se conectan a 
 
 
 ### 7.2.2.7. Software Deployment Evidence for Sprint Review
-Presenta evidencia del despliegue del software desarrollado durante el sprint. Esto puede incluir capturas de la plataforma de despliegue (Docker, Vercel, Heroku, etc.), URLs activas o comandos usados para el despliegue.
+
+
+- Despliegue de Landing Page:
+
+Para el despliegue de la u;ltima version de la Landing Page, se utilizo Vercel. A continuacion, se detallan los pasos realizados:
+
+<img src="./assets/img/chapter-VI/sprint-1/vercel.png"> 
+
+  1. Preparación del repositorio funcional en ambiente local
+  2. Crear una cuenta en Vercel
+  3. Desplegar desde GitHub
+    - Build command: `npm run build` o `yarn build`
+    - Publish directory: `build`
+  4. Desplegar la aplicación
+
+- Despliegue de Frontend:
+
+
+
+
+Para el despliegue de ultima version del Frontend, se utilizo Netlify. A continuacion, se detallan los pasos realizados:
+
+<img src="./assets/img/chapter-VI/sprint-1/netlify.png"> 
+
+  1. Preparación del proyecto React (Verificar que el `package.json` incluya el script de build: `"build": "react-scripts build"`)
+  2. Crear una cuenta en Netlify
+  3. Desplegar desde GitHub
+    - Build command: `npm run build` o `yarn build`
+    - Publish directory: `build`
+  4. Desplegar la aplicación
+
+<img src="./assets/img/chapter-VI/sprint-1/deploy-frontend.png"> 
+
+- Despliegue de Backend:
+
+Para el despliegue de la ultima version del Backend, se utilizo Render. A continuacion, se detallan los pasos realizados:
+
+<img src="./assets/img/chapter-VI/sprint-1/render.png"> 
+
+  1. Preparación del repositorio (Un archivo requirements.txt con todas las dependencias)
+  2. Crear cuenta en Render
+  3. Crear un nuevo Web Service
+  4. Conectar el repositorio de GitHub
+  5. Configurar el servicio
+  ```
+  Nombre: Escoger un nombre para el servicio
+  Runtime: Seleccionar "Python 3"
+  Región: Eligir la ubicación del servidor más cercana
+  Branch: Seleccionar la rama principal (main/master)
+  Build Command: pip install -r requirements.txt
+  Start Command: uvicorn app:app --host 0.0.0.0 --port $PORT
+  ```
+  6. Configurar variables de entorno
+  ```
+  SECRET_KEY
+  ALGORITHM
+  ACCESS_TOKEN_EXPIRE_MINUTES
+  DATABASE_URL
+  ```
+ 
 
 ### 7.2.2.8. Team Collaboration Insights during Sprint
-Reflexión sobre la colaboración del equipo durante el Sprint 2. Se detalla cómo se organizaron, qué herramientas usaron para comunicarse, coordinación de tareas, frecuencia de reuniones, retos enfrentados y lecciones aprendidas.
+
+Durante el Sprint 2, el equipo de WasteTrack mantuvo una colaboración activa y fluida, utilizando herramientas como Discord para la comunicación diaria y GitHub para la gestión del código.
+
+
+Insights del repositorio de Report:
+
+<img src="./assets/img/chapter-VII/report_2_insights.jpeg"> 
+
+Insights del repositorio de Landing Page:
+
+<img src="./assets/img/chapter-VII/landing_2_insights.jpeg"> 
+
+Insights del repositorio de Frontend:
+
+<img src="./assets/img/chapter-VII/frontend_2_insights.jpeg"> 
+
+Insights del repositorio de Backend:
+
+<img src="./assets/img/chapter-VII/backend_2_insights.jpeg"> 
+
+Insights del repositorio de IoT:
+
+<img src="./assets/img/chapter-VII/iot_2_insights.jpeg">
+
+
 
 ## 7.3. Validation Interviews
 
