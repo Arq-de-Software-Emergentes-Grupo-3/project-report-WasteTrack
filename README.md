@@ -3465,13 +3465,17 @@ El objetivo de este conjunto de pruebas es validar las funcionalidades desarroll
 
 #### 7.2.1.5. Execution Evidence for Sprint Review
 
-- **Landing Page:**
+- **Landing Page:** 
+
+Pagina principal
 
 <img src="./assets/img/chapter-VI/sprint-1/landing-1.png">
 
 [Link del proyecto desplegado: https://v0-wastetrack-landing-page.vercel.app/](https://v0-wastetrack-landing-page.vercel.app/)
 
-- **Frontend:**
+- **Frontend:** 
+
+LLenado de los contenedores, estado y acciones
 
 <img src="./assets/img/chapter-VI/sprint-1/frontend-1.png">
 
@@ -3479,11 +3483,15 @@ El objetivo de este conjunto de pruebas es validar las funcionalidades desarroll
 
 - **Backend:**
 
+Endpoints Auth, users and Containers
+
 <img src="./assets/img/chapter-VI/sprint-1/backend-1.png">
 
 [Link del proyecto desplegado: https://wastetrack-api.onrender.com/docs#/](https://wastetrack-api.onrender.com/docs#/)
 
 - **IoT:**
+
+Codigo del prototipado en Wokwi
 
 <img src="./assets/img/chapter-VI/sprint-1/wokwi-1.png">
 
@@ -3860,9 +3868,14 @@ El objetivo de este conjunto de pruebas es validar las funcionalidades desarroll
 
 <img src="./assets/img/chapter-VI/sprint-1/backend-1.png">
 
+Parametros y Responses de los endpoints "User"
+
 <img src="./assets/img/chapter-VI/sprint-1/backend-2.png">
 
+Parametros y Responses de los endpoints "Containers"
+
 <img src="./assets/img/chapter-VI/sprint-1/backend-3.png"> 
+
 
 <img src="./assets/img/chapter-VI/sprint-1/backend-4.png"> 
 
@@ -4287,13 +4300,20 @@ Rutas optimizadas en el mapa mediante la api de OpenIA
 
 - Backend:
 
+Endpoints principales del backend 
+
 <img src="./assets/img/chapter-VI/sprint-1/backend-1.png"> 
+
+Endpoint Simulations para las rutas optimizadas de la app
+
 <img src="./assets/img/chapter-VII/execution/backend1.png"> 
 
 **Link del proyecto desplegado:**  
 [https://wastetrack-api.onrender.com/docs#/](https://wastetrack-api.onrender.com/docs#/)
 
 - IoT:
+
+Prototipado en Wowki
 
 <img src="./assets/img/chapter-VI/sprint-1/wokwi-1.png"> 
 
